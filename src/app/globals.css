@@ -1,45 +1,41 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-background: #FFF8F0;
-  --color-foreground: #2C1810;
-  --color-primary: #C2703E;
-  --color-primary-hover: #A85D32;
-  --color-primary-light: #E8A87C;
-  --color-secondary: #6B7F3B;
-  --color-secondary-hover: #5A6B32;
-  --color-sand: #F5E6D0;
-  --color-sand-dark: #E8D5B8;
-  --color-warm-white: #FFF8F0;
-  --color-sidebar: #3D2B1F;
-  --color-sidebar-text: #F5E6D0;
-  --color-muted: #8B7355;
-  --color-border: #D4C4A8;
+  --color-background: #FAFAFA;
+  --color-foreground: #1A1A2E;
+  --color-primary: #E85D04;
+  --color-primary-hover: #D44D00;
+  --color-primary-light: #FFBA86;
+  --color-secondary: #2D6A4F;
+  --color-secondary-hover: #1B4332;
+  --color-sand: #F5F5F5;
+  --color-sand-dark: #E5E5E5;
+  --color-warm-white: #FAFAFA;
+  --color-sidebar: #1A1A2E;
+  --color-sidebar-text: #E5E7EB;
+  --color-muted: #6B7280;
+  --color-border: #E5E7EB;
   --color-card: #FFFFFF;
-  --color-success: #6B7F3B;
-  --color-success-light: #E8F0D8;
-  --color-danger: #8B2500;
-  --color-danger-light: #FDE8E4;
-  --color-warning: #C2703E;
-  --font-sans: "Segoe UI", system-ui, -apple-system, sans-serif;
-  --font-serif: "Georgia", "Times New Roman", serif;
+  --color-success: #059669;
+  --color-success-light: #ECFDF5;
+  --color-danger: #DC2626;
+  --color-danger-light: #FEF2F2;
+  --color-warning: #D97706;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-serif: "Inter", system-ui, -apple-system, sans-serif;
 }
 
 body {
   background: var(--color-background);
   color: var(--color-foreground);
   font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4 {
-  font-family: var(--font-serif);
-}
-
-/* Animaties voor oefeningen */
 @keyframes shake {
   0%, 100% { transform: translateX(0); }
-  10%, 30%, 50%, 70%, 90% { transform: translateX(-4px); }
-  20%, 40%, 60%, 80% { transform: translateX(4px); }
+  25%, 75% { transform: translateX(-3px); }
+  50% { transform: translateX(3px); }
 }
 
 @keyframes fadeIn {
@@ -47,44 +43,28 @@ h1, h2, h3, h4 {
   to { opacity: 1; transform: translateY(0); }
 }
 
-@keyframes pulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-}
+.animate-shake { animation: shake 0.3s ease-in-out; }
+.animate-fadeIn { animation: fadeIn 0.2s ease-out; }
 
-.animate-shake {
-  animation: shake 0.4s ease-in-out;
-}
-
-.animate-fadeIn {
-  animation: fadeIn 0.3s ease-out;
-}
-
-.animate-pulse-once {
-  animation: pulse 0.3s ease-in-out;
-}
-
-/* Scrollbar */
-::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar { width: 5px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: var(--color-muted); }
+::-webkit-scrollbar-thumb { background: #D1D5DB; border-radius: 4px; }
 
-/* Speciale tekens knop stijl */
 .char-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 36px;
+  width: 34px;
+  height: 34px;
   border: 1px solid var(--color-border);
-  border-radius: 6px;
+  border-radius: 8px;
   background: var(--color-card);
   cursor: pointer;
-  font-size: 16px;
+  font-size: 15px;
   transition: all 0.15s;
 }
 .char-btn:hover {
   background: var(--color-sand);
   border-color: var(--color-primary);
+  color: var(--color-primary);
 }

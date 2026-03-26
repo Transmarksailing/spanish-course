@@ -11,46 +11,35 @@ interface CourseSidebarProps {
   vocabulary: VocabularyRef[];
 }
 
-const lessonIcons: Record<string, string> = {
-  "present-perfect": "✓",
-  "future-ir-a": "→",
-  "simple-future": "»",
-  "ignorance-expressions": "?",
-  "present-subjunctive": "~",
-  "past-subjunctive": "≈",
-  "commands-vosotros": "!",
-  "ser-vs-estar": "≡",
-};
-
 export default function CourseSidebar({ year, lessons, vocabulary }: CourseSidebarProps) {
   const pathname = usePathname();
   const { t } = useLanguage();
 
   return (
-    <aside className="w-64 bg-card border-r border-border min-h-[calc(100vh-4rem)] p-4 hidden lg:block">
+    <aside className="w-60 bg-card border-r border-border min-h-[calc(100vh-3.5rem)] p-3 hidden lg:block overflow-y-auto">
       <nav>
-        <div className="mb-6">
-          <h3 className="text-xs uppercase tracking-wider text-muted font-semibold mb-3 px-2">
+        <div className="mb-5">
+          <h3 className="text-[10px] uppercase tracking-wider text-muted font-semibold mb-2 px-2">
             Lessons
           </h3>
-          <ul className="space-y-1">
-            {lessons.map((lesson) => {
+          <ul className="space-y-0.5">
+            {lessons.map((lesson, index) => {
               const href = `/curso/${year}/${lesson.slug}`;
               const isActive = pathname === href;
               return (
                 <li key={lesson.slug}>
                   <Link
                     href={href}
-                    className={`flex items-center gap-2.5 px-3 py-2 rounded-lg text-sm transition-colors ${
+                    className={`flex items-center gap-2 px-2.5 py-1.5 rounded-lg text-[13px] transition-colors ${
                       isActive
                         ? "bg-primary/10 text-primary font-medium"
-                        : "text-foreground hover:bg-sand"
+                        : "text-foreground/80 hover:bg-sand hover:text-foreground"
                     }`}
                   >
-                    <span className="w-5 text-center text-xs">
-                      {lessonIcons[lesson.slug] || "•"}
+                    <span className="w-5 h-5 rounded text-[10px] font-medium bg-sand flex items-center justify-center shrink-0">
+                      {index + 1}
                     </span>
-                    {t(lesson.title)}
+                    <span className="truncate">{t(lesson.title)}</span>
                   </Link>
                 </li>
               );
@@ -60,10 +49,10 @@ export default function CourseSidebar({ year, lessons, vocabulary }: CourseSideb
 
         {vocabulary.length > 0 && (
           <div>
-            <h3 className="text-xs uppercase tracking-wider text-muted font-semibold mb-3 px-2">
+            <h3 className="text-[10px] uppercase tracking-wider text-muted font-semibold mb-2 px-2">
               Vocabulary
             </h3>
-            <ul className="space-y-1">
+            <ul className="space-y-0.5">
               {vocabulary.map((vocab) => {
                 const href = `/curso/${year}/vocabulary/${vocab.slug}`;
                 const isActive = pathname === href;
@@ -71,14 +60,14 @@ export default function CourseSidebar({ year, lessons, vocabulary }: CourseSideb
                   <li key={vocab.slug}>
                     <Link
                       href={href}
-                      className={`flex items-center gap-2.5 px-3 py-2 rounded-lg text-sm transition-colors ${
+                      className={`flex items-center gap-2 px-2.5 py-1.5 rounded-lg text-[13px] transition-colors ${
                         isActive
                           ? "bg-primary/10 text-primary font-medium"
-                          : "text-foreground hover:bg-sand"
+                          : "text-foreground/80 hover:bg-sand hover:text-foreground"
                       }`}
                     >
-                      <span className="w-5 text-center text-xs">📖</span>
-                      {t(vocab.title)}
+                      <span className="w-5 text-center text-xs shrink-0">📖</span>
+                      <span className="truncate">{t(vocab.title)}</span>
                     </Link>
                   </li>
                 );

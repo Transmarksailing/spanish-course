@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useLanguage } from "@/lib/language-context";
 import LanguageToggle from "@/components/ui/LanguageToggle";
 import { useRouter } from "next/navigation";
@@ -15,30 +16,25 @@ export default function CourseHeader() {
   };
 
   return (
-    <header className="bg-sidebar text-sidebar-text border-b border-border/20">
+    <header className="bg-sidebar text-sidebar-text border-b border-white/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          <div className="flex items-center gap-3">
-            <a href="/curso" className="flex items-center gap-3 hover:opacity-90">
-              <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white font-serif font-bold text-lg">
-                LA
+        <div className="flex items-center justify-between h-14">
+          <Link href="/curso" className="flex items-center gap-3 hover:opacity-90">
+            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-white font-bold text-sm">
+              LA
+            </div>
+            <div className="hidden sm:block">
+              <div className="text-sm font-semibold leading-tight">
+                The Language Academy
               </div>
-              <div className="hidden sm:block">
-                <div className="font-serif text-base font-semibold leading-tight">
-                  The Language Academy
-                </div>
-                <div className="text-xs text-sidebar-text/70">
-                  Spanish Classes in Javea
-                </div>
-              </div>
-            </a>
-          </div>
+            </div>
+          </Link>
 
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3">
             <LanguageToggle language={language} onChange={setLanguage} />
             <button
               onClick={handleLogout}
-              className="text-xs text-sidebar-text/70 hover:text-sidebar-text transition-colors"
+              className="text-xs text-sidebar-text/60 hover:text-sidebar-text transition-colors px-2 py-1 rounded hover:bg-white/5"
             >
               Logout
             </button>

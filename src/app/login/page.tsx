@@ -23,37 +23,37 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-sidebar to-[#2A1F15] flex items-center justify-center px-4">
+    <div className="min-h-screen bg-sidebar flex items-center justify-center px-4">
       <div className="w-full max-w-sm">
         <div className="text-center mb-8">
-          <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-white font-serif font-bold text-2xl mx-auto mb-4">
+          <div className="w-14 h-14 rounded-2xl bg-primary flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
             LA
           </div>
-          <h1 className="font-serif text-2xl font-bold text-white">
+          <h1 className="text-2xl font-bold text-white">
             Student Login
           </h1>
-          <p className="text-sm text-white/60 mt-1">
-            The Language Academy
+          <p className="text-sm text-sidebar-text/60 mt-1">
+            The Language Academy — Javea
           </p>
         </div>
 
         <form
           onSubmit={handleSubmit}
-          className="bg-card rounded-xl border border-border shadow-lg p-6 space-y-4"
+          className="bg-card rounded-2xl shadow-xl p-6 space-y-4"
         >
           <div>
             <label className="block text-sm font-medium text-foreground mb-1.5">
-              Course Year
+              Course Level
             </label>
             <select
               value={year}
               onChange={(e) => setYear(e.target.value)}
-              className="w-full rounded-lg border border-border px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary"
+              className="w-full rounded-lg border border-border px-3 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all"
             >
-              <option value="year4">Year 4 - Advanced</option>
-              <option value="year3" disabled>Year 3 - Intermediate (Coming Soon)</option>
-              <option value="year2" disabled>Year 2 - Elementary (Coming Soon)</option>
-              <option value="year1" disabled>Year 1 - Beginner (Coming Soon)</option>
+              <option value="year4">Advanced</option>
+              <option value="year3" disabled>Intermediate (Coming Soon)</option>
+              <option value="year2" disabled>Elementary (Coming Soon)</option>
+              <option value="year1" disabled>Beginner (Coming Soon)</option>
             </select>
           </div>
 
@@ -66,7 +66,7 @@ export default function LoginPage() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               placeholder="Enter your course password"
-              className="w-full rounded-lg border border-border px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary"
+              className="w-full rounded-lg border border-border px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all"
               required
             />
           </div>

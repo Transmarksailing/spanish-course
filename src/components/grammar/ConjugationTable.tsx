@@ -22,43 +22,22 @@ export default function ConjugationTable({ data }: Props) {
   return (
     <div className="my-4">
       {data.title && (
-        <h4 className="font-serif text-lg font-semibold mb-2 text-primary">
+        <h4 className="text-sm font-semibold mb-2 text-primary uppercase tracking-wide">
           {t(data.title)}
         </h4>
       )}
-      <div className="overflow-x-auto">
-        <table className="w-full text-sm border border-border rounded-lg overflow-hidden">
-          <thead>
-            <tr className="bg-sand">
-              <th className="px-4 py-2 text-left font-semibold text-muted border-b border-border">
-                {data.verb}
-                {data.tense && (
-                  <span className="ml-2 font-normal text-xs text-muted">
-                    ({data.tense})
-                  </span>
-                )}
-              </th>
-              <th className="px-4 py-2 text-left font-semibold text-muted border-b border-border">
-                Conjugation
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            {PRONOUNS.map((pronoun, i) => (
-              <tr
-                key={pronoun}
-                className={i % 2 === 0 ? "bg-card" : "bg-warm-white"}
-              >
-                <td className="px-4 py-2 border-b border-border/50 font-medium text-muted">
-                  {pronoun}
-                </td>
-                <td className="px-4 py-2 border-b border-border/50 font-semibold text-foreground">
-                  {data.forms[pronoun]}
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-1.5">
+        {PRONOUNS.map((pronoun) => (
+          <div
+            key={pronoun}
+            className="bg-card border border-border rounded-lg px-3 py-2"
+          >
+            <span className="text-xs text-muted">{pronoun}</span>
+            <div className="text-sm font-semibold text-foreground">
+              {data.forms[pronoun]}
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

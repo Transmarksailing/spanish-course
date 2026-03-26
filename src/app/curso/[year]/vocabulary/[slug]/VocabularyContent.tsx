@@ -31,7 +31,7 @@ export default function VocabularyContent({
       <CourseSidebar year={yearId} lessons={lessons} vocabulary={vocabularyRefs} />
 
       <div className="flex-1 max-w-4xl px-4 sm:px-8 py-8">
-        <h1 className="font-serif text-3xl font-bold mb-2">
+        <h1 className="text-2xl font-bold mb-2">
           {t(vocabulary.title)}
         </h1>
         <p className="text-muted text-sm mb-6">

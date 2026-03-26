@@ -171,7 +171,7 @@ export default function FillInTheBlank({ exercise, lessonSlug }: Props) {
   return (
     <div className="my-6">
       <div className="flex items-center justify-between mb-4">
-        <h4 className="font-serif text-lg font-semibold text-foreground">
+        <h4 className="text-base font-semibold text-foreground">
           {t(exercise.instruction)}
         </h4>
         <ProgressBar current={completedCount} total={exercise.items.length} />

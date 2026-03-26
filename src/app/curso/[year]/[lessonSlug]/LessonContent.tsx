@@ -22,7 +22,7 @@ export default function LessonContent({ lesson, yearId, lessons, vocabulary }: P
       <CourseSidebar year={yearId} lessons={lessons} vocabulary={vocabulary} />
 
       <div className="flex-1 max-w-4xl px-4 sm:px-8 py-8">
-        <h1 className="font-serif text-3xl font-bold mb-1">
+        <h1 className="text-2xl font-bold mb-1">
           {t(lesson.title)}
         </h1>
         {lesson.title.es && (
@@ -41,7 +41,7 @@ export default function LessonContent({ lesson, yearId, lessons, vocabulary }: P
             ) : (
               <>
                 <div className="text-4xl mb-2">&#127909;</div>
-                <h3 className="font-serif font-semibold">
+                <h3 className="font-semibold">
                   {t(lesson.videoPlaceholder.title)}
                 </h3>
                 <p className="text-sm text-muted">

@@ -4,7 +4,7 @@ export default function CourseFooter() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted">
           <div className="flex items-center gap-2">
-            <span className="font-serif font-semibold text-foreground">
+            <span className="font-semibold text-foreground">
               The Language Academy
             </span>
             <span>&middot;</span>

@@ -21,6 +21,16 @@ interface WordState {
   showFeedback: boolean;
 }
 
+// Normalize word data — handles both old format (spanish/english/dutch)
+// and new format (es/en/nl) from vocabulary JSON files
+function getWordFields(word: Record<string, string>) {
+  return {
+    spanish: word.spanish || word.es || "",
+    english: word.english || word.en || "",
+    dutch: word.dutch || word.nl || "",
+  };
+}
+
 export default function VocabularyPractice({ words, direction }: Props) {
   const { language } = useLanguage();
   const inputRef = useRef<HTMLInputElement>(null);
@@ -33,8 +43,10 @@ export default function VocabularyPractice({ words, direction }: Props) {
   });
   const [correctCount, setCorrectCount] = useState(0);
 
-  const currentWord = words[currentIndex];
-  if (!currentWord) return null;
+  const rawWord = words[currentIndex];
+  if (!rawWord) return null;
+
+  const currentWord = getWordFields(rawWord as unknown as Record<string, string>);
 
   const prompt =
     direction === "to-spanish"
@@ -108,7 +120,7 @@ export default function VocabularyPractice({ words, direction }: Props) {
         <p className="text-xs text-muted mb-2 uppercase tracking-wider">
           {direction === "to-spanish" ? "Translate to Spanish" : "Translate from Spanish"}
         </p>
-        <p className="text-2xl font-serif font-bold text-foreground mb-6">
+        <p className="text-2xl font-bold text-foreground mb-6">
           {prompt}
         </p>
 

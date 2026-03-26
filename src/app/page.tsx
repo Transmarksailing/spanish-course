@@ -3,144 +3,79 @@ import Link from "next/link";
 export default function HomePage() {
   return (
     <div className="min-h-screen flex flex-col">
-      {/* Hero */}
       <header className="bg-sidebar text-sidebar-text">
-        <div className="max-w-5xl mx-auto px-4 py-6 flex items-center justify-between">
+        <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-white font-serif font-bold text-xl">
+            <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-white font-bold text-lg">
               LA
             </div>
             <div>
-              <div className="font-serif text-xl font-bold">The Language Academy</div>
-              <div className="text-sm text-sidebar-text/70">Spanish Classes in Javea</div>
+              <div className="font-semibold">The Language Academy</div>
+              <div className="text-xs text-sidebar-text/60">Javea, Costa Blanca</div>
             </div>
           </div>
-          <Link
-            href="/login"
-            className="bg-primary hover:bg-primary-hover text-white px-5 py-2 rounded-lg text-sm font-medium transition-colors"
-          >
-            Student Login
+          <Link href="/login" className="bg-primary hover:bg-primary-hover text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+            Login
           </Link>
         </div>
       </header>
 
-      {/* Hero Section */}
-      <section className="bg-gradient-to-b from-sidebar to-[#2A1F15] text-white py-20">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h1 className="font-serif text-4xl sm:text-5xl font-bold mb-6 leading-tight">
-            Learn Spanish in the Heart of{" "}
-            <span className="text-primary-light">Costa Blanca</span>
+      <section className="bg-sidebar text-white py-24">
+        <div className="max-w-3xl mx-auto px-4 text-center">
+          <h1 className="text-4xl sm:text-5xl font-bold mb-4 leading-tight tracking-tight">
+            Learn Spanish<br />
+            <span className="text-primary-light">your way</span>
           </h1>
-          <p className="text-lg text-white/80 mb-8 max-w-2xl mx-auto">
-            Interactive online courses with verb conjugation exercises, vocabulary
-            training, and grammar explanations. Practice anytime, anywhere.
+          <p className="text-lg text-white/70 mb-8 max-w-xl mx-auto">
+            Interactive exercises, instant feedback, vocabulary training. Practice anytime from any device.
           </p>
-          <Link
-            href="/login"
-            className="inline-block bg-primary hover:bg-primary-hover text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors"
-          >
+          <Link href="/login" className="inline-block bg-primary hover:bg-primary-hover text-white px-8 py-3 rounded-xl text-base font-semibold transition-colors">
             Start Learning
           </Link>
         </div>
       </section>
 
-      {/* Features */}
-      <section className="py-16 bg-warm-white">
-        <div className="max-w-5xl mx-auto px-4">
-          <h2 className="font-serif text-3xl font-bold text-center mb-12">
-            What You&apos;ll Get
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
+      <section className="py-16">
+        <div className="max-w-4xl mx-auto px-4 grid md:grid-cols-3 gap-6">
+          {[
+            { title: "Verb Exercises", desc: "Fill in conjugations, get instant feedback. All tenses covered.", icon: "&#9998;" },
+            { title: "Vocabulary", desc: "Flashcards with tap-to-reveal. Practice Spanish, English & Dutch.", icon: "&#128218;" },
+            { title: "Grammar", desc: "Compact conjugation cards and clear rule explanations.", icon: "&#9889;" },
+          ].map((f) => (
+            <div key={f.title} className="bg-card border border-border rounded-xl p-6">
+              <div className="text-3xl mb-3" dangerouslySetInnerHTML={{ __html: f.icon }} />
+              <h3 className="font-semibold text-lg mb-1">{f.title}</h3>
+              <p className="text-sm text-muted leading-relaxed">{f.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="py-16 bg-sand/50">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <h2 className="text-2xl font-bold mb-8">Course Levels</h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
             {[
-              {
-                title: "Interactive Exercises",
-                desc: "Fill-in-the-blank verb conjugation practice with instant feedback. Type your answer and see immediately if you're correct.",
-                icon: "&#9998;",
-              },
-              {
-                title: "Vocabulary Training",
-                desc: "Practice word lists with flashcard-style learning. Switch between Spanish-English and Spanish-Dutch modes.",
-                icon: "&#128218;",
-              },
-              {
-                title: "Grammar Explained",
-                desc: "Clear conjugation tables and grammar rules. From Present Perfect to Subjunctive mood, all tenses covered.",
-                icon: "&#128300;",
-              },
-            ].map((feature) => (
-              <div
-                key={feature.title}
-                className="bg-card border border-border rounded-xl p-6 text-center"
-              >
-                <div
-                  className="text-4xl mb-4"
-                  dangerouslySetInnerHTML={{ __html: feature.icon }}
-                />
-                <h3 className="font-serif text-xl font-semibold mb-2">
-                  {feature.title}
-                </h3>
-                <p className="text-sm text-muted leading-relaxed">
-                  {feature.desc}
-                </p>
+              { level: "Beginner", available: false },
+              { level: "Elementary", available: false },
+              { level: "Intermediate", available: false },
+              { level: "Advanced", available: true },
+            ].map((c) => (
+              <div key={c.level} className={`rounded-xl p-4 border ${c.available ? "bg-card border-primary/30 shadow-sm" : "bg-card/50 border-border opacity-50"}`}>
+                <div className="font-semibold">{c.level}</div>
+                <span className={`text-xs mt-1 inline-block ${c.available ? "text-success font-medium" : "text-muted"}`}>
+                  {c.available ? "Available" : "Coming soon"}
+                </span>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Course Years */}
-      <section className="py-16 bg-sand/30">
-        <div className="max-w-5xl mx-auto px-4 text-center">
-          <h2 className="font-serif text-3xl font-bold mb-4">Course Levels</h2>
-          <p className="text-muted mb-8">
-            Progressive learning from beginner to advanced
-          </p>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {[
-              { year: "Year 1", level: "Beginner", available: false },
-              { year: "Year 2", level: "Elementary", available: false },
-              { year: "Year 3", level: "Intermediate", available: false },
-              { year: "Year 4", level: "Advanced", available: true },
-            ].map((course) => (
-              <div
-                key={course.year}
-                className={`border rounded-xl p-5 ${
-                  course.available
-                    ? "bg-card border-primary shadow-md"
-                    : "bg-card/50 border-border opacity-60"
-                }`}
-              >
-                <div className="font-serif text-lg font-bold">
-                  {course.year}
-                </div>
-                <div className="text-sm text-muted">{course.level}</div>
-                {course.available ? (
-                  <span className="inline-block mt-2 text-xs bg-success/10 text-success px-2 py-0.5 rounded-full font-medium">
-                    Available Now
-                  </span>
-                ) : (
-                  <span className="inline-block mt-2 text-xs bg-sand text-muted px-2 py-0.5 rounded-full">
-                    Coming Soon
-                  </span>
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Footer */}
       <footer className="bg-sidebar text-sidebar-text py-8 mt-auto">
         <div className="max-w-5xl mx-auto px-4 text-center">
-          <div className="font-serif text-lg font-semibold mb-2">
-            The Language Academy
-          </div>
-          <p className="text-sm text-sidebar-text/60">
-            Spanish Classes in Javea, Costa Blanca, Spain
-          </p>
-          <p className="text-xs text-sidebar-text/40 mt-4">
-            &copy; {new Date().getFullYear()} spanishclassesinjavea.com
-          </p>
+          <div className="font-semibold mb-1">The Language Academy</div>
+          <p className="text-xs text-sidebar-text/50">Spanish Classes in Javea &middot; spanishclassesinjavea.com</p>
         </div>
       </footer>
     </div>

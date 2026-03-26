@@ -19,7 +19,7 @@ export default function GrammarSection({ section }: Props) {
     return (
       <div className="my-4 border-l-4 border-primary bg-sand/50 rounded-r-lg p-4">
         {section.title && (
-          <h4 className="font-serif font-semibold text-primary mb-1">
+          <h4 className="font-semibold text-primary mb-1">
             {t(section.title)}
           </h4>
         )}
@@ -40,7 +40,7 @@ export default function GrammarSection({ section }: Props) {
   return (
     <div className="my-4">
       {section.title && (
-        <h3 className="font-serif text-xl font-semibold text-foreground mb-2">
+        <h3 className="text-lg font-semibold text-foreground mb-2">
           {t(section.title)}
         </h3>
       )}

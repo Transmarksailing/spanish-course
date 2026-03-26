@@ -1,8 +1,8 @@
 {
   "id": "year4",
   "title": {
-    "en": "Year 4 — Advanced Spanish",
-    "nl": "Jaar 4 — Gevorderd Spaans"
+    "en": "Advanced Spanish",
+    "nl": "Gevorderd Spaans"
   },
   "description": {
     "en": "Advanced grammar including all verb tenses, subjunctive mood, reflexive verbs, and commands.",
@@ -159,8 +159,8 @@
     {
       "slug": "year4-verbs",
       "title": {
-        "en": "Year 4 Verb List",
-        "nl": "Jaar 4 Werkwoordenlijst"
+        "en": "Verb List",
+        "nl": "Werkwoordenlijst"
       }
     },
     {
