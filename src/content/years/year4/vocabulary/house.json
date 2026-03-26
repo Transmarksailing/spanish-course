@@ -1,0 +1,89 @@
+{
+  "slug": "house",
+  "year": "year4",
+  "title": {
+    "en": "The House — Rooms, Furniture & Objects",
+    "nl": "Het Huis — Kamers, Meubels & Voorwerpen"
+  },
+  "categories": [
+    {
+      "name": { "en": "Rooms (Habitaciones)", "nl": "Kamers (Habitaciones)" },
+      "words": [
+        { "es": "el desván", "en": "attic", "nl": "zolder" },
+        { "es": "el ático", "en": "penthouse/loft", "nl": "bovenwoning" },
+        { "es": "el sótano", "en": "basement", "nl": "kelder" },
+        { "es": "el cuarto de baño", "en": "bathroom", "nl": "badkamer" },
+        { "es": "el dormitorio", "en": "bedroom", "nl": "slaapkamer" },
+        { "es": "la bodega", "en": "wine cellar", "nl": "wijnkelder" },
+        { "es": "el comedor", "en": "dining room", "nl": "eetkamer" },
+        { "es": "la cocina", "en": "kitchen", "nl": "keuken" },
+        { "es": "la despensa", "en": "pantry", "nl": "voorraadkast" },
+        { "es": "la sala de estar", "en": "living room", "nl": "woonkamer" },
+        { "es": "el salón", "en": "lounge", "nl": "salon" },
+        { "es": "la habitación de invitados", "en": "guest room", "nl": "logeerkamer" },
+        { "es": "el despacho", "en": "study/office", "nl": "werkkamer" },
+        { "es": "el lavadero", "en": "laundry room", "nl": "wasruimte" },
+        { "es": "el balcón", "en": "balcony", "nl": "balkon" },
+        { "es": "el recibidor", "en": "hallway/entrance", "nl": "hal" },
+        { "es": "el garaje", "en": "garage", "nl": "garage" }
+      ]
+    },
+    {
+      "name": { "en": "Furniture (Muebles)", "nl": "Meubels (Muebles)" },
+      "words": [
+        { "es": "la silla", "en": "chair", "nl": "stoel" },
+        { "es": "el sillón", "en": "armchair", "nl": "fauteuil" },
+        { "es": "el sofá", "en": "sofa", "nl": "bank" },
+        { "es": "la mesa", "en": "table", "nl": "tafel" },
+        { "es": "la mesa de centro", "en": "coffee table", "nl": "salontafel" },
+        { "es": "el armario", "en": "wardrobe/cupboard", "nl": "kast" },
+        { "es": "la cama", "en": "bed", "nl": "bed" },
+        { "es": "la cama de matrimonio", "en": "double bed", "nl": "tweepersoons bed" },
+        { "es": "la cómoda", "en": "chest of drawers", "nl": "ladekast" },
+        { "es": "la estantería", "en": "bookshelf", "nl": "boekenplank" },
+        { "es": "el cajón", "en": "drawer", "nl": "la" },
+        { "es": "el tocador", "en": "dressing table", "nl": "kaptafel" }
+      ]
+    },
+    {
+      "name": { "en": "Bathroom (Cuarto de Baño)", "nl": "Badkamer (Cuarto de Baño)" },
+      "words": [
+        { "es": "la bañera", "en": "bathtub", "nl": "bad" },
+        { "es": "el lavabo", "en": "washbasin", "nl": "wastafel" },
+        { "es": "la ducha", "en": "shower", "nl": "douche" },
+        { "es": "el servicio", "en": "toilet", "nl": "toilet" },
+        { "es": "el armario de baño", "en": "bathroom cabinet", "nl": "badkamerkast" },
+        { "es": "el botiquín", "en": "medicine cabinet", "nl": "medicijnkast" },
+        { "es": "la toalla", "en": "towel", "nl": "handdoek" },
+        { "es": "el jabón", "en": "soap", "nl": "zeep" },
+        { "es": "el rollo de papel higiénico", "en": "toilet paper", "nl": "toiletpapier" }
+      ]
+    },
+    {
+      "name": { "en": "House Structure & Objects", "nl": "Huisstructuur & Voorwerpen" },
+      "words": [
+        { "es": "el techo", "en": "ceiling", "nl": "plafond" },
+        { "es": "el tejado", "en": "roof", "nl": "dak" },
+        { "es": "el suelo", "en": "floor", "nl": "vloer" },
+        { "es": "la chimenea", "en": "fireplace", "nl": "open haard" },
+        { "es": "la puerta", "en": "door", "nl": "deur" },
+        { "es": "la ventana", "en": "window", "nl": "raam" },
+        { "es": "el timbre", "en": "doorbell", "nl": "deurbel" },
+        { "es": "la llave", "en": "key", "nl": "sleutel" },
+        { "es": "la cerradura", "en": "lock", "nl": "slot" },
+        { "es": "el buzón", "en": "mailbox", "nl": "brievenbus" },
+        { "es": "la lámpara", "en": "lamp", "nl": "lamp" },
+        { "es": "el espejo", "en": "mirror", "nl": "spiegel" },
+        { "es": "el cuadro", "en": "painting/picture", "nl": "schilderij" },
+        { "es": "el reloj", "en": "clock", "nl": "klok" },
+        { "es": "la alfombra", "en": "carpet/rug", "nl": "tapijt/kleed" },
+        { "es": "la cortina", "en": "curtain", "nl": "gordijn" },
+        { "es": "la almohada", "en": "pillow", "nl": "kussen" },
+        { "es": "la manta", "en": "blanket", "nl": "deken" },
+        { "es": "el edredón", "en": "duvet", "nl": "dekbed" },
+        { "es": "el colchón", "en": "mattress", "nl": "matras" },
+        { "es": "la percha", "en": "hanger", "nl": "kleerhanger" }
+      ]
+    }
+  ]
+}

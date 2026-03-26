@@ -1,0 +1,97 @@
+{
+  "slug": "city-and-transport",
+  "year": "year4",
+  "title": {
+    "en": "City & Transport",
+    "nl": "Stad & Vervoer"
+  },
+  "categories": [
+    {
+      "name": { "en": "Shops (Tiendas)", "nl": "Winkels (Tiendas)" },
+      "words": [
+        { "es": "la panadería", "en": "bakery", "nl": "bakkerij" },
+        { "es": "la peluquería", "en": "hairdresser", "nl": "kapper" },
+        { "es": "la librería", "en": "bookshop", "nl": "boekwinkel" },
+        { "es": "la carnicería", "en": "butcher's", "nl": "slagerij" },
+        { "es": "la pescadería", "en": "fishmonger's", "nl": "viswinkel" },
+        { "es": "la farmacia", "en": "pharmacy", "nl": "apotheek" },
+        { "es": "los grandes almacenes", "en": "department store", "nl": "warenhuis" },
+        { "es": "el mercado", "en": "market", "nl": "markt" },
+        { "es": "el supermercado", "en": "supermarket", "nl": "supermarkt" },
+        { "es": "el centro comercial", "en": "shopping centre", "nl": "winkelcentrum" },
+        { "es": "la tintorería", "en": "dry cleaner's", "nl": "stomerij" },
+        { "es": "la floristería", "en": "florist", "nl": "bloemist" },
+        { "es": "la frutería", "en": "fruit shop", "nl": "groentewinkel" },
+        { "es": "la ferretería", "en": "hardware store", "nl": "ijzerwinkel" },
+        { "es": "la joyería", "en": "jewellery shop", "nl": "juwelier" },
+        { "es": "la zapatería", "en": "shoe shop", "nl": "schoenenwinkel" },
+        { "es": "el estanco", "en": "tobacconist", "nl": "tabakszaak" }
+      ]
+    },
+    {
+      "name": { "en": "City Places (En la Ciudad)", "nl": "Stadsplekken (En la Ciudad)" },
+      "words": [
+        { "es": "la estación de autobús", "en": "bus station", "nl": "busstation" },
+        { "es": "la estación de ferrocarriles", "en": "train station", "nl": "treinstation" },
+        { "es": "la parada de autobús", "en": "bus stop", "nl": "bushalte" },
+        { "es": "el metro", "en": "underground/metro", "nl": "metro" },
+        { "es": "la iglesia", "en": "church", "nl": "kerk" },
+        { "es": "la catedral", "en": "cathedral", "nl": "kathedraal" },
+        { "es": "el hospital", "en": "hospital", "nl": "ziekenhuis" },
+        { "es": "la biblioteca", "en": "library", "nl": "bibliotheek" },
+        { "es": "la comisaría", "en": "police station", "nl": "politiebureau" },
+        { "es": "el parque de bomberos", "en": "fire station", "nl": "brandweerkazerne" },
+        { "es": "correos", "en": "post office", "nl": "postkantoor" },
+        { "es": "el ayuntamiento", "en": "town hall", "nl": "gemeentehuis" },
+        { "es": "la galería de arte", "en": "art gallery", "nl": "kunstgalerie" },
+        { "es": "el castillo", "en": "castle", "nl": "kasteel" },
+        { "es": "el cine", "en": "cinema", "nl": "bioscoop" },
+        { "es": "el puerto", "en": "port/harbour", "nl": "haven" },
+        { "es": "el museo", "en": "museum", "nl": "museum" },
+        { "es": "el parque", "en": "park", "nl": "park" },
+        { "es": "el teatro", "en": "theatre", "nl": "theater" },
+        { "es": "el puente", "en": "bridge", "nl": "brug" },
+        { "es": "la fábrica", "en": "factory", "nl": "fabriek" }
+      ]
+    },
+    {
+      "name": { "en": "Vehicles (Vehículos)", "nl": "Voertuigen (Vehículos)" },
+      "words": [
+        { "es": "el avión", "en": "aeroplane", "nl": "vliegtuig" },
+        { "es": "el barco", "en": "boat/ship", "nl": "boot/schip" },
+        { "es": "el autobús", "en": "bus", "nl": "bus" },
+        { "es": "el autocar", "en": "coach", "nl": "touringcar" },
+        { "es": "la caravana", "en": "caravan", "nl": "caravan" },
+        { "es": "el helicóptero", "en": "helicopter", "nl": "helikopter" },
+        { "es": "el camión", "en": "lorry/truck", "nl": "vrachtwagen" },
+        { "es": "la furgoneta", "en": "van", "nl": "busje" },
+        { "es": "la motocicleta", "en": "motorcycle", "nl": "motorfiets" },
+        { "es": "el tren", "en": "train", "nl": "trein" },
+        { "es": "el yate", "en": "yacht", "nl": "jacht" },
+        { "es": "el cohete", "en": "rocket", "nl": "raket" }
+      ]
+    },
+    {
+      "name": { "en": "Car Parts (Partes del Coche)", "nl": "Autodelen (Partes del Coche)" },
+      "words": [
+        { "es": "el acelerador", "en": "accelerator", "nl": "gaspedaal" },
+        { "es": "el embrague", "en": "clutch", "nl": "koppeling" },
+        { "es": "el freno", "en": "brake", "nl": "rem" },
+        { "es": "el freno de mano", "en": "handbrake", "nl": "handrem" },
+        { "es": "el capó", "en": "bonnet/hood", "nl": "motorkap" },
+        { "es": "el maletero", "en": "boot/trunk", "nl": "kofferbak" },
+        { "es": "el motor", "en": "engine", "nl": "motor" },
+        { "es": "el volante", "en": "steering wheel", "nl": "stuur" },
+        { "es": "el faro", "en": "headlight", "nl": "koplamp" },
+        { "es": "el intermitente", "en": "indicator", "nl": "richtingaanwijzer" },
+        { "es": "el parabrisas", "en": "windscreen", "nl": "voorruit" },
+        { "es": "el limpiaparabrisas", "en": "windscreen wiper", "nl": "ruitenwisser" },
+        { "es": "la rueda", "en": "wheel", "nl": "wiel" },
+        { "es": "el neumático", "en": "tyre", "nl": "band" },
+        { "es": "el cinturón de seguridad", "en": "seatbelt", "nl": "veiligheidsgordel" },
+        { "es": "el carné de conducir", "en": "driving licence", "nl": "rijbewijs" },
+        { "es": "la matrícula", "en": "number plate", "nl": "kenteken" }
+      ]
+    }
+  ]
+}

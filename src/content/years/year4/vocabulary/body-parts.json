@@ -1,0 +1,78 @@
+{
+  "slug": "body-parts",
+  "year": "year4",
+  "title": {
+    "en": "The Human Body",
+    "nl": "Het Menselijk Lichaam"
+  },
+  "categories": [
+    {
+      "name": { "en": "Head & Face (La Cabeza)", "nl": "Hoofd & Gezicht (La Cabeza)" },
+      "words": [
+        { "es": "la cabeza", "en": "head", "nl": "hoofd" },
+        { "es": "la cara", "en": "face", "nl": "gezicht" },
+        { "es": "la frente", "en": "forehead", "nl": "voorhoofd" },
+        { "es": "el cerebro", "en": "brain", "nl": "hersenen" },
+        { "es": "el pelo", "en": "hair", "nl": "haar" },
+        { "es": "la mejilla", "en": "cheek", "nl": "wang" },
+        { "es": "la oreja", "en": "ear (outer)", "nl": "oor (buiten)" },
+        { "es": "el oído", "en": "ear (inner)", "nl": "oor (binnen)" },
+        { "es": "la nariz", "en": "nose", "nl": "neus" },
+        { "es": "el ojo", "en": "eye", "nl": "oog" },
+        { "es": "la ceja", "en": "eyebrow", "nl": "wenkbrauw" },
+        { "es": "la pestaña", "en": "eyelash", "nl": "wimper" },
+        { "es": "el párpado", "en": "eyelid", "nl": "ooglid" },
+        { "es": "la boca", "en": "mouth", "nl": "mond" },
+        { "es": "el labio", "en": "lip", "nl": "lip" },
+        { "es": "la lengua", "en": "tongue", "nl": "tong" },
+        { "es": "el diente", "en": "tooth", "nl": "tand" },
+        { "es": "la muela", "en": "molar", "nl": "kies" },
+        { "es": "el bigote", "en": "moustache", "nl": "snor" },
+        { "es": "la barba", "en": "beard", "nl": "baard" },
+        { "es": "la barbilla", "en": "chin", "nl": "kin" },
+        { "es": "la mandíbula", "en": "jaw", "nl": "kaak" }
+      ]
+    },
+    {
+      "name": { "en": "Upper Body", "nl": "Bovenlichaam" },
+      "words": [
+        { "es": "el cuello", "en": "neck", "nl": "nek" },
+        { "es": "la garganta", "en": "throat", "nl": "keel" },
+        { "es": "el hombro", "en": "shoulder", "nl": "schouder" },
+        { "es": "el brazo", "en": "arm", "nl": "arm" },
+        { "es": "el codo", "en": "elbow", "nl": "elleboog" },
+        { "es": "la muñeca", "en": "wrist", "nl": "pols" },
+        { "es": "la mano", "en": "hand", "nl": "hand" },
+        { "es": "el dedo", "en": "finger", "nl": "vinger" },
+        { "es": "el pulgar", "en": "thumb", "nl": "duim" },
+        { "es": "el dedo índice", "en": "index finger", "nl": "wijsvinger" },
+        { "es": "el dedo meñique", "en": "little finger", "nl": "pink" },
+        { "es": "la uña", "en": "nail", "nl": "nagel" },
+        { "es": "el nudillo", "en": "knuckle", "nl": "knokkel" },
+        { "es": "el pecho", "en": "chest", "nl": "borst" },
+        { "es": "la espalda", "en": "back", "nl": "rug" },
+        { "es": "el estómago", "en": "stomach", "nl": "maag" },
+        { "es": "la cintura", "en": "waist", "nl": "taille" },
+        { "es": "la cadera", "en": "hip", "nl": "heup" }
+      ]
+    },
+    {
+      "name": { "en": "Lower Body & Organs", "nl": "Onderlichaam & Organen" },
+      "words": [
+        { "es": "la pierna", "en": "leg", "nl": "been" },
+        { "es": "el muslo", "en": "thigh", "nl": "dij" },
+        { "es": "la rodilla", "en": "knee", "nl": "knie" },
+        { "es": "la pantorrilla", "en": "calf", "nl": "kuit" },
+        { "es": "el tobillo", "en": "ankle", "nl": "enkel" },
+        { "es": "el pie", "en": "foot", "nl": "voet" },
+        { "es": "el dedo del pie", "en": "toe", "nl": "teen" },
+        { "es": "el corazón", "en": "heart", "nl": "hart" },
+        { "es": "el pulmón", "en": "lung", "nl": "long" },
+        { "es": "el músculo", "en": "muscle", "nl": "spier" },
+        { "es": "la piel", "en": "skin", "nl": "huid" },
+        { "es": "la sangre", "en": "blood", "nl": "bloed" },
+        { "es": "el hueso", "en": "bone", "nl": "bot" }
+      ]
+    }
+  ]
+}

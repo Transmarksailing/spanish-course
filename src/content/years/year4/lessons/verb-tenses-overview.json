@@ -1,0 +1,104 @@
+{
+  "slug": "verb-tenses-overview",
+  "year": "year4",
+  "title": {
+    "en": "Verb Tenses Overview",
+    "nl": "Overzicht Werkwoordstijden",
+    "es": "Resumen de los Tiempos Verbales"
+  },
+  "grammarSections": [
+    {
+      "type": "explanation",
+      "title": { "en": "Overview of Spanish Verb Tenses", "nl": "Overzicht van Spaanse Werkwoordstijden" },
+      "content": {
+        "en": "In Spanish there are many ways to express different time frames. Here is an overview of the key tenses you will learn in this course.",
+        "nl": "In het Spaans zijn er veel manieren om verschillende tijdframes uit te drukken. Hier is een overzicht van de belangrijkste tijden die je in deze cursus leert."
+      }
+    },
+    {
+      "type": "rule_box",
+      "title": { "en": "1. Present", "nl": "1. Tegenwoordige tijd" },
+      "content": {
+        "en": "**Hablo** español. / **Miro** el fútbol. / **Visito** el hospital.\nUsed for habitual actions and general truths.",
+        "nl": "**Hablo** español. / **Miro** el fútbol. / **Visito** el hospital.\nGebruikt voor gewoontehandelingen en algemene waarheden."
+      }
+    },
+    {
+      "type": "rule_box",
+      "title": { "en": "2. Present Continuous (-ing)", "nl": "2. Tegenwoordige Tijd Doorlopend (-ing)" },
+      "content": {
+        "en": "**Estoy hablando** con el profesor. / **Estoy comprando** el coche. / **Estoy estudiando** español.\nUsed for actions happening right now.",
+        "nl": "**Estoy hablando** con el profesor. / **Estoy comprando** el coche. / **Estoy estudiando** español.\nGebruikt voor acties die nu plaatsvinden."
+      }
+    },
+    {
+      "type": "rule_box",
+      "title": { "en": "3. Future — Intention (IR A + infinitive)", "nl": "3. Toekomst — Intentie (IR A + infinitief)" },
+      "content": {
+        "en": "**Voy a** hablar con mi hermano. / **Voy a** comer en el restaurante. / **Voy a** beber más agua.\nExpresses intention, equivalent to English 'going to'.",
+        "nl": "**Voy a** hablar con mi hermano. / **Voy a** comer en el restaurante. / **Voy a** beber más agua.\nDrukt intentie uit, vergelijkbaar met 'van plan zijn om'."
+      }
+    },
+    {
+      "type": "rule_box",
+      "title": { "en": "4. Future — Obligation (TENER QUE)", "nl": "4. Toekomst — Verplichting (TENER QUE)" },
+      "content": {
+        "en": "**Tengo que** hablar con mi marido. / **Tengo que** vender el coche. / **Tengo que** escribir una carta.\nExpresses obligation, equivalent to 'have to'.",
+        "nl": "**Tengo que** hablar con mi marido. / **Tengo que** vender el coche. / **Tengo que** escribir una carta.\nDrukt verplichting uit, vergelijkbaar met 'moeten'."
+      }
+    },
+    {
+      "type": "rule_box",
+      "title": { "en": "5. Simple Future (will)", "nl": "5. Onvoltooid Toekomende Tijd (zullen)" },
+      "content": {
+        "en": "**Hablaré** con el dentista. / **Llamaré** mañana. / **Firmaré** el contrato mañana.\nFormed by adding endings to the infinitive: -é, -ás, -á, -emos, -éis, -án.",
+        "nl": "**Hablaré** con el dentista. / **Llamaré** mañana. / **Firmaré** el contrato mañana.\nGevormd door uitgangen toe te voegen aan het hele werkwoord: -é, -ás, -á, -emos, -éis, -án."
+      }
+    },
+    {
+      "type": "rule_box",
+      "title": { "en": "6. Present Perfect (past)", "nl": "6. Voltooid Tegenwoordige Tijd" },
+      "content": {
+        "en": "**He hablado** con el médico hoy. / **He practicado** mucho esta semana. / **He limpiado** la casa esta tarde.\nFormed with HABER + past participle. Refers to past actions with relevance to the present.",
+        "nl": "**He hablado** con el médico hoy. / **He practicado** mucho esta semana. / **He limpiado** la casa esta tarde.\nGevormd met HABER + voltooid deelwoord. Verwijst naar acties met relevantie voor het heden."
+      }
+    },
+    {
+      "type": "rule_box",
+      "title": { "en": "7. Recent Past (ACABAR DE)", "nl": "7. Nabij Verleden (ACABAR DE)" },
+      "content": {
+        "en": "**Acabo de** hablar con mi hijo. / **Acabo de** llegar. / **Acabo de** salir.\nExpresses something that just happened, equivalent to 'have just'.",
+        "nl": "**Acabo de** hablar con mi hijo. / **Acabo de** llegar. / **Acabo de** salir.\nDrukt iets uit dat net is gebeurd, vergelijkbaar met 'zojuist'."
+      }
+    },
+    {
+      "type": "rule_box",
+      "title": { "en": "8/9. Preterite vs Imperfect", "nl": "8/9. Indefinido vs Imperfecto" },
+      "content": {
+        "en": "**Preterite** (completed action): Compré un coche. / Firmé el contrato.\n**Imperfect** (habitual/ongoing): Trabajaba en un banco. / Estudiaba inglés. / Firmaba el contrato cada año.\nPreterite = one-time completed events. Imperfect = repeated/ongoing past actions.",
+        "nl": "**Indefinido** (voltooide actie): Compré un coche. / Firmé el contrato.\n**Imperfecto** (gewoonlijk/doorlopend): Trabajaba en un banco. / Estudiaba inglés. / Firmaba el contrato cada año.\nIndefinido = eenmalige voltooide gebeurtenissen. Imperfecto = herhaalde/doorlopende acties in het verleden."
+      }
+    },
+    {
+      "type": "rule_box",
+      "title": { "en": "10. Conditional", "nl": "10. Voorwaardelijke Wijs" },
+      "content": {
+        "en": "Hablaría con el médico, **pero** no tengo el tiempo.\nEstudiaría español, **si tuviera** el tiempo.\nCompraría el coche, **pero** no tengo dinero.\nUsed for hypothetical situations and polite requests.",
+        "nl": "Hablaría con el médico, **maar** ik heb geen tijd.\nEstudiaría español, **als ik** de tijd had.\nCompraría el coche, **maar** ik heb geen geld.\nGebruikt voor hypothetische situaties en beleefde verzoeken."
+      }
+    },
+    {
+      "type": "rule_box",
+      "title": { "en": "11. Subjunctive", "nl": "11. Subjuntivo (Aanvoegende Wijs)" },
+      "content": {
+        "en": "Es fantástico que HABLES español.\nTal vez yo VISITE la playa.\nPuede ser que TRABAJEN aquí.\nNo creo que ESTUDIEN mucho.\nEspero que LLAMEN mañana.\nUsed after expressions of doubt, emotion, desire, and impersonal expressions.",
+        "nl": "Es fantástico que HABLES español.\nTal vez yo VISITE la playa.\nPuede ser que TRABAJEN aquí.\nGebruikt na uitdrukkingen van twijfel, emotie, wens en onpersoonlijke uitdrukkingen."
+      }
+    }
+  ],
+  "exercises": [],
+  "videoPlaceholder": {
+    "title": { "en": "Teacher Explanation Video", "nl": "Uitleg Video Docent" },
+    "description": { "en": "Video coming soon — overview of all verb tenses!", "nl": "Video komt binnenkort — overzicht van alle werkwoordstijden!" }
+  }
+}

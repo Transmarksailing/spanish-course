@@ -1,0 +1,83 @@
+{
+  "slug": "clothing",
+  "year": "year4",
+  "title": {
+    "en": "Clothing & Accessories",
+    "nl": "Kleding & Accessoires"
+  },
+  "categories": [
+    {
+      "name": { "en": "Outerwear & Tops", "nl": "Bovenkleding" },
+      "words": [
+        { "es": "el abrigo", "en": "coat", "nl": "jas" },
+        { "es": "la chaqueta", "en": "jacket", "nl": "jasje" },
+        { "es": "el impermeable", "en": "raincoat", "nl": "regenjas" },
+        { "es": "el chubasquero", "en": "rain jacket", "nl": "regenjack" },
+        { "es": "la blusa", "en": "blouse", "nl": "blouse" },
+        { "es": "la camiseta", "en": "T-shirt", "nl": "T-shirt" },
+        { "es": "la camisa", "en": "shirt", "nl": "overhemd" },
+        { "es": "el chaleco", "en": "vest/waistcoat", "nl": "vest" },
+        { "es": "el suéter", "en": "sweater", "nl": "trui" },
+        { "es": "el jersey", "en": "jersey/pullover", "nl": "trui" },
+        { "es": "la sudadera", "en": "sweatshirt/hoodie", "nl": "sweater/hoodie" },
+        { "es": "la rebeca", "en": "cardigan", "nl": "vest" },
+        { "es": "el traje", "en": "suit", "nl": "pak" },
+        { "es": "el chándal", "en": "tracksuit", "nl": "trainingspak" }
+      ]
+    },
+    {
+      "name": { "en": "Bottoms & Dresses", "nl": "Onderkleding & Jurken" },
+      "words": [
+        { "es": "el vestido", "en": "dress", "nl": "jurk" },
+        { "es": "la falda", "en": "skirt", "nl": "rok" },
+        { "es": "el pantalón", "en": "trousers", "nl": "broek" },
+        { "es": "el pantalón corto", "en": "shorts", "nl": "korte broek" },
+        { "es": "las mallas", "en": "leggings", "nl": "legging" },
+        { "es": "los vaqueros", "en": "jeans", "nl": "spijkerbroek" }
+      ]
+    },
+    {
+      "name": { "en": "Footwear", "nl": "Schoeisel" },
+      "words": [
+        { "es": "los zapatos", "en": "shoes", "nl": "schoenen" },
+        { "es": "las botas", "en": "boots", "nl": "laarzen" },
+        { "es": "las sandalias", "en": "sandals", "nl": "sandalen" },
+        { "es": "las chanclas", "en": "flip-flops", "nl": "slippers" },
+        { "es": "las zapatillas deportivas", "en": "trainers/sneakers", "nl": "sportschoenen" }
+      ]
+    },
+    {
+      "name": { "en": "Hats & Underwear", "nl": "Hoeden & Ondergoed" },
+      "words": [
+        { "es": "el sombrero", "en": "hat", "nl": "hoed" },
+        { "es": "la gorra", "en": "cap", "nl": "pet" },
+        { "es": "el gorro", "en": "beanie", "nl": "muts" },
+        { "es": "la bata", "en": "bathrobe", "nl": "badjas" },
+        { "es": "el bikini", "en": "bikini", "nl": "bikini" },
+        { "es": "el bañador", "en": "swimsuit", "nl": "zwempak" },
+        { "es": "la ropa interior", "en": "underwear", "nl": "ondergoed" },
+        { "es": "los calcetines", "en": "socks", "nl": "sokken" },
+        { "es": "el pijama", "en": "pyjamas", "nl": "pyjama" },
+        { "es": "las medias", "en": "stockings/tights", "nl": "panty/kousen" }
+      ]
+    },
+    {
+      "name": { "en": "Accessories & Materials", "nl": "Accessoires & Materialen" },
+      "words": [
+        { "es": "la bufanda", "en": "scarf", "nl": "sjaal" },
+        { "es": "los guantes", "en": "gloves", "nl": "handschoenen" },
+        { "es": "el cinturón", "en": "belt", "nl": "riem" },
+        { "es": "la corbata", "en": "tie", "nl": "stropdas" },
+        { "es": "el anillo", "en": "ring", "nl": "ring" },
+        { "es": "el collar", "en": "necklace", "nl": "ketting" },
+        { "es": "la pulsera", "en": "bracelet", "nl": "armband" },
+        { "es": "los pendientes", "en": "earrings", "nl": "oorbellen" },
+        { "es": "el reloj", "en": "watch", "nl": "horloge" },
+        { "es": "el algodón", "en": "cotton", "nl": "katoen" },
+        { "es": "el cuero", "en": "leather", "nl": "leer" },
+        { "es": "la lana", "en": "wool", "nl": "wol" },
+        { "es": "la seda", "en": "silk", "nl": "zijde" }
+      ]
+    }
+  ]
+}

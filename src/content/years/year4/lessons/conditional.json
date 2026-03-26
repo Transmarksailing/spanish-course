@@ -1,0 +1,84 @@
+{
+  "slug": "conditional",
+  "year": "year4",
+  "title": {
+    "en": "Conditional Tense",
+    "nl": "Voorwaardelijke Wijs (Condicional)",
+    "es": "Condicional Simple"
+  },
+  "grammarSections": [
+    {
+      "type": "explanation",
+      "title": { "en": "The Conditional Tense", "nl": "De Condicional" },
+      "content": {
+        "en": "The conditional expresses what **would happen**. It is formed by adding endings to the **full infinitive**.\n\nAll verb types (-AR, -ER, -IR) use the **same endings**:\n**-ía, -ías, -ía, -íamos, -íais, -ían**\n\nOften used with \"pero\" (but) to explain why something would not happen.",
+        "nl": "De condicional drukt uit wat er **zou gebeuren**. Het wordt gevormd door uitgangen toe te voegen aan het **hele infinitief**.\n\nAlle werkwoordtypes (-AR, -ER, -IR) gebruiken **dezelfde uitgangen**:\n**-ía, -ías, -ía, -íamos, -íais, -ían**\n\nWordt vaak gebruikt met \"pero\" (maar) om uit te leggen waarom iets niet zou gebeuren."
+      }
+    },
+    {
+      "type": "conjugation_table",
+      "title": { "en": "HABLAR — Conditional", "nl": "HABLAR — Condicional" },
+      "verb": "hablar",
+      "tense": "conditional",
+      "forms": { "yo": "hablaría", "tú": "hablarías", "él/ella/usted": "hablaría", "nosotros": "hablaríamos", "vosotros": "hablaríais", "ellos/ustedes": "hablarían" }
+    },
+    {
+      "type": "conjugation_table",
+      "title": { "en": "COMER — Conditional", "nl": "COMER — Condicional" },
+      "verb": "comer",
+      "tense": "conditional",
+      "forms": { "yo": "comería", "tú": "comerías", "él/ella/usted": "comería", "nosotros": "comeríamos", "vosotros": "comeríais", "ellos/ustedes": "comerían" }
+    },
+    {
+      "type": "conjugation_table",
+      "title": { "en": "VIVIR — Conditional", "nl": "VIVIR — Condicional" },
+      "verb": "vivir",
+      "tense": "conditional",
+      "forms": { "yo": "viviría", "tú": "vivirías", "él/ella/usted": "viviría", "nosotros": "viviríamos", "vosotros": "viviríais", "ellos/ustedes": "vivirían" }
+    },
+    {
+      "type": "rule_box",
+      "title": { "en": "Irregular Conditional Stems", "nl": "Onregelmatige Condicional Stammen" },
+      "content": {
+        "en": "Some verbs have an **irregular stem** but use the same endings (-ía, -ías, etc.):\n\n**hacer** → har- (haría)\n**tener** → tendr- (tendría)\n**poner** → pondr- (pondría)\n**poder** → podr- (podría)\n**querer** → querr- (querría)\n**saber** → sabr- (sabría)\n**salir** → saldr- (saldría)\n**venir** → vendr- (vendría)\n**decir** → dir- (diría)\n**haber** → habr- (habría)",
+        "nl": "Sommige werkwoorden hebben een **onregelmatige stam** maar gebruiken dezelfde uitgangen (-ía, -ías, etc.):\n\n**hacer** → har- (haría)\n**tener** → tendr- (tendría)\n**poner** → pondr- (pondría)\n**poder** → podr- (podría)\n**querer** → querr- (querría)\n**saber** → sabr- (sabría)\n**salir** → saldr- (saldría)\n**venir** → vendr- (vendría)\n**decir** → dir- (diría)\n**haber** → habr- (habría)"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "cond-reg-01",
+      "type": "fill_in_blank",
+      "instruction": { "en": "Complete with the Conditional — Regular Verbs", "nl": "Vul aan met de Condicional — Regelmatige Werkwoorden" },
+      "items": [
+        { "id": "cond-001", "sentence": "Yo ___ la carta, pero no tengo papel. (escribir)", "correctAnswers": ["escribiría"], "hint": "escribir + -ía" },
+        { "id": "cond-002", "sentence": "Ellos ___ aquí, pero tienen otras obligaciones. (estar)", "correctAnswers": ["estarían"], "hint": "estar + -ían" },
+        { "id": "cond-003", "sentence": "Él me ___, pero no tiene el dinero. (pagar)", "correctAnswers": ["pagaría"], "hint": "pagar + -ía" },
+        { "id": "cond-004", "sentence": "Ellos ___ en el mar, pero el agua está fría. (nadar)", "correctAnswers": ["nadarían"], "hint": "nadar + -ían" },
+        { "id": "cond-005", "sentence": "Yo ___ un soneto, pero no soy poeta. (escribir)", "correctAnswers": ["escribiría"], "hint": "escribir + -ía" },
+        { "id": "cond-006", "sentence": "Nosotros ___ el coche, pero nadie lo quiere. (vender)", "correctAnswers": ["venderíamos"], "hint": "vender + -íamos" },
+        { "id": "cond-007", "sentence": "Ellos ___ en la capital, pero cuesta demasiado. (vivir)", "correctAnswers": ["vivirían"], "hint": "vivir + -ían" },
+        { "id": "cond-008", "sentence": "Él ___ en seguida, pero no hay vuelo hasta el martes. (volver)", "correctAnswers": ["volvería"], "hint": "volver + -ía" },
+        { "id": "cond-009", "sentence": "Nosotros ___ el pollo, pero no hay aceite. (freír)", "correctAnswers": ["freiríamos"], "hint": "freír + -íamos" },
+        { "id": "cond-010", "sentence": "¿Por qué no ___ tú en tren? (ir)", "correctAnswers": ["irías"], "hint": "ir + -ías" }
+      ]
+    },
+    {
+      "id": "cond-irr-01",
+      "type": "fill_in_blank",
+      "instruction": { "en": "Complete with the Conditional — Irregular Verbs", "nl": "Vul aan met de Condicional — Onregelmatige Werkwoorden" },
+      "items": [
+        { "id": "cond-011", "sentence": "Yo ___ el viaje, pero la verdad es que no tengo el tiempo. (hacer)", "correctAnswers": ["haría"], "hint": "hacer → har-" },
+        { "id": "cond-012", "sentence": "Él ___ bastante dinero para hacer el viaje, pero tiene hipoteca. (tener)", "correctAnswers": ["tendría"], "hint": "tener → tendr-" },
+        { "id": "cond-013", "sentence": "Yo ___ la mesa, pero está sucia. (poner)", "correctAnswers": ["pondría"], "hint": "poner → pondr-" },
+        { "id": "cond-014", "sentence": "Paco ___ los deberes, pero no tiene el libro de texto. (hacer)", "correctAnswers": ["haría"], "hint": "hacer → har-" },
+        { "id": "cond-015", "sentence": "Nosotros ___ prestarle el dinero, pero él no lo devolverá. (poder)", "correctAnswers": ["podríamos"], "hint": "poder → podr-" },
+        { "id": "cond-016", "sentence": "Él no ___ tomar el dinero porque es muy orgulloso. (querer)", "correctAnswers": ["querría"], "hint": "querer → querr-" }
+      ]
+    }
+  ],
+  "videoPlaceholder": {
+    "title": { "en": "Teacher Explanation Video", "nl": "Uitleg Video Docent" },
+    "description": { "en": "Video coming soon — Conditional Tense explained!", "nl": "Video komt binnenkort — Condicional uitgelegd!" }
+  }
+}
