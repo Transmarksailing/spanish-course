@@ -112,9 +112,9 @@
     {
       "slug": "ser-vs-estar",
       "title": {
-        "en": "SER vs ESTAR",
-        "nl": "SER vs ESTAR",
-        "es": "SER y ESTAR"
+        "en": "SER, ESTAR, TENER & HAY",
+        "nl": "SER, ESTAR, TENER & HAY",
+        "es": "SER, ESTAR, TENER y HAY"
       },
       "order": 12
     },
@@ -192,24 +192,19 @@
       "order": 21
     },
     {
-      "slug": "ser-estar-tener-hay",
-      "title": { "en": "SER, ESTAR, TENER & HAY", "nl": "SER, ESTAR, TENER & HAY", "es": "SER, ESTAR, TENER y HAY" },
-      "order": 22
-    },
-    {
       "slug": "stem-changing-verbs",
       "title": { "en": "Stem-Changing Verbs", "nl": "Stamveranderende Werkwoorden", "es": "Verbos con Cambio de Raíz" },
-      "order": 23
+      "order": 22
     },
     {
       "slug": "reported-speech",
       "title": { "en": "Reported Speech", "nl": "Indirecte Rede", "es": "El Estilo Indirecto" },
-      "order": 24
+      "order": 23
     },
     {
       "slug": "multi-tense-practice",
       "title": { "en": "Multi-Tense Practice", "nl": "Oefening Alle Tijden", "es": "Práctica de Todos los Tiempos" },
-      "order": 25
+      "order": 24
     }
   ],
   "vocabulary": [

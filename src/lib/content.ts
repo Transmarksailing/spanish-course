@@ -25,7 +25,6 @@ import imperativeFormalCommands from "@/content/years/cours/lessons/imperative-f
 import subjunctiveExpressions from "@/content/years/cours/lessons/subjunctive-expressions.json";
 import saberVsConocer from "@/content/years/cours/lessons/saber-vs-conocer.json";
 import conditionalStructures from "@/content/years/cours/lessons/conditional-structures.json";
-import serEstarTenerHay from "@/content/years/cours/lessons/ser-estar-tener-hay.json";
 import multiTensePractice from "@/content/years/cours/lessons/multi-tense-practice.json";
 import reportedSpeech from "@/content/years/cours/lessons/reported-speech.json";
 import stemChangingVerbs from "@/content/years/cours/lessons/stem-changing-verbs.json";
@@ -81,7 +80,6 @@ const lessonsMap: Record<string, Record<string, Lesson>> = {
     "subjunctive-expressions": subjunctiveExpressions as unknown as Lesson,
     "saber-vs-conocer": saberVsConocer as unknown as Lesson,
     "conditional-structures": conditionalStructures as unknown as Lesson,
-    "ser-estar-tener-hay": serEstarTenerHay as unknown as Lesson,
     "multi-tense-practice": multiTensePractice as unknown as Lesson,
     "reported-speech": reportedSpeech as unknown as Lesson,
     "stem-changing-verbs": stemChangingVerbs as unknown as Lesson,

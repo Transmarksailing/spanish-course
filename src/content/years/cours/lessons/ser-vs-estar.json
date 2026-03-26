@@ -2,25 +2,41 @@
   "slug": "ser-vs-estar",
   "year": "cours",
   "title": {
-    "en": "SER vs ESTAR",
-    "nl": "SER vs ESTAR",
-    "es": "SER y ESTAR"
+    "en": "SER, ESTAR, TENER & HAY",
+    "nl": "SER, ESTAR, TENER & HAY",
+    "es": "SER, ESTAR, TENER y HAY"
   },
   "grammarSections": [
     {
       "type": "explanation",
       "title": { "en": "When to use SER", "nl": "Wanneer gebruik je SER" },
       "content": {
-        "en": "**SER** is used for:\n\n**PROFESIÓN** — Soy profesor. / Soy profesionista.\n**ORIGEN** — Soy de Inglaterra. / Graciella es de Bélgica. / Mis zapatos son de Deichmann.\n**LA HORA / LA FECHA** — Son las 6 de octubre. / Hoy es el 21 de octubre.\n**POSESIÓN** — Es mi teléfono.\n**DESCRIPCIÓN PERMANENTE** — Soy alto. / Brad Pitt es guapo. / Soy soltero.\n**RELACIÓN** — Juan es mi padre. / Sofía es mi novia. / David es mi vecino.\n**EVENTOS** — ¿Dónde es la fiesta? / ¿Dónde es la cita? / El partido de fútbol, la clase de yoga.",
-        "nl": "**SER** wordt gebruikt voor:\n\n**BEROEP** — Soy profesor. (Ik ben leraar.)\n**HERKOMST** — Soy de Inglaterra. (Ik kom uit Engeland.)\n**TIJD / DATUM** — Son las 6. / Hoy es el 21 de octubre.\n**BEZIT** — Es mi teléfono. (Het is mijn telefoon.)\n**PERMANENTE BESCHRIJVING** — Soy alto. (Ik ben lang.)\n**RELATIE** — Juan es mi padre. (Juan is mijn vader.)\n**EVENEMENTEN** — ¿Dónde es la fiesta? (Waar is het feest?)"
+        "en": "**SER** — identity, characteristics, origin, profession, time\n\n**PROFESIÓN** — Soy profesor. / Soy profesionista.\n**ORIGEN** — Soy de Inglaterra. / Graciella es de Bélgica. / Mis zapatos son de Deichmann.\n**LA HORA / LA FECHA** — Son las 6 de octubre. / Hoy es el 21 de octubre.\n**POSESIÓN** — Es mi teléfono.\n**DESCRIPCIÓN PERMANENTE** — Soy alto. / Brad Pitt es guapo. / Soy soltero.\n**RELACIÓN** — Juan es mi padre. / Sofía es mi novia. / David es mi vecino.\n**EVENTOS** — ¿Dónde es la fiesta? / ¿Dónde es la cita? / El partido de fútbol, la clase de yoga.\n\nMore examples:\n• Yo **soy** de Costa Rica. (I am from Costa Rica.)\n• Vosotras **sois** inteligentes. (You are intelligent.)",
+        "nl": "**SER** — identiteit, kenmerken, afkomst, beroep, tijd\n\n**BEROEP** — Soy profesor. (Ik ben leraar.)\n**HERKOMST** — Soy de Inglaterra. (Ik kom uit Engeland.)\n**TIJD / DATUM** — Son las 6. / Hoy es el 21 de octubre.\n**BEZIT** — Es mi teléfono. (Het is mijn telefoon.)\n**PERMANENTE BESCHRIJVING** — Soy alto. (Ik ben lang.)\n**RELATIE** — Juan es mi padre. (Juan is mijn vader.)\n**EVENEMENTEN** — ¿Dónde es la fiesta? (Waar is het feest?)\n\n• Yo **soy** de Costa Rica. (Ik ben uit Costa Rica.)\n• Vosotras **sois** inteligentes. (Jullie zijn intelligent.)"
       }
     },
     {
       "type": "explanation",
       "title": { "en": "When to use ESTAR", "nl": "Wanneer gebruik je ESTAR" },
       "content": {
-        "en": "**ESTAR** is used for:\n\n**UBICACIÓN** — Mi abuelo está muerto. / Estoy jubilado. / Estoy casado. / Estoy de camarero.\n**COMIDA ESPECÍFICA** — El plátano está verde (negro). / Está alta con estos zapatos. / Está muy guapa hoy. / El policía está fantástico.\n**NO NORMAL** — El plátano ESTÁ verde.\n**DESCRIPCIÓN TEMPORAL** — Estoy cansado. / Estoy triste. / Estoy enfermo.\n**Estamos en la escuela.** / Estamos en el centro de España. / Madrid ESTÁ en el centro de España.",
-        "nl": "**ESTAR** wordt gebruikt voor:\n\n**LOCATIE** — Estamos en la escuela. (We zijn op school.)\n**SPECIFIEKE TOESTAND** — El plátano está verde. (De banaan is groen.)\n**NIET NORMAAL** — Está muy guapa hoy. (Ze ziet er vandaag erg mooi uit.)\n**TIJDELIJKE BESCHRIJVING** — Estoy cansado. (Ik ben moe.) / Estoy triste. (Ik ben verdrietig.) / Estoy enfermo. (Ik ben ziek.)"
+        "en": "**ESTAR** — location, temporary states, feelings\n\n**UBICACIÓN** — Estamos en la escuela. / Madrid está en el centro de España.\n**COMIDA ESPECÍFICA** — El plátano está verde (negro).\n**NO NORMAL** — Está alta con estos zapatos. / Está muy guapa hoy.\n**DESCRIPCIÓN TEMPORAL** — Estoy cansado. / Estoy triste. / Estoy enfermo.\n\nMore examples:\n• María **está** entre amigos. (María is among friends.)\n• Julia **está** enferma. (Julia is ill.)\n• Ahora **estoy** en París. (Now I am in Paris.)",
+        "nl": "**ESTAR** — locatie, tijdelijke toestanden, gevoelens\n\n**LOCATIE** — Estamos en la escuela. (We zijn op school.)\n**SPECIFIEKE TOESTAND** — El plátano está verde. (De banaan is groen.)\n**NIET NORMAAL** — Está muy guapa hoy. (Ze ziet er vandaag erg mooi uit.)\n**TIJDELIJKE BESCHRIJVING** — Estoy cansado. (Ik ben moe.) / Estoy triste. (Ik ben verdrietig.)\n\n• María **está** entre amigos. (María is onder vrienden.)"
+      }
+    },
+    {
+      "type": "explanation",
+      "title": { "en": "When to use TENER", "nl": "Wanneer gebruik je TENER" },
+      "content": {
+        "en": "**TENER** — possession, age, obligations (tener que)\n\n• Él **tiene** un coche deportivo. (He has a sports car.)\n• Mi abuelo **tiene** 79 años. (My grandfather is 79.)\n• Esta semana **tengo** que trabajar más. (This week I have to work more.)",
+        "nl": "**TENER** — bezit, leeftijd, verplichtingen (tener que)\n\n• Él **tiene** un coche deportivo. (Hij heeft een sportauto.)\n• Mi abuelo **tiene** 79 años. (Mijn opa is 79.)\n• Esta semana **tengo** que trabajar más. (Deze week moet ik meer werken.)"
+      }
+    },
+    {
+      "type": "explanation",
+      "title": { "en": "When to use HAY", "nl": "Wanneer gebruik je HAY" },
+      "content": {
+        "en": "**HAY** — existence (there is / there are)\n\n• En esta clase **hay** 20 sillas y 4 mesas. (In this class there are 20 chairs and 4 tables.)\n• En este jardín **hay** muchas flores bonitas. (In this garden there are many pretty flowers.)",
+        "nl": "**HAY** — bestaan (er is / er zijn)\n\n• En esta clase **hay** 20 sillas y 4 mesas. (In deze klas zijn er 20 stoelen en 4 tafels.)\n• En este jardín **hay** muchas flores bonitas. (In deze tuin zijn er veel mooie bloemen.)"
       }
     },
     {
@@ -74,10 +90,35 @@
         { "id": "se-011", "sentence": "Hoy ___ el 21 de octubre. (ser)", "correctAnswers": ["es"], "hint": "date → SER" },
         { "id": "se-012", "sentence": "Yo ___ alto. (ser)", "correctAnswers": ["soy"], "hint": "permanent description → SER" }
       ]
+    },
+    {
+      "id": "seth-1",
+      "type": "fill_in_blank",
+      "instruction": {
+        "en": "Fill in the correct form of SER, ESTAR, TENER or HAY.",
+        "nl": "Vul de juiste vorm van SER, ESTAR, TENER of HAY in."
+      },
+      "items": [
+        { "id": "seth-01", "before": "María", "after": "entre amigos.", "correctAnswers": ["está"] },
+        { "id": "seth-02", "before": "En esta clase", "after": "20 sillas y 4 mesas.", "correctAnswers": ["hay"] },
+        { "id": "seth-03", "before": "Él", "after": "un coche deportivo.", "correctAnswers": ["tiene"] },
+        { "id": "seth-04", "before": "Paraguay", "after": "en América del Sur.", "correctAnswers": ["está"] },
+        { "id": "seth-05", "before": "En esta universidad", "after": "muchos estudiantes extranjeros.", "correctAnswers": ["hay"] },
+        { "id": "seth-06", "before": "Vosotras", "after": "inteligentes.", "correctAnswers": ["sois"] },
+        { "id": "seth-07", "before": "Julia", "after": "enferma.", "correctAnswers": ["está"] },
+        { "id": "seth-08", "before": "La actriz", "after": "muy guapa.", "correctAnswers": ["es"] },
+        { "id": "seth-09", "before": "Ellas", "after": "muy guapas.", "correctAnswers": ["son"] },
+        { "id": "seth-10", "before": "Mi abuelo", "after": "79 años.", "correctAnswers": ["tiene"] },
+        { "id": "seth-11", "before": "En este jardín", "after": "muchas flores bonitas.", "correctAnswers": ["hay"] },
+        { "id": "seth-12", "before": "Yo", "after": "de Costa Rica.", "correctAnswers": ["soy"] },
+        { "id": "seth-13", "before": "Mi casa", "after": "pequeña, pero", "correctAnswers": ["es"] },
+        { "id": "seth-14", "before": "En esa esquina", "after": "un restaurante bueno.", "correctAnswers": ["hay"] },
+        { "id": "seth-15", "before": "Esta semana (yo)", "after": "que trabajar más.", "correctAnswers": ["tengo"] }
+      ]
     }
   ],
   "videoPlaceholder": {
     "title": { "en": "Teacher Explanation Video", "nl": "Uitleg Video Docent" },
-    "description": { "en": "Video coming soon — SER vs ESTAR explained!", "nl": "Video komt binnenkort — SER vs ESTAR uitgelegd!" }
+    "description": { "en": "Video coming soon — SER, ESTAR, TENER & HAY explained!", "nl": "Video komt binnenkort — SER, ESTAR, TENER & HAY uitgelegd!" }
   }
 }
