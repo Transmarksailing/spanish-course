@@ -5,7 +5,7 @@ export default function CourseFooter() {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted">
           <div className="flex items-center gap-2">
             <span className="font-semibold text-foreground">
-              The Language Academy
+              Transmark Language Tool
             </span>
             <span>&middot;</span>
             <span>Spanish Classes in Javea</span>

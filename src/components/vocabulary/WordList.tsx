@@ -63,7 +63,7 @@ export default function WordList({ categories }: Props) {
 
       {categories.map((category) => (
         <div key={t(category.name)} className="mb-6">
-          <h4 className="text-xs font-semibold text-muted uppercase tracking-wider mb-2">
+          <h4 className="text-xs font-semibold text-primary uppercase tracking-wider mb-2">
             {t(category.name)}
           </h4>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1.5">

@@ -27,13 +27,13 @@ export default function LoginPage() {
       <div className="w-full max-w-sm">
         <div className="text-center mb-8">
           <div className="w-14 h-14 rounded-2xl bg-primary flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
-            LA
+            TM
           </div>
           <h1 className="text-2xl font-bold text-white">
             Student Login
           </h1>
           <p className="text-sm text-sidebar-text/60 mt-1">
-            The Language Academy — Javea
+            Transmark Language Tool — Javea
           </p>
         </div>
 

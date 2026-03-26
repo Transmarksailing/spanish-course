@@ -18,27 +18,25 @@ export default function CourseHeader() {
   return (
     <header className="bg-sidebar text-sidebar-text border-b border-white/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-14">
+        <div className="flex items-center h-14 gap-4">
           <Link href="/curso" className="flex items-center gap-3 hover:opacity-90">
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-white font-bold text-sm">
-              LA
+              TM
             </div>
             <div className="hidden sm:block">
               <div className="text-sm font-semibold leading-tight">
-                The Language Academy
+                Transmark Language Tool
               </div>
             </div>
           </Link>
 
-          <div className="flex items-center gap-3">
-            <LanguageToggle language={language} onChange={setLanguage} />
-            <button
-              onClick={handleLogout}
-              className="text-xs text-sidebar-text/60 hover:text-sidebar-text transition-colors px-2 py-1 rounded hover:bg-white/5"
-            >
-              Logout
-            </button>
-          </div>
+          <LanguageToggle language={language} onChange={setLanguage} />
+          <button
+            onClick={handleLogout}
+            className="text-xs text-sidebar-text/60 hover:text-sidebar-text transition-colors px-2 py-1 rounded hover:bg-white/5"
+          >
+            Logout
+          </button>
         </div>
       </div>
     </header>

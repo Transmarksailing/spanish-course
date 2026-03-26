@@ -7,10 +7,10 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-white font-bold text-lg">
-              LA
+              TM
             </div>
             <div>
-              <div className="font-semibold">The Language Academy</div>
+              <div className="font-semibold">Transmark Language Tool</div>
               <div className="text-xs text-sidebar-text/60">Javea, Costa Blanca</div>
             </div>
           </div>
@@ -74,7 +74,7 @@ export default function HomePage() {
 
       <footer className="bg-sidebar text-sidebar-text py-8 mt-auto">
         <div className="max-w-5xl mx-auto px-4 text-center">
-          <div className="font-semibold mb-1">The Language Academy</div>
+          <div className="font-semibold mb-1">Transmark Language Tool</div>
           <p className="text-xs text-sidebar-text/50">Spanish Classes in Javea &middot; spanishclassesinjavea.com</p>
         </div>
       </footer>
