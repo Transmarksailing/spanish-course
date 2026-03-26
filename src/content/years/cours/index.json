@@ -148,63 +148,36 @@
     {
       "slug": "commands-vosotros",
       "title": {
-        "en": "Commands — Vosotros",
-        "nl": "Gebiedende Wijs — Vosotros",
-        "es": "Imperativo — Vosotros"
+        "en": "Imperative & Subjunctive Expressions",
+        "nl": "Gebiedende Wijs & Subjunctivo Uitdrukkingen",
+        "es": "El Imperativo y Expresiones del Subjuntivo"
       },
       "order": 16
     },
     {
-      "slug": "imperative-tu-commands",
-      "title": {
-        "en": "Imperative — Tú Commands",
-        "nl": "Gebiedende Wijs — Tú Bevelen",
-        "es": "El Imperativo — Mandatos de Tú"
-      },
-      "order": 17
-    },
-    {
-      "slug": "imperative-formal-commands",
-      "title": {
-        "en": "Imperative — Usted, Ustedes & Nosotros",
-        "nl": "Gebiedende Wijs — Usted, Ustedes & Nosotros",
-        "es": "El Imperativo — Usted, Ustedes y Nosotros"
-      },
-      "order": 18
-    },
-    {
-      "slug": "subjunctive-expressions",
-      "title": {
-        "en": "Present Subjunctive — Expressions",
-        "nl": "Aanvoegende Wijs — Uitdrukkingen",
-        "es": "El Subjuntivo — Expresiones"
-      },
-      "order": 19
-    },
-    {
       "slug": "saber-vs-conocer",
       "title": { "en": "Saber vs Conocer", "nl": "Saber vs Conocer", "es": "Saber y Conocer" },
-      "order": 20
+      "order": 17
     },
     {
       "slug": "conditional-structures",
       "title": { "en": "Conditional Structures (If-clauses)", "nl": "Conditionele Structuren", "es": "Estructuras Condicionales" },
-      "order": 21
+      "order": 18
     },
     {
       "slug": "stem-changing-verbs",
       "title": { "en": "Stem-Changing Verbs", "nl": "Stamveranderende Werkwoorden", "es": "Verbos con Cambio de Raíz" },
-      "order": 22
+      "order": 19
     },
     {
       "slug": "reported-speech",
       "title": { "en": "Reported Speech", "nl": "Indirecte Rede", "es": "El Estilo Indirecto" },
-      "order": 23
+      "order": 20
     },
     {
       "slug": "multi-tense-practice",
       "title": { "en": "Multi-Tense Practice", "nl": "Oefening Alle Tijden", "es": "Práctica de Todos los Tiempos" },
-      "order": 24
+      "order": 21
     }
   ],
   "vocabulary": [

@@ -20,9 +20,6 @@ import presentSubjunctive from "@/content/years/cours/lessons/present-subjunctiv
 import pastSubjunctive from "@/content/years/cours/lessons/past-subjunctive.json";
 import ignoranceExpressions from "@/content/years/cours/lessons/ignorance-expressions.json";
 import commandsVosotros from "@/content/years/cours/lessons/commands-vosotros.json";
-import imperativeTuCommands from "@/content/years/cours/lessons/imperative-tu-commands.json";
-import imperativeFormalCommands from "@/content/years/cours/lessons/imperative-formal-commands.json";
-import subjunctiveExpressions from "@/content/years/cours/lessons/subjunctive-expressions.json";
 import saberVsConocer from "@/content/years/cours/lessons/saber-vs-conocer.json";
 import conditionalStructures from "@/content/years/cours/lessons/conditional-structures.json";
 import multiTensePractice from "@/content/years/cours/lessons/multi-tense-practice.json";
@@ -75,10 +72,7 @@ const lessonsMap: Record<string, Record<string, Lesson>> = {
     "past-subjunctive": pastSubjunctive as unknown as Lesson,
     "ignorance-expressions": ignoranceExpressions as unknown as Lesson,
     "commands-vosotros": commandsVosotros as unknown as Lesson,
-    "imperative-tu-commands": imperativeTuCommands as unknown as Lesson,
-    "imperative-formal-commands": imperativeFormalCommands as unknown as Lesson,
-    "subjunctive-expressions": subjunctiveExpressions as unknown as Lesson,
-    "saber-vs-conocer": saberVsConocer as unknown as Lesson,
+"saber-vs-conocer": saberVsConocer as unknown as Lesson,
     "conditional-structures": conditionalStructures as unknown as Lesson,
     "multi-tense-practice": multiTensePractice as unknown as Lesson,
     "reported-speech": reportedSpeech as unknown as Lesson,
