@@ -123,34 +123,34 @@ export default function TranslationExercise({ exercise, lessonSlug }: Props) {
         <ProgressBar current={completedCount} total={exercise.items.length} />
       </div>
 
-      <div className="space-y-4">
+      <div className="space-y-2 sm:space-y-3">
         {exercise.items.map((item, index) => {
           const state = states[item.id];
           return (
             <div
               key={item.id}
-              className={`p-4 rounded-lg border transition-colors ${
+              className={`p-2.5 sm:p-4 rounded-lg border transition-colors ${
                 state.status === "correct"
                   ? "bg-success-light/50 border-success/30"
                   : "bg-card border-border"
               }`}
             >
-              <div className="flex items-start gap-3">
-                <span className="text-xs text-muted font-mono w-6 pt-1 text-right shrink-0">
+              <div className="flex items-start gap-2 sm:gap-3">
+                <span className="text-xs text-muted font-mono w-5 sm:w-6 pt-1 text-right shrink-0">
                   {index + 1}.
                 </span>
-                <div className="flex-1 space-y-2">
+                <div className="flex-1 space-y-1.5">
                   <p className="text-sm font-medium text-foreground">
                     {getSourceText(item)}
                   </p>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-1.5 sm:gap-2">
                     <Input
                       ref={(el) => {
                         if (el) inputRefs.current.set(item.id, el);
                       }}
                       value={state.value}
                       status={state.status}
-                      placeholder="Type your translation..."
+                      placeholder="..."
                       disabled={state.status === "correct"}
                       onFocus={() => (activeInputId.current = item.id)}
                       onChange={(e) =>

@@ -85,6 +85,8 @@ export interface Exercise {
 export interface ExerciseItem {
   id: string;
   sentence?: string;
+  before?: string;
+  after?: string;
   source?: LocalizedText;
   correctAnswers: string[];
   hint?: string;

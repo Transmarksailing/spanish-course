@@ -1,0 +1,43 @@
+{
+  "slug": "irregular-participles",
+  "year": "cours",
+  "title": {
+    "en": "Irregular Past Participles",
+    "nl": "Onregelmatige Voltooide Deelwoorden",
+    "es": "Participios Pasados Irregulares"
+  },
+  "description": {
+    "en": "Two groups of irregular past participles: verbs with accented -ído endings and individually irregular participles.",
+    "nl": "Twee groepen onregelmatige voltooide deelwoorden: werkwoorden met -ído uitgang en individueel onregelmatige deelwoorden."
+  },
+  "words": [
+    { "es": "atraído", "en": "attracted", "nl": "aangetrokken", "infinitive": "atraer" },
+    { "es": "caído", "en": "fallen", "nl": "gevallen", "infinitive": "caer" },
+    { "es": "creído", "en": "believed", "nl": "geloofd", "infinitive": "creer" },
+    { "es": "leído", "en": "read", "nl": "gelezen", "infinitive": "leer" },
+    { "es": "oído", "en": "heard", "nl": "gehoord", "infinitive": "oír" },
+    { "es": "poseído", "en": "possessed", "nl": "bezeten", "infinitive": "poseer" },
+    { "es": "sonreído", "en": "smiled", "nl": "geglimlacht", "infinitive": "sonreír" },
+    { "es": "traído", "en": "brought", "nl": "gebracht", "infinitive": "traer" },
+    { "es": "abierto", "en": "opened", "nl": "geopend", "infinitive": "abrir" },
+    { "es": "cubierto", "en": "covered", "nl": "bedekt", "infinitive": "cubrir" },
+    { "es": "dicho", "en": "said / told", "nl": "gezegd", "infinitive": "decir" },
+    { "es": "descrito", "en": "described", "nl": "beschreven", "infinitive": "describir" },
+    { "es": "descubierto", "en": "discovered", "nl": "ontdekt", "infinitive": "descubrir" },
+    { "es": "devuelto", "en": "returned (given back)", "nl": "teruggegeven", "infinitive": "devolver" },
+    { "es": "disuelto", "en": "dissolved", "nl": "opgelost", "infinitive": "disolver" },
+    { "es": "envuelto", "en": "wrapped", "nl": "ingepakt", "infinitive": "envolver" },
+    { "es": "escrito", "en": "written", "nl": "geschreven", "infinitive": "escribir" },
+    { "es": "frito", "en": "fried", "nl": "gebakken", "infinitive": "freír" },
+    { "es": "hecho", "en": "done / made", "nl": "gedaan / gemaakt", "infinitive": "hacer" },
+    { "es": "muerto", "en": "dead / died", "nl": "dood / gestorven", "infinitive": "morir" },
+    { "es": "opuesto", "en": "opposed", "nl": "tegengesteld", "infinitive": "oponer" },
+    { "es": "puesto", "en": "put / placed", "nl": "gezet / geplaatst", "infinitive": "poner" },
+    { "es": "provisto", "en": "provided", "nl": "voorzien", "infinitive": "proveer" },
+    { "es": "podrido", "en": "rotten", "nl": "verrot", "infinitive": "pudrir" },
+    { "es": "resuelto", "en": "resolved", "nl": "opgelost", "infinitive": "resolver" },
+    { "es": "roto", "en": "broken", "nl": "gebroken", "infinitive": "romper" },
+    { "es": "visto", "en": "seen", "nl": "gezien", "infinitive": "ver" },
+    { "es": "vuelto", "en": "returned", "nl": "teruggekeerd", "infinitive": "volver" }
+  ]
+}

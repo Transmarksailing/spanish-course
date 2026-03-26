@@ -68,3 +68,13 @@ body {
   border-color: var(--color-primary);
   color: var(--color-primary);
 }
+
+/* Mobile-optimalisaties */
+@media (max-width: 640px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    font-size: 13px;
+  }
+}

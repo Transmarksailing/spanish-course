@@ -20,6 +20,9 @@ import presentSubjunctive from "@/content/years/cours/lessons/present-subjunctiv
 import pastSubjunctive from "@/content/years/cours/lessons/past-subjunctive.json";
 import ignoranceExpressions from "@/content/years/cours/lessons/ignorance-expressions.json";
 import commandsVosotros from "@/content/years/cours/lessons/commands-vosotros.json";
+import imperativeTuCommands from "@/content/years/cours/lessons/imperative-tu-commands.json";
+import imperativeFormalCommands from "@/content/years/cours/lessons/imperative-formal-commands.json";
+import subjunctiveExpressions from "@/content/years/cours/lessons/subjunctive-expressions.json";
 
 // Vocabulary
 import verbs from "@/content/years/cours/vocabulary/verbs.json";
@@ -29,6 +32,7 @@ import clothing from "@/content/years/cours/vocabulary/clothing.json";
 import weather from "@/content/years/cours/vocabulary/weather.json";
 import house from "@/content/years/cours/vocabulary/house.json";
 import cityAndTransport from "@/content/years/cours/vocabulary/city-and-transport.json";
+import irregularParticiples from "@/content/years/cours/vocabulary/irregular-participles.json";
 
 const yearsMap: Record<string, YearIndex> = {
   cours: coursIndex as unknown as YearIndex,
@@ -52,6 +56,9 @@ const lessonsMap: Record<string, Record<string, Lesson>> = {
     "past-subjunctive": pastSubjunctive as unknown as Lesson,
     "ignorance-expressions": ignoranceExpressions as unknown as Lesson,
     "commands-vosotros": commandsVosotros as unknown as Lesson,
+    "imperative-tu-commands": imperativeTuCommands as unknown as Lesson,
+    "imperative-formal-commands": imperativeFormalCommands as unknown as Lesson,
+    "subjunctive-expressions": subjunctiveExpressions as unknown as Lesson,
   },
 };
 
@@ -64,6 +71,7 @@ const vocabularyMap: Record<string, Record<string, VocabularyList>> = {
     "weather": weather as unknown as VocabularyList,
     "house": house as unknown as VocabularyList,
     "city-and-transport": cityAndTransport as unknown as VocabularyList,
+    "irregular-participles": irregularParticiples as unknown as VocabularyList,
   },
 };
 

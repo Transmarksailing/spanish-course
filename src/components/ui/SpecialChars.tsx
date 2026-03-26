@@ -8,18 +8,20 @@ interface SpecialCharsProps {
 
 export default function SpecialChars({ onInsert }: SpecialCharsProps) {
   return (
-    <div className="flex flex-wrap gap-1.5 mt-2">
-      {CHARS.map((char) => (
-        <button
-          key={char}
-          type="button"
-          onClick={() => onInsert(char)}
-          className="char-btn"
-          title={`Insert ${char}`}
-        >
-          {char}
-        </button>
-      ))}
+    <div className="sticky bottom-0 bg-background/95 backdrop-blur-sm py-2 -mx-3 px-3 sm:mx-0 sm:px-0 border-t border-border sm:border-0">
+      <div className="flex flex-wrap gap-1 sm:gap-1.5">
+        {CHARS.map((char) => (
+          <button
+            key={char}
+            type="button"
+            onClick={() => onInsert(char)}
+            className="char-btn"
+            title={`Insert ${char}`}
+          >
+            {char}
+          </button>
+        ))}
+      </div>
     </div>
   );
 }

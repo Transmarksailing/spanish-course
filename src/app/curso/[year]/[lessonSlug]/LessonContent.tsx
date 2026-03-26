@@ -21,8 +21,8 @@ export default function LessonContent({ lesson, yearId, lessons, vocabulary }: P
     <div className="flex">
       <CourseSidebar year={yearId} lessons={lessons} vocabulary={vocabulary} />
 
-      <div className="flex-1 max-w-4xl px-4 sm:px-8 py-8">
-        <h1 className="text-2xl font-bold mb-1">
+      <div className="flex-1 max-w-4xl px-3 sm:px-8 py-4 sm:py-8 w-full overflow-x-hidden">
+        <h1 className="text-xl sm:text-2xl font-bold mb-1">
           {t(lesson.title)}
         </h1>
         {lesson.title.es && (

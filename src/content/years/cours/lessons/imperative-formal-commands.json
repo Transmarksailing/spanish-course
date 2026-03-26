@@ -1,0 +1,104 @@
+{
+  "slug": "imperative-formal-commands",
+  "year": "cours",
+  "title": {
+    "en": "Imperative — Usted, Ustedes & Nosotros",
+    "nl": "Gebiedende Wijs — Usted, Ustedes & Nosotros",
+    "es": "El Imperativo — Usted, Ustedes y Nosotros"
+  },
+  "grammarSections": [
+    {
+      "type": "explanation",
+      "title": { "en": "Usted Commands", "nl": "Usted Bevelen" },
+      "content": {
+        "en": "Regular **usted** commands have a single form for both affirmative and negative:\n1. Begin with the present tense first-person singular (**yo**) form.\n2. Remove the **-o** ending (the \"yo stem\").\n3. For **-ar** verbs, add **-e**. For **-er** and **-ir** verbs, add **-a**.\n\n**hablo** → **habl-** → **¡Hable!** (Speak!)\n**como** → **com-** → **¡Coma!** (Eat!)\n**escribo** → **escrib-** → **¡Escriba!** (Write!)\n\nNOTE: When the yo form ends in -oy (estar, dar), the -oy is removed to form the \"yo stem.\" Both **estar** and **dar** carry an accent mark: **dé**, **esté**.\n\nThere are only three irregular usted commands:\n• ir → **¡Vaya!** (Go!)\n• saber → **¡Sepa!** (Know!)\n• ser → **¡Sea!** (Be!)",
+        "nl": "Regelmatige **usted** bevelen hebben één vorm voor zowel bevestigend als ontkennend:\n1. Begin met de eerste persoon enkelvoud (**yo**) vorm.\n2. Verwijder de **-o** uitgang.\n3. Voeg **-e** toe voor **-ar** werkwoorden, **-a** voor **-er** en **-ir** werkwoorden.\n\n**hablo** → **habl-** → **¡Hable!**\n**como** → **com-** → **¡Coma!**\n**escribo** → **escrib-** → **¡Escriba!**\n\nEr zijn slechts drie onregelmatige usted bevelen: ir → **¡Vaya!**, saber → **¡Sepa!**, ser → **¡Sea!**"
+      }
+    },
+    {
+      "type": "explanation",
+      "title": { "en": "Ustedes Commands", "nl": "Ustedes Bevelen" },
+      "content": {
+        "en": "**Ustedes** commands are nearly identical to usted commands, the only difference being an **n** added to the end. The same form is used for both affirmative and negative, for all verbs.\n\n**¡Hablen!** (Speak!) — **¡No coman!** (Don't eat!) — **¡Escriban!** (Write!)\n**¡Váyanse!** (Go away!) — **¡Sépanlo!** (Know it!) — **¡Sean amables!** (Be kind!)\n\nNOTE: The ustedes form is used in both formal and informal situations in Spanish America.",
+        "nl": "**Ustedes** bevelen zijn bijna identiek aan usted bevelen, met een **n** toegevoegd aan het einde. Dezelfde vorm wordt gebruikt voor bevestigend en ontkennend.\n\n**¡Hablen!** — **¡No coman!** — **¡Escriban!**\n\nNOTE: De ustedes-vorm wordt in Latijns-Amerika voor zowel formele als informele situaties gebruikt."
+      }
+    },
+    {
+      "type": "explanation",
+      "title": { "en": "Nosotros Commands (Let's...)", "nl": "Nosotros Bevelen (Laten we...)" },
+      "content": {
+        "en": "Both affirmative and negative **nosotros** (\"we\") commands translate as \"let's\" statements. Regular nosotros commands are formed as follows:\n1. Begin with the present tense first-person singular (yo) form.\n2. Remove the -o ending.\n3. For **-ar** verbs, add **-emos**. For **-er** and **-ir** verbs, add **-amos**.\n\n**¡Hablemos!** (Let's talk!) — **¡Comamos!** (Let's eat!) — **¡Escribamos!** (Let's write!)\n\nTo form a negative nosotros command, just add **no** before the verb: **¡No trabajemos!** (Let's not work!)\n\nIrregular nosotros commands: ir → **¡Vamos!** / **¡No vayamos!**, irse → **¡Vámonos!** / **¡No nos vayamos!**, saber → **¡Sepamos!** / **¡No sepamos!**, ser → **¡Seamos!** / **¡No seamos!**",
+        "nl": "**Nosotros** bevelen vertalen als \"laten we...\" Regular vorming:\n1. Begin met de yo-vorm.\n2. Verwijder de -o.\n3. Voeg **-emos** toe voor -ar werkwoorden, **-amos** voor -er/-ir.\n\n**¡Hablemos!** (Laten we praten!) — **¡Comamos!** (Laten we eten!)\n\nOntkennend: voeg **no** toe: **¡No trabajemos!** (Laten we niet werken!)"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "imp-formal-1",
+      "type": "translation",
+      "instruction": {
+        "en": "Rewrite the following commands in Spanish, using usted. Assume the object pronoun \"it\" is always masculine.",
+        "nl": "Herschrijf de volgende bevelen in het Spaans, met usted."
+      },
+      "items": [
+        { "id": "imp-f1-01", "source": { "en": "Sing!", "nl": "Zing!" }, "correctAnswers": ["¡Cante!", "Cante"] },
+        { "id": "imp-f1-02", "source": { "en": "Sell!", "nl": "Verkoop!" }, "correctAnswers": ["¡Venda!", "Venda"] },
+        { "id": "imp-f1-03", "source": { "en": "Count!", "nl": "Tel!" }, "correctAnswers": ["¡Cuente!", "Cuente"] },
+        { "id": "imp-f1-04", "source": { "en": "Pay!", "nl": "Betaal!" }, "correctAnswers": ["¡Pague!", "Pague"] },
+        { "id": "imp-f1-05", "source": { "en": "Run!", "nl": "Ren!" }, "correctAnswers": ["¡Corra!", "Corra"] },
+        { "id": "imp-f1-06", "source": { "en": "Do it!", "nl": "Doe het!" }, "correctAnswers": ["¡Hágalo!", "Hágalo", "Hagalo"] },
+        { "id": "imp-f1-07", "source": { "en": "Read it!", "nl": "Lees het!" }, "correctAnswers": ["¡Léalo!", "Léalo", "Lealo"] },
+        { "id": "imp-f1-08", "source": { "en": "Bring it here!", "nl": "Breng het hier!" }, "correctAnswers": ["¡Tráigalo aquí!", "Tráigalo aquí", "Traigalo aqui"] },
+        { "id": "imp-f1-09", "source": { "en": "Stand up!", "nl": "Sta op!" }, "correctAnswers": ["¡Levántese!", "Levántese", "Levantese"] },
+        { "id": "imp-f1-10", "source": { "en": "Give it to me!", "nl": "Geef het aan mij!" }, "correctAnswers": ["¡Démelo!", "Démelo", "Demelo"] },
+        { "id": "imp-f1-11", "source": { "en": "Don't tell me a lie!", "nl": "Vertel me geen leugen!" }, "correctAnswers": ["¡No me diga una mentira!", "No me diga una mentira"] },
+        { "id": "imp-f1-12", "source": { "en": "Don't wait for us!", "nl": "Wacht niet op ons!" }, "correctAnswers": ["¡No nos espere!", "No nos espere"] },
+        { "id": "imp-f1-13", "source": { "en": "Don't rob the bank!", "nl": "Beroof de bank niet!" }, "correctAnswers": ["¡No robe el banco!", "No robe el banco"] },
+        { "id": "imp-f1-14", "source": { "en": "Sit down!", "nl": "Ga zitten!" }, "correctAnswers": ["¡Siéntese!", "Siéntese", "Sientese"] },
+        { "id": "imp-f1-15", "source": { "en": "Don't do it!", "nl": "Doe het niet!" }, "correctAnswers": ["¡No lo haga!", "No lo haga"] }
+      ]
+    },
+    {
+      "id": "imp-formal-2",
+      "type": "translation",
+      "instruction": {
+        "en": "Rewrite the following commands in Spanish, using ustedes.",
+        "nl": "Herschrijf de volgende bevelen in het Spaans, met ustedes."
+      },
+      "items": [
+        { "id": "imp-f2-01", "source": { "en": "Work!", "nl": "Werk!" }, "correctAnswers": ["¡Trabajen!", "Trabajen"] },
+        { "id": "imp-f2-02", "source": { "en": "Think!", "nl": "Denk na!" }, "correctAnswers": ["¡Piensen!", "Piensen"] },
+        { "id": "imp-f2-03", "source": { "en": "Don't do that!", "nl": "Doe dat niet!" }, "correctAnswers": ["¡No hagan eso!", "No hagan eso"] },
+        { "id": "imp-f2-04", "source": { "en": "Don't leave!", "nl": "Vertrek niet!" }, "correctAnswers": ["¡No salgan!", "No salgan"] },
+        { "id": "imp-f2-05", "source": { "en": "Sit down!", "nl": "Ga zitten!" }, "correctAnswers": ["¡Siéntense!", "Siéntense", "Sientense"] },
+        { "id": "imp-f2-06", "source": { "en": "Don't tell me anything!", "nl": "Vertel me niets!" }, "correctAnswers": ["¡No me digan nada!", "No me digan nada"] },
+        { "id": "imp-f2-07", "source": { "en": "Play the piano!", "nl": "Speel piano!" }, "correctAnswers": ["¡Toquen el piano!", "Toquen el piano"] },
+        { "id": "imp-f2-08", "source": { "en": "Play baseball!", "nl": "Speel honkbal!" }, "correctAnswers": ["¡Jueguen al béisbol!", "Jueguen al béisbol", "Jueguen al beisbol"] },
+        { "id": "imp-f2-09", "source": { "en": "Bring me the food!", "nl": "Breng me het eten!" }, "correctAnswers": ["¡Tráiganme la comida!", "Tráiganme la comida", "Traiganme la comida"] },
+        { "id": "imp-f2-10", "source": { "en": "Tell him the secret!", "nl": "Vertel hem het geheim!" }, "correctAnswers": ["¡Díganle el secreto!", "Díganle el secreto", "Diganle el secreto"] }
+      ]
+    },
+    {
+      "id": "imp-formal-3",
+      "type": "translation",
+      "instruction": {
+        "en": "Rewrite the following commands in Spanish, using nosotros (Let's...).",
+        "nl": "Herschrijf de volgende bevelen in het Spaans, met nosotros (Laten we...)."
+      },
+      "items": [
+        { "id": "imp-f3-01", "source": { "en": "Let's study!", "nl": "Laten we studeren!" }, "correctAnswers": ["¡Estudiemos!", "Estudiemos"] },
+        { "id": "imp-f3-02", "source": { "en": "Let's walk!", "nl": "Laten we wandelen!" }, "correctAnswers": ["¡Caminemos!", "Caminemos", "¡Andemos!", "Andemos"] },
+        { "id": "imp-f3-03", "source": { "en": "Let's not study!", "nl": "Laten we niet studeren!" }, "correctAnswers": ["¡No estudiemos!", "No estudiemos"] },
+        { "id": "imp-f3-04", "source": { "en": "Let's not eat!", "nl": "Laten we niet eten!" }, "correctAnswers": ["¡No comamos!", "No comamos"] },
+        { "id": "imp-f3-05", "source": { "en": "Let's sell the car!", "nl": "Laten we de auto verkopen!" }, "correctAnswers": ["¡Vendamos el coche!", "Vendamos el coche", "Vendamos el carro"] },
+        { "id": "imp-f3-06", "source": { "en": "Let's do something!", "nl": "Laten we iets doen!" }, "correctAnswers": ["¡Hagamos algo!", "Hagamos algo"] },
+        { "id": "imp-f3-07", "source": { "en": "Let's not do anything!", "nl": "Laten we niets doen!" }, "correctAnswers": ["¡No hagamos nada!", "No hagamos nada"] },
+        { "id": "imp-f3-08", "source": { "en": "Let's eat lunch!", "nl": "Laten we lunchen!" }, "correctAnswers": ["¡Almorcemos!", "Almorcemos", "¡Comamos el almuerzo!", "Comamos el almuerzo"] },
+        { "id": "imp-f3-09", "source": { "en": "Let's not lie!", "nl": "Laten we niet liegen!" }, "correctAnswers": ["¡No mintamos!", "No mintamos"] },
+        { "id": "imp-f3-10", "source": { "en": "Let's tell the truth!", "nl": "Laten we de waarheid vertellen!" }, "correctAnswers": ["¡Digamos la verdad!", "Digamos la verdad"] },
+        { "id": "imp-f3-11", "source": { "en": "Let's not say anything!", "nl": "Laten we niets zeggen!" }, "correctAnswers": ["¡No digamos nada!", "No digamos nada"] },
+        { "id": "imp-f3-12", "source": { "en": "Let's go!", "nl": "Laten we gaan!" }, "correctAnswers": ["¡Vamos!", "Vamos", "¡Vámonos!", "Vámonos"] }
+      ]
+    }
+  ]
+}

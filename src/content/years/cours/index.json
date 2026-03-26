@@ -153,6 +153,33 @@
         "es": "Imperativo — Vosotros"
       },
       "order": 16
+    },
+    {
+      "slug": "imperative-tu-commands",
+      "title": {
+        "en": "Imperative — Tú Commands",
+        "nl": "Gebiedende Wijs — Tú Bevelen",
+        "es": "El Imperativo — Mandatos de Tú"
+      },
+      "order": 17
+    },
+    {
+      "slug": "imperative-formal-commands",
+      "title": {
+        "en": "Imperative — Usted, Ustedes & Nosotros",
+        "nl": "Gebiedende Wijs — Usted, Ustedes & Nosotros",
+        "es": "El Imperativo — Usted, Ustedes y Nosotros"
+      },
+      "order": 18
+    },
+    {
+      "slug": "subjunctive-expressions",
+      "title": {
+        "en": "Present Subjunctive — Expressions",
+        "nl": "Aanvoegende Wijs — Uitdrukkingen",
+        "es": "El Subjuntivo — Expresiones"
+      },
+      "order": 19
     }
   ],
   "vocabulary": [
@@ -203,6 +230,13 @@
       "title": {
         "en": "City & Transport",
         "nl": "Stad & Vervoer"
+      }
+    },
+    {
+      "slug": "irregular-participles",
+      "title": {
+        "en": "Irregular Past Participles",
+        "nl": "Onregelmatige Voltooide Deelwoorden"
       }
     }
   ]

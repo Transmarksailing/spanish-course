@@ -115,48 +115,62 @@ export default function FillInTheBlank({ exercise, lessonSlug }: Props) {
     }, 0);
   }, []);
 
-  const renderSentence = (item: (typeof exercise.items)[0]) => {
+  const renderInput = (item: (typeof exercise.items)[0]) => {
     const state = states[item.id];
-    // Splits zin op ___ (blank marker)
-    const parts = (item.sentence || "").split(/(_+)/);
+    return (
+      <div className="inline-flex flex-col min-w-[140px] sm:min-w-[180px]">
+        <Input
+          ref={(el) => {
+            if (el) inputRefs.current.set(item.id, el);
+          }}
+          value={state.value}
+          status={state.status}
+          placeholder={item.hint || "..."}
+          disabled={state.status === "correct"}
+          onFocus={() => (activeInputId.current = item.id)}
+          onChange={(e) =>
+            setStates((prev) => ({
+              ...prev,
+              [item.id]: {
+                ...prev[item.id],
+                value: e.target.value,
+                status: "default",
+                showFeedback: false,
+              },
+            }))
+          }
+          onKeyDown={(e) => {
+            if (e.key === "Enter") handleCheck(item.id);
+          }}
+        />
+        <ExerciseFeedback
+          isCorrect={state.status === "correct"}
+          correctAnswer={getCorrectAnswer(item.correctAnswers)}
+          show={state.showFeedback}
+        />
+      </div>
+    );
+  };
 
+  const renderSentence = (item: (typeof exercise.items)[0]) => {
+    // Support before/after format (e.g. "Quiero que tú ___ más.")
+    if (item.before !== undefined || item.after !== undefined) {
+      return (
+        <div className="flex flex-wrap items-center gap-1.5">
+          {item.before && <span className="text-sm">{item.before}</span>}
+          {renderInput(item)}
+          {item.after && <span className="text-sm">{item.after}</span>}
+        </div>
+      );
+    }
+
+    // Original sentence format with ___ blank marker
+    const parts = (item.sentence || "").split(/(_+)/);
     return (
       <div className="flex flex-wrap items-center gap-1.5">
         {parts.map((part, i) => {
           if (part.match(/^_+$/)) {
-            return (
-              <div key={i} className="inline-flex flex-col min-w-[180px]">
-                <Input
-                  ref={(el) => {
-                    if (el) inputRefs.current.set(item.id, el);
-                  }}
-                  value={state.value}
-                  status={state.status}
-                  placeholder={item.hint || "..."}
-                  disabled={state.status === "correct"}
-                  onFocus={() => (activeInputId.current = item.id)}
-                  onChange={(e) =>
-                    setStates((prev) => ({
-                      ...prev,
-                      [item.id]: {
-                        ...prev[item.id],
-                        value: e.target.value,
-                        status: "default",
-                        showFeedback: false,
-                      },
-                    }))
-                  }
-                  onKeyDown={(e) => {
-                    if (e.key === "Enter") handleCheck(item.id);
-                  }}
-                />
-                <ExerciseFeedback
-                  isCorrect={state.status === "correct"}
-                  correctAnswer={getCorrectAnswer(item.correctAnswers)}
-                  show={state.showFeedback}
-                />
-              </div>
-            );
+            return <span key={i}>{renderInput(item)}</span>;
           }
           return (
             <span key={i} className="text-sm">
@@ -177,20 +191,20 @@ export default function FillInTheBlank({ exercise, lessonSlug }: Props) {
         <ProgressBar current={completedCount} total={exercise.items.length} />
       </div>
 
-      <div className="space-y-4">
+      <div className="space-y-2 sm:space-y-3">
         {exercise.items.map((item, index) => (
           <div
             key={item.id}
-            className={`flex items-start gap-3 p-3 rounded-lg transition-colors ${
+            className={`flex items-start gap-2 sm:gap-3 p-2 sm:p-3 rounded-lg transition-colors ${
               states[item.id].status === "correct"
                 ? "bg-success-light/50"
                 : "bg-card"
             }`}
           >
-            <span className="text-xs text-muted font-mono w-6 pt-2 text-right shrink-0">
+            <span className="text-xs text-muted font-mono w-5 sm:w-6 pt-2 text-right shrink-0">
               {index + 1}.
             </span>
-            <div className="flex-1">
+            <div className="flex-1 min-w-0">
               {renderSentence(item)}
             </div>
             {states[item.id].status !== "correct" && (

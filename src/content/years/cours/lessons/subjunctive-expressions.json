@@ -1,0 +1,97 @@
+{
+  "slug": "subjunctive-expressions",
+  "year": "cours",
+  "title": {
+    "en": "Present Subjunctive — Expressions",
+    "nl": "Aanvoegende Wijs — Uitdrukkingen",
+    "es": "El Subjuntivo — Expresiones"
+  },
+  "grammarSections": [
+    {
+      "type": "explanation",
+      "title": { "en": "Expressions of Desire", "nl": "Uitdrukkingen van Verlangen" },
+      "content": {
+        "en": "Certain verbs express a desire or wish for someone else to do something. They require the subjunctive in the clause that follows **que**.\n\n• querer que — to want (that)\n• desear que — to wish (that)\n• preferir que — to prefer (that)\n• pedir que — to ask/request (that)\n• rogar que — to beg (that)\n• insistir en que — to insist (that)\n• mandar que — to order (that)\n• sugerir que — to suggest (that)\n• recomendar que — to recommend (that)\n• aconsejar que — to advise (that)\n• necesitar que — to need (that)\n• esperar que — to hope (that)\n• exigir que — to demand (that)\n\n**Example**: Quiero que tú **estudies** más. (I want you to study more.)",
+        "nl": "Bepaalde werkwoorden drukken een verlangen of wens uit dat iemand anders iets doet. Ze vereisen de subjunctivo in de bijzin na **que**.\n\n• querer que — willen (dat)\n• desear que — wensen (dat)\n• preferir que — liever willen (dat)\n• pedir que — vragen (dat)\n• rogar que — smeken (dat)\n• insistir en que — erop staan (dat)\n• mandar que — bevelen (dat)\n• sugerir que — suggereren (dat)\n• recomendar que — aanbevelen (dat)\n• aconsejar que — adviseren (dat)\n\n**Voorbeeld**: Quiero que tú **estudies** más. (Ik wil dat je meer studeert.)"
+      }
+    },
+    {
+      "type": "explanation",
+      "title": { "en": "Expressions of Ignorance or Doubt", "nl": "Uitdrukkingen van Onwetendheid of Twijfel" },
+      "content": {
+        "en": "The subjunctive is used after expressions that cast doubt on whether something is true or actually happens:\n\n• dudar que — to doubt (that)\n• no creer que — to not believe (that)\n• no pensar que — to not think (that)\n• no estar seguro/a de que — to not be sure (that)\n• no es cierto que — it's not certain (that)\n• no es verdad que — it's not true (that)\n• no es seguro que — it's not certain (that)\n\n**Example**: Dudo que ellos **vengan** a la fiesta. (I doubt they will come to the party.)\n\nNOTE: The affirmative forms (creer que, pensar que, estar seguro de que, es cierto que) take the **indicative**, not the subjunctive.",
+        "nl": "De subjunctivo wordt gebruikt na uitdrukkingen die twijfel uitdrukken over of iets waar is:\n\n• dudar que — betwijfelen (dat)\n• no creer que — niet geloven (dat)\n• no pensar que — niet denken (dat)\n• no estar seguro/a de que — niet zeker zijn (dat)\n\n**Voorbeeld**: Dudo que ellos **vengan** a la fiesta. (Ik betwijfel of zij naar het feest komen.)"
+      }
+    },
+    {
+      "type": "explanation",
+      "title": { "en": "Impersonal Expressions", "nl": "Onpersoonlijke Uitdrukkingen" },
+      "content": {
+        "en": "Impersonal expressions that express opinion, judgment, or necessity require the subjunctive:\n\n• es importante que — it's important that\n• es necesario que — it's necessary that\n• es posible que — it's possible that\n• es imposible que — it's impossible that\n• es probable que — it's probable that\n• es improbable que — it's improbable that\n• es mejor que — it's better that\n• es malo que — it's bad that\n• es bueno que — it's good that\n• es una lástima que — it's a pity that\n• es ridículo que — it's ridiculous that\n• es extraño que — it's strange that\n• ojalá que — hopefully / I wish that\n\n**Example**: Es importante que **hables** español. (It's important that you speak Spanish.)",
+        "nl": "Onpersoonlijke uitdrukkingen die een mening, oordeel of noodzaak uitdrukken vereisen de subjunctivo:\n\n• es importante que — het is belangrijk dat\n• es necesario que — het is noodzakelijk dat\n• es posible que — het is mogelijk dat\n• es mejor que — het is beter dat\n• ojalá que — hopelijk / ik wens dat\n\n**Voorbeeld**: Es importante que **hables** español. (Het is belangrijk dat je Spaans spreekt.)"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "subj-expr-1",
+      "type": "fill_in_blank",
+      "instruction": {
+        "en": "Complete each sentence with the correct present subjunctive form of the verb in parentheses.",
+        "nl": "Vul elk zin aan met de juiste subjunctivo-vorm van het werkwoord tussen haakjes."
+      },
+      "items": [
+        { "id": "se-1-01", "before": "Quiero que tú", "after": "más. (estudiar)", "correctAnswers": ["estudies"] },
+        { "id": "se-1-02", "before": "Deseo que ella", "after": "feliz. (ser)", "correctAnswers": ["sea"] },
+        { "id": "se-1-03", "before": "Prefiero que ustedes", "after": "temprano. (llegar)", "correctAnswers": ["lleguen"] },
+        { "id": "se-1-04", "before": "Te pido que", "after": "la verdad. (decir)", "correctAnswers": ["digas"] },
+        { "id": "se-1-05", "before": "Insisto en que nosotros", "after": "juntos. (comer)", "correctAnswers": ["comamos"] },
+        { "id": "se-1-06", "before": "Sugiero que tú", "after": "más agua. (beber)", "correctAnswers": ["bebas"] },
+        { "id": "se-1-07", "before": "Recomiendo que él", "after": "al médico. (ir)", "correctAnswers": ["vaya"] },
+        { "id": "se-1-08", "before": "Necesito que ustedes me", "after": ". (ayudar)", "correctAnswers": ["ayuden"] },
+        { "id": "se-1-09", "before": "Esperamos que tú", "after": "pronto. (venir)", "correctAnswers": ["vengas"] },
+        { "id": "se-1-10", "before": "Mando que los niños", "after": "la tarea. (hacer)", "correctAnswers": ["hagan"] },
+        { "id": "se-1-11", "before": "Aconsejo que ella", "after": "más. (dormir)", "correctAnswers": ["duerma"] },
+        { "id": "se-1-12", "before": "Ruego que tú no", "after": ". (salir)", "correctAnswers": ["salgas"] }
+      ]
+    },
+    {
+      "id": "subj-expr-2",
+      "type": "fill_in_blank",
+      "instruction": {
+        "en": "Complete each sentence with the correct present subjunctive form. These use expressions of doubt or ignorance.",
+        "nl": "Vul elk zin aan met de juiste subjunctivo-vorm. Deze gebruiken uitdrukkingen van twijfel."
+      },
+      "items": [
+        { "id": "se-2-01", "before": "Dudo que ellos", "after": "a tiempo. (llegar)", "correctAnswers": ["lleguen"] },
+        { "id": "se-2-02", "before": "No creo que ella", "after": "la respuesta. (saber)", "correctAnswers": ["sepa"] },
+        { "id": "se-2-03", "before": "No pienso que tú", "after": "razón. (tener)", "correctAnswers": ["tengas"] },
+        { "id": "se-2-04", "before": "No es cierto que nosotros", "after": "ricos. (ser)", "correctAnswers": ["seamos"] },
+        { "id": "se-2-05", "before": "No es verdad que él", "after": "español. (hablar)", "correctAnswers": ["hable"] },
+        { "id": "se-2-06", "before": "No estoy seguro de que ella", "after": "aquí. (estar)", "correctAnswers": ["esté"] },
+        { "id": "se-2-07", "before": "Dudo que tú", "after": "cocinar. (poder)", "correctAnswers": ["puedas"] },
+        { "id": "se-2-08", "before": "No creo que nosotros", "after": "bastante tiempo. (tener)", "correctAnswers": ["tengamos"] }
+      ]
+    },
+    {
+      "id": "subj-expr-3",
+      "type": "fill_in_blank",
+      "instruction": {
+        "en": "Complete each sentence with the correct present subjunctive form. These use impersonal expressions.",
+        "nl": "Vul elk zin aan met de juiste subjunctivo-vorm. Deze gebruiken onpersoonlijke uitdrukkingen."
+      },
+      "items": [
+        { "id": "se-3-01", "before": "Es importante que tú", "after": "español. (hablar)", "correctAnswers": ["hables"] },
+        { "id": "se-3-02", "before": "Es necesario que nosotros", "after": "más. (practicar)", "correctAnswers": ["practiquemos"] },
+        { "id": "se-3-03", "before": "Es posible que ellos", "after": "mañana. (venir)", "correctAnswers": ["vengan"] },
+        { "id": "se-3-04", "before": "Es mejor que tú", "after": "ahora. (salir)", "correctAnswers": ["salgas"] },
+        { "id": "se-3-05", "before": "Es malo que ella no", "after": "bien. (comer)", "correctAnswers": ["coma"] },
+        { "id": "se-3-06", "before": "Es una lástima que tú no", "after": "ir. (poder)", "correctAnswers": ["puedas"] },
+        { "id": "se-3-07", "before": "Es ridículo que él", "after": "eso. (creer)", "correctAnswers": ["crea"] },
+        { "id": "se-3-08", "before": "Ojalá que nosotros", "after": "el examen. (pasar)", "correctAnswers": ["pasemos"] },
+        { "id": "se-3-09", "before": "Es extraño que ella no", "after": "aquí. (estar)", "correctAnswers": ["esté"] },
+        { "id": "se-3-10", "before": "Es probable que ustedes", "after": "razón. (tener)", "correctAnswers": ["tengan"] }
+      ]
+    }
+  ]
+}
