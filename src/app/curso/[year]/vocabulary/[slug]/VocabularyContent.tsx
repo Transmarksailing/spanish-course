@@ -15,6 +15,19 @@ interface Props {
   vocabularyRefs: VocabularyRef[];
 }
 
+// Normalize vocabulary data: some files have flat words[], others have categories[].words[]
+function getCategories(vocabulary: VocabularyList) {
+  if (vocabulary.categories && vocabulary.categories.length > 0) {
+    return vocabulary.categories;
+  }
+  // Flat words[] format — wrap in a single category
+  const raw = vocabulary as unknown as { words?: unknown[]; title: { en: string; nl?: string } };
+  if (raw.words && Array.isArray(raw.words)) {
+    return [{ name: vocabulary.title, words: raw.words as VocabularyList["categories"][0]["words"] }];
+  }
+  return [];
+}
+
 export default function VocabularyContent({
   vocabulary,
   yearId,
@@ -24,7 +37,8 @@ export default function VocabularyContent({
   const { t } = useLanguage();
   const [mode, setMode] = useState<"list" | "practice-to-es" | "practice-from-es">("list");
 
-  const allWords = vocabulary.categories.flatMap((c) => c.words);
+  const categories = getCategories(vocabulary);
+  const allWords = categories.flatMap((c) => c.words);
 
   return (
     <div className="flex">
@@ -35,7 +49,7 @@ export default function VocabularyContent({
           {t(vocabulary.title)}
         </h1>
         <p className="text-muted text-sm mb-6">
-          {allWords.length} words across {vocabulary.categories.length} categories
+          {allWords.length} words across {categories.length} {categories.length === 1 ? "category" : "categories"}
         </p>
 
         <div className="flex gap-2 mb-6">
@@ -59,7 +73,7 @@ export default function VocabularyContent({
           </Button>
         </div>
 
-        {mode === "list" && <WordList categories={vocabulary.categories} />}
+        {mode === "list" && <WordList categories={categories} />}
         {mode === "practice-to-es" && (
           <VocabularyPractice words={allWords} direction="to-spanish" />
         )}
