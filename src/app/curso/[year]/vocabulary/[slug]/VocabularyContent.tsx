@@ -49,7 +49,7 @@ export default function VocabularyContent({
           {t(vocabulary.title)}
         </h1>
         <p className="text-muted text-sm mb-6">
-          {allWords.length} words across {categories.length} {categories.length === 1 ? "category" : "categories"}
+          {t({ en: `${allWords.length} words across ${categories.length} ${categories.length === 1 ? "category" : "categories"}`, nl: `${allWords.length} woorden in ${categories.length} ${categories.length === 1 ? "categorie" : "categorieën"}` })}
         </p>
 
         <div className="flex gap-2 mb-6">
@@ -57,19 +57,19 @@ export default function VocabularyContent({
             variant={mode === "list" ? "primary" : "outline"}
             onClick={() => setMode("list")}
           >
-            Word List
+            {t({ en: "Word List", nl: "Woordenlijst" })}
           </Button>
           <Button
             variant={mode === "practice-to-es" ? "secondary" : "outline"}
             onClick={() => setMode("practice-to-es")}
           >
-            Practice → Spanish
+            {t({ en: "Practice → Spanish", nl: "Oefenen → Spaans" })}
           </Button>
           <Button
             variant={mode === "practice-from-es" ? "secondary" : "outline"}
             onClick={() => setMode("practice-from-es")}
           >
-            Practice ← Spanish
+            {t({ en: "Practice ← Spanish", nl: "Oefenen ← Spaans" })}
           </Button>
         </div>
 

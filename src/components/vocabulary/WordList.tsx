@@ -38,9 +38,9 @@ export default function WordList({ categories }: Props) {
     language === "nl" ? dutch : english;
 
   const modes: { key: PracticeMode; label: string }[] = [
-    { key: "view", label: "All" },
-    { key: "hide-spanish", label: "Hide ES" },
-    { key: "hide-translation", label: language === "nl" ? "Hide NL" : "Hide EN" },
+    { key: "view", label: t({ en: "All", nl: "Alles" }) },
+    { key: "hide-spanish", label: t({ en: "Hide ES", nl: "Verberg ES" }) },
+    { key: "hide-translation", label: language === "nl" ? t({ en: "Hide NL", nl: "Verberg NL" }) : "Hide EN" },
   ];
 
   return (
@@ -85,10 +85,10 @@ export default function WordList({ categories }: Props) {
                   }`}
                 >
                   <span className={`text-sm font-medium ${hideSpanish ? "text-border select-none" : "text-foreground"}`}>
-                    {hideSpanish ? "tap to reveal" : word.spanish}
+                    {hideSpanish ? t({ en: "tap to reveal", nl: "tik om te tonen" }) : word.spanish}
                   </span>
                   <span className={`text-sm ${hideTranslation ? "text-border select-none" : "text-muted"}`}>
-                    {hideTranslation ? "tap" : getTranslation(word.english, word.dutch)}
+                    {hideTranslation ? t({ en: "tap", nl: "tik" }) : getTranslation(word.english, word.dutch)}
                   </span>
                 </div>
               );

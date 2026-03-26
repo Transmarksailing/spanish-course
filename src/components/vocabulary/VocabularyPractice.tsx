@@ -32,7 +32,7 @@ function getWordFields(word: Record<string, string>) {
 }
 
 export default function VocabularyPractice({ words, direction }: Props) {
-  const { language } = useLanguage();
+  const { language, t } = useLanguage();
   const inputRef = useRef<HTMLInputElement>(null);
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -118,7 +118,7 @@ export default function VocabularyPractice({ words, direction }: Props) {
 
       <div className="bg-card border border-border rounded-xl p-6 text-center">
         <p className="text-xs text-muted mb-2 uppercase tracking-wider">
-          {direction === "to-spanish" ? "Translate to Spanish" : "Translate from Spanish"}
+          {direction === "to-spanish" ? t({ en: "Translate to Spanish", nl: "Vertaal naar Spaans" }) : t({ en: "Translate from Spanish", nl: "Vertaal vanuit Spaans" })}
         </p>
         <p className="text-2xl font-bold text-foreground mb-6">
           {prompt}
@@ -129,7 +129,7 @@ export default function VocabularyPractice({ words, direction }: Props) {
             ref={inputRef}
             value={state.value}
             status={state.status}
-            placeholder="Your answer..."
+            placeholder={t({ en: "Your answer...", nl: "Jouw antwoord..." })}
             disabled={state.status === "correct"}
             onChange={(e) =>
               setState({
@@ -156,11 +156,11 @@ export default function VocabularyPractice({ words, direction }: Props) {
           <div className="flex justify-center gap-2 mt-4">
             {state.status === "correct" ? (
               <Button onClick={handleNext} size="lg">
-                {currentIndex < words.length - 1 ? "Next" : "Finish"}
+                {currentIndex < words.length - 1 ? t({ en: "Next", nl: "Volgende" }) : t({ en: "Finish", nl: "Klaar" })}
               </Button>
             ) : (
               <Button onClick={handleCheck} size="lg">
-                Check
+                {t({ en: "Check", nl: "Controleer" })}
               </Button>
             )}
           </div>
@@ -170,7 +170,7 @@ export default function VocabularyPractice({ words, direction }: Props) {
       </div>
 
       <p className="text-center text-sm text-muted mt-4">
-        {correctCount} correct out of {currentIndex + (state.status === "correct" ? 1 : 0)}
+        {t({ en: `${correctCount} correct out of ${currentIndex + (state.status === "correct" ? 1 : 0)}`, nl: `${correctCount} goed van de ${currentIndex + (state.status === "correct" ? 1 : 0)}` })}
       </p>
     </div>
   );
