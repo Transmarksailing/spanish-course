@@ -1,0 +1,36 @@
+{
+  "slug": "conditional-structures",
+  "year": "cours",
+  "title": {
+    "en": "Conditional Structures (If-clauses)",
+    "nl": "Conditionele Structuren (Als-zinnen)",
+    "es": "Estructuras Condicionales (Si...)"
+  },
+  "grammarSections": [
+    {
+      "type": "explanation",
+      "title": { "en": "1st Conditional (Real/Possible)", "nl": "1e Conditionalis (Reëel/Mogelijk)" },
+      "content": {
+        "en": "**1st Conditional** — Real / possible situations\n\n| Conditional Clause | Main Clause |\n|---|---|\n| **Si** + **Present** | **Future** |\n\n*Ejemplo:*\nSi tengo el dinero, compraré el coche.\n(If I have the money, I will buy the car.)",
+        "nl": "**1e Conditionalis** — Reële / mogelijke situaties\n\n| Voorwaardelijke bijzin | Hoofdzin |\n|---|---|\n| **Si** + **Presente** | **Futuro** |\n\n*Voorbeeld:*\nSi tengo el dinero, compraré el coche.\n(Als ik het geld heb, zal ik de auto kopen.)"
+      }
+    },
+    {
+      "type": "explanation",
+      "title": { "en": "2nd Conditional (Hypothetical)", "nl": "2e Conditionalis (Hypothetisch)" },
+      "content": {
+        "en": "**2nd Conditional** — Hypothetical / unlikely situations\n\n| Conditional Clause | Main Clause |\n|---|---|\n| **Si** + **Past Subjunctive** | **Conditional** |\n\n*Ejemplo:*\nSi yo tuviera el dinero, yo compraría el coche.\n(If I had the money, I would buy the car.)",
+        "nl": "**2e Conditionalis** — Hypothetische / onwaarschijnlijke situaties\n\n| Voorwaardelijke bijzin | Hoofdzin |\n|---|---|\n| **Si** + **Imperfecto de Subjuntivo** | **Condicional** |\n\n*Voorbeeld:*\nSi yo tuviera el dinero, yo compraría el coche.\n(Als ik het geld had, zou ik de auto kopen.)"
+      }
+    },
+    {
+      "type": "explanation",
+      "title": { "en": "3rd Conditional (Impossible/Past)", "nl": "3e Conditionalis (Onmogelijk/Verleden)" },
+      "content": {
+        "en": "**3rd Conditional** — Impossible situations (past events that didn't happen)\n\n| Conditional Clause | Main Clause |\n|---|---|\n| **Si** + **Past Perfect Subjunctive** | **Conditional Perfect** |\n\n*Ejemplo:*\nSi yo hubiera tenido el dinero, yo habría comprado el coche.\n(If I had had the money, I would have bought the car.)",
+        "nl": "**3e Conditionalis** — Onmogelijke situaties (gebeurtenissen in het verleden die niet plaatsvonden)\n\n| Voorwaardelijke bijzin | Hoofdzin |\n|---|---|\n| **Si** + **Pluscuamperfecto de Subjuntivo** | **Condicional Perfecto** |\n\n*Voorbeeld:*\nSi yo hubiera tenido el dinero, yo habría comprado el coche.\n(Als ik het geld had gehad, zou ik de auto gekocht hebben.)"
+      }
+    }
+  ],
+  "exercises": []
+}

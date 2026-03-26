@@ -180,6 +180,36 @@
         "es": "El Subjuntivo — Expresiones"
       },
       "order": 19
+    },
+    {
+      "slug": "saber-vs-conocer",
+      "title": { "en": "Saber vs Conocer", "nl": "Saber vs Conocer", "es": "Saber y Conocer" },
+      "order": 20
+    },
+    {
+      "slug": "conditional-structures",
+      "title": { "en": "Conditional Structures (If-clauses)", "nl": "Conditionele Structuren", "es": "Estructuras Condicionales" },
+      "order": 21
+    },
+    {
+      "slug": "ser-estar-tener-hay",
+      "title": { "en": "SER, ESTAR, TENER & HAY", "nl": "SER, ESTAR, TENER & HAY", "es": "SER, ESTAR, TENER y HAY" },
+      "order": 22
+    },
+    {
+      "slug": "stem-changing-verbs",
+      "title": { "en": "Stem-Changing Verbs", "nl": "Stamveranderende Werkwoorden", "es": "Verbos con Cambio de Raíz" },
+      "order": 23
+    },
+    {
+      "slug": "reported-speech",
+      "title": { "en": "Reported Speech", "nl": "Indirecte Rede", "es": "El Estilo Indirecto" },
+      "order": 24
+    },
+    {
+      "slug": "multi-tense-practice",
+      "title": { "en": "Multi-Tense Practice", "nl": "Oefening Alle Tijden", "es": "Práctica de Todos los Tiempos" },
+      "order": 25
     }
   ],
   "vocabulary": [
@@ -234,10 +264,21 @@
     },
     {
       "slug": "irregular-participles",
-      "title": {
-        "en": "Irregular Past Participles",
-        "nl": "Onregelmatige Voltooide Deelwoorden"
-      }
-    }
+      "title": { "en": "Irregular Past Participles", "nl": "Onregelmatige Voltooide Deelwoorden" }
+    },
+    { "slug": "transport", "title": { "en": "Transport", "nl": "Vervoer" } },
+    { "slug": "airport-and-stations", "title": { "en": "Airport & Stations", "nl": "Luchthaven & Stations" } },
+    { "slug": "medical", "title": { "en": "Illnesses & Medical", "nl": "Ziekten & Medisch" } },
+    { "slug": "office", "title": { "en": "The Office", "nl": "Het Kantoor" } },
+    { "slug": "bank", "title": { "en": "The Bank", "nl": "De Bank" } },
+    { "slug": "in-the-city", "title": { "en": "In the City", "nl": "In de Stad" } },
+    { "slug": "meat-and-fish", "title": { "en": "Meat & Fish", "nl": "Vlees & Vis" } },
+    { "slug": "fruits-and-vegetables", "title": { "en": "Fruits & Vegetables", "nl": "Fruit & Groenten" } },
+    { "slug": "groceries", "title": { "en": "Groceries", "nl": "Boodschappen" } },
+    { "slug": "professions", "title": { "en": "Professions", "nl": "Beroepen" } },
+    { "slug": "kitchen", "title": { "en": "The Kitchen", "nl": "De Keuken" } },
+    { "slug": "gardening", "title": { "en": "Gardening & DIY", "nl": "Tuinieren & Klussen" } },
+    { "slug": "rooms-and-furniture", "title": { "en": "Rooms & Furniture", "nl": "Kamers & Meubels" } },
+    { "slug": "house-objects", "title": { "en": "House Objects", "nl": "Huisvoorwerpen" } }
   ]
 }

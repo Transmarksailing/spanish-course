@@ -1,0 +1,46 @@
+{
+  "slug": "stem-changing-verbs",
+  "year": "cours",
+  "title": {
+    "en": "Stem-Changing Verbs",
+    "nl": "Stamveranderende Werkwoorden",
+    "es": "Verbos con Cambio de Raíz"
+  },
+  "grammarSections": [
+    {
+      "type": "explanation",
+      "title": { "en": "Types of Stem Changes", "nl": "Soorten Stamveranderingen" },
+      "content": {
+        "en": "In the present tense, some verbs change their stem vowel in all forms except **nosotros** and **vosotros**:\n\n**o → ue** (e.g. ALMORZAR):\nalmuerzo, almuerzas, almuerza, almorzamos, almorzáis, almuerzan\n\n**e → ie** (e.g. CERRAR):\ncierro, cierras, cierra, cerramos, cerráis, cierran\n\n**e → i** (e.g. PEDIR):\npido, pides, pide, pedimos, pedís, piden\n\nOther common examples: **pensar** (e→ie), **preferir** (e→ie), **contar** (o→ue), **poder** (o→ue), **volver** (o→ue), **jugar** (u→ue), **sentir** (e→ie), **dormir** (o→ue), **servir** (e→i), **repetir** (e→i).",
+        "nl": "In de tegenwoordige tijd veranderen sommige werkwoorden hun stamklinker in alle vormen behalve **nosotros** en **vosotros**:\n\n**o → ue** (bv. ALMORZAR): almuerzo, almuerzas, almuerza...\n**e → ie** (bv. CERRAR): cierro, cierras, cierra...\n**e → i** (bv. PEDIR): pido, pides, pide..."
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "scv-1",
+      "type": "fill_in_blank",
+      "instruction": {
+        "en": "Complete with the correct present tense form of the stem-changing verb in parentheses.",
+        "nl": "Vul aan met de juiste tegenwoordige tijd van het stamveranderende werkwoord tussen haakjes."
+      },
+      "items": [
+        { "id": "scv-01", "before": "En invierno, yo", "after": "esquiar. (preferir)", "correctAnswers": ["prefiero"] },
+        { "id": "scv-02", "before": "El camarero no", "after": "el pescado. (recomendar)", "correctAnswers": ["recomienda"] },
+        { "id": "scv-03", "before": "¿Quién", "after": "el fuego en la hoguera? (encender)", "correctAnswers": ["enciende"] },
+        { "id": "scv-04", "before": "Ellos no", "after": "las instrucciones del profesor. (entender)", "correctAnswers": ["entienden"] },
+        { "id": "scv-05", "before": "El presidente de Brasil", "after": "con la aprobación del congreso. (gobernar)", "correctAnswers": ["gobierna"] },
+        { "id": "scv-06", "before": "Carlota siempre", "after": "antes de responder. (pensar)", "correctAnswers": ["piensa"] },
+        { "id": "scv-07", "before": "El guardia", "after": "las puertas del palacio. (cerrar)", "correctAnswers": ["cierra"] },
+        { "id": "scv-08", "before": "Ese hombre siempre", "after": ". Es mentiroso. (mentir)", "correctAnswers": ["miente"] },
+        { "id": "scv-09", "before": "La nota en el libro", "after": "a la página 225. (referir)", "correctAnswers": ["refiere"] },
+        { "id": "scv-10", "before": "El presidente", "after": "desde la Casa Blanca. (gobernar)", "correctAnswers": ["gobierna"] },
+        { "id": "scv-11", "before": "El abogado", "after": "al acusado ante el jurado. (defender)", "correctAnswers": ["defiende"] },
+        { "id": "scv-12", "before": "¿A qué hora", "after": "el partido de béisbol? (comenzar)", "correctAnswers": ["comienza"] },
+        { "id": "scv-13", "before": "Cuando", "after": "las temperaturas descienden. (helar)", "correctAnswers": ["hiela"] },
+        { "id": "scv-14", "before": "¿Quién no", "after": "la pregunta? (entender)", "correctAnswers": ["entiende"] },
+        { "id": "scv-15", "before": "Nosotros", "after": "en el salón para ver la televisión. (sentarse)", "correctAnswers": ["nos sentamos"] }
+      ]
+    }
+  ]
+}

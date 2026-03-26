@@ -1,0 +1,63 @@
+{
+  "slug": "saber-vs-conocer",
+  "year": "cours",
+  "title": {
+    "en": "Saber vs Conocer",
+    "nl": "Saber vs Conocer",
+    "es": "Saber y Conocer"
+  },
+  "grammarSections": [
+    {
+      "type": "explanation",
+      "title": { "en": "SABER — To Know (facts/skills)", "nl": "SABER — Weten (feiten/vaardigheden)" },
+      "content": {
+        "en": "**SABER** means \"to know\" or \"to find out\". Use it for:\n\n**Information / Facts:**\n¿Sabes el número de teléfono?\n¿Sabes el presidente de España? — Sí, es Pedro Sánchez.\n¿Sabes la capital de España? — Sí, es Madrid.\n\n**Question word + clause:**\n¿Sabes **dónde** está el mercado?\n¿Sabes **a qué hora** comienza?\n¿Sabes **quién** tiene la llave?\n\n**+ verb (skills/abilities):**\n¿Sabes **conducir**?\n¿Sabes **nadar**?",
+        "nl": "**SABER** betekent \"weten\" of \"te weten komen\". Gebruik het voor:\n\n**Informatie / Feiten:**\n¿Sabes el número de teléfono?\n¿Sabes la capital de España? — Sí, es Madrid.\n\n**Vraagwoord + bijzin:**\n¿Sabes **dónde** está el mercado?\n\n**+ werkwoord (vaardigheden):**\n¿Sabes **conducir**? (Kun je autorijden?)"
+      }
+    },
+    {
+      "type": "explanation",
+      "title": { "en": "CONOCER — To Know (people/places)", "nl": "CONOCER — Kennen (mensen/plaatsen)" },
+      "content": {
+        "en": "**CONOCER** means \"to know\" or \"to be acquainted/familiar with\". Also \"to meet for the first time\" (encontrarse, reunirse, quedar). Use it for:\n\n**People (well acquainted):**\n¿Conoces a mi mujer?\n¿Conoces al presidente de España? — Sí, es mi primo.\n\n**Places (familiar with):**\n¿Conoces la capital? — Sí, viví en Madrid por 5 años.\n¿Conoces el pueblo?\n\n**Things (familiar with):**\n¿Conoces el Ford Focus?",
+        "nl": "**CONOCER** betekent \"kennen\" of \"bekend zijn met\". Ook \"voor het eerst ontmoeten\". Gebruik het voor:\n\n**Mensen (goed bekend):**\n¿Conoces a mi mujer?\n\n**Plaatsen (bekend mee):**\n¿Conoces la capital? — Sí, viví en Madrid por 5 años.\n\n**Dingen (bekend mee):**\n¿Conoces el Ford Focus?"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "saber-conocer-1",
+      "type": "fill_in_blank",
+      "instruction": {
+        "en": "Complete each sentence with the correct form of SABER or CONOCER.",
+        "nl": "Vul elk zin aan met de juiste vorm van SABER of CONOCER."
+      },
+      "items": [
+        { "id": "sc-01", "before": "Marta, ¿", "after": "tú del presidente de Rusia?", "correctAnswers": ["sabes", "Sabes"] },
+        { "id": "sc-02", "before": "Yo", "after": "que es Vladímir Putin.", "correctAnswers": ["sé"] },
+        { "id": "sc-03", "before": "Pero no lo", "after": "personalmente.", "correctAnswers": ["conozco"] },
+        { "id": "sc-04", "before": "El guía", "after": "dónde hay lugares interesantes.", "correctAnswers": ["sabe"] },
+        { "id": "sc-05", "before": "Él", "after": "bien la geografía de Chile.", "correctAnswers": ["sabe", "conoce"] },
+        { "id": "sc-06", "before": "Y él también", "after": "conducir bien.", "correctAnswers": ["sabe"] },
+        { "id": "sc-07", "before": "Ya no", "after": "a su esposa.", "correctAnswers": ["conoce", "conozco"] },
+        { "id": "sc-08", "before": "A veces no", "after": "dónde vive.", "correctAnswers": ["sabe"] },
+        { "id": "sc-09", "before": "Y algunos días no", "after": "poner la tele.", "correctAnswers": ["sabe"] },
+        { "id": "sc-10", "before": "Desean", "after": "el ganador.", "correctAnswers": ["conocer", "saber"] },
+        { "id": "sc-11", "before": "Todo el mundo", "after": "que va a ser muy rico.", "correctAnswers": ["sabe"] },
+        { "id": "sc-12", "before": "Mis estudiantes", "after": "hablar español bien.", "correctAnswers": ["saben"] },
+        { "id": "sc-13", "before": "Ellos tienen ganas de", "after": "España algún día.", "correctAnswers": ["conocer"] },
+        { "id": "sc-14", "before": "Mis compañeros me", "after": "bien.", "correctAnswers": ["conocen"] },
+        { "id": "sc-15", "before": "Ellos", "after": "que soy adicto al chocolate.", "correctAnswers": ["saben"] },
+        { "id": "sc-16", "before": "Yo", "after": "que hay molinos en La Mancha.", "correctAnswers": ["sé"] },
+        { "id": "sc-17", "before": "¿Quién no", "after": "la novela Don Quijote de La Mancha?", "correctAnswers": ["conoce"] },
+        { "id": "sc-18", "before": "Javier, ¿", "after": "tú el sitio web Ebay?", "correctAnswers": ["conoces"] },
+        { "id": "sc-19", "before": "Y tú, ¿", "after": "vender cosas en Ebay?", "correctAnswers": ["sabes"] },
+        { "id": "sc-20", "before": "Yo", "after": "a muchos astrónomos inteligentes.", "correctAnswers": ["conozco"] },
+        { "id": "sc-21", "before": "Pero ninguno", "after": "el número de estrellas en el cielo.", "correctAnswers": ["sabe"] },
+        { "id": "sc-22", "before": "Tú", "after": "a un agente de turismo. Pregúntaselo.", "correctAnswers": ["conoces"] },
+        { "id": "sc-23", "before": "Me gustaría", "after": "a Rafa Nadal.", "correctAnswers": ["conocer"] },
+        { "id": "sc-24", "before": "Yo no", "after": "jugar bien, pero soy aficionada al tenis.", "correctAnswers": ["sé"] }
+      ]
+    }
+  ]
+}

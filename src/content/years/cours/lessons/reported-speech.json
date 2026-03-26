@@ -1,0 +1,20 @@
+{
+  "slug": "reported-speech",
+  "year": "cours",
+  "title": {
+    "en": "Reported Speech",
+    "nl": "Indirecte Rede",
+    "es": "El Estilo Indirecto"
+  },
+  "grammarSections": [
+    {
+      "type": "explanation",
+      "title": { "en": "Direct vs Reported Speech", "nl": "Directe vs Indirecte Rede" },
+      "content": {
+        "en": "When reporting what someone said, the tense shifts back one step:\n\n**Present → Imperfect:**\n\"Hablo español muy bien.\" → Juan dijo que él **hablaba** español muy bien.\n\"Estoy estudiando en la clase.\" → Juan dijo que él **estaba estudiando** en la clase.\n\n**Past → Past Perfect:**\n\"Compré un coche.\" → Juan dijo que él **había comprado** un coche.\n\"Yo compraba un coche cada año.\" → Juan dijo que él **había comprado** un coche cada año.\n\"He comprado un coche este mes.\" → Juan dijo que él **había comprado** un coche este mes.\n\n**Future → Conditional:**\n\"Llegaré tarde.\" → Juan dijo que él **llegaría** tarde.",
+        "nl": "Bij het rapporteren van wat iemand zei, verschuift de tijd één stap terug:\n\n**Presente → Imperfecto:**\n\"Hablo español.\" → Juan dijo que él **hablaba** español.\n\n**Pasado → Pluscuamperfecto:**\n\"Compré un coche.\" → Juan dijo que él **había comprado** un coche.\n\n**Futuro → Condicional:**\n\"Llegaré tarde.\" → Juan dijo que él **llegaría** tarde."
+      }
+    }
+  ],
+  "exercises": []
+}

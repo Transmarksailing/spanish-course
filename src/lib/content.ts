@@ -23,6 +23,12 @@ import commandsVosotros from "@/content/years/cours/lessons/commands-vosotros.js
 import imperativeTuCommands from "@/content/years/cours/lessons/imperative-tu-commands.json";
 import imperativeFormalCommands from "@/content/years/cours/lessons/imperative-formal-commands.json";
 import subjunctiveExpressions from "@/content/years/cours/lessons/subjunctive-expressions.json";
+import saberVsConocer from "@/content/years/cours/lessons/saber-vs-conocer.json";
+import conditionalStructures from "@/content/years/cours/lessons/conditional-structures.json";
+import serEstarTenerHay from "@/content/years/cours/lessons/ser-estar-tener-hay.json";
+import multiTensePractice from "@/content/years/cours/lessons/multi-tense-practice.json";
+import reportedSpeech from "@/content/years/cours/lessons/reported-speech.json";
+import stemChangingVerbs from "@/content/years/cours/lessons/stem-changing-verbs.json";
 
 // Vocabulary
 import verbs from "@/content/years/cours/vocabulary/verbs.json";
@@ -33,6 +39,20 @@ import weather from "@/content/years/cours/vocabulary/weather.json";
 import house from "@/content/years/cours/vocabulary/house.json";
 import cityAndTransport from "@/content/years/cours/vocabulary/city-and-transport.json";
 import irregularParticiples from "@/content/years/cours/vocabulary/irregular-participles.json";
+import transport from "@/content/years/cours/vocabulary/transport.json";
+import airportAndStations from "@/content/years/cours/vocabulary/airport-and-stations.json";
+import medical from "@/content/years/cours/vocabulary/medical.json";
+import office from "@/content/years/cours/vocabulary/office.json";
+import bank from "@/content/years/cours/vocabulary/bank.json";
+import inTheCity from "@/content/years/cours/vocabulary/in-the-city.json";
+import meatAndFish from "@/content/years/cours/vocabulary/meat-and-fish.json";
+import fruitsAndVegetables from "@/content/years/cours/vocabulary/fruits-and-vegetables.json";
+import groceries from "@/content/years/cours/vocabulary/groceries.json";
+import professions from "@/content/years/cours/vocabulary/professions.json";
+import kitchen from "@/content/years/cours/vocabulary/kitchen.json";
+import gardening from "@/content/years/cours/vocabulary/gardening.json";
+import roomsAndFurniture from "@/content/years/cours/vocabulary/rooms-and-furniture.json";
+import houseObjects from "@/content/years/cours/vocabulary/house-objects.json";
 
 const yearsMap: Record<string, YearIndex> = {
   cours: coursIndex as unknown as YearIndex,
@@ -59,6 +79,12 @@ const lessonsMap: Record<string, Record<string, Lesson>> = {
     "imperative-tu-commands": imperativeTuCommands as unknown as Lesson,
     "imperative-formal-commands": imperativeFormalCommands as unknown as Lesson,
     "subjunctive-expressions": subjunctiveExpressions as unknown as Lesson,
+    "saber-vs-conocer": saberVsConocer as unknown as Lesson,
+    "conditional-structures": conditionalStructures as unknown as Lesson,
+    "ser-estar-tener-hay": serEstarTenerHay as unknown as Lesson,
+    "multi-tense-practice": multiTensePractice as unknown as Lesson,
+    "reported-speech": reportedSpeech as unknown as Lesson,
+    "stem-changing-verbs": stemChangingVerbs as unknown as Lesson,
   },
 };
 
@@ -72,6 +98,20 @@ const vocabularyMap: Record<string, Record<string, VocabularyList>> = {
     "house": house as unknown as VocabularyList,
     "city-and-transport": cityAndTransport as unknown as VocabularyList,
     "irregular-participles": irregularParticiples as unknown as VocabularyList,
+    "transport": transport as unknown as VocabularyList,
+    "airport-and-stations": airportAndStations as unknown as VocabularyList,
+    "medical": medical as unknown as VocabularyList,
+    "office": office as unknown as VocabularyList,
+    "bank": bank as unknown as VocabularyList,
+    "in-the-city": inTheCity as unknown as VocabularyList,
+    "meat-and-fish": meatAndFish as unknown as VocabularyList,
+    "fruits-and-vegetables": fruitsAndVegetables as unknown as VocabularyList,
+    "groceries": groceries as unknown as VocabularyList,
+    "professions": professions as unknown as VocabularyList,
+    "kitchen": kitchen as unknown as VocabularyList,
+    "gardening": gardening as unknown as VocabularyList,
+    "rooms-and-furniture": roomsAndFurniture as unknown as VocabularyList,
+    "house-objects": houseObjects as unknown as VocabularyList,
   },
 };
 
