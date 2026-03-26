@@ -1,41 +1,41 @@
 import type { YearIndex, Lesson, VocabularyList } from "./types";
 
 // Static imports — all content bundled at build time
-import year4Index from "@/content/years/year4/index.json";
+import coursIndex from "@/content/years/cours/index.json";
 
 // Lessons
-import verbTensesOverview from "@/content/years/year4/lessons/verb-tenses-overview.json";
-import presentTenseIrregulars from "@/content/years/year4/lessons/present-tense-irregulars.json";
-import presentProgressive from "@/content/years/year4/lessons/present-progressive.json";
-import presentPerfect from "@/content/years/year4/lessons/present-perfect.json";
-import preteriteTense from "@/content/years/year4/lessons/preterite-tense.json";
-import imperfectTense from "@/content/years/year4/lessons/imperfect-tense.json";
-import preteriteVsImperfect from "@/content/years/year4/lessons/preterite-vs-imperfect.json";
-import pastPerfect from "@/content/years/year4/lessons/past-perfect.json";
-import futureTense from "@/content/years/year4/lessons/future-tense.json";
-import conditional from "@/content/years/year4/lessons/conditional.json";
-import reflexiveVerbs from "@/content/years/year4/lessons/reflexive-verbs.json";
-import serVsEstar from "@/content/years/year4/lessons/ser-vs-estar.json";
-import presentSubjunctive from "@/content/years/year4/lessons/present-subjunctive.json";
-import pastSubjunctive from "@/content/years/year4/lessons/past-subjunctive.json";
-import ignoranceExpressions from "@/content/years/year4/lessons/ignorance-expressions.json";
-import commandsVosotros from "@/content/years/year4/lessons/commands-vosotros.json";
+import verbTensesOverview from "@/content/years/cours/lessons/verb-tenses-overview.json";
+import presentTenseIrregulars from "@/content/years/cours/lessons/present-tense-irregulars.json";
+import presentProgressive from "@/content/years/cours/lessons/present-progressive.json";
+import presentPerfect from "@/content/years/cours/lessons/present-perfect.json";
+import preteriteTense from "@/content/years/cours/lessons/preterite-tense.json";
+import imperfectTense from "@/content/years/cours/lessons/imperfect-tense.json";
+import preteriteVsImperfect from "@/content/years/cours/lessons/preterite-vs-imperfect.json";
+import pastPerfect from "@/content/years/cours/lessons/past-perfect.json";
+import futureTense from "@/content/years/cours/lessons/future-tense.json";
+import conditional from "@/content/years/cours/lessons/conditional.json";
+import reflexiveVerbs from "@/content/years/cours/lessons/reflexive-verbs.json";
+import serVsEstar from "@/content/years/cours/lessons/ser-vs-estar.json";
+import presentSubjunctive from "@/content/years/cours/lessons/present-subjunctive.json";
+import pastSubjunctive from "@/content/years/cours/lessons/past-subjunctive.json";
+import ignoranceExpressions from "@/content/years/cours/lessons/ignorance-expressions.json";
+import commandsVosotros from "@/content/years/cours/lessons/commands-vosotros.json";
 
 // Vocabulary
-import year4Verbs from "@/content/years/year4/vocabulary/year4-verbs.json";
-import foodAndDrinks from "@/content/years/year4/vocabulary/food-and-drinks.json";
-import bodyParts from "@/content/years/year4/vocabulary/body-parts.json";
-import clothing from "@/content/years/year4/vocabulary/clothing.json";
-import weather from "@/content/years/year4/vocabulary/weather.json";
-import house from "@/content/years/year4/vocabulary/house.json";
-import cityAndTransport from "@/content/years/year4/vocabulary/city-and-transport.json";
+import verbs from "@/content/years/cours/vocabulary/verbs.json";
+import foodAndDrinks from "@/content/years/cours/vocabulary/food-and-drinks.json";
+import bodyParts from "@/content/years/cours/vocabulary/body-parts.json";
+import clothing from "@/content/years/cours/vocabulary/clothing.json";
+import weather from "@/content/years/cours/vocabulary/weather.json";
+import house from "@/content/years/cours/vocabulary/house.json";
+import cityAndTransport from "@/content/years/cours/vocabulary/city-and-transport.json";
 
 const yearsMap: Record<string, YearIndex> = {
-  year4: year4Index as unknown as YearIndex,
+  cours: coursIndex as unknown as YearIndex,
 };
 
 const lessonsMap: Record<string, Record<string, Lesson>> = {
-  year4: {
+  cours: {
     "verb-tenses-overview": verbTensesOverview as unknown as Lesson,
     "present-tense-irregulars": presentTenseIrregulars as unknown as Lesson,
     "present-progressive": presentProgressive as unknown as Lesson,
@@ -56,8 +56,8 @@ const lessonsMap: Record<string, Record<string, Lesson>> = {
 };
 
 const vocabularyMap: Record<string, Record<string, VocabularyList>> = {
-  year4: {
-    "year4-verbs": year4Verbs as unknown as VocabularyList,
+  cours: {
+    "verbs": verbs as unknown as VocabularyList,
     "food-and-drinks": foodAndDrinks as unknown as VocabularyList,
     "body-parts": bodyParts as unknown as VocabularyList,
     "clothing": clothing as unknown as VocabularyList,

@@ -1,0 +1,146 @@
+{
+  "slug": "present-subjunctive",
+  "year": "cours",
+  "title": {
+    "en": "Present Subjunctive",
+    "nl": "Tegenwoordige Subjunctivo",
+    "es": "Presente de Subjuntivo"
+  },
+  "grammarSections": [
+    {
+      "type": "explanation",
+      "title": { "en": "The Present Subjunctive in Spanish", "nl": "De Tegenwoordige Subjunctivo in het Spaans" },
+      "content": {
+        "en": "The subjunctive mood is used after expressions of **doubt, desire, emotion**, and **impersonal expressions**. It is formed by taking the stem of the yo-form of the present tense and adding opposite endings.\n\n**-ar verbs**: drop -o, add -e, -es, -e, -emos, -éis, -en\n**-er/-ir verbs**: drop -o, add -a, -as, -a, -amos, -áis, -an",
+        "nl": "De subjunctivo wordt gebruikt na uitdrukkingen van **twijfel, wens, emotie** en **onpersoonlijke uitdrukkingen**. Het wordt gevormd door de stam van de yo-vorm van de tegenwoordige tijd te nemen en tegenovergestelde uitgangen toe te voegen.\n\n**-ar werkwoorden**: verwijder -o, voeg toe -e, -es, -e, -emos, -éis, -en\n**-er/-ir werkwoorden**: verwijder -o, voeg toe -a, -as, -a, -amos, -áis, -an"
+      }
+    },
+    {
+      "type": "conjugation_table",
+      "title": { "en": "HABLAR — Subjunctive", "nl": "HABLAR — Subjunctivo" },
+      "verb": "hablar",
+      "tense": "present subjunctive",
+      "forms": {
+        "yo": "hable",
+        "tú": "hables",
+        "él/ella/usted": "hable",
+        "nosotros": "hablemos",
+        "vosotros": "habléis",
+        "ellos/ustedes": "hablen"
+      }
+    },
+    {
+      "type": "conjugation_table",
+      "title": { "en": "COMER — Subjunctive", "nl": "COMER — Subjunctivo" },
+      "verb": "comer",
+      "tense": "present subjunctive",
+      "forms": {
+        "yo": "coma",
+        "tú": "comas",
+        "él/ella/usted": "coma",
+        "nosotros": "comamos",
+        "vosotros": "comáis",
+        "ellos/ustedes": "coman"
+      }
+    },
+    {
+      "type": "conjugation_table",
+      "title": { "en": "VIVIR — Subjunctive", "nl": "VIVIR — Subjunctivo" },
+      "verb": "vivir",
+      "tense": "present subjunctive",
+      "forms": {
+        "yo": "viva",
+        "tú": "vivas",
+        "él/ella/usted": "viva",
+        "nosotros": "vivamos",
+        "vosotros": "viváis",
+        "ellos/ustedes": "vivan"
+      }
+    },
+    {
+      "type": "rule_box",
+      "title": { "en": "6 Irregular Verbs in the Present Subjunctive", "nl": "6 Onregelmatige Werkwoorden in de Subjunctivo" },
+      "content": {
+        "en": "**dar** (to give): dé, des, dé, demos, deis, den\n**estar** (to be): esté, estés, esté, estemos, estéis, estén\n**haber** (to have): haya, hayas, haya, hayamos, hayáis, hayan\n**ir** (to go): vaya, vayas, vaya, vayamos, vayáis, vayan\n**saber** (to know): sepa, sepas, sepa, sepamos, sepáis, sepan\n**ser** (to be): sea, seas, sea, seamos, seáis, sean",
+        "nl": "**dar** (geven): dé, des, dé, demos, deis, den\n**estar** (zijn): esté, estés, esté, estemos, estéis, estén\n**haber** (hebben): haya, hayas, haya, hayamos, hayáis, hayan\n**ir** (gaan): vaya, vayas, vaya, vayamos, vayáis, vayan\n**saber** (weten): sepa, sepas, sepa, sepamos, sepáis, sepan\n**ser** (zijn): sea, seas, sea, seamos, seáis, sean"
+      }
+    },
+    {
+      "type": "rule_box",
+      "title": { "en": "Subjunctive Triggers", "nl": "Subjunctivo Triggers" },
+      "content": {
+        "en": "**Hopes/Desires:** espero que, exijo que, insisto en que, ojalá, pido que, prefiero que, quiero que, ruego que, sugiero que, recomiendo que\n\n**Doubts:** dudo que, no creo que, no estoy convencido de que, no estoy seguro de que, no me imagino que, no parece que, no pienso que, no supongo que, temo que\n\n**Impersonal expressions:** es aconsejable que, es fantástico que, es importante que, es imposible que, es increíble que, es una lástima que, es necesario que, es preferible que, es probable que, es fácil que, es dudoso que, es mejor que, más vale que, es posible que, puede ser que, quizá(s), tal vez, acaso",
+        "nl": "**Hoop/Wens:** espero que (ik hoop dat), quiero que (ik wil dat), prefiero que (ik prefereer dat), pido que (ik vraag dat)\n\n**Twijfel:** dudo que (ik betwijfel dat), no creo que (ik geloof niet dat), no estoy seguro de que (ik ben niet zeker dat)\n\n**Onpersoonlijk:** es importante que (het is belangrijk dat), es posible que (het is mogelijk dat), es necesario que (het is noodzakelijk dat)"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ps-desires-01",
+      "type": "fill_in_blank",
+      "instruction": {
+        "en": "Complete with the Present Subjunctive — DESIRES",
+        "nl": "Vul aan met de Tegenwoordige Subjunctivo — WENSEN"
+      },
+      "items": [
+        { "id": "ps-d001", "sentence": "Yo quiero que ellos ___ con el fontanero. (hablar)", "correctAnswers": ["hablen"], "hint": "hablar → habl + en" },
+        { "id": "ps-d002", "sentence": "Ella prefiere que nosotros ___ mañana. (terminar)", "correctAnswers": ["terminemos"], "hint": "terminar → termin + emos" },
+        { "id": "ps-d003", "sentence": "Mi jefe pide que yo ___ los fines de semana. (trabajar)", "correctAnswers": ["trabaje"], "hint": "trabajar → trabaj + e" },
+        { "id": "ps-d004", "sentence": "Él espera que tú ___ pronto. (volver)", "correctAnswers": ["vuelvas"], "hint": "volver → vuelv + as" },
+        { "id": "ps-d005", "sentence": "Yo quiero que ellos ___ un buen fin de semana. (tener)", "correctAnswers": ["tengan"], "hint": "tener → teng + an" },
+        { "id": "ps-d006", "sentence": "Prefiero que tú ___ aquí. (venir)", "correctAnswers": ["vengas"], "hint": "venir → veng + as" },
+        { "id": "ps-d007", "sentence": "Insisten en que tú ___ mañana. (terminar)", "correctAnswers": ["termines"], "hint": "terminar → termin + es" },
+        { "id": "ps-d008", "sentence": "Insisten en que nosotros ___ allí. (comer)", "correctAnswers": ["comamos"], "hint": "comer → com + amos" },
+        { "id": "ps-d009", "sentence": "Carlos prefiere que tú ___ el coche. (conducir)", "correctAnswers": ["conduzcas"], "hint": "conducir → conduzc + as" },
+        { "id": "ps-d010", "sentence": "Ella quiere que nosotros ___ en tren. (viajar)", "correctAnswers": ["viajemos"], "hint": "viajar → viaj + emos" }
+      ]
+    },
+    {
+      "id": "ps-doubts-01",
+      "type": "fill_in_blank",
+      "instruction": {
+        "en": "Complete with the Present Subjunctive — DOUBTS",
+        "nl": "Vul aan met de Tegenwoordige Subjunctivo — TWIJFELS"
+      },
+      "items": [
+        { "id": "ps-b001", "sentence": "No creo que ellos ___ aquí. (estar)", "correctAnswers": ["estén"], "hint": "estar → est + én" },
+        { "id": "ps-b002", "sentence": "No pienso que ellos ___ mañana. (llegar)", "correctAnswers": ["lleguen"], "hint": "llegar → llegu + en" },
+        { "id": "ps-b003", "sentence": "No estoy seguro de que Juan ___ (venir)", "correctAnswers": ["venga"], "hint": "venir → veng + a" },
+        { "id": "ps-b004", "sentence": "No estoy convencido de que Pepe ___ los detalles. (tener)", "correctAnswers": ["tenga"], "hint": "tener → teng + a" },
+        { "id": "ps-b005", "sentence": "Dudo que tú ___ terminarlo. (poder)", "correctAnswers": ["puedas"], "hint": "poder → pued + as" },
+        { "id": "ps-b006", "sentence": "No creo que ellos lo ___. (tener)", "correctAnswers": ["tengan"], "hint": "tener → teng + an" },
+        { "id": "ps-b007", "sentence": "Dudamos que ellos ___ tal viaje. (hacer)", "correctAnswers": ["hagan"], "hint": "hacer → hag + an" },
+        { "id": "ps-b008", "sentence": "No estoy seguro de que él ___. (contestar)", "correctAnswers": ["conteste"], "hint": "contestar → contest + e" },
+        { "id": "ps-b009", "sentence": "Dudo que ellos ___ el número. (saber)", "correctAnswers": ["sepan"], "hint": "saber → sep + an" },
+        { "id": "ps-b010", "sentence": "No creo que Juan lo ___. (saber)", "correctAnswers": ["sepa"], "hint": "saber → sep + a" }
+      ]
+    },
+    {
+      "id": "ps-impersonal-01",
+      "type": "fill_in_blank",
+      "instruction": {
+        "en": "Complete with the Present Subjunctive — IMPERSONAL EXPRESSIONS",
+        "nl": "Vul aan met de Tegenwoordige Subjunctivo — ONPERSOONLIJKE UITDRUKKINGEN"
+      },
+      "items": [
+        { "id": "ps-i001", "sentence": "Es posible que él lo ___. (leer)", "correctAnswers": ["lea"], "hint": "leer → le + a" },
+        { "id": "ps-i002", "sentence": "Es difícil que nosotros lo ___. (encontrar)", "correctAnswers": ["encontremos"], "hint": "encontrar → encontr + emos" },
+        { "id": "ps-i003", "sentence": "Es necesario que tú lo ___. (escribir)", "correctAnswers": ["escribas"], "hint": "escribir → escrib + as" },
+        { "id": "ps-i004", "sentence": "Es probable que yo ___ pronto. (salir)", "correctAnswers": ["salga"], "hint": "salir → salg + a" },
+        { "id": "ps-i005", "sentence": "Es importante que ella lo ___. (traer)", "correctAnswers": ["traiga"], "hint": "traer → traig + a" },
+        { "id": "ps-i006", "sentence": "Es importante que nosotros ___ los resultados mañana. (recibir)", "correctAnswers": ["recibamos"], "hint": "recibir → recib + amos" },
+        { "id": "ps-i007", "sentence": "Es necesario que ellos ___ pronto. (volver)", "correctAnswers": ["vuelvan"], "hint": "volver → vuelv + an" },
+        { "id": "ps-i008", "sentence": "Es mejor que todos ___ presentes. (estar)", "correctAnswers": ["estén"], "hint": "estar → est + én" },
+        { "id": "ps-i009", "sentence": "Es probable que ellos ___ el vino. (traer)", "correctAnswers": ["traigan"], "hint": "traer → traig + an" },
+        { "id": "ps-i010", "sentence": "Es fácil que él ___ el español. (aprender)", "correctAnswers": ["aprenda"], "hint": "aprender → aprend + a" },
+        { "id": "ps-i011", "sentence": "Es lastima que tú ___ enfermo. (estar)", "correctAnswers": ["estés"], "hint": "estar → est + és" },
+        { "id": "ps-i012", "sentence": "Es aconsejable que tú ___ con el médico. (hablar)", "correctAnswers": ["hables"], "hint": "hablar → habl + es" },
+        { "id": "ps-i013", "sentence": "Es bueno que ellos ___ la carta. (escribir)", "correctAnswers": ["escriban"], "hint": "escribir → escrib + an" }
+      ]
+    }
+  ],
+  "videoPlaceholder": {
+    "title": { "en": "Teacher Explanation Video", "nl": "Uitleg Video Docent" },
+    "description": { "en": "Video coming soon — Present Subjunctive explained!", "nl": "Video komt binnenkort — Subjunctivo uitgelegd!" }
+  }
+}

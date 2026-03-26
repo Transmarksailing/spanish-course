@@ -2,10 +2,7 @@ import Link from "next/link";
 import { getYears } from "@/lib/content";
 
 const levelBadges: Record<string, { label: string; color: string }> = {
-  year1: { label: "Beginner", color: "bg-blue-100 text-blue-700" },
-  year2: { label: "Elementary", color: "bg-teal-100 text-teal-700" },
-  year3: { label: "Intermediate", color: "bg-amber-100 text-amber-700" },
-  year4: { label: "Advanced", color: "bg-primary/10 text-primary" },
+  cours: { label: "Spanish Course", color: "bg-primary/10 text-primary" },
 };
 
 export default function CursoDashboard() {

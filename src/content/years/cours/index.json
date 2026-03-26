@@ -1,0 +1,209 @@
+{
+  "id": "cours",
+  "title": {
+    "en": "Spanish Course",
+    "nl": "Spaanse Cursus"
+  },
+  "description": {
+    "en": "Grammar, verb tenses, subjunctive mood, reflexive verbs, commands, and vocabulary.",
+    "nl": "Grammatica, werkwoordstijden, subjunctivo, wederkerende werkwoorden, gebiedende wijs en woordenschat."
+  },
+  "order": 1,
+  "lessons": [
+    {
+      "slug": "verb-tenses-overview",
+      "title": {
+        "en": "Verb Tenses Overview",
+        "nl": "Overzicht Werkwoordstijden",
+        "es": "Resumen de los Tiempos Verbales"
+      },
+      "order": 1
+    },
+    {
+      "slug": "present-tense-irregulars",
+      "title": {
+        "en": "Present Tense — Irregular Verbs",
+        "nl": "Tegenwoordige Tijd — Onregelmatige Werkwoorden",
+        "es": "Presente de Indicativo — Verbos Irregulares"
+      },
+      "order": 2
+    },
+    {
+      "slug": "present-progressive",
+      "title": {
+        "en": "Present Progressive",
+        "nl": "Tegenwoordige Doorlopende Tijd",
+        "es": "Presente Progresivo"
+      },
+      "order": 3
+    },
+    {
+      "slug": "present-perfect",
+      "title": {
+        "en": "Present Perfect",
+        "nl": "Voltooid Tegenwoordige Tijd",
+        "es": "Pretérito Perfecto"
+      },
+      "order": 4
+    },
+    {
+      "slug": "preterite-tense",
+      "title": {
+        "en": "Preterite Tense",
+        "nl": "Indefinido (Verleden Tijd)",
+        "es": "Pretérito Indefinido"
+      },
+      "order": 5
+    },
+    {
+      "slug": "imperfect-tense",
+      "title": {
+        "en": "Imperfect Tense",
+        "nl": "Onvoltooid Verleden Tijd (Imperfecto)",
+        "es": "Pretérito Imperfecto"
+      },
+      "order": 6
+    },
+    {
+      "slug": "preterite-vs-imperfect",
+      "title": {
+        "en": "Preterite vs Imperfect",
+        "nl": "Indefinido vs Imperfecto",
+        "es": "Indefinido vs Imperfecto"
+      },
+      "order": 7
+    },
+    {
+      "slug": "past-perfect",
+      "title": {
+        "en": "Past Perfect (Pluperfect)",
+        "nl": "Voltooid Verleden Tijd (Pluscuamperfecto)",
+        "es": "Pretérito Pluscuamperfecto"
+      },
+      "order": 8
+    },
+    {
+      "slug": "future-tense",
+      "title": {
+        "en": "Future Tense",
+        "nl": "Toekomende Tijd",
+        "es": "El Futuro"
+      },
+      "order": 9
+    },
+    {
+      "slug": "conditional",
+      "title": {
+        "en": "Conditional Tense",
+        "nl": "Voorwaardelijke Wijs (Condicional)",
+        "es": "Condicional Simple"
+      },
+      "order": 10
+    },
+    {
+      "slug": "reflexive-verbs",
+      "title": {
+        "en": "Reflexive Verbs",
+        "nl": "Wederkerende Werkwoorden",
+        "es": "Verbos Reflexivos"
+      },
+      "order": 11
+    },
+    {
+      "slug": "ser-vs-estar",
+      "title": {
+        "en": "SER vs ESTAR",
+        "nl": "SER vs ESTAR",
+        "es": "SER y ESTAR"
+      },
+      "order": 12
+    },
+    {
+      "slug": "present-subjunctive",
+      "title": {
+        "en": "Present Subjunctive",
+        "nl": "Tegenwoordige Subjunctivo",
+        "es": "Presente de Subjuntivo"
+      },
+      "order": 13
+    },
+    {
+      "slug": "past-subjunctive",
+      "title": {
+        "en": "Past Subjunctive",
+        "nl": "Verleden Subjunctivo",
+        "es": "Imperfecto de Subjuntivo"
+      },
+      "order": 14
+    },
+    {
+      "slug": "ignorance-expressions",
+      "title": {
+        "en": "Ignorance Expressions",
+        "nl": "Uitdrukkingen van Onwetendheid",
+        "es": "Expresiones de Ignorancia"
+      },
+      "order": 15
+    },
+    {
+      "slug": "commands-vosotros",
+      "title": {
+        "en": "Commands — Vosotros",
+        "nl": "Gebiedende Wijs — Vosotros",
+        "es": "Imperativo — Vosotros"
+      },
+      "order": 16
+    }
+  ],
+  "vocabulary": [
+    {
+      "slug": "verbs",
+      "title": {
+        "en": "Verb List",
+        "nl": "Werkwoordenlijst"
+      }
+    },
+    {
+      "slug": "food-and-drinks",
+      "title": {
+        "en": "Food & Drinks",
+        "nl": "Eten & Drinken"
+      }
+    },
+    {
+      "slug": "body-parts",
+      "title": {
+        "en": "The Human Body",
+        "nl": "Het Menselijk Lichaam"
+      }
+    },
+    {
+      "slug": "clothing",
+      "title": {
+        "en": "Clothing & Accessories",
+        "nl": "Kleding & Accessoires"
+      }
+    },
+    {
+      "slug": "weather",
+      "title": {
+        "en": "The Weather",
+        "nl": "Het Weer"
+      }
+    },
+    {
+      "slug": "house",
+      "title": {
+        "en": "The House",
+        "nl": "Het Huis"
+      }
+    },
+    {
+      "slug": "city-and-transport",
+      "title": {
+        "en": "City & Transport",
+        "nl": "Stad & Vervoer"
+      }
+    }
+  ]
+}

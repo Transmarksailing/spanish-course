@@ -4,7 +4,7 @@ const AUTH_KEY = "spanish-course-auth";
 
 // Wachtwoorden per leerjaar
 const PASSWORDS: Record<string, string> = {
-  year4: "spanish2024",
+  cours: "Spanish2026!",
 };
 
 export interface AuthSession {

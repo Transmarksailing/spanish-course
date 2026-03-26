@@ -7,7 +7,7 @@ import Button from "@/components/ui/Button";
 
 export default function LoginPage() {
   const router = useRouter();
-  const [year, setYear] = useState("year4");
+  const [year, setYear] = useState("cours");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
@@ -50,10 +50,7 @@ export default function LoginPage() {
               onChange={(e) => setYear(e.target.value)}
               className="w-full rounded-lg border border-border px-3 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all"
             >
-              <option value="year4">Advanced</option>
-              <option value="year3" disabled>Intermediate (Coming Soon)</option>
-              <option value="year2" disabled>Elementary (Coming Soon)</option>
-              <option value="year1" disabled>Beginner (Coming Soon)</option>
+              <option value="cours">Spanish Course</option>
             </select>
           </div>
 

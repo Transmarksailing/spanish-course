@@ -1,0 +1,104 @@
+{
+  "slug": "imperfect-tense",
+  "year": "cours",
+  "title": {
+    "en": "Imperfect Tense",
+    "nl": "Onvoltooid Verleden Tijd (Imperfecto)",
+    "es": "Pretérito Imperfecto"
+  },
+  "grammarSections": [
+    {
+      "type": "explanation",
+      "title": { "en": "The Imperfect Tense", "nl": "Het Imperfecto" },
+      "content": {
+        "en": "The imperfect tense is used for **habitual or repeated actions** in the past, **descriptions**, and **ongoing situations**.\n\nKey triggers: siempre, cada día/verano, con frecuencia, a menudo, todos los días, cuando era niño/joven\n\n**-AR endings**: -aba, -abas, -aba, -ábamos, -abais, -aban\n**-ER/-IR endings**: -ía, -ías, -ía, -íamos, -íais, -ían",
+        "nl": "Het imperfecto wordt gebruikt voor **gewoontehandelingen** in het verleden, **beschrijvingen** en **voortdurende situaties**.\n\nSignaalwoorden: siempre, cada día/verano, con frecuencia, a menudo, todos los días, cuando era niño/joven\n\n**-AR uitgangen**: -aba, -abas, -aba, -ábamos, -abais, -aban\n**-ER/-IR uitgangen**: -ía, -ías, -ía, -íamos, -íais, -ían"
+      }
+    },
+    {
+      "type": "conjugation_table",
+      "title": { "en": "HABLAR — Imperfect", "nl": "HABLAR — Imperfecto" },
+      "verb": "hablar",
+      "tense": "imperfect",
+      "forms": { "yo": "hablaba", "tú": "hablabas", "él/ella/usted": "hablaba", "nosotros": "hablábamos", "vosotros": "hablabais", "ellos/ustedes": "hablaban" }
+    },
+    {
+      "type": "conjugation_table",
+      "title": { "en": "COMER — Imperfect", "nl": "COMER — Imperfecto" },
+      "verb": "comer",
+      "tense": "imperfect",
+      "forms": { "yo": "comía", "tú": "comías", "él/ella/usted": "comía", "nosotros": "comíamos", "vosotros": "comíais", "ellos/ustedes": "comían" }
+    },
+    {
+      "type": "conjugation_table",
+      "title": { "en": "VIVIR — Imperfect", "nl": "VIVIR — Imperfecto" },
+      "verb": "vivir",
+      "tense": "imperfect",
+      "forms": { "yo": "vivía", "tú": "vivías", "él/ella/usted": "vivía", "nosotros": "vivíamos", "vosotros": "vivíais", "ellos/ustedes": "vivían" }
+    },
+    {
+      "type": "rule_box",
+      "title": { "en": "Irregular Imperfect Verbs", "nl": "Onregelmatige Imperfecto Werkwoorden" },
+      "content": {
+        "en": "Only **three verbs** are irregular in the imperfect:\n\n**ir**: iba, ibas, iba, íbamos, ibais, iban\n**ser**: era, eras, era, éramos, erais, eran\n**ver**: veía, veías, veía, veíamos, veíais, veían",
+        "nl": "Slechts **drie werkwoorden** zijn onregelmatig in het imperfecto:\n\n**ir**: iba, ibas, iba, íbamos, ibais, iban\n**ser**: era, eras, era, éramos, erais, eran\n**ver**: veía, veías, veía, veíamos, veíais, veían"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "imp-ar-01",
+      "type": "fill_in_blank",
+      "instruction": { "en": "Complete with the Imperfect — Regular -AR Verbs", "nl": "Vul aan met het Imperfecto — Regelmatige -AR Werkwoorden" },
+      "items": [
+        { "id": "imp-001", "sentence": "Nuestros padres ___ mucho. (trabajar)", "correctAnswers": ["trabajaban"], "hint": "-ar: ellos → -aban" },
+        { "id": "imp-002", "sentence": "Nosotros ___ por el parque. (andar)", "correctAnswers": ["andábamos"], "hint": "-ar: nosotros → -ábamos" },
+        { "id": "imp-003", "sentence": "Yo ___ mucho al fútbol. (jugar)", "correctAnswers": ["jugaba"], "hint": "-ar: yo → -aba" },
+        { "id": "imp-004", "sentence": "Yo ___ cada verano en el mar. (nadar)", "correctAnswers": ["nadaba"], "hint": "-ar: yo → -aba" },
+        { "id": "imp-005", "sentence": "Carlos y María ___ con frecuencia. (bailar)", "correctAnswers": ["bailaban"], "hint": "-ar: ellos → -aban" },
+        { "id": "imp-006", "sentence": "Carmen siempre ___ muy bien el italiano. (hablar)", "correctAnswers": ["hablaba"], "hint": "-ar: ella → -aba" },
+        { "id": "imp-007", "sentence": "Elvis Costello ___ cada noche. (cantar)", "correctAnswers": ["cantaba"], "hint": "-ar: él → -aba" },
+        { "id": "imp-008", "sentence": "Cada mañana nosotros ___ mucho café. (tomar)", "correctAnswers": ["tomábamos"], "hint": "-ar: nosotros → -ábamos" },
+        { "id": "imp-009", "sentence": "Ella ___ en ese restaurante cada viernes. (cenar)", "correctAnswers": ["cenaba"], "hint": "-ar: ella → -aba" },
+        { "id": "imp-010", "sentence": "Yo ___ cada mañana a las ocho. (despertarse)", "correctAnswers": ["me despertaba"], "hint": "-ar: yo → me -aba" }
+      ]
+    },
+    {
+      "id": "imp-erir-01",
+      "type": "fill_in_blank",
+      "instruction": { "en": "Complete with the Imperfect — -ER/-IR Verbs", "nl": "Vul aan met het Imperfecto — -ER/-IR Werkwoorden" },
+      "items": [
+        { "id": "imp-011", "sentence": "Carlos siempre ___ novelas. (leer)", "correctAnswers": ["leía"], "hint": "-er: él → -ía" },
+        { "id": "imp-012", "sentence": "Los señores ___ aquí muy a menudo. (venir)", "correctAnswers": ["venían"], "hint": "-ir: ellos → -ían" },
+        { "id": "imp-013", "sentence": "Nosotros ___ una carta cada día. (recibir)", "correctAnswers": ["recibíamos"], "hint": "-ir: nosotros → -íamos" },
+        { "id": "imp-014", "sentence": "Ellos ___ todos los viernes. (salir)", "correctAnswers": ["salían"], "hint": "-ir: ellos → -ían" },
+        { "id": "imp-015", "sentence": "Yo ___ mucho en la universidad. (aprender)", "correctAnswers": ["aprendía"], "hint": "-er: yo → -ía" },
+        { "id": "imp-016", "sentence": "Nosotros no ___ salir. (querer)", "correctAnswers": ["queríamos"], "hint": "-er: nosotros → -íamos" },
+        { "id": "imp-017", "sentence": "Juan ___ la verdad. (saber)", "correctAnswers": ["sabía"], "hint": "-er: él → -ía" },
+        { "id": "imp-018", "sentence": "Ellos siempre ___ un viaje a Ibiza cada verano. (hacer)", "correctAnswers": ["hacían"], "hint": "-er: ellos → -ían" },
+        { "id": "imp-019", "sentence": "Los niños ___ regalos cada Navidad. (recibir)", "correctAnswers": ["recibían"], "hint": "-ir: ellos → -ían" },
+        { "id": "imp-020", "sentence": "¿Dónde ___ vosotros? (vivir)", "correctAnswers": ["vivíais"], "hint": "-ir: vosotros → -íais" }
+      ]
+    },
+    {
+      "id": "imp-irr-01",
+      "type": "fill_in_blank",
+      "instruction": { "en": "Complete with the Imperfect — Irregular Verbs (ir, ser, ver)", "nl": "Vul aan met het Imperfecto — Onregelmatige Werkwoorden (ir, ser, ver)" },
+      "items": [
+        { "id": "imp-021", "sentence": "Ellos ___ a las montañas cada invierno. (ir)", "correctAnswers": ["iban"], "hint": "ir: ellos → iban" },
+        { "id": "imp-022", "sentence": "Nosotros siempre ___ a Juan. (ver)", "correctAnswers": ["veíamos"], "hint": "ver: nosotros → veíamos" },
+        { "id": "imp-023", "sentence": "Yo ___ feliz. (ser)", "correctAnswers": ["era"], "hint": "ser: yo → era" },
+        { "id": "imp-024", "sentence": "Juan ___ ingeniero. (ser)", "correctAnswers": ["era"], "hint": "ser: él → era" },
+        { "id": "imp-025", "sentence": "El niño siempre ___ a sus abuelos. (ver)", "correctAnswers": ["veía"], "hint": "ver: él → veía" },
+        { "id": "imp-026", "sentence": "Nosotros siempre ___ en tren. (ir)", "correctAnswers": ["íbamos"], "hint": "ir: nosotros → íbamos" },
+        { "id": "imp-027", "sentence": "Yo ___ el programa todos los viernes. (ver)", "correctAnswers": ["veía"], "hint": "ver: yo → veía" },
+        { "id": "imp-028", "sentence": "Nosotros ___ listos. (ser)", "correctAnswers": ["éramos"], "hint": "ser: nosotros → éramos" },
+        { "id": "imp-029", "sentence": "Aquellos señores ___ de España. (ser)", "correctAnswers": ["eran"], "hint": "ser: ellos → eran" }
+      ]
+    }
+  ],
+  "videoPlaceholder": {
+    "title": { "en": "Teacher Explanation Video", "nl": "Uitleg Video Docent" },
+    "description": { "en": "Video coming soon — Imperfect Tense explained!", "nl": "Video komt binnenkort — Imperfecto uitgelegd!" }
+  }
+}
