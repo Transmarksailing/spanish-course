@@ -38,9 +38,9 @@ export default function WordList({ categories }: Props) {
     language === "nl" ? dutch : english;
 
   const modes: { key: PracticeMode; label: string }[] = [
-    { key: "view", label: "Alles" },
-    { key: "hide-spanish", label: "Ocultar ES" },
-    { key: "hide-translation", label: language === "nl" ? "Ocultar NL" : "Ocultar EN" },
+    { key: "view", label: "All" },
+    { key: "hide-spanish", label: "Hide ES" },
+    { key: "hide-translation", label: language === "nl" ? "Hide NL" : "Hide EN" },
   ];
 
   return (
@@ -62,11 +62,11 @@ export default function WordList({ categories }: Props) {
       </div>
 
       {categories.map((category) => (
-        <div key={t(category.name)} className="mb-8">
-          <h4 className="text-sm font-semibold text-primary mb-3 border-b border-border pb-2">
+        <div key={t(category.name)} className="mb-6">
+          <h4 className="text-xs font-semibold text-muted uppercase tracking-wider mb-2">
             {t(category.name)}
           </h4>
-          <div className="divide-y divide-border/50">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1.5">
             {category.words.map((rawWord) => {
               const word = getWordFields(rawWord as unknown as Record<string, string>);
               const isRevealed = revealed.has(word.id);
@@ -78,17 +78,17 @@ export default function WordList({ categories }: Props) {
                 <div
                   key={word.id}
                   onClick={() => isClickable && toggleReveal(word.id)}
-                  className={`flex items-center justify-between py-2.5 px-3 -mx-3 rounded-lg transition-all ${
-                    isClickable ? "cursor-pointer hover:bg-sand/50" : ""
+                  className={`flex items-center justify-between px-3 py-2 rounded-lg border transition-all ${
+                    isClickable ? "cursor-pointer hover:border-primary/30" : ""
                   } ${
-                    isRevealed ? "bg-success-light/30" : ""
+                    isRevealed ? "border-success/30 bg-success-light/30" : "border-border bg-card"
                   }`}
                 >
-                  <span className={`text-base font-semibold ${hideSpanish ? "text-border select-none italic" : "text-foreground"}`}>
-                    {hideSpanish ? "toca para revelar" : word.spanish}
+                  <span className={`text-sm font-medium ${hideSpanish ? "text-border select-none" : "text-foreground"}`}>
+                    {hideSpanish ? "tap to reveal" : word.spanish}
                   </span>
-                  <span className={`text-sm ${hideTranslation ? "text-border select-none italic" : "text-muted"}`}>
-                    {hideTranslation ? "toca" : getTranslation(word.english, word.dutch)}
+                  <span className={`text-sm ${hideTranslation ? "text-border select-none" : "text-muted"}`}>
+                    {hideTranslation ? "tap" : getTranslation(word.english, word.dutch)}
                   </span>
                 </div>
               );
