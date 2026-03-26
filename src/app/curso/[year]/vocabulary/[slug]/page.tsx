@@ -1,9 +1,13 @@
 import { notFound } from "next/navigation";
-import { getYear, getVocabulary } from "@/lib/content";
+import { getYear, getVocabulary, getAllVocabularyParams } from "@/lib/content";
 import VocabularyContent from "./VocabularyContent";
 
 interface Props {
   params: Promise<{ year: string; slug: string }>;
+}
+
+export function generateStaticParams() {
+  return getAllVocabularyParams();
 }
 
 export default async function VocabularyPage({ params }: Props) {

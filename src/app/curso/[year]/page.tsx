@@ -1,10 +1,14 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getYear } from "@/lib/content";
+import { getYear, getAllYearParams } from "@/lib/content";
 import CourseSidebarWrapper from "./SidebarWrapper";
 
 interface Props {
   params: Promise<{ year: string }>;
+}
+
+export function generateStaticParams() {
+  return getAllYearParams();
 }
 
 export default async function YearPage({ params }: Props) {

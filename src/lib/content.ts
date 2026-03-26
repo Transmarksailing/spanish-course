@@ -1,36 +1,108 @@
-import { readFileSync, readdirSync, existsSync } from "fs";
-import path from "path";
 import type { YearIndex, Lesson, VocabularyList } from "./types";
 
-const CONTENT_DIR = path.join(process.cwd(), "src/content/years");
+// Static imports — all content bundled at build time
+import year4Index from "@/content/years/year4/index.json";
+
+// Lessons
+import verbTensesOverview from "@/content/years/year4/lessons/verb-tenses-overview.json";
+import presentTenseIrregulars from "@/content/years/year4/lessons/present-tense-irregulars.json";
+import presentProgressive from "@/content/years/year4/lessons/present-progressive.json";
+import presentPerfect from "@/content/years/year4/lessons/present-perfect.json";
+import preteriteTense from "@/content/years/year4/lessons/preterite-tense.json";
+import imperfectTense from "@/content/years/year4/lessons/imperfect-tense.json";
+import preteriteVsImperfect from "@/content/years/year4/lessons/preterite-vs-imperfect.json";
+import pastPerfect from "@/content/years/year4/lessons/past-perfect.json";
+import futureTense from "@/content/years/year4/lessons/future-tense.json";
+import conditional from "@/content/years/year4/lessons/conditional.json";
+import reflexiveVerbs from "@/content/years/year4/lessons/reflexive-verbs.json";
+import serVsEstar from "@/content/years/year4/lessons/ser-vs-estar.json";
+import presentSubjunctive from "@/content/years/year4/lessons/present-subjunctive.json";
+import pastSubjunctive from "@/content/years/year4/lessons/past-subjunctive.json";
+import ignoranceExpressions from "@/content/years/year4/lessons/ignorance-expressions.json";
+import commandsVosotros from "@/content/years/year4/lessons/commands-vosotros.json";
+
+// Vocabulary
+import year4Verbs from "@/content/years/year4/vocabulary/year4-verbs.json";
+import foodAndDrinks from "@/content/years/year4/vocabulary/food-and-drinks.json";
+import bodyParts from "@/content/years/year4/vocabulary/body-parts.json";
+import clothing from "@/content/years/year4/vocabulary/clothing.json";
+import weather from "@/content/years/year4/vocabulary/weather.json";
+import house from "@/content/years/year4/vocabulary/house.json";
+import cityAndTransport from "@/content/years/year4/vocabulary/city-and-transport.json";
+
+const yearsMap: Record<string, YearIndex> = {
+  year4: year4Index as unknown as YearIndex,
+};
+
+const lessonsMap: Record<string, Record<string, Lesson>> = {
+  year4: {
+    "verb-tenses-overview": verbTensesOverview as unknown as Lesson,
+    "present-tense-irregulars": presentTenseIrregulars as unknown as Lesson,
+    "present-progressive": presentProgressive as unknown as Lesson,
+    "present-perfect": presentPerfect as unknown as Lesson,
+    "preterite-tense": preteriteTense as unknown as Lesson,
+    "imperfect-tense": imperfectTense as unknown as Lesson,
+    "preterite-vs-imperfect": preteriteVsImperfect as unknown as Lesson,
+    "past-perfect": pastPerfect as unknown as Lesson,
+    "future-tense": futureTense as unknown as Lesson,
+    "conditional": conditional as unknown as Lesson,
+    "reflexive-verbs": reflexiveVerbs as unknown as Lesson,
+    "ser-vs-estar": serVsEstar as unknown as Lesson,
+    "present-subjunctive": presentSubjunctive as unknown as Lesson,
+    "past-subjunctive": pastSubjunctive as unknown as Lesson,
+    "ignorance-expressions": ignoranceExpressions as unknown as Lesson,
+    "commands-vosotros": commandsVosotros as unknown as Lesson,
+  },
+};
+
+const vocabularyMap: Record<string, Record<string, VocabularyList>> = {
+  year4: {
+    "year4-verbs": year4Verbs as unknown as VocabularyList,
+    "food-and-drinks": foodAndDrinks as unknown as VocabularyList,
+    "body-parts": bodyParts as unknown as VocabularyList,
+    "clothing": clothing as unknown as VocabularyList,
+    "weather": weather as unknown as VocabularyList,
+    "house": house as unknown as VocabularyList,
+    "city-and-transport": cityAndTransport as unknown as VocabularyList,
+  },
+};
 
 export function getYears(): YearIndex[] {
-  if (!existsSync(CONTENT_DIR)) return [];
-  return readdirSync(CONTENT_DIR)
-    .filter((d) => d.startsWith("year"))
-    .map((d) => {
-      const file = path.join(CONTENT_DIR, d, "index.json");
-      if (!existsSync(file)) return null;
-      return JSON.parse(readFileSync(file, "utf-8")) as YearIndex;
-    })
-    .filter((y): y is YearIndex => y !== null)
-    .sort((a, b) => a.order - b.order);
+  return Object.values(yearsMap).sort((a, b) => a.order - b.order);
 }
 
 export function getYear(yearId: string): YearIndex | null {
-  const file = path.join(CONTENT_DIR, yearId, "index.json");
-  if (!existsSync(file)) return null;
-  return JSON.parse(readFileSync(file, "utf-8"));
+  return yearsMap[yearId] || null;
 }
 
 export function getLesson(yearId: string, slug: string): Lesson | null {
-  const file = path.join(CONTENT_DIR, yearId, "lessons", `${slug}.json`);
-  if (!existsSync(file)) return null;
-  return JSON.parse(readFileSync(file, "utf-8"));
+  return lessonsMap[yearId]?.[slug] || null;
 }
 
 export function getVocabulary(yearId: string, slug: string): VocabularyList | null {
-  const file = path.join(CONTENT_DIR, yearId, "vocabulary", `${slug}.json`);
-  if (!existsSync(file)) return null;
-  return JSON.parse(readFileSync(file, "utf-8"));
+  return vocabularyMap[yearId]?.[slug] || null;
+}
+
+export function getAllLessonParams() {
+  const params: { year: string; lessonSlug: string }[] = [];
+  for (const [yearId, lessons] of Object.entries(lessonsMap)) {
+    for (const slug of Object.keys(lessons)) {
+      params.push({ year: yearId, lessonSlug: slug });
+    }
+  }
+  return params;
+}
+
+export function getAllVocabularyParams() {
+  const params: { year: string; slug: string }[] = [];
+  for (const [yearId, vocabs] of Object.entries(vocabularyMap)) {
+    for (const slug of Object.keys(vocabs)) {
+      params.push({ year: yearId, slug });
+    }
+  }
+  return params;
+}
+
+export function getAllYearParams() {
+  return Object.keys(yearsMap).map((year) => ({ year }));
 }

@@ -1,47 +1,48 @@
-import { SignJWT, jwtVerify } from "jose";
-import { cookies } from "next/headers";
+// Client-side authentication via localStorage
 
-const JWT_SECRET = new TextEncoder().encode(
-  process.env.JWT_SECRET || "fallback-secret-change-in-production"
-);
+const AUTH_KEY = "spanish-course-auth";
 
-const COOKIE_NAME = "spanish-course-token";
+// Wachtwoorden per leerjaar
+const PASSWORDS: Record<string, string> = {
+  year4: "spanish2024",
+};
 
-export interface TokenPayload {
+export interface AuthSession {
   year: string;
-  iat: number;
-  exp: number;
+  loggedInAt: number;
 }
 
-export async function createToken(year: string): Promise<string> {
-  return new SignJWT({ year })
-    .setProtectedHeader({ alg: "HS256" })
-    .setIssuedAt()
-    .setExpirationTime("30d")
-    .sign(JWT_SECRET);
+export function login(year: string, password: string): boolean {
+  const expected = PASSWORDS[year];
+  if (!expected || password !== expected) return false;
+
+  const session: AuthSession = { year, loggedInAt: Date.now() };
+  localStorage.setItem(AUTH_KEY, JSON.stringify(session));
+  return true;
 }
 
-export async function verifyToken(token: string): Promise<TokenPayload | null> {
+export function getSession(): AuthSession | null {
+  if (typeof window === "undefined") return null;
+  const data = localStorage.getItem(AUTH_KEY);
+  if (!data) return null;
   try {
-    const { payload } = await jwtVerify(token, JWT_SECRET);
-    return payload as unknown as TokenPayload;
+    const session: AuthSession = JSON.parse(data);
+    const thirtyDays = 30 * 24 * 60 * 60 * 1000;
+    if (Date.now() - session.loggedInAt > thirtyDays) {
+      localStorage.removeItem(AUTH_KEY);
+      return null;
+    }
+    return session;
   } catch {
+    localStorage.removeItem(AUTH_KEY);
     return null;
   }
 }
 
-export async function getSession(): Promise<TokenPayload | null> {
-  const cookieStore = await cookies();
-  const token = cookieStore.get(COOKIE_NAME)?.value;
-  if (!token) return null;
-  return verifyToken(token);
+export function isLoggedIn(): boolean {
+  return getSession() !== null;
 }
 
-export function verifyPassword(year: string, password: string): boolean {
-  const envKey = `${year.toUpperCase()}_PASSWORD`;
-  const expected = process.env[envKey];
-  if (!expected) return false;
-  return password === expected;
+export function logout(): void {
+  localStorage.removeItem(AUTH_KEY);
 }
-
-export { COOKIE_NAME };

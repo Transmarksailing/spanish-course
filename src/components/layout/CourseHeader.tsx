@@ -3,13 +3,14 @@
 import { useLanguage } from "@/lib/language-context";
 import LanguageToggle from "@/components/ui/LanguageToggle";
 import { useRouter } from "next/navigation";
+import { logout } from "@/lib/auth";
 
 export default function CourseHeader() {
   const { language, setLanguage } = useLanguage();
   const router = useRouter();
 
-  const handleLogout = async () => {
-    await fetch("/api/auth/logout", { method: "POST" });
+  const handleLogout = () => {
+    logout();
     router.push("/login");
   };
 

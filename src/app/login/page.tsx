@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { login } from "@/lib/auth";
 import Button from "@/components/ui/Button";
 
 export default function LoginPage() {
@@ -9,36 +10,21 @@ export default function LoginPage() {
   const [year, setYear] = useState("year4");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
-  const [loading, setLoading] = useState(false);
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
-    setLoading(true);
 
-    try {
-      const res = await fetch("/api/auth/login", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ year, password }),
-      });
-
-      if (res.ok) {
-        router.push(`/curso/${year}`);
-      } else {
-        setError("Incorrect password. Please try again.");
-      }
-    } catch {
-      setError("Connection error. Please try again.");
-    } finally {
-      setLoading(false);
+    if (login(year, password)) {
+      router.push(`/curso/${year}`);
+    } else {
+      setError("Incorrect password. Please try again.");
     }
   };
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-sidebar to-[#2A1F15] flex items-center justify-center px-4">
       <div className="w-full max-w-sm">
-        {/* Logo */}
         <div className="text-center mb-8">
           <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-white font-serif font-bold text-2xl mx-auto mb-4">
             LA
@@ -51,7 +37,6 @@ export default function LoginPage() {
           </p>
         </div>
 
-        {/* Form */}
         <form
           onSubmit={handleSubmit}
           className="bg-card rounded-xl border border-border shadow-lg p-6 space-y-4"
@@ -66,15 +51,9 @@ export default function LoginPage() {
               className="w-full rounded-lg border border-border px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary"
             >
               <option value="year4">Year 4 - Advanced</option>
-              <option value="year3" disabled>
-                Year 3 - Intermediate (Coming Soon)
-              </option>
-              <option value="year2" disabled>
-                Year 2 - Elementary (Coming Soon)
-              </option>
-              <option value="year1" disabled>
-                Year 1 - Beginner (Coming Soon)
-              </option>
+              <option value="year3" disabled>Year 3 - Intermediate (Coming Soon)</option>
+              <option value="year2" disabled>Year 2 - Elementary (Coming Soon)</option>
+              <option value="year1" disabled>Year 1 - Beginner (Coming Soon)</option>
             </select>
           </div>
 
@@ -98,13 +77,8 @@ export default function LoginPage() {
             </p>
           )}
 
-          <Button
-            type="submit"
-            size="lg"
-            disabled={loading}
-            className="w-full"
-          >
-            {loading ? "Logging in..." : "Enter Course"}
+          <Button type="submit" size="lg" className="w-full">
+            Enter Course
           </Button>
 
           <p className="text-xs text-center text-muted">

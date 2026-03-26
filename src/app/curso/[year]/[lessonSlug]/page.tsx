@@ -1,9 +1,13 @@
 import { notFound } from "next/navigation";
-import { getYear, getLesson } from "@/lib/content";
+import { getYear, getLesson, getAllLessonParams } from "@/lib/content";
 import LessonContent from "./LessonContent";
 
 interface Props {
   params: Promise<{ year: string; lessonSlug: string }>;
+}
+
+export function generateStaticParams() {
+  return getAllLessonParams();
 }
 
 export default async function LessonPage({ params }: Props) {
