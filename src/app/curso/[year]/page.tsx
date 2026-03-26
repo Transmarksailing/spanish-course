@@ -31,7 +31,7 @@ export default async function YearPage({ params }: Props) {
         </h1>
         <p className="text-muted text-sm mb-8">{year.description.en}</p>
 
-        <h2 className="text-lg font-semibold mb-4">Lessons</h2>
+        <h2 className="text-lg font-semibold mb-4">Lecciones</h2>
         <div className="space-y-2">
           {year.lessons.map((lesson, index) => (
             <Link
@@ -43,12 +43,10 @@ export default async function YearPage({ params }: Props) {
                 {index + 1}
               </div>
               <div className="flex-1 min-w-0">
-                <h3 className="font-medium group-hover:text-primary transition-colors truncate">
-                  {lesson.title.en}
+                <h3 className="font-semibold text-primary group-hover:text-primary-hover transition-colors truncate">
+                  {lesson.title.es || lesson.title.en}
                 </h3>
-                {lesson.title.es && (
-                  <p className="text-xs text-muted truncate">{lesson.title.es}</p>
-                )}
+                <p className="text-xs text-muted truncate">{lesson.title.en}</p>
               </div>
               <span className="text-primary opacity-0 group-hover:opacity-100 transition-opacity shrink-0">
                 &rarr;
@@ -60,7 +58,7 @@ export default async function YearPage({ params }: Props) {
         {year.vocabulary.length > 0 && (
           <>
             <h2 className="text-lg font-semibold mt-10 mb-4">
-              Vocabulary
+              Vocabulario
             </h2>
             <div className="space-y-2">
               {year.vocabulary.map((vocab) => (

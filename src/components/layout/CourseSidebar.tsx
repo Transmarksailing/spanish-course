@@ -20,7 +20,7 @@ export default function CourseSidebar({ year, lessons, vocabulary }: CourseSideb
       <nav>
         <div className="mb-5">
           <h3 className="text-[10px] uppercase tracking-wider text-muted font-semibold mb-2 px-2">
-            Lessons
+            Lecciones
           </h3>
           <ul className="space-y-0.5">
             {lessons.map((lesson, index) => {
@@ -39,7 +39,7 @@ export default function CourseSidebar({ year, lessons, vocabulary }: CourseSideb
                     <span className="w-5 h-5 rounded text-[10px] font-medium bg-sand flex items-center justify-center shrink-0">
                       {index + 1}
                     </span>
-                    <span className="truncate">{t(lesson.title)}</span>
+                    <span className="truncate">{lesson.title.es || t(lesson.title)}</span>
                   </Link>
                 </li>
               );
@@ -50,7 +50,7 @@ export default function CourseSidebar({ year, lessons, vocabulary }: CourseSideb
         {vocabulary.length > 0 && (
           <div>
             <h3 className="text-[10px] uppercase tracking-wider text-muted font-semibold mb-2 px-2">
-              Vocabulary
+              Vocabulario
             </h3>
             <ul className="space-y-0.5">
               {vocabulary.map((vocab) => {
