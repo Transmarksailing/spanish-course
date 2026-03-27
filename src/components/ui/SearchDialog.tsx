@@ -61,12 +61,13 @@ export default function SearchDialog() {
     return (
       <button
         onClick={() => setOpen(true)}
-        className="w-8 h-8 flex items-center justify-center rounded-lg text-sidebar-text/60 hover:text-sidebar-text hover:bg-white/10 transition-colors"
+        className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sidebar-text/80 hover:text-sidebar-text hover:bg-white/10 transition-colors text-xs"
         title="Search (Ctrl+K)"
       >
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
         </svg>
+        <span className="hidden sm:inline">Search</span>
       </button>
     );
   }

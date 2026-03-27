@@ -19,13 +19,13 @@ export default function CourseHeader() {
 
   return (
     <header className="bg-sidebar text-sidebar-text border-b border-white/5">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center h-14 gap-4">
-          <Link href="/curso" className="flex items-center gap-3 hover:opacity-90">
+      <div className="px-4 sm:px-6">
+        <div className="flex items-center h-14 gap-2 sm:gap-3">
+          <Link href="/curso" className="flex items-center gap-2 hover:opacity-90 shrink-0">
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-white font-bold text-sm">
               TM
             </div>
-            <div className="hidden sm:block">
+            <div className="hidden md:block">
               <div className="text-sm font-semibold leading-tight">
                 Transmark Language Tool
               </div>
@@ -33,16 +33,17 @@ export default function CourseHeader() {
           </Link>
 
           <LanguageToggle language={language} onChange={setLanguage} />
+
           <div className="flex items-center gap-1 ml-auto">
             <SearchDialog />
             <ThemeToggle />
+            <button
+              onClick={handleLogout}
+              className="text-xs text-sidebar-text/60 hover:text-sidebar-text transition-colors px-2 py-1.5 rounded hover:bg-white/10"
+            >
+              Logout
+            </button>
           </div>
-          <button
-            onClick={handleLogout}
-            className="text-xs text-sidebar-text/60 hover:text-sidebar-text transition-colors px-2 py-1 rounded hover:bg-white/5"
-          >
-            Logout
-          </button>
         </div>
       </div>
     </header>
