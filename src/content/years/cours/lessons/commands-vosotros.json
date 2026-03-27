@@ -2,9 +2,9 @@
   "slug": "commands-vosotros",
   "year": "cours",
   "title": {
-    "en": "Imperative & Subjunctive Expressions",
-    "nl": "Gebiedende Wijs & Subjunctivo Uitdrukkingen",
-    "es": "El Imperativo y Expresiones del Subjuntivo"
+    "en": "Imperative (Commands)",
+    "nl": "Gebiedende Wijs (Bevelen)",
+    "es": "El Imperativo"
   },
   "grammarSections": [
     {
@@ -61,22 +61,6 @@
       "content": {
         "en": "**Ustedes** commands are nearly identical to usted commands, with **-n** added: **¡Hablen!** **¡Coman!** **¡Escriban!**\n\n**Nosotros** commands (\"let's...\"):\n1. Begin with the yo form, remove -o.\n2. For **-ar** verbs, add **-emos**. For **-er/-ir** verbs, add **-amos**.\n\n**¡Hablemos!** (Let's talk!) — **¡Comamos!** (Let's eat!) — **¡Escribamos!** (Let's write!)\n\nNegative: **¡No trabajemos!** (Let's not work!)\nIrregular: ir → **¡Vamos!** / **¡No vayamos!**",
         "nl": "**Ustedes** bevelen zijn bijna identiek aan usted bevelen, met **-n** toegevoegd: **¡Hablen!** **¡Coman!** **¡Escriban!**\n\n**Nosotros** bevelen (\"laten we...\"):\n1. Begin met de yo-vorm, verwijder -o.\n2. Voeg **-emos** toe voor -ar, **-amos** voor -er/-ir.\n\n**¡Hablemos!** (Laten we praten!) — **¡Comamos!** (Laten we eten!)\nOntkennend: **¡No trabajemos!** (Laten we niet werken!)"
-      }
-    },
-    {
-      "type": "explanation",
-      "title": { "en": "Subjunctive: Expressions of Desire", "nl": "Subjunctivo: Uitdrukkingen van Verlangen" },
-      "content": {
-        "en": "Certain verbs express a desire or wish for someone else to do something. They require the subjunctive in the clause that follows **que**.\n\n• querer que — to want (that)\n• desear que — to wish (that)\n• preferir que — to prefer (that)\n• pedir que — to ask/request (that)\n• rogar que — to beg (that)\n• insistir en que — to insist (that)\n• mandar que — to order (that)\n• sugerir que — to suggest (that)\n• recomendar que — to recommend (that)\n• aconsejar que — to advise (that)\n• necesitar que — to need (that)\n• esperar que — to hope (that)\n• exigir que — to demand (that)\n\n**Example**: Quiero que tú **estudies** más. (I want you to study more.)",
-        "nl": "Bepaalde werkwoorden drukken een verlangen of wens uit dat iemand anders iets doet. Ze vereisen de subjunctivo in de bijzin na **que**.\n\n• querer que — willen (dat)\n• desear que — wensen (dat)\n• preferir que — liever willen (dat)\n• pedir que — vragen (dat)\n• rogar que — smeken (dat)\n• insistir en que — erop staan (dat)\n• sugerir que — suggereren (dat)\n• recomendar que — aanbevelen (dat)\n\n**Voorbeeld**: Quiero que tú **estudies** más. (Ik wil dat je meer studeert.)"
-      }
-    },
-    {
-      "type": "explanation",
-      "title": { "en": "Subjunctive: Doubt & Impersonal Expressions", "nl": "Subjunctivo: Twijfel & Onpersoonlijke Uitdrukkingen" },
-      "content": {
-        "en": "**Doubt/Ignorance** — subjunctive after:\n• dudar que, no creer que, no pensar que, no estar seguro/a de que\n\nExample: Dudo que ellos **vengan** a la fiesta.\n\nNOTE: Affirmative forms (creer que, pensar que) take the **indicative**.\n\n**Impersonal expressions** — subjunctive after:\n• es importante que, es necesario que, es posible que, es imposible que, es probable que, es mejor que, es malo que, es bueno que, es una lástima que, es ridículo que, es extraño que, ojalá que\n\nExample: Es importante que **hables** español.",
-        "nl": "**Twijfel** — subjunctivo na:\n• dudar que, no creer que, no pensar que, no estar seguro/a de que\n\nVoorbeeld: Dudo que ellos **vengan** a la fiesta.\n\nLET OP: Bevestigende vormen (creer que, pensar que) gebruiken het **indicatief**.\n\n**Onpersoonlijke uitdrukkingen** — subjunctivo na:\n• es importante que, es necesario que, es posible que, es mejor que, ojalá que\n\nVoorbeeld: Es importante que **hables** español."
       }
     }
   ],
@@ -257,70 +241,10 @@
         { "id": "imp-f3-11", "source": { "en": "Let's not say anything!", "nl": "Laten we niets zeggen!" }, "correctAnswers": ["¡No digamos nada!", "No digamos nada"] },
         { "id": "imp-f3-12", "source": { "en": "Let's go!", "nl": "Laten we gaan!" }, "correctAnswers": ["¡Vamos!", "Vamos", "¡Vámonos!", "Vámonos"] }
       ]
-    },
-    {
-      "id": "subj-expr-1",
-      "type": "fill_in_blank",
-      "instruction": {
-        "en": "Complete each sentence with the correct present subjunctive form of the verb in parentheses.",
-        "nl": "Vul elk zin aan met de juiste subjunctivo-vorm van het werkwoord tussen haakjes."
-      },
-      "items": [
-        { "id": "se-1-01", "before": "Quiero que tú", "after": "más. (estudiar)", "correctAnswers": ["estudies"] },
-        { "id": "se-1-02", "before": "Deseo que ella", "after": "feliz. (ser)", "correctAnswers": ["sea"] },
-        { "id": "se-1-03", "before": "Prefiero que ustedes", "after": "temprano. (llegar)", "correctAnswers": ["lleguen"] },
-        { "id": "se-1-04", "before": "Te pido que", "after": "la verdad. (decir)", "correctAnswers": ["digas"] },
-        { "id": "se-1-05", "before": "Insisto en que nosotros", "after": "juntos. (comer)", "correctAnswers": ["comamos"] },
-        { "id": "se-1-06", "before": "Sugiero que tú", "after": "más agua. (beber)", "correctAnswers": ["bebas"] },
-        { "id": "se-1-07", "before": "Recomiendo que él", "after": "al médico. (ir)", "correctAnswers": ["vaya"] },
-        { "id": "se-1-08", "before": "Necesito que ustedes me", "after": ". (ayudar)", "correctAnswers": ["ayuden"] },
-        { "id": "se-1-09", "before": "Esperamos que tú", "after": "pronto. (venir)", "correctAnswers": ["vengas"] },
-        { "id": "se-1-10", "before": "Mando que los niños", "after": "la tarea. (hacer)", "correctAnswers": ["hagan"] },
-        { "id": "se-1-11", "before": "Aconsejo que ella", "after": "más. (dormir)", "correctAnswers": ["duerma"] },
-        { "id": "se-1-12", "before": "Ruego que tú no", "after": ". (salir)", "correctAnswers": ["salgas"] }
-      ]
-    },
-    {
-      "id": "subj-expr-2",
-      "type": "fill_in_blank",
-      "instruction": {
-        "en": "Complete with the correct present subjunctive form. Expressions of doubt or ignorance.",
-        "nl": "Vul aan met de juiste subjunctivo-vorm. Uitdrukkingen van twijfel."
-      },
-      "items": [
-        { "id": "se-2-01", "before": "Dudo que ellos", "after": "a tiempo. (llegar)", "correctAnswers": ["lleguen"] },
-        { "id": "se-2-02", "before": "No creo que ella", "after": "la respuesta. (saber)", "correctAnswers": ["sepa"] },
-        { "id": "se-2-03", "before": "No pienso que tú", "after": "razón. (tener)", "correctAnswers": ["tengas"] },
-        { "id": "se-2-04", "before": "No es cierto que nosotros", "after": "ricos. (ser)", "correctAnswers": ["seamos"] },
-        { "id": "se-2-05", "before": "No es verdad que él", "after": "español. (hablar)", "correctAnswers": ["hable"] },
-        { "id": "se-2-06", "before": "No estoy seguro de que ella", "after": "aquí. (estar)", "correctAnswers": ["esté"] },
-        { "id": "se-2-07", "before": "Dudo que tú", "after": "cocinar. (poder)", "correctAnswers": ["puedas"] },
-        { "id": "se-2-08", "before": "No creo que nosotros", "after": "bastante tiempo. (tener)", "correctAnswers": ["tengamos"] }
-      ]
-    },
-    {
-      "id": "subj-expr-3",
-      "type": "fill_in_blank",
-      "instruction": {
-        "en": "Complete with the correct present subjunctive form. Impersonal expressions.",
-        "nl": "Vul aan met de juiste subjunctivo-vorm. Onpersoonlijke uitdrukkingen."
-      },
-      "items": [
-        { "id": "se-3-01", "before": "Es importante que tú", "after": "español. (hablar)", "correctAnswers": ["hables"] },
-        { "id": "se-3-02", "before": "Es necesario que nosotros", "after": "más. (practicar)", "correctAnswers": ["practiquemos"] },
-        { "id": "se-3-03", "before": "Es posible que ellos", "after": "mañana. (venir)", "correctAnswers": ["vengan"] },
-        { "id": "se-3-04", "before": "Es mejor que tú", "after": "ahora. (salir)", "correctAnswers": ["salgas"] },
-        { "id": "se-3-05", "before": "Es malo que ella no", "after": "bien. (comer)", "correctAnswers": ["coma"] },
-        { "id": "se-3-06", "before": "Es una lástima que tú no", "after": "ir. (poder)", "correctAnswers": ["puedas"] },
-        { "id": "se-3-07", "before": "Es ridículo que él", "after": "eso. (creer)", "correctAnswers": ["crea"] },
-        { "id": "se-3-08", "before": "Ojalá que nosotros", "after": "el examen. (pasar)", "correctAnswers": ["pasemos"] },
-        { "id": "se-3-09", "before": "Es extraño que ella no", "after": "aquí. (estar)", "correctAnswers": ["esté"] },
-        { "id": "se-3-10", "before": "Es probable que ustedes", "after": "razón. (tener)", "correctAnswers": ["tengan"] }
-      ]
     }
   ],
   "videoPlaceholder": {
     "title": { "en": "Teacher Explanation Video", "nl": "Uitleg Video Docent" },
-    "description": { "en": "Video coming soon — Imperative & Subjunctive Expressions explained!", "nl": "Video komt binnenkort — Gebiedende Wijs & Subjunctivo Uitdrukkingen uitgelegd!" }
+    "description": { "en": "Video coming soon — Imperative (Commands) explained!", "nl": "Video komt binnenkort — Gebiedende Wijs (Bevelen) uitgelegd!" }
   }
 }

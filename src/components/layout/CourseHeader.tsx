@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { useLanguage } from "@/lib/language-context";
 import LanguageToggle from "@/components/ui/LanguageToggle";
+import ThemeToggle from "@/components/ui/ThemeToggle";
+import SearchDialog from "@/components/ui/SearchDialog";
 import { useRouter } from "next/navigation";
 import { logout } from "@/lib/auth";
 
@@ -31,6 +33,10 @@ export default function CourseHeader() {
           </Link>
 
           <LanguageToggle language={language} onChange={setLanguage} />
+          <div className="flex items-center gap-1 ml-auto">
+            <SearchDialog />
+            <ThemeToggle />
+          </div>
           <button
             onClick={handleLogout}
             className="text-xs text-sidebar-text/60 hover:text-sidebar-text transition-colors px-2 py-1 rounded hover:bg-white/5"

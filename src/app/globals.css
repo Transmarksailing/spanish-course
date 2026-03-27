@@ -69,6 +69,29 @@ body {
   color: var(--color-primary);
 }
 
+/* Dark mode */
+[data-theme="dark"] {
+  --color-background: #1A1A2E;
+  --color-foreground: #E5E7EB;
+  --color-sand: #2A2A3E;
+  --color-sand-dark: #3A3A4E;
+  --color-warm-white: #1A1A2E;
+  --color-border: #3A3A4E;
+  --color-card: #2A2A3E;
+  --color-muted: #9CA3AF;
+  --color-success-light: #064E3B;
+  --color-danger-light: #7F1D1D;
+}
+
+[data-theme="dark"] body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb {
+  background: #4A4A5E;
+}
+
 /* Mobile-optimalisaties */
 @media (max-width: 640px) {
   table {

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Transmark Language Tool - Spanish Courses in Javea",
+  title: "Transmark Language Tool",
   description:
     "Learn Spanish with interactive exercises, verb conjugation practice, and vocabulary training. Professional courses in Javea, Costa Blanca.",
 };

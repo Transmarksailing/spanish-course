@@ -14,6 +14,22 @@
         "en": "**Preterite (Indefinido)** — Completed actions:\n- Single events: Ayer **fui** al cine.\n- Start/end of actions: La fiesta **empezó** a las ocho.\n- Chain of events: **Llegué**, **comí** y **salí**.\n\n**Imperfect (Imperfecto)** — Ongoing/habitual:\n- Habitual actions: Siempre **iba** al parque.\n- Descriptions: El hombre **era** alto.\n- Background/context: **Hacía** frío y **llovía**.\n- Age/time: **Tenía** 15 años. **Eran** las once.\n\n**Together**: Imperfect sets the scene, preterite interrupts:\nMientras yo **dormía**, el teléfono **sonó**.",
         "nl": "**Indefinido** — Voltooide handelingen:\n- Eenmalige gebeurtenissen: Ayer **fui** al cine.\n- Begin/einde: La fiesta **empezó** a las ocho.\n- Reeks gebeurtenissen: **Llegué**, **comí** y **salí**.\n\n**Imperfecto** — Voortdurend/gewoontehandelingen:\n- Gewoontes: Siempre **iba** al parque.\n- Beschrijvingen: El hombre **era** alto.\n- Achtergrond: **Hacía** frío y **llovía**.\n- Leeftijd/tijd: **Tenía** 15 años. **Eran** las once.\n\n**Samen**: Imperfecto schetst de scène, indefinido onderbreekt:\nMientras yo **dormía**, el teléfono **sonó**."
       }
+    },
+    {
+      "type": "rule_box",
+      "title": { "en": "Preterite Triggers (Indefinido)", "nl": "Indefinido Signaalwoorden" },
+      "content": {
+        "en": "**Ayer** — Yesterday\n**Ayer por la mañana** — Yesterday morning\n**Ayer por la tarde** — Yesterday afternoon\n**Ayer por la noche** — Yesterday evening\n**La semana pasada** — Last week\n**El año pasado** — Last year\n**El mes pasado** — Last month\n**El fin de semana pasado** — Last weekend\n**El verano pasado** — Last summer\n**El lunes** — On Monday\n**Anoche** — Last night\n**Anteayer** — The day before yesterday\n**Hace 5 meses** — 5 months ago\n**Hace un rato** — A while ago\n**En 1966** — In 1966\n**Por 5 minutos** — For 5 minutes\n**Esta mañana** — This morning\n**De repente** — Suddenly\n**En ese momento** — At that moment",
+        "nl": "**Ayer** — Gisteren\n**Ayer por la mañana** — Gisterochtend\n**Ayer por la tarde** — Gistermiddag\n**Ayer por la noche** — Gisteravond\n**La semana pasada** — Vorige week\n**El año pasado** — Vorig jaar\n**El mes pasado** — Vorige maand\n**El fin de semana pasado** — Vorig weekend\n**El verano pasado** — Vorige zomer\n**El lunes** — Op maandag\n**Anoche** — Gisteravond\n**Anteayer** — Eergisteren\n**Hace 5 meses** — 5 maanden geleden\n**Hace un rato** — Een tijdje geleden\n**En 1966** — In 1966\n**Por 5 minutos** — Gedurende 5 minuten\n**Esta mañana** — Vanmorgen\n**De repente** — Plotseling\n**En ese momento** — Op dat moment"
+      }
+    },
+    {
+      "type": "rule_box",
+      "title": { "en": "Imperfect Triggers (Imperfecto)", "nl": "Imperfecto Signaalwoorden" },
+      "content": {
+        "en": "**Siempre** — Always\n**A menudo** — Often\n**De vez en cuando** — From time to time\n**Frecuentemente** — Frequently\n**Con frecuencia** — Frequently\n**A veces** — Sometimes\n**Cada día** — Every day\n**Cada semana** — Every week\n**Cada año** — Every year\n**Todos los días** — Every day\n**Todas las semanas** — Every week\n**Todas las noches** — Every night\n**Generalmente** — Generally\n**Por lo general** — In general\n**Normalmente** — Normally\n**Típicamente** — Typically\n**Usualmente** — Usually\n**Cada verano** — Every summer\n**Muchas veces** — Many times\n**Tantas veces** — So many times\n**Varias veces** — Several times\n**Nunca** — Never\n**Mientras** — While",
+        "nl": "**Siempre** — Altijd\n**A menudo** — Vaak\n**De vez en cuando** — Af en toe\n**Frecuentemente** — Frequent\n**Con frecuencia** — Frequent\n**A veces** — Soms\n**Cada día** — Elke dag\n**Cada semana** — Elke week\n**Cada año** — Elk jaar\n**Todos los días** — Elke dag\n**Todas las semanas** — Elke week\n**Todas las noches** — Elke avond\n**Generalmente** — Over het algemeen\n**Por lo general** — In het algemeen\n**Normalmente** — Normaal gesproken\n**Típicamente** — Typisch\n**Usualmente** — Gewoonlijk\n**Cada verano** — Elke zomer\n**Muchas veces** — Vaak / Veel keer\n**Tantas veces** — Zo vaak\n**Varias veces** — Meerdere keren\n**Nunca** — Nooit\n**Mientras** — Terwijl"
+      }
     }
   ],
   "exercises": [
