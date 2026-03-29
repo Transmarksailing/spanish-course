@@ -37,7 +37,7 @@ export interface Lesson {
   videoPlaceholder?: {
     title: LocalizedText;
     description: LocalizedText;
-    videoUrl?: string;
+    videoUrl?: string | LocalizedText;
   };
 }
 

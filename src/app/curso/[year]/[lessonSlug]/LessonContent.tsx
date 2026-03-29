@@ -30,28 +30,46 @@ export default function LessonContent({ lesson, yearId, lessons, vocabulary }: P
           <p className="text-muted text-sm mb-6">{lesson.title.es}</p>
         )}
 
-        {/* Video placeholder */}
-        {lesson.videoPlaceholder && (
-          <div className="bg-sand/50 border border-border rounded-xl p-6 mb-8 text-center">
-            {lesson.videoPlaceholder.videoUrl ? (
-              <video
-                controls
-                className="w-full rounded-lg"
-                src={lesson.videoPlaceholder.videoUrl}
-              />
-            ) : (
-              <>
-                <div className="text-4xl mb-2">&#127909;</div>
-                <h3 className="font-semibold">
-                  {t(lesson.videoPlaceholder.title)}
-                </h3>
-                <p className="text-sm text-muted">
-                  {t(lesson.videoPlaceholder.description)}
-                </p>
-              </>
-            )}
-          </div>
-        )}
+        {/* Video */}
+        {lesson.videoPlaceholder && (() => {
+          const raw = lesson.videoPlaceholder.videoUrl;
+          const url = raw
+            ? typeof raw === "string" ? raw : t(raw)
+            : "";
+          const ytMatch = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([\w-]+)/);
+
+          if (ytMatch) {
+            return (
+              <div className="mb-8 rounded-xl overflow-hidden border border-border">
+                <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+                  <iframe
+                    className="absolute inset-0 w-full h-full"
+                    src={`https://www.youtube.com/embed/${ytMatch[1]}`}
+                    title={t(lesson.videoPlaceholder.title)}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                </div>
+              </div>
+            );
+          }
+
+          if (url) {
+            return (
+              <div className="bg-sand/50 border border-border rounded-xl p-6 mb-8 text-center">
+                <video controls className="w-full rounded-lg" src={url} />
+              </div>
+            );
+          }
+
+          return (
+            <div className="bg-sand/50 border border-border rounded-xl p-6 mb-8 text-center">
+              <div className="text-4xl mb-2">&#127909;</div>
+              <h3 className="font-semibold">{t(lesson.videoPlaceholder.title)}</h3>
+              <p className="text-sm text-muted">{t(lesson.videoPlaceholder.description)}</p>
+            </div>
+          );
+        })()}
 
         {/* Grammatica secties */}
         {lesson.grammarSections.map((section, i) => (

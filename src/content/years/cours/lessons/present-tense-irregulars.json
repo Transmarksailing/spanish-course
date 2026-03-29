@@ -80,6 +80,10 @@
   ],
   "videoPlaceholder": {
     "title": { "en": "Teacher Explanation Video", "nl": "Uitleg Video Docent" },
-    "description": { "en": "Video coming soon — Irregular Present Tense explained!", "nl": "Video komt binnenkort — Onregelmatige Tegenwoordige Tijd uitgelegd!" }
+    "description": { "en": "Irregular Present Tense explained!", "nl": "Onregelmatige Tegenwoordige Tijd uitgelegd!" },
+    "videoUrl": {
+      "en": "https://www.youtube.com/watch?v=HV_96Y9l5oI",
+      "nl": "https://www.youtube.com/watch?v=OJva8vaYODY"
+    }
   }
 }
