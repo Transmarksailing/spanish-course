@@ -6,6 +6,7 @@ import CourseSidebar from "@/components/layout/CourseSidebar";
 import GrammarSection from "@/components/grammar/GrammarSection";
 import FillInTheBlank from "@/components/exercises/FillInTheBlank";
 import TranslationExercise from "@/components/exercises/TranslationExercise";
+import MultipleChoice from "@/components/exercises/MultipleChoice";
 
 interface Props {
   lesson: Lesson;
@@ -77,6 +78,15 @@ export default function LessonContent({ lesson, yearId, lessons, vocabulary }: P
             if (exercise.type === "translation") {
               return (
                 <TranslationExercise
+                  key={exercise.id}
+                  exercise={exercise}
+                  lessonSlug={lesson.slug}
+                />
+              );
+            }
+            if (exercise.type === "multiple_choice") {
+              return (
+                <MultipleChoice
                   key={exercise.id}
                   exercise={exercise}
                   lessonSlug={lesson.slug}

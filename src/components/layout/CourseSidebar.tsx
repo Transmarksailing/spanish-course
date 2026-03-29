@@ -19,7 +19,7 @@ export default function CourseSidebar({ year, lessons, vocabulary }: CourseSideb
     <aside className="w-60 bg-card border-r border-border min-h-[calc(100vh-3.5rem)] p-3 hidden lg:block overflow-y-auto">
       <nav>
         <div className="mb-5">
-          <h3 className="text-[10px] uppercase tracking-wider text-muted font-semibold mb-2 px-2">
+          <h3 className="text-xs uppercase tracking-wider text-foreground font-bold mb-2 px-2">
             {t({ en: "Verbs / Tenses", nl: "Werkwoorden / Tijden" })}
           </h3>
           <ul className="space-y-0.5">
@@ -49,7 +49,7 @@ export default function CourseSidebar({ year, lessons, vocabulary }: CourseSideb
 
         {vocabulary.length > 0 && (
           <div>
-            <h3 className="text-[10px] uppercase tracking-wider text-muted font-semibold mb-2 px-2">
+            <h3 className="text-xs uppercase tracking-wider text-foreground font-bold mb-2 px-2">
               Vocabulario
             </h3>
             <ul className="space-y-0.5">

@@ -45,7 +45,14 @@ export interface Lesson {
 export type GrammarSection =
   | GrammarExplanation
   | GrammarConjugationTable
-  | GrammarRuleBox;
+  | GrammarRuleBox
+  | GrammarWordList;
+
+export interface GrammarWordList {
+  type: "word_list";
+  title?: LocalizedText;
+  items: { term: string; translation: LocalizedText }[];
+}
 
 export interface GrammarExplanation {
   type: "explanation";
@@ -78,7 +85,7 @@ export interface GrammarRuleBox {
 // Oefeningen
 export interface Exercise {
   id: string;
-  type: "fill_in_blank" | "translation" | "sentence_completion" | "vocabulary";
+  type: "fill_in_blank" | "translation" | "sentence_completion" | "vocabulary" | "multiple_choice";
   instruction: LocalizedText;
   items: ExerciseItem[];
 }

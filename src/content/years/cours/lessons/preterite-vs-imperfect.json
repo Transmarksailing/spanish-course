@@ -16,23 +16,83 @@
       }
     },
     {
-      "type": "rule_box",
+      "type": "word_list",
       "title": { "en": "Preterite Triggers (Indefinido)", "nl": "Indefinido Signaalwoorden" },
-      "content": {
-        "en": "**Ayer** — Yesterday\n**Ayer por la mañana** — Yesterday morning\n**Ayer por la tarde** — Yesterday afternoon\n**Ayer por la noche** — Yesterday evening\n**La semana pasada** — Last week\n**El año pasado** — Last year\n**El mes pasado** — Last month\n**El fin de semana pasado** — Last weekend\n**El verano pasado** — Last summer\n**El lunes** — On Monday\n**Anoche** — Last night\n**Anteayer** — The day before yesterday\n**Hace 5 meses** — 5 months ago\n**Hace un rato** — A while ago\n**En 1966** — In 1966\n**Por 5 minutos** — For 5 minutes\n**Esta mañana** — This morning\n**De repente** — Suddenly\n**En ese momento** — At that moment",
-        "nl": "**Ayer** — Gisteren\n**Ayer por la mañana** — Gisterochtend\n**Ayer por la tarde** — Gistermiddag\n**Ayer por la noche** — Gisteravond\n**La semana pasada** — Vorige week\n**El año pasado** — Vorig jaar\n**El mes pasado** — Vorige maand\n**El fin de semana pasado** — Vorig weekend\n**El verano pasado** — Vorige zomer\n**El lunes** — Op maandag\n**Anoche** — Gisteravond\n**Anteayer** — Eergisteren\n**Hace 5 meses** — 5 maanden geleden\n**Hace un rato** — Een tijdje geleden\n**En 1966** — In 1966\n**Por 5 minutos** — Gedurende 5 minuten\n**Esta mañana** — Vanmorgen\n**De repente** — Plotseling\n**En ese momento** — Op dat moment"
-      }
+      "items": [
+        { "term": "Ayer", "translation": { "en": "Yesterday", "nl": "Gisteren" } },
+        { "term": "Ayer por la mañana", "translation": { "en": "Yesterday morning", "nl": "Gisterochtend" } },
+        { "term": "Ayer por la tarde", "translation": { "en": "Yesterday afternoon", "nl": "Gistermiddag" } },
+        { "term": "Ayer por la noche", "translation": { "en": "Yesterday evening", "nl": "Gisteravond" } },
+        { "term": "La semana pasada", "translation": { "en": "Last week", "nl": "Vorige week" } },
+        { "term": "El año pasado", "translation": { "en": "Last year", "nl": "Vorig jaar" } },
+        { "term": "El mes pasado", "translation": { "en": "Last month", "nl": "Vorige maand" } },
+        { "term": "El fin de semana pasado", "translation": { "en": "Last weekend", "nl": "Vorig weekend" } },
+        { "term": "El verano pasado", "translation": { "en": "Last summer", "nl": "Vorige zomer" } },
+        { "term": "El lunes", "translation": { "en": "On Monday", "nl": "Op maandag" } },
+        { "term": "Anoche", "translation": { "en": "Last night", "nl": "Gisteravond" } },
+        { "term": "Anteayer", "translation": { "en": "The day before yesterday", "nl": "Eergisteren" } },
+        { "term": "Hace 5 meses", "translation": { "en": "5 months ago", "nl": "5 maanden geleden" } },
+        { "term": "Hace un rato", "translation": { "en": "A while ago", "nl": "Een tijdje geleden" } },
+        { "term": "En 1966", "translation": { "en": "In 1966", "nl": "In 1966" } },
+        { "term": "Por 5 minutos", "translation": { "en": "For 5 minutes", "nl": "Gedurende 5 minuten" } },
+        { "term": "Esta mañana", "translation": { "en": "This morning", "nl": "Vanmorgen" } },
+        { "term": "De repente", "translation": { "en": "Suddenly", "nl": "Plotseling" } },
+        { "term": "En ese momento", "translation": { "en": "At that moment", "nl": "Op dat moment" } }
+      ]
     },
     {
-      "type": "rule_box",
+      "type": "word_list",
       "title": { "en": "Imperfect Triggers (Imperfecto)", "nl": "Imperfecto Signaalwoorden" },
-      "content": {
-        "en": "**Siempre** — Always\n**A menudo** — Often\n**De vez en cuando** — From time to time\n**Frecuentemente** — Frequently\n**Con frecuencia** — Frequently\n**A veces** — Sometimes\n**Cada día** — Every day\n**Cada semana** — Every week\n**Cada año** — Every year\n**Todos los días** — Every day\n**Todas las semanas** — Every week\n**Todas las noches** — Every night\n**Generalmente** — Generally\n**Por lo general** — In general\n**Normalmente** — Normally\n**Típicamente** — Typically\n**Usualmente** — Usually\n**Cada verano** — Every summer\n**Muchas veces** — Many times\n**Tantas veces** — So many times\n**Varias veces** — Several times\n**Nunca** — Never\n**Mientras** — While",
-        "nl": "**Siempre** — Altijd\n**A menudo** — Vaak\n**De vez en cuando** — Af en toe\n**Frecuentemente** — Frequent\n**Con frecuencia** — Frequent\n**A veces** — Soms\n**Cada día** — Elke dag\n**Cada semana** — Elke week\n**Cada año** — Elk jaar\n**Todos los días** — Elke dag\n**Todas las semanas** — Elke week\n**Todas las noches** — Elke avond\n**Generalmente** — Over het algemeen\n**Por lo general** — In het algemeen\n**Normalmente** — Normaal gesproken\n**Típicamente** — Typisch\n**Usualmente** — Gewoonlijk\n**Cada verano** — Elke zomer\n**Muchas veces** — Vaak / Veel keer\n**Tantas veces** — Zo vaak\n**Varias veces** — Meerdere keren\n**Nunca** — Nooit\n**Mientras** — Terwijl"
-      }
+      "items": [
+        { "term": "Siempre", "translation": { "en": "Always", "nl": "Altijd" } },
+        { "term": "A menudo", "translation": { "en": "Often", "nl": "Vaak" } },
+        { "term": "De vez en cuando", "translation": { "en": "From time to time", "nl": "Af en toe" } },
+        { "term": "Frecuentemente", "translation": { "en": "Frequently", "nl": "Frequent" } },
+        { "term": "Con frecuencia", "translation": { "en": "Frequently", "nl": "Frequent" } },
+        { "term": "A veces", "translation": { "en": "Sometimes", "nl": "Soms" } },
+        { "term": "Cada día", "translation": { "en": "Every day", "nl": "Elke dag" } },
+        { "term": "Cada semana", "translation": { "en": "Every week", "nl": "Elke week" } },
+        { "term": "Cada año", "translation": { "en": "Every year", "nl": "Elk jaar" } },
+        { "term": "Todos los días", "translation": { "en": "Every day", "nl": "Elke dag" } },
+        { "term": "Todas las semanas", "translation": { "en": "Every week", "nl": "Elke week" } },
+        { "term": "Todas las noches", "translation": { "en": "Every night", "nl": "Elke avond" } },
+        { "term": "Generalmente", "translation": { "en": "Generally", "nl": "Over het algemeen" } },
+        { "term": "Por lo general", "translation": { "en": "In general", "nl": "In het algemeen" } },
+        { "term": "Normalmente", "translation": { "en": "Normally", "nl": "Normaal gesproken" } },
+        { "term": "Típicamente", "translation": { "en": "Typically", "nl": "Typisch" } },
+        { "term": "Usualmente", "translation": { "en": "Usually", "nl": "Gewoonlijk" } },
+        { "term": "Cada verano", "translation": { "en": "Every summer", "nl": "Elke zomer" } },
+        { "term": "Muchas veces", "translation": { "en": "Many times", "nl": "Vaak / Veel keer" } },
+        { "term": "Tantas veces", "translation": { "en": "So many times", "nl": "Zo vaak" } },
+        { "term": "Varias veces", "translation": { "en": "Several times", "nl": "Meerdere keren" } },
+        { "term": "Nunca", "translation": { "en": "Never", "nl": "Nooit" } },
+        { "term": "Mientras", "translation": { "en": "While", "nl": "Terwijl" } }
+      ]
     }
   ],
   "exercises": [
+    {
+      "id": "pvi-triggers-01",
+      "type": "multiple_choice",
+      "instruction": { "en": "Which tense does this trigger word belong to?", "nl": "Bij welke tijd hoort dit signaalwoord?" },
+      "items": [
+        { "id": "trg-001", "sentence": "Ayer", "correctAnswers": ["Indefinido"], "hint": "Indefinido|Imperfecto" },
+        { "id": "trg-002", "sentence": "Siempre", "correctAnswers": ["Imperfecto"], "hint": "Indefinido|Imperfecto" },
+        { "id": "trg-003", "sentence": "La semana pasada", "correctAnswers": ["Indefinido"], "hint": "Indefinido|Imperfecto" },
+        { "id": "trg-004", "sentence": "A menudo", "correctAnswers": ["Imperfecto"], "hint": "Indefinido|Imperfecto" },
+        { "id": "trg-005", "sentence": "De repente", "correctAnswers": ["Indefinido"], "hint": "Indefinido|Imperfecto" },
+        { "id": "trg-006", "sentence": "Cada día", "correctAnswers": ["Imperfecto"], "hint": "Indefinido|Imperfecto" },
+        { "id": "trg-007", "sentence": "Anoche", "correctAnswers": ["Indefinido"], "hint": "Indefinido|Imperfecto" },
+        { "id": "trg-008", "sentence": "Todos los días", "correctAnswers": ["Imperfecto"], "hint": "Indefinido|Imperfecto" },
+        { "id": "trg-009", "sentence": "El año pasado", "correctAnswers": ["Indefinido"], "hint": "Indefinido|Imperfecto" },
+        { "id": "trg-010", "sentence": "Normalmente", "correctAnswers": ["Imperfecto"], "hint": "Indefinido|Imperfecto" },
+        { "id": "trg-011", "sentence": "En ese momento", "correctAnswers": ["Indefinido"], "hint": "Indefinido|Imperfecto" },
+        { "id": "trg-012", "sentence": "Mientras", "correctAnswers": ["Imperfecto"], "hint": "Indefinido|Imperfecto" },
+        { "id": "trg-013", "sentence": "Hace 5 meses", "correctAnswers": ["Indefinido"], "hint": "Indefinido|Imperfecto" },
+        { "id": "trg-014", "sentence": "A veces", "correctAnswers": ["Imperfecto"], "hint": "Indefinido|Imperfecto" },
+        { "id": "trg-015", "sentence": "Anteayer", "correctAnswers": ["Indefinido"], "hint": "Indefinido|Imperfecto" }
+      ]
+    },
     {
       "id": "pvi-story-01",
       "type": "fill_in_blank",

@@ -22,6 +22,26 @@ export default function GrammarSection({ section }: Props) {
     return <ConjugationTable data={section} />;
   }
 
+  if (section.type === "word_list") {
+    return (
+      <div className="my-4 border-l-4 border-primary bg-sand/50 rounded-r-lg p-4">
+        {section.title && (
+          <h4 className="font-semibold text-primary mb-3">
+            {t(section.title)}
+          </h4>
+        )}
+        <div className="grid grid-cols-[minmax(180px,1fr)_minmax(180px,1fr)] gap-x-6 gap-y-1 text-sm">
+          {section.items.map((item, i) => (
+            <div key={i} className="contents">
+              <span className="font-semibold text-foreground">{item.term}</span>
+              <span className="text-muted">{t(item.translation)}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
+
   if (section.type === "rule_box") {
     const titleEl = section.title ? (
       section.link ? (
