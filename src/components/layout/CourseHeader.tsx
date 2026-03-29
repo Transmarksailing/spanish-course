@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 import { logout } from "@/lib/auth";
 
 export default function CourseHeader() {
-  const { language, setLanguage } = useLanguage();
+  const { language, setLanguage, t } = useLanguage();
   const router = useRouter();
 
   const handleLogout = () => {
@@ -39,7 +39,7 @@ export default function CourseHeader() {
             onClick={handleLogout}
             className="text-xs text-sidebar-text/60 hover:text-sidebar-text transition-colors px-2 py-1.5 rounded hover:bg-white/10"
           >
-            Logout
+            {t({ en: "Logout", nl: "Uitloggen" })}
           </button>
         </div>
       </div>

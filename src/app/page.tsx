@@ -23,14 +23,14 @@ export default function HomePage() {
       <section className="bg-sidebar text-white py-24">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold mb-4 leading-tight tracking-tight">
-            Learn Spanish<br />
-            <span className="text-primary-light">your way</span>
+            Leer Spaans<br />
+            <span className="text-primary-light">op jouw manier</span>
           </h1>
           <p className="text-lg text-white/70 mb-8 max-w-xl mx-auto">
-            Interactive exercises, instant feedback, vocabulary training. Practice anytime from any device.
+            Interactieve oefeningen, directe feedback, woordenschat training. Oefen altijd en overal op elk apparaat.
           </p>
           <Link href="/login" className="inline-block bg-primary hover:bg-primary-hover text-white px-8 py-3 rounded-xl text-base font-semibold transition-colors">
-            Start Learning
+            Begin met leren
           </Link>
         </div>
       </section>
@@ -38,9 +38,9 @@ export default function HomePage() {
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 grid md:grid-cols-3 gap-6">
           {[
-            { title: "Verb Exercises", desc: "Fill in conjugations, get instant feedback. All tenses covered.", icon: "&#9998;" },
-            { title: "Vocabulary", desc: "Flashcards with tap-to-reveal. Practice Spanish, English & Dutch.", icon: "&#128218;" },
-            { title: "Grammar", desc: "Compact conjugation cards and clear rule explanations.", icon: "&#9889;" },
+            { title: "Werkwoord Oefeningen", desc: "Vul vervoegingen in en krijg direct feedback. Alle tijden behandeld.", icon: "&#9998;" },
+            { title: "Woordenschat", desc: "Flashcards met tik-om-te-tonen. Oefen Spaans, Engels & Nederlands.", icon: "&#128218;" },
+            { title: "Grammatica", desc: "Compacte vervoegingskaarten en duidelijke regeluitleg.", icon: "&#9889;" },
           ].map((f) => (
             <div key={f.title} className="bg-card border border-border rounded-xl p-6">
               <div className="text-3xl mb-3" dangerouslySetInnerHTML={{ __html: f.icon }} />
@@ -53,18 +53,18 @@ export default function HomePage() {
 
       <section className="py-16 bg-sand/50">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-2xl font-bold mb-8">Course Levels</h2>
+          <h2 className="text-2xl font-bold mb-8">Cursusniveaus</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
             {[
               { level: "Beginner", available: false },
-              { level: "Elementary", available: false },
-              { level: "Intermediate", available: false },
-              { level: "Advanced", available: true },
+              { level: "Elementair", available: false },
+              { level: "Gemiddeld", available: false },
+              { level: "Gevorderd", available: true },
             ].map((c) => (
               <div key={c.level} className={`rounded-xl p-4 border ${c.available ? "bg-card border-primary/30 shadow-sm" : "bg-card/50 border-border opacity-50"}`}>
                 <div className="font-semibold">{c.level}</div>
                 <span className={`text-xs mt-1 inline-block ${c.available ? "text-success font-medium" : "text-muted"}`}>
-                  {c.available ? "Available" : "Coming soon"}
+                  {c.available ? "Beschikbaar" : "Binnenkort"}
                 </span>
               </div>
             ))}

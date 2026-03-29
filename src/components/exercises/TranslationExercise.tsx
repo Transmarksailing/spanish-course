@@ -175,7 +175,7 @@ export default function TranslationExercise({ exercise, lessonSlug }: Props) {
                         onClick={() => handleCheck(item.id)}
                         className="shrink-0"
                       >
-                        Check
+                        {t({ en: "Check", nl: "Controleer" })}
                       </Button>
                     )}
                   </div>

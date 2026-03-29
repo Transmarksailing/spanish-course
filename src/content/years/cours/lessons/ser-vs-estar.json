@@ -91,18 +91,18 @@
         "nl": "Vul aan met de juiste vorm van SER of ESTAR"
       },
       "items": [
-        { "id": "se-001", "sentence": "Yo ___ profesor. (ser)", "correctAnswers": ["soy"], "hint": "profession → SER" },
-        { "id": "se-002", "sentence": "Madrid ___ en el centro de España. (estar)", "correctAnswers": ["está"], "hint": "location → ESTAR" },
-        { "id": "se-003", "sentence": "Nosotros ___ de Bélgica. (ser)", "correctAnswers": ["somos"], "hint": "origin → SER" },
-        { "id": "se-004", "sentence": "Ella ___ muy cansada hoy. (estar)", "correctAnswers": ["está"], "hint": "temporary state → ESTAR" },
-        { "id": "se-005", "sentence": "¿Dónde ___ la fiesta? (ser)", "correctAnswers": ["es"], "hint": "event → SER" },
-        { "id": "se-006", "sentence": "Ellos ___ en la escuela. (estar)", "correctAnswers": ["están"], "hint": "location → ESTAR" },
-        { "id": "se-007", "sentence": "Juan ___ mi padre. (ser)", "correctAnswers": ["es"], "hint": "relationship → SER" },
-        { "id": "se-008", "sentence": "Yo ___ enfermo. (estar)", "correctAnswers": ["estoy"], "hint": "temporary → ESTAR" },
-        { "id": "se-009", "sentence": "Mis zapatos ___ de Deichmann. (ser)", "correctAnswers": ["son"], "hint": "origin → SER" },
-        { "id": "se-010", "sentence": "El plátano ___ verde. (estar)", "correctAnswers": ["está"], "hint": "specific condition → ESTAR" },
-        { "id": "se-011", "sentence": "Hoy ___ el 21 de octubre. (ser)", "correctAnswers": ["es"], "hint": "date → SER" },
-        { "id": "se-012", "sentence": "Yo ___ alto. (ser)", "correctAnswers": ["soy"], "hint": "permanent description → SER" }
+        { "id": "se-001", "sentence": "Yo ___ profesor. (ser)", "correctAnswers": ["soy"], "hint": "beroep → SER" },
+        { "id": "se-002", "sentence": "Madrid ___ en el centro de España. (estar)", "correctAnswers": ["está"], "hint": "locatie → ESTAR" },
+        { "id": "se-003", "sentence": "Nosotros ___ de Bélgica. (ser)", "correctAnswers": ["somos"], "hint": "herkomst → SER" },
+        { "id": "se-004", "sentence": "Ella ___ muy cansada hoy. (estar)", "correctAnswers": ["está"], "hint": "tijdelijke toestand → ESTAR" },
+        { "id": "se-005", "sentence": "¿Dónde ___ la fiesta? (ser)", "correctAnswers": ["es"], "hint": "evenement → SER" },
+        { "id": "se-006", "sentence": "Ellos ___ en la escuela. (estar)", "correctAnswers": ["están"], "hint": "locatie → ESTAR" },
+        { "id": "se-007", "sentence": "Juan ___ mi padre. (ser)", "correctAnswers": ["es"], "hint": "relatie → SER" },
+        { "id": "se-008", "sentence": "Yo ___ enfermo. (estar)", "correctAnswers": ["estoy"], "hint": "tijdelijk → ESTAR" },
+        { "id": "se-009", "sentence": "Mis zapatos ___ de Deichmann. (ser)", "correctAnswers": ["son"], "hint": "herkomst → SER" },
+        { "id": "se-010", "sentence": "El plátano ___ verde. (estar)", "correctAnswers": ["está"], "hint": "specifieke toestand → ESTAR" },
+        { "id": "se-011", "sentence": "Hoy ___ el 21 de octubre. (ser)", "correctAnswers": ["es"], "hint": "datum → SER" },
+        { "id": "se-012", "sentence": "Yo ___ alto. (ser)", "correctAnswers": ["soy"], "hint": "permanente beschrijving → SER" }
       ]
     },
     {

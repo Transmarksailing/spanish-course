@@ -67,7 +67,7 @@ export default function SearchDialog() {
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
         </svg>
-        <span className="hidden sm:inline">Search</span>
+        <span className="hidden sm:inline">{t({ en: "Search", nl: "Zoeken" })}</span>
       </button>
     );
   }
@@ -85,7 +85,7 @@ export default function SearchDialog() {
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search lessons & vocabulary..."
+            placeholder={t({ en: "Search lessons & vocabulary...", nl: "Zoek lessen & woordenlijsten..." })}
             className="flex-1 bg-transparent text-sm text-foreground placeholder:text-muted outline-none"
           />
           <kbd className="hidden sm:inline text-[10px] text-muted border border-border rounded px-1.5 py-0.5">ESC</kbd>
@@ -93,12 +93,12 @@ export default function SearchDialog() {
         <div className="max-h-[300px] overflow-y-auto">
           {query.length < 2 && (
             <div className="px-4 py-6 text-center text-sm text-muted">
-              Type to search...
+              {t({ en: "Type to search...", nl: "Typ om te zoeken..." })}
             </div>
           )}
           {query.length >= 2 && results.length === 0 && (
             <div className="px-4 py-6 text-center text-sm text-muted">
-              No results found
+              {t({ en: "No results found", nl: "Geen resultaten gevonden" })}
             </div>
           )}
           {results.map((r) => (
@@ -109,7 +109,7 @@ export default function SearchDialog() {
               className="flex items-center gap-3 px-4 py-3 hover:bg-sand transition-colors border-b border-border last:border-0"
             >
               <span className="text-xs text-muted shrink-0 w-12">
-                {r.type === "lesson" ? "Lesson" : "Vocab"}
+                {r.type === "lesson" ? t({ en: "Lesson", nl: "Les" }) : t({ en: "Vocab", nl: "Woorden" })}
               </span>
               <span className="text-sm text-foreground">{r.title}</span>
             </Link>

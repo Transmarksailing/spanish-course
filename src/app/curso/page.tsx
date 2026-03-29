@@ -2,7 +2,7 @@ import Link from "next/link";
 import { getYears } from "@/lib/content";
 
 const levelBadges: Record<string, { label: string; color: string }> = {
-  cours: { label: "Spanish Course", color: "bg-primary/10 text-primary" },
+  cours: { label: "Spaanse Cursus", color: "bg-primary/10 text-primary" },
 };
 
 export default function CursoDashboard() {
@@ -10,9 +10,9 @@ export default function CursoDashboard() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
-      <h1 className="text-2xl font-bold mb-1">Your Courses</h1>
+      <h1 className="text-2xl font-bold mb-1">Jouw Cursussen</h1>
       <p className="text-muted text-sm mb-8">
-        Select a course level to start learning
+        Kies een cursusniveau om te beginnen
       </p>
 
       <div className="grid sm:grid-cols-2 gap-4">
@@ -33,17 +33,17 @@ export default function CursoDashboard() {
                 </span>
               </div>
               <h2 className="text-lg font-bold group-hover:text-primary transition-colors">
-                {year.title.en}
+                {year.title.nl || year.title.en}
               </h2>
               <p className="text-sm text-muted mt-1 leading-relaxed">
-                {year.description.en}
+                {year.description.nl || year.description.en}
               </p>
               <div className="mt-4 flex gap-3 text-xs text-muted">
-                <span>{year.lessons.length} lessons</span>
+                <span>{year.lessons.length} lessen</span>
                 <span>&middot;</span>
                 <span>
-                  {year.vocabulary.length} vocabulary list
-                  {year.vocabulary.length !== 1 ? "s" : ""}
+                  {year.vocabulary.length} woordenlijst
+                  {year.vocabulary.length !== 1 ? "en" : ""}
                 </span>
               </div>
             </Link>
@@ -52,7 +52,7 @@ export default function CursoDashboard() {
 
         {years.length === 0 && (
           <p className="text-muted col-span-2 text-center py-12">
-            No courses available yet. Check back soon!
+            Nog geen cursussen beschikbaar. Kom binnenkort terug!
           </p>
         )}
       </div>

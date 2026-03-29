@@ -25,6 +25,7 @@ interface ItemState {
 
 export default function FillInTheBlank({ exercise, lessonSlug }: Props) {
   const { t } = useLanguage();
+  const checkLabel = t({ en: "Check", nl: "Controleer" });
   const inputRefs = useRef<Map<string, HTMLInputElement>>(new Map());
 
   const [states, setStates] = useState<Record<string, ItemState>>(() =>
@@ -217,7 +218,7 @@ export default function FillInTheBlank({ exercise, lessonSlug }: Props) {
                 onClick={() => handleCheck(item.id)}
                 className="shrink-0 mt-0.5"
               >
-                Check
+                {checkLabel}
               </Button>
             )}
           </div>

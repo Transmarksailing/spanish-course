@@ -18,7 +18,7 @@ export default function LoginPage() {
     if (login(year, password)) {
       router.push(`/curso/${year}`);
     } else {
-      setError("Incorrect password. Please try again.");
+      setError("Onjuist wachtwoord. Probeer het opnieuw.");
     }
   };
 
@@ -43,7 +43,7 @@ export default function LoginPage() {
         >
           <div>
             <label className="block text-sm font-medium text-foreground mb-1.5">
-              Course Level
+              Cursus
             </label>
             <select
               value={year}
@@ -56,13 +56,13 @@ export default function LoginPage() {
 
           <div>
             <label className="block text-sm font-medium text-foreground mb-1.5">
-              Password
+              Wachtwoord
             </label>
             <input
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              placeholder="Enter your course password"
+              placeholder="Vul je cursus wachtwoord in"
               className="w-full rounded-lg border border-border px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all"
               required
             />
@@ -75,11 +75,11 @@ export default function LoginPage() {
           )}
 
           <Button type="submit" size="lg" className="w-full">
-            Enter Course
+            Naar cursus
           </Button>
 
           <p className="text-xs text-center text-muted">
-            Ask your teacher for the course password
+            Vraag je docent om het cursus wachtwoord
           </p>
         </form>
       </div>

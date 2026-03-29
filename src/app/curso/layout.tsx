@@ -24,7 +24,7 @@ export default function CursoLayout({ children }: { children: React.ReactNode })
   if (!checked) {
     return (
       <div className="min-h-screen flex items-center justify-center">
-        <div className="text-muted">Loading...</div>
+        <div className="text-muted">Laden...</div>
       </div>
     );
   }

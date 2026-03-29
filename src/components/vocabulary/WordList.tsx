@@ -40,7 +40,7 @@ export default function WordList({ categories }: Props) {
   const modes: { key: PracticeMode; label: string }[] = [
     { key: "view", label: t({ en: "All", nl: "Alles" }) },
     { key: "hide-spanish", label: t({ en: "Hide ES", nl: "Verberg ES" }) },
-    { key: "hide-translation", label: language === "nl" ? t({ en: "Hide NL", nl: "Verberg NL" }) : "Hide EN" },
+    { key: "hide-translation", label: language === "nl" ? t({ en: "Hide NL", nl: "Verberg NL" }) : t({ en: "Hide EN", nl: "Verberg EN" }) },
   ];
 
   return (
