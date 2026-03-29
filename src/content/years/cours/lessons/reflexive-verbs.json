@@ -11,9 +11,37 @@
       "type": "explanation",
       "title": { "en": "Reflexive Verbs", "nl": "Wederkerende Werkwoorden" },
       "content": {
-        "en": "Reflexive verbs indicate that the subject performs an action **on itself**. They use reflexive pronouns: **me, te, se, nos, os, se**.\n\nCommon reflexive verbs: levantarse, ducharse, vestirse, acostarse, lavarse, peinarse, afeitarse, maquillarse, despertarse, dormirse, sentarse\n\nThe reflexive pronoun goes **before** the conjugated verb:\n**Me levanto** a las ocho. (I get up at eight.)\n\n📖 **Practice Makes Perfect** p.35",
-        "nl": "Wederkerende werkwoorden geven aan dat het onderwerp een handeling **op zichzelf** uitvoert. Ze gebruiken wederkerende voornaamwoorden: **me, te, se, nos, os, se**.\n\nVeelgebruikte wederkerende werkwoorden: levantarse, ducharse, vestirse, acostarse, lavarse, peinarse, afeitarse, maquillarse, despertarse, dormirse, sentarse\n\nHet wederkerend voornaamwoord staat **voor** het vervoegde werkwoord:\n**Me levanto** a las ocho. (Ik sta om acht uur op.)\n\n📖 **Practice Makes Perfect** p.35"
+        "en": "Reflexive verbs indicate that the subject performs an action **on itself**. They use reflexive pronouns: **me, te, se, nos, os, se**.\n\nCommon reflexive verbs: levantarse, ducharse, vestirse, acostarse, lavarse, peinarse, afeitarse, maquillarse, despertarse, dormirse, sentarse\n\nThe reflexive pronoun goes **before** the conjugated verb:\n**Me levanto** a las ocho. (I get up at eight.)\n\n📖 **Practice Makes Perfect** p.87",
+        "nl": "Wederkerende werkwoorden geven aan dat het onderwerp een handeling **op zichzelf** uitvoert. Ze gebruiken wederkerende voornaamwoorden: **me, te, se, nos, os, se**.\n\nVeelgebruikte wederkerende werkwoorden: levantarse, ducharse, vestirse, acostarse, lavarse, peinarse, afeitarse, maquillarse, despertarse, dormirse, sentarse\n\nHet wederkerend voornaamwoord staat **voor** het vervoegde werkwoord:\n**Me levanto** a las ocho. (Ik sta om acht uur op.)\n\n📖 **Practice Makes Perfect** p.87"
       }
+    },
+    {
+      "type": "word_list",
+      "title": { "en": "Common Reflexive Verbs", "nl": "Veelgebruikte Wederkerende Werkwoorden" },
+      "items": [
+        { "term": "acostarse (o > ue)", "translation": { "en": "to go to bed", "nl": "naar bed gaan" } },
+        { "term": "afeitarse", "translation": { "en": "to shave", "nl": "zich scheren" } },
+        { "term": "bañarse", "translation": { "en": "to take a bath", "nl": "een bad nemen" } },
+        { "term": "calmarse", "translation": { "en": "to calm down", "nl": "kalmeren" } },
+        { "term": "despertarse (e > ie)", "translation": { "en": "to wake up", "nl": "wakker worden" } },
+        { "term": "ducharse", "translation": { "en": "to take a shower", "nl": "douchen" } },
+        { "term": "enfermarse", "translation": { "en": "to get sick", "nl": "ziek worden" } },
+        { "term": "irse", "translation": { "en": "to go away, leave", "nl": "weggaan" } },
+        { "term": "lavarse", "translation": { "en": "to wash (oneself)", "nl": "zich wassen" } },
+        { "term": "levantarse", "translation": { "en": "to get up", "nl": "opstaan" } },
+        { "term": "llamarse", "translation": { "en": "to be called", "nl": "heten" } },
+        { "term": "maquillarse", "translation": { "en": "to put on makeup", "nl": "zich opmaken" } },
+        { "term": "mirarse", "translation": { "en": "to look at oneself", "nl": "naar zichzelf kijken" } },
+        { "term": "peinarse", "translation": { "en": "to comb one's hair", "nl": "zich kammen" } },
+        { "term": "ponerse", "translation": { "en": "to put on (clothing)", "nl": "aantrekken (kleding)" } },
+        { "term": "preocuparse (por)", "translation": { "en": "to worry (about)", "nl": "zich zorgen maken (om)" } },
+        { "term": "probarse (o > ue)", "translation": { "en": "to try on", "nl": "passen (kleding)" } },
+        { "term": "quitarse", "translation": { "en": "to take off", "nl": "uittrekken" } },
+        { "term": "secarse", "translation": { "en": "to dry off", "nl": "zich afdrogen" } },
+        { "term": "sentarse (e > ie)", "translation": { "en": "to sit down", "nl": "gaan zitten" } },
+        { "term": "sentirse (e > ie)", "translation": { "en": "to feel (emotion, health)", "nl": "zich voelen" } },
+        { "term": "vestirse (e > i)", "translation": { "en": "to get dressed", "nl": "zich aankleden" } }
+      ]
     },
     {
       "type": "rule_box",

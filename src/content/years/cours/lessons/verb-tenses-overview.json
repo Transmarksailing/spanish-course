@@ -17,7 +17,7 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "1. Present — 501 Verbs #1 · GB p.3", "nl": "1. Tegenwoordige Tijd — 501 Verbs #1 · GB p.3" },
+      "title": { "en": "1. Present — 501 Verbs #1 · GB p.1", "nl": "1. Tegenwoordige Tijd — 501 Verbs #1 · GB p.1" },
       "link": "present-tense-irregulars",
       "content": {
         "en": "**Hablo** español. / **Miro** el fútbol. / **Visito** el hospital.\nUsed for habitual actions and general truths.",
@@ -26,7 +26,7 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "2. Present Continuous (-ing) · GB p.27", "nl": "2. Tegenwoordige Tijd Doorlopend (-ing) · GB p.27" },
+      "title": { "en": "2. Present Continuous (-ing) · GB p.93", "nl": "2. Tegenwoordige Tijd Doorlopend (-ing) · GB p.93" },
       "link": "present-progressive",
       "content": {
         "en": "**Estoy hablando** con el profesor. / **Estoy comprando** el coche. / **Estoy estudiando** español.\nUsed for actions happening right now.",
@@ -80,7 +80,7 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "8. Preterite (Indefinido) — 501 Verbs #3 · GB p.59", "nl": "8. Indefinido (Verleden Tijd) — 501 Verbs #3 · GB p.59" },
+      "title": { "en": "8. Preterite (Indefinido) — 501 Verbs #3 · GB p.109", "nl": "8. Indefinido (Verleden Tijd) — 501 Verbs #3 · GB p.109" },
       "link": "preterite-tense",
       "content": {
         "en": "**Compré** un coche. / **Firmé** el contrato. / **Visité** Madrid el año pasado.\nCompleted, one-time past events with a clear beginning and end.",
@@ -89,7 +89,7 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "9. Imperfect (Imperfecto) — 501 Verbs #2 · GB p.99", "nl": "9. Imperfecto (Onvoltooid Verleden Tijd) — 501 Verbs #2 · GB p.99" },
+      "title": { "en": "9. Imperfect (Imperfecto) — 501 Verbs #2 · GB p.138", "nl": "9. Imperfecto (Onvoltooid Verleden Tijd) — 501 Verbs #2 · GB p.138" },
       "link": "imperfect-tense",
       "content": {
         "en": "**Trabajaba** en un banco. / **Estudiaba** inglés. / **Firmaba** el contrato cada año.\nRepeated or ongoing past actions, descriptions, and habits.",
