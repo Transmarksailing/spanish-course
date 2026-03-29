@@ -39,7 +39,7 @@ export default function GrammarSection({ section }: Props) {
       <div className="my-4 border-l-4 border-primary bg-sand/50 rounded-r-lg p-4">
         {titleEl}
         <div
-          className="text-sm text-foreground leading-relaxed"
+          className="text-sm text-foreground leading-loose"
           dangerouslySetInnerHTML={{
             __html: t(section.content)
               .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")

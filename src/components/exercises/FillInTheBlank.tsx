@@ -125,7 +125,7 @@ export default function FillInTheBlank({ exercise, lessonSlug }: Props) {
           }}
           value={state.value}
           status={state.status}
-          placeholder={item.hint || "..."}
+          placeholder="..."
           disabled={state.status === "correct"}
           onFocus={() => (activeInputId.current = item.id)}
           onChange={(e) =>
@@ -148,6 +148,9 @@ export default function FillInTheBlank({ exercise, lessonSlug }: Props) {
           correctAnswer={getCorrectAnswer(item.correctAnswers)}
           show={state.showFeedback}
         />
+        {item.hint && state.attempts > 0 && state.status !== "correct" && (
+          <span className="text-xs text-muted italic mt-0.5">{item.hint}</span>
+        )}
       </div>
     );
   };

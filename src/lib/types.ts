@@ -72,6 +72,7 @@ export interface GrammarRuleBox {
   type: "rule_box";
   title?: LocalizedText;
   content: LocalizedText;
+  link?: string;
 }
 
 // Oefeningen
