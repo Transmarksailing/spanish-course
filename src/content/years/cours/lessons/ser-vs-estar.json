@@ -66,6 +66,20 @@
         "vosotros": "estáis",
         "ellos/ustedes": "están"
       }
+    },
+    {
+      "type": "conjugation_table",
+      "title": { "en": "TENER — Present", "nl": "TENER — Tegenwoordige Tijd" },
+      "verb": "tener",
+      "tense": "present",
+      "forms": {
+        "yo": "tengo",
+        "tú": "tienes",
+        "él/ella/usted": "tiene",
+        "nosotros": "tenemos",
+        "vosotros": "tenéis",
+        "ellos/ustedes": "tienen"
+      }
     }
   ],
   "exercises": [
