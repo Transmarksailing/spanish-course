@@ -75,7 +75,7 @@ export default function HomePage() {
       <footer className="bg-sidebar text-sidebar-text py-8 mt-auto">
         <div className="max-w-5xl mx-auto px-4 text-center">
           <div className="font-semibold mb-1">Transmark Language Tool</div>
-          <p className="text-xs text-sidebar-text/50">transmarklanguagetool.com</p>
+          <p className="text-xs text-sidebar-text/50">spanishclassesinjavea.com</p>
         </div>
       </footer>
     </div>

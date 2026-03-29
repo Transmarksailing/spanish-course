@@ -7,7 +7,7 @@ export default function CourseFooter() {
             Transmark Language Tool
           </span>
           <div>
-            &copy; {new Date().getFullYear()} transmarklanguagetool.com
+            &copy; {new Date().getFullYear()} spanishclassesinjavea.com
           </div>
         </div>
       </div>
