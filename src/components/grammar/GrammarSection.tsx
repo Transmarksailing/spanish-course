@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import type { GrammarSection as GrammarSectionType } from "@/lib/types";
 import { useLanguage } from "@/lib/language-context";
 import ConjugationTable from "./ConjugationTable";
@@ -10,26 +12,38 @@ interface Props {
 
 export default function GrammarSection({ section }: Props) {
   const { t } = useLanguage();
+  const pathname = usePathname();
+
+  // Extract /curso/[year] base from current path
+  const cursoMatch = pathname.match(/\/curso\/[^/]+/);
+  const cursoBase = cursoMatch ? cursoMatch[0] : "/curso/cours";
 
   if (section.type === "conjugation_table") {
     return <ConjugationTable data={section} />;
   }
 
   if (section.type === "rule_box") {
+    const titleEl = section.title ? (
+      section.link ? (
+        <Link href={`${cursoBase}/${section.link}`} className="font-semibold text-primary hover:underline mb-1 block">
+          {t(section.title)} →
+        </Link>
+      ) : (
+        <h4 className="font-semibold text-primary mb-1">
+          {t(section.title)}
+        </h4>
+      )
+    ) : null;
+
     return (
       <div className="my-4 border-l-4 border-primary bg-sand/50 rounded-r-lg p-4">
-        {section.title && (
-          <h4 className="font-semibold text-primary mb-1">
-            {t(section.title)}
-          </h4>
-        )}
-        <p
+        {titleEl}
+        <div
           className="text-sm text-foreground leading-relaxed"
           dangerouslySetInnerHTML={{
-            __html: t(section.content).replace(
-              /\*\*(.*?)\*\*/g,
-              "<strong>$1</strong>"
-            ),
+            __html: t(section.content)
+              .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+              .replace(/\n/g, "<br/>"),
           }}
         />
       </div>
