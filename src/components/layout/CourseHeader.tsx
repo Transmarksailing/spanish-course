@@ -19,8 +19,8 @@ export default function CourseHeader() {
 
   return (
     <header className="bg-sidebar text-sidebar-text border-b border-white/5">
-      <div className="max-w-4xl px-4 sm:px-8 py-0">
-        <div className="flex items-center h-14 gap-2 sm:gap-3">
+      <div className="px-3 sm:px-8 py-0">
+        <div className="flex items-center h-14 gap-1.5 sm:gap-3">
           <Link href="/curso" className="flex items-center gap-2 hover:opacity-90 shrink-0">
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-white font-bold text-sm">
               TM

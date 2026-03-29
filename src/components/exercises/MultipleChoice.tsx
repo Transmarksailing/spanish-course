@@ -94,7 +94,7 @@ export default function MultipleChoice({ exercise, lessonSlug }: Props) {
           return (
             <div
               key={item.id}
-              className={`flex items-center gap-2 sm:gap-3 p-2 sm:p-3 rounded-lg transition-colors ${
+              className={`flex flex-wrap items-center gap-2 sm:gap-3 p-2 sm:p-3 rounded-lg transition-colors ${
                 state.status === "correct"
                   ? "bg-success-light/50"
                   : state.status === "incorrect"
@@ -105,10 +105,10 @@ export default function MultipleChoice({ exercise, lessonSlug }: Props) {
               <span className="text-xs text-muted font-mono w-5 sm:w-6 text-right shrink-0">
                 {index + 1}.
               </span>
-              <span className="text-sm font-semibold text-foreground min-w-[160px]">
+              <span className="text-sm font-semibold text-foreground min-w-0">
                 {item.sentence}
               </span>
-              <div className="flex gap-2 flex-wrap">
+              <div className="flex gap-2 flex-wrap ml-auto shrink-0">
                 {options.map((option) => (
                   <button
                     key={option}

@@ -118,7 +118,7 @@ export default function FillInTheBlank({ exercise, lessonSlug }: Props) {
   const renderInput = (item: (typeof exercise.items)[0]) => {
     const state = states[item.id];
     return (
-      <div className="inline-flex flex-col min-w-[140px] sm:min-w-[180px]">
+      <div className="inline-flex flex-col w-full min-w-0 sm:min-w-[180px] sm:w-auto">
         <Input
           ref={(el) => {
             if (el) inputRefs.current.set(item.id, el);

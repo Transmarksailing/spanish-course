@@ -24,17 +24,17 @@ export default function GrammarSection({ section }: Props) {
 
   if (section.type === "word_list") {
     return (
-      <div className="my-4 border-l-4 border-primary bg-sand/50 rounded-r-lg p-4">
+      <div className="my-4 border-l-4 border-primary bg-sand/50 rounded-r-lg p-3 sm:p-4">
         {section.title && (
           <h4 className="font-semibold text-primary mb-3">
             {t(section.title)}
           </h4>
         )}
-        <div className="grid grid-cols-[minmax(180px,1fr)_minmax(180px,1fr)] gap-x-6 gap-y-1 text-sm">
+        <div className="space-y-1.5 sm:space-y-0 sm:grid sm:grid-cols-[minmax(140px,1fr)_minmax(140px,1fr)] sm:gap-x-4 sm:gap-y-1 text-sm">
           {section.items.map((item, i) => (
-            <div key={i} className="contents">
-              <span className="font-semibold text-foreground">{item.term}</span>
-              <span className="text-muted">{t(item.translation)}</span>
+            <div key={i} className="flex gap-2 sm:contents">
+              <span className="font-semibold text-foreground shrink-0">{item.term}</span>
+              <span className="text-muted">— {t(item.translation)}</span>
             </div>
           ))}
         </div>
