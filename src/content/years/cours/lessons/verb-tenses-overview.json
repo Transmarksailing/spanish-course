@@ -17,7 +17,7 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "1. Present — 501 Verbs #1 · GB p.1", "nl": "1. Tegenwoordige Tijd — 501 Verbs #1 · GB p.1" },
+      "title": { "en": "1. Present — 501 Verbs #1 · GB p.3", "nl": "1. Tegenwoordige Tijd — 501 Verbs #1 · GB p.3" },
       "link": "present-tense-irregulars",
       "content": {
         "en": "**Hablo** español. / **Miro** el fútbol. / **Visito** el hospital.\nUsed for habitual actions and general truths.",
@@ -26,7 +26,7 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "2. Present Continuous (-ing) · GB p.23", "nl": "2. Tegenwoordige Tijd Doorlopend (-ing) · GB p.23" },
+      "title": { "en": "2. Present Continuous (-ing) · GB p.27", "nl": "2. Tegenwoordige Tijd Doorlopend (-ing) · GB p.27" },
       "link": "present-progressive",
       "content": {
         "en": "**Estoy hablando** con el profesor. / **Estoy comprando** el coche. / **Estoy estudiando** español.\nUsed for actions happening right now.",
@@ -35,7 +35,7 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "3. Future — Intention (IR A + infinitive) · GB p.39", "nl": "3. Toekomst — Intentie (IR A + infinitief) · GB p.39" },
+      "title": { "en": "3. Future — Intention (IR A + infinitive) · GB p.159", "nl": "3. Toekomst — Intentie (IR A + infinitief) · GB p.159" },
       "link": "future-tense",
       "content": {
         "en": "**Voy a** hablar con mi hermano. / **Voy a** comer en el restaurante. / **Voy a** beber más agua.\nExpresses intention, equivalent to English 'going to'.",
@@ -44,7 +44,7 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "4. Future — Obligation (TENER QUE) · GB p.39", "nl": "4. Toekomst — Verplichting (TENER QUE) · GB p.39" },
+      "title": { "en": "4. Future — Obligation (TENER QUE) · GB p.159", "nl": "4. Toekomst — Verplichting (TENER QUE) · GB p.159" },
       "link": "future-tense",
       "content": {
         "en": "**Tengo que** hablar con mi marido. / **Tengo que** vender el coche. / **Tengo que** escribir una carta.\nExpresses obligation, equivalent to 'have to'.",
@@ -53,7 +53,7 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "5. Simple Future (will) — 501 Verbs #4 · GB p.155", "nl": "5. Onvoltooid Toekomende Tijd (zullen) — 501 Verbs #4 · GB p.155" },
+      "title": { "en": "5. Simple Future (will) — 501 Verbs #4 · GB p.159", "nl": "5. Onvoltooid Toekomende Tijd (zullen) — 501 Verbs #4 · GB p.159" },
       "link": "future-tense",
       "content": {
         "en": "**Hablaré** con el dentista. / **Llamaré** mañana. / **Firmaré** el contrato mañana.\nFormed by adding endings to the infinitive: -é, -ás, -á, -emos, -éis, -án.",
@@ -62,7 +62,7 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "6. Present Perfect — 501 Verbs #8 · GB p.182", "nl": "6. Voltooid Tegenwoordige Tijd — 501 Verbs #8 · GB p.182" },
+      "title": { "en": "6. Present Perfect — 501 Verbs #8 · GB p.179", "nl": "6. Voltooid Tegenwoordige Tijd — 501 Verbs #8 · GB p.179" },
       "link": "present-perfect",
       "content": {
         "en": "**He hablado** con el médico hoy. / **He practicado** mucho esta semana. / **He limpiado** la casa esta tarde.\nFormed with HABER + past participle. Refers to past actions with relevance to the present.",
@@ -71,7 +71,7 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "7. Recent Past (ACABAR DE) · GB p.182", "nl": "7. Nabij Verleden (ACABAR DE) · GB p.182" },
+      "title": { "en": "7. Recent Past (ACABAR DE) · GB p.179", "nl": "7. Nabij Verleden (ACABAR DE) · GB p.179" },
       "link": "present-perfect",
       "content": {
         "en": "**Acabo de** hablar con mi hijo. / **Acabo de** llegar. / **Acabo de** salir.\nExpresses something that just happened, equivalent to 'have just'.",
@@ -80,7 +80,7 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "8. Preterite (Indefinido) — 501 Verbs #3 · GB p.55", "nl": "8. Indefinido (Verleden Tijd) — 501 Verbs #3 · GB p.55" },
+      "title": { "en": "8. Preterite (Indefinido) — 501 Verbs #3 · GB p.59", "nl": "8. Indefinido (Verleden Tijd) — 501 Verbs #3 · GB p.59" },
       "link": "preterite-tense",
       "content": {
         "en": "**Compré** un coche. / **Firmé** el contrato. / **Visité** Madrid el año pasado.\nCompleted, one-time past events with a clear beginning and end.",
@@ -89,7 +89,7 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "9. Imperfect (Imperfecto) — 501 Verbs #2 · GB p.95", "nl": "9. Imperfecto (Onvoltooid Verleden Tijd) — 501 Verbs #2 · GB p.95" },
+      "title": { "en": "9. Imperfect (Imperfecto) — 501 Verbs #2 · GB p.99", "nl": "9. Imperfecto (Onvoltooid Verleden Tijd) — 501 Verbs #2 · GB p.99" },
       "link": "imperfect-tense",
       "content": {
         "en": "**Trabajaba** en un banco. / **Estudiaba** inglés. / **Firmaba** el contrato cada año.\nRepeated or ongoing past actions, descriptions, and habits.",
@@ -98,7 +98,7 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "10. Conditional — 501 Verbs #5 · GB p.167", "nl": "10. Voorwaardelijke Wijs — 501 Verbs #5 · GB p.167" },
+      "title": { "en": "10. Conditional — 501 Verbs #5 · GB p.171", "nl": "10. Voorwaardelijke Wijs — 501 Verbs #5 · GB p.171" },
       "link": "conditional",
       "content": {
         "en": "Hablaría con el médico, **pero** no tengo el tiempo.\nEstudiaría español, **si tuviera** el tiempo.\nCompraría el coche, **pero** no tengo dinero.\nUsed for hypothetical situations and polite requests.",
@@ -107,7 +107,7 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "11. Subjunctive — 501 Verbs #6 · GB p.209", "nl": "11. Subjuntivo (Aanvoegende Wijs) — 501 Verbs #6 · GB p.209" },
+      "title": { "en": "11. Subjunctive — 501 Verbs #6 · GB p.211", "nl": "11. Subjuntivo (Aanvoegende Wijs) — 501 Verbs #6 · GB p.211" },
       "link": "present-subjunctive",
       "content": {
         "en": "Es fantástico que HABLES español.\nTal vez yo VISITE la playa.\nPuede ser que TRABAJEN aquí.\nNo creo que ESTUDIEN mucho.\nEspero que LLAMEN mañana.\nUsed after expressions of doubt, emotion, desire, and impersonal expressions.",
