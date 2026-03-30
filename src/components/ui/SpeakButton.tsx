@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 
 interface SpeakButtonProps {
   text: string;
@@ -8,14 +8,58 @@ interface SpeakButtonProps {
   className?: string;
 }
 
+// Preferred female Spanish voices by platform (ranked by quality)
+const PREFERRED_VOICES = [
+  // macOS / iOS premium voices
+  "Mónica",    // Castilian Spanish (macOS)
+  "Paulina",   // Mexican Spanish (macOS)
+  "Jimena",    // Mexican Spanish (iOS)
+  "Marisol",   // Spanish
+  // Google Chrome voices
+  "Google español",
+  // Microsoft Edge voices
+  "Microsoft Elvira",
+  "Microsoft Helena",
+];
+
+function findFemaleSpanishVoice(voices: SpeechSynthesisVoice[], lang: string): SpeechSynthesisVoice | null {
+  const spanishVoices = voices.filter((v) => v.lang.startsWith("es"));
+
+  // Try preferred voices first
+  for (const name of PREFERRED_VOICES) {
+    const match = spanishVoices.find((v) => v.name.includes(name));
+    if (match) return match;
+  }
+
+  // Fallback: any Spanish voice matching the requested locale
+  const localeMatch = spanishVoices.find((v) => v.lang === lang);
+  if (localeMatch) return localeMatch;
+
+  // Fallback: any Spanish voice
+  return spanishVoices[0] || null;
+}
+
 export default function SpeakButton({ text, lang = "es-ES", className = "" }: SpeakButtonProps) {
   const [speaking, setSpeaking] = useState(false);
+  const voiceRef = useRef<SpeechSynthesisVoice | null>(null);
 
   useEffect(() => {
-    return () => {
-      window.speechSynthesis?.cancel();
+    const synth = window.speechSynthesis;
+    if (!synth) return;
+
+    const loadVoices = () => {
+      const voices = synth.getVoices();
+      voiceRef.current = findFemaleSpanishVoice(voices, lang);
     };
-  }, []);
+
+    loadVoices();
+    synth.addEventListener("voiceschanged", loadVoices);
+
+    return () => {
+      synth.removeEventListener("voiceschanged", loadVoices);
+      synth.cancel();
+    };
+  }, [lang]);
 
   const handleSpeak = useCallback(() => {
     const synth = window.speechSynthesis;
@@ -29,7 +73,12 @@ export default function SpeakButton({ text, lang = "es-ES", className = "" }: Sp
 
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = lang;
-    utterance.rate = 0.85;
+    utterance.rate = 0.88;
+    utterance.pitch = 1.05;
+
+    if (voiceRef.current) {
+      utterance.voice = voiceRef.current;
+    }
 
     utterance.onend = () => setSpeaking(false);
     utterance.onerror = () => setSpeaking(false);
