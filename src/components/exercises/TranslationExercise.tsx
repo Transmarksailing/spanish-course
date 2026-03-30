@@ -142,10 +142,10 @@ export default function TranslationExercise({ exercise, lessonSlug }: Props) {
                 </span>
                 <div className="flex-1 space-y-1.5">
                   <div className="flex items-center gap-1">
-                    <SpeakButton text={item.correctAnswers[0]} />
                     <p className="text-sm font-medium text-foreground">
                       {getSourceText(item)}
                     </p>
+                    <SpeakButton text={item.correctAnswers[0]} />
                   </div>
                   <div className="flex items-center gap-1.5 sm:gap-2">
                     <Input

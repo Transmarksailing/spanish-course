@@ -106,10 +106,10 @@ export default function MultipleChoice({ exercise, lessonSlug }: Props) {
               <span className="text-xs text-muted font-mono w-5 sm:w-6 text-right shrink-0">
                 {index + 1}.
               </span>
-              <SpeakButton text={item.sentence || ""} />
               <span className="text-sm font-semibold text-foreground min-w-0">
                 {item.sentence}
               </span>
+              <SpeakButton text={item.sentence || ""} />
               <div className="flex gap-2 flex-wrap ml-auto shrink-0">
                 {options.map((option) => (
                   <button

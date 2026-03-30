@@ -34,9 +34,9 @@ export default function GrammarSection({ section }: Props) {
         <div className="space-y-1.5 sm:space-y-0 sm:grid sm:grid-cols-[minmax(140px,1fr)_minmax(140px,1fr)] sm:gap-x-4 sm:gap-y-1 text-sm">
           {section.items.map((item, i) => (
             <div key={i} className="flex items-center gap-1 sm:contents">
-              <SpeakButton text={item.term} className="sm:justify-self-end" />
               <span className="font-semibold text-foreground shrink-0">{item.term}</span>
               <span className="text-muted">— {t(item.translation)}</span>
+              <SpeakButton text={item.term} />
             </div>
           ))}
         </div>

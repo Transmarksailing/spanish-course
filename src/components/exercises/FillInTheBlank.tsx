@@ -169,10 +169,10 @@ export default function FillInTheBlank({ exercise, lessonSlug }: Props) {
     if (item.before !== undefined || item.after !== undefined) {
       return (
         <div className="flex flex-wrap items-center gap-1.5">
-          <SpeakButton text={getSpeakText(item)} />
           {item.before && <span className="text-sm">{item.before}</span>}
           {renderInput(item)}
           {item.after && <span className="text-sm">{item.after}</span>}
+          <SpeakButton text={getSpeakText(item)} />
         </div>
       );
     }
@@ -181,7 +181,6 @@ export default function FillInTheBlank({ exercise, lessonSlug }: Props) {
     const parts = (item.sentence || "").split(/(_+)/);
     return (
       <div className="flex flex-wrap items-center gap-1.5">
-        <SpeakButton text={getSpeakText(item)} />
         {parts.map((part, i) => {
           if (part.match(/^_+$/)) {
             return <span key={i}>{renderInput(item)}</span>;
@@ -192,6 +191,7 @@ export default function FillInTheBlank({ exercise, lessonSlug }: Props) {
             </span>
           );
         })}
+        <SpeakButton text={getSpeakText(item)} />
       </div>
     );
   };
