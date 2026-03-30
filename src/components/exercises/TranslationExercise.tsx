@@ -10,6 +10,7 @@ import Button from "@/components/ui/Button";
 import SpecialChars from "@/components/ui/SpecialChars";
 import ExerciseFeedback from "./ExerciseFeedback";
 import ProgressBar from "@/components/ui/ProgressBar";
+import SpeakButton from "@/components/ui/SpeakButton";
 
 interface Props {
   exercise: Exercise;
@@ -140,9 +141,12 @@ export default function TranslationExercise({ exercise, lessonSlug }: Props) {
                   {index + 1}.
                 </span>
                 <div className="flex-1 space-y-1.5">
-                  <p className="text-sm font-medium text-foreground">
-                    {getSourceText(item)}
-                  </p>
+                  <div className="flex items-center gap-1">
+                    <SpeakButton text={item.correctAnswers[0]} />
+                    <p className="text-sm font-medium text-foreground">
+                      {getSourceText(item)}
+                    </p>
+                  </div>
                   <div className="flex items-center gap-1.5 sm:gap-2">
                     <Input
                       ref={(el) => {

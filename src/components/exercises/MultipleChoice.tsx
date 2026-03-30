@@ -5,6 +5,7 @@ import type { Exercise } from "@/lib/types";
 import { useLanguage } from "@/lib/language-context";
 import { saveProgress } from "@/lib/progress";
 import ProgressBar from "@/components/ui/ProgressBar";
+import SpeakButton from "@/components/ui/SpeakButton";
 
 interface Props {
   exercise: Exercise;
@@ -105,6 +106,7 @@ export default function MultipleChoice({ exercise, lessonSlug }: Props) {
               <span className="text-xs text-muted font-mono w-5 sm:w-6 text-right shrink-0">
                 {index + 1}.
               </span>
+              <SpeakButton text={item.sentence || ""} />
               <span className="text-sm font-semibold text-foreground min-w-0">
                 {item.sentence}
               </span>

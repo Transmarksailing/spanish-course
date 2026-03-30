@@ -1,23 +1,6 @@
 LESSON 21 — CONDITIONAL STRUCTURES (IF-CLAUSES)
 =================================================
 
---- ESPAÑOL ---
-
-¡Hola! Hoy aprendemos las estructuras condicionales — las cláusulas con SI.
-
-Hay tres tipos:
-
-Primera condicional — situaciones reales y posibles. SI más presente, futuro.
-Si llueve, no iré a la playa. Si estudias, aprobarás el examen. Si tengo tiempo, te llamo.
-
-Segunda condicional — situaciones hipotéticas. SI más imperfecto de subjuntivo, condicional.
-Si tuviera más dinero, viajaría por el mundo. Si pudiera volar, iría a la luna. Si fuera tú, estudiaría más.
-
-Tercera condicional — situaciones imposibles del pasado. SI más pluscuamperfecto de subjuntivo, condicional compuesto.
-Si hubiera estudiado más, habría aprobado el examen. Si hubiéramos salido antes, habríamos llegado a tiempo.
-
-Recuerden: primera es real, segunda es hipotética, tercera es imposible.
-
 --- ENGLISH ---
 
 Hello! Today we learn conditional structures — IF-clauses.
