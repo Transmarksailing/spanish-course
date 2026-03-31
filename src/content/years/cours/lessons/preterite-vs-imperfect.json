@@ -68,6 +68,22 @@
         { "term": "Nunca", "translation": { "en": "Never", "nl": "Nooit" } },
         { "term": "Mientras", "translation": { "en": "While", "nl": "Terwijl" } }
       ]
+    },
+    {
+      "type": "rule_box",
+      "title": { "en": "Red Rules — Preterite Verbs (one-off actions)", "nl": "Rode Regels — Indefinido Werkwoorden (eenmalige acties)" },
+      "content": {
+        "en": "These verbs are typically used in the **preterite** (completed, one-off events):\n\nabrir, abrochar, ahogar, anunciar, aterrizar, bailar, beber, caer, cambiar, cerrar, comer, comenzar, comprar, conseguir, contestar, dar, decidir, decir, dejar, derretir, descubrir, despegar, durar, empezar, encender, encontrar, entrar, enviar, escapar, escribir, ir, llamar, llegar, mirar, montar, morir, nacer, naufragar, oír, pagar, perder, pedir, poner, ponerse, preguntar, preparar, recibir, regresar, reparar, romper, salir, salvar, seguir, terminar, tomar, traer, viajar, vender, ver, volar, volver\n\n+ most reflexive verbs (levantarse, acostarse, etc.)",
+        "nl": "Deze werkwoorden worden typisch gebruikt in de **indefinido** (voltooide, eenmalige acties):\n\nabrir, abrochar, ahogar, anunciar, aterrizar, bailar, beber, caer, cambiar, cerrar, comer, comenzar, comprar, conseguir, contestar, dar, decidir, decir, dejar, derretir, descubrir, despegar, durar, empezar, encender, encontrar, entrar, enviar, escapar, escribir, ir, llamar, llegar, mirar, montar, morir, nacer, naufragar, oír, pagar, perder, pedir, poner, ponerse, preguntar, preparar, recibir, regresar, reparar, romper, salir, salvar, seguir, terminar, tomar, traer, viajar, vender, ver, volar, volver\n\n+ de meeste wederkerende werkwoorden (levantarse, acostarse, etc.)"
+      }
+    },
+    {
+      "type": "rule_box",
+      "title": { "en": "Red Rules — Imperfect Verbs (ongoing/descriptive)", "nl": "Rode Regels — Imperfecto Werkwoorden (voortdurend/beschrijvend)" },
+      "content": {
+        "en": "These verbs are typically used in the **imperfect** (descriptions, states, habits):\n\ncaber, comprender, creer, doler, entender, estar, estudiar, flotar, funcionar, gustar, ir (with another verb), llamarse, necesitar, parecer, pensar, pertenecer, querer, saber, sentirse, ser, tener, trabajar, vivir\n\n**Also imperfect for**: weather, time of day, age, physical/emotional descriptions.",
+        "nl": "Deze werkwoorden worden typisch gebruikt in de **imperfecto** (beschrijvingen, toestanden, gewoontes):\n\ncaber, comprender, creer, doler, entender, estar, estudiar, flotar, funcionar, gustar, ir (met ander werkwoord), llamarse, necesitar, parecer, pensar, pertenecer, querer, saber, sentirse, ser, tener, trabajar, vivir\n\n**Ook imperfecto voor**: weer, tijdstip, leeftijd, fysieke/emotionele beschrijvingen."
+      }
     }
   ],
   "exercises": [
@@ -131,6 +147,29 @@
         { "id": "pvi-024", "sentence": "Me ___ a bailar con Carlos. (ir)", "correctAnswers": ["fui"], "hint": "eenmalige gebeurtenis → indefinido" },
         { "id": "pvi-025", "sentence": "Él ___ tan romántico que me enamoré de él. (ser)", "correctAnswers": ["era"], "hint": "beschrijving → imperfecto" },
         { "id": "pvi-026", "sentence": "Rudy ___ a casa. (regresar)", "correctAnswers": ["regresó"], "hint": "voltooide gebeurtenis → indefinido" }
+      ]
+    },
+    {
+      "id": "pvi-reyes-01",
+      "type": "fill_in_blank",
+      "instruction": { "en": "Complete — Preterite or Imperfect? (Los Reyes de España)", "nl": "Vul aan — Indefinido of Imperfecto? (De Koningen van Spanje)" },
+      "items": [
+        { "id": "pvi-r01", "sentence": "Cuando Felipe VI todavía ___ príncipe, vivía en Madrid. (ser)", "correctAnswers": ["era"], "hint": "achtergrond/beschrijving → imperfecto" },
+        { "id": "pvi-r02", "sentence": "Él ___ en Madrid y trabajaba mucho. (vivir)", "correctAnswers": ["vivía"], "hint": "voortdurende situatie → imperfecto" },
+        { "id": "pvi-r03", "sentence": "Él ___ mucho todos los días. (trabajar)", "correctAnswers": ["trabajaba"], "hint": "gewoontehandeling → imperfecto" },
+        { "id": "pvi-r04", "sentence": "Letizia Ortiz ___ una carrera como periodista. (tener)", "correctAnswers": ["tenía"], "hint": "voortdurende situatie → imperfecto" },
+        { "id": "pvi-r05", "sentence": "Ella ___ a muchos países. (viajar)", "correctAnswers": ["viajaba"], "hint": "gewoontehandeling → imperfecto" },
+        { "id": "pvi-r06", "sentence": "Un día, ellos se ___ en un evento importante. (conocer)", "correctAnswers": ["conocieron"], "hint": "eenmalige gebeurtenis → indefinido" },
+        { "id": "pvi-r07", "sentence": "Felipe ___ con otras personas cuando Letizia llegó. (hablar)", "correctAnswers": ["hablaba"], "hint": "voortdurende achtergrond → imperfecto" },
+        { "id": "pvi-r08", "sentence": "Letizia ___ al evento. (llegar)", "correctAnswers": ["llegó"], "hint": "eenmalige gebeurtenis → indefinido" },
+        { "id": "pvi-r09", "sentence": "Mientras él le ___ algo, ella sonrió. (explicar)", "correctAnswers": ["explicaba"], "hint": "voortdurende achtergrond → imperfecto" },
+        { "id": "pvi-r10", "sentence": "Ella de repente ___ y todo cambió. (sonreír)", "correctAnswers": ["sonrió"], "hint": "plotselinge gebeurtenis → indefinido" },
+        { "id": "pvi-r11", "sentence": "Ellos ___ con frecuencia durante los meses siguientes. (verse)", "correctAnswers": ["se veían"], "hint": "gewoontehandeling → imperfecto" },
+        { "id": "pvi-r12", "sentence": "Felipe siempre ___ muy interesado en ella. (estar)", "correctAnswers": ["estaba"], "hint": "voortdurende toestand → imperfecto" },
+        { "id": "pvi-r13", "sentence": "En 2004, ellos se ___ en una ceremonia muy famosa. (casar)", "correctAnswers": ["casaron"], "hint": "eenmalige gebeurtenis → indefinido" },
+        { "id": "pvi-r14", "sentence": "Muchas personas ___ la boda por televisión. (mirar)", "correctAnswers": ["miraron"], "hint": "eenmalige handeling → indefinido" },
+        { "id": "pvi-r15", "sentence": "Después de la boda, la vida de ambos ___ mucho. (cambiar)", "correctAnswers": ["cambió"], "hint": "voltooide verandering → indefinido" },
+        { "id": "pvi-r16", "sentence": "Siempre ___ tiempo para su familia. (encontrar)", "correctAnswers": ["encontraban"], "hint": "gewoontehandeling → imperfecto" }
       ]
     }
   ],

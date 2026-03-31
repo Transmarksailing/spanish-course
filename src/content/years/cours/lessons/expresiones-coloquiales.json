@@ -1,0 +1,62 @@
+{
+  "slug": "expresiones-coloquiales",
+  "year": "cours",
+  "title": {
+    "en": "Colloquial Expressions I",
+    "nl": "Spreekwoorden & Uitdrukkingen I",
+    "es": "Expresiones Coloquiales I"
+  },
+  "grammarSections": [
+    {
+      "type": "explanation",
+      "title": { "en": "Spanish Idioms", "nl": "Spaanse Uitdrukkingen" },
+      "content": {
+        "en": "Spanish has many colourful idiomatic expressions. Learning these will help you sound more natural and understand everyday conversations. Most have equivalents in English and Dutch!",
+        "nl": "Het Spaans heeft veel kleurrijke uitdrukkingen. Als je deze leert, klink je natuurlijker en begrijp je alledaagse gesprekken beter. De meeste hebben een equivalent in het Engels en Nederlands!"
+      }
+    },
+    {
+      "type": "word_list",
+      "title": { "en": "16 Essential Expressions", "nl": "16 Belangrijke Uitdrukkingen" },
+      "items": [
+        { "term": "Cortar el bacalao", "translation": { "en": "To be the boss / call the shots", "nl": "De baas zijn / de lakens uitdelen" } },
+        { "term": "Estar como boca de lobo", "translation": { "en": "To be pitch dark", "nl": "Pikkedonker zijn" } },
+        { "term": "No oír ni el vuelo de una mosca", "translation": { "en": "So quiet you could hear a pin drop", "nl": "Je kon een speld horen vallen" } },
+        { "term": "Cuando las ranas críen pelo", "translation": { "en": "When pigs fly", "nl": "Met Sint-Juttemis / als de kalveren op het ijs dansen" } },
+        { "term": "Poner toda la carne en el asador", "translation": { "en": "To go all in / give it everything", "nl": "Alles op alles zetten" } },
+        { "term": "Echar agua al mar", "translation": { "en": "To carry coals to Newcastle (pointless effort)", "nl": "Water naar de zee dragen" } },
+        { "term": "El mundo es un pañuelo", "translation": { "en": "It's a small world", "nl": "De wereld is klein" } },
+        { "term": "Andar de Herodes a Pilato", "translation": { "en": "To go from pillar to post", "nl": "Van het kastje naar de muur gestuurd worden" } },
+        { "term": "Costar un ojo de la cara", "translation": { "en": "To cost an arm and a leg", "nl": "Een rib uit je lijf kosten" } },
+        { "term": "Estirar la pata", "translation": { "en": "To kick the bucket (to die)", "nl": "Het hoekje omgaan / de pijp uitgaan" } },
+        { "term": "Hacerse el sueco", "translation": { "en": "To play dumb / pretend not to hear", "nl": "Zich van de domme houden" } },
+        { "term": "Meter las narices en todo", "translation": { "en": "To stick your nose in everything", "nl": "Overal je neus in steken" } },
+        { "term": "No entender ni papa", "translation": { "en": "To not understand a thing", "nl": "Er helemaal niets van begrijpen" } },
+        { "term": "Importarle un bledo", "translation": { "en": "To not care at all", "nl": "Het kan me niets schelen" } },
+        { "term": "Pedir peras al olmo", "translation": { "en": "To ask the impossible", "nl": "Het onmogelijke vragen" } },
+        { "term": "Dormir a pierna suelta", "translation": { "en": "To sleep like a log", "nl": "Slapen als een roos" } }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exc-match-01",
+      "type": "multiple_choice",
+      "instruction": { "en": "Match the expression to its meaning", "nl": "Koppel de uitdrukking aan de betekenis" },
+      "items": [
+        { "id": "exc-001", "sentence": "Costar un ojo de la cara", "correctAnswers": ["Heel duur zijn"], "hint": "Heel duur zijn|Heel goedkoop zijn|Heel mooi zijn" },
+        { "id": "exc-002", "sentence": "Dormir a pierna suelta", "correctAnswers": ["Heel diep slapen"], "hint": "Niet kunnen slapen|Heel diep slapen|Laat naar bed gaan" },
+        { "id": "exc-003", "sentence": "Cuando las ranas críen pelo", "correctAnswers": ["Nooit"], "hint": "Morgen|Nooit|Binnenkort" },
+        { "id": "exc-004", "sentence": "El mundo es un pañuelo", "correctAnswers": ["De wereld is klein"], "hint": "De wereld is groot|De wereld is klein|De wereld is mooi" },
+        { "id": "exc-005", "sentence": "Hacerse el sueco", "correctAnswers": ["Zich van de domme houden"], "hint": "Zweeds praten|Zich van de domme houden|Naar Zweden gaan" },
+        { "id": "exc-006", "sentence": "Meter las narices en todo", "correctAnswers": ["Overal je neus in steken"], "hint": "Overal je neus in steken|Een grote neus hebben|Goed kunnen ruiken" },
+        { "id": "exc-007", "sentence": "Cortar el bacalao", "correctAnswers": ["De baas zijn"], "hint": "Vis koken|De baas zijn|Vis snijden" },
+        { "id": "exc-008", "sentence": "Estirar la pata", "correctAnswers": ["Doodgaan"], "hint": "Sporten|Doodgaan|Je been strekken" }
+      ]
+    }
+  ],
+  "videoPlaceholder": {
+    "title": { "en": "Teacher Explanation Video", "nl": "Uitleg Video Docent" },
+    "description": { "en": "Spanish idioms explained!", "nl": "Spaanse uitdrukkingen uitgelegd!" }
+  }
+}
