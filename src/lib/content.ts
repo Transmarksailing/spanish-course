@@ -25,6 +25,7 @@ import conditionalStructures from "@/content/years/cours/lessons/conditional-str
 import multiTensePractice from "@/content/years/cours/lessons/multi-tense-practice.json";
 import reportedSpeech from "@/content/years/cours/lessons/reported-speech.json";
 import stemChangingVerbs from "@/content/years/cours/lessons/stem-changing-verbs.json";
+import vozPasiva from "@/content/years/cours/lessons/voz-pasiva.json";
 
 // Vocabulary
 import verbs from "@/content/years/cours/vocabulary/verbs.json";
@@ -49,6 +50,8 @@ import kitchen from "@/content/years/cours/vocabulary/kitchen.json";
 import gardening from "@/content/years/cours/vocabulary/gardening.json";
 import roomsAndFurniture from "@/content/years/cours/vocabulary/rooms-and-furniture.json";
 import houseObjects from "@/content/years/cours/vocabulary/house-objects.json";
+import expresionesColoquiales from "@/content/years/cours/vocabulary/expresiones-coloquiales.json";
+import expresionesColoquialesII from "@/content/years/cours/vocabulary/expresiones-coloquiales-ii.json";
 
 const yearsMap: Record<string, YearIndex> = {
   cours: coursIndex as unknown as YearIndex,
@@ -77,6 +80,7 @@ const lessonsMap: Record<string, Record<string, Lesson>> = {
     "multi-tense-practice": multiTensePractice as unknown as Lesson,
     "reported-speech": reportedSpeech as unknown as Lesson,
     "stem-changing-verbs": stemChangingVerbs as unknown as Lesson,
+    "voz-pasiva": vozPasiva as unknown as Lesson,
   },
 };
 
@@ -104,6 +108,8 @@ const vocabularyMap: Record<string, Record<string, VocabularyList>> = {
     "gardening": gardening as unknown as VocabularyList,
     "rooms-and-furniture": roomsAndFurniture as unknown as VocabularyList,
     "house-objects": houseObjects as unknown as VocabularyList,
+    "expresiones-coloquiales": expresionesColoquiales as unknown as VocabularyList,
+    "expresiones-coloquiales-ii": expresionesColoquialesII as unknown as VocabularyList,
   },
 };
 
