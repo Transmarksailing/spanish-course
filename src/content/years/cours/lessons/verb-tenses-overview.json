@@ -113,6 +113,15 @@
         "en": "Es fantástico que **hables** español — It's fantastic that you speak Spanish.\nTal vez yo **visite** la playa — Maybe I'll visit the beach.\nPuede ser que **trabajen** aquí — It could be that they work here.\nUsed after expressions of doubt, emotion, desire, and impersonal expressions.",
         "nl": "Es fantástico que **hables** español — Het is fantastisch dat je Spaans spreekt.\nTal vez yo **visite** la playa — Misschien bezoek ik het strand.\nPuede ser que **trabajen** aquí — Het kan zijn dat ze hier werken.\nGebruikt na uitdrukkingen van twijfel, emotie, wens en onpersoonlijke uitdrukkingen."
       }
+    },
+    {
+      "type": "rule_box",
+      "title": { "en": "12. Passive Voice (Voz Pasiva)", "nl": "12. Lijdende Vorm (Voz Pasiva)" },
+      "link": "voz-pasiva",
+      "content": {
+        "en": "La estatua **fue construida** en el siglo XII — The statue was built in the 12th century.\nLos terroristas **han sido arrestados** — The terrorists have been arrested.\nEl apartamento **será pintado** mañana — The apartment will be painted tomorrow.\nFormed with **SER + past participle** (agrees in gender and number with the subject). Use **por** to introduce the agent.",
+        "nl": "La estatua **fue construida** en el siglo XII — Het standbeeld werd gebouwd in de 12e eeuw.\nLos terroristas **han sido arrestados** — De terroristen zijn gearresteerd.\nEl apartamento **será pintado** mañana — Het appartement wordt morgen geschilderd.\nGevormd met **SER + voltooid deelwoord** (past in geslacht en getal bij het onderwerp). Gebruik **por** om de handelende persoon aan te duiden."
+      }
     }
   ],
   "exercises": [],

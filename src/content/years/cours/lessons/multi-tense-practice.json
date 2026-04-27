@@ -11,8 +11,8 @@
       "type": "explanation",
       "title": { "en": "Overview of Tenses", "nl": "Overzicht van Tijden" },
       "content": {
-        "en": "This lesson provides practice across all major Spanish verb tenses:\n\n• **Presente de Indicativo** — habitual actions, current states\n• **Imperfecto** — past habits, descriptions, ongoing past actions\n• **Pretérito** — completed past actions\n• **Futuro** — future actions and plans\n• **Potencial Simple (Condicional)** — hypothetical situations\n• **Perfecto de Indicativo** — recent past, life experiences\n• **Presente Continuo** — actions happening right now\n• **Acabo de + Infinitivo** — just did something\n• **Voy a + Infinitivo** — going to do something\n• **Tengo que + Infinitivo** — have to do something",
-        "nl": "Deze les biedt oefening in alle belangrijke Spaanse werkwoordstijden."
+        "en": "This lesson provides practice across all major Spanish verb tenses:\n\n• **Presente de Indicativo** — habitual actions, current states\n• **Imperfecto** — past habits, descriptions, ongoing past actions\n• **Pretérito** — completed past actions\n• **Futuro** — future actions and plans\n• **Potencial Simple (Condicional)** — hypothetical situations\n• **Perfecto de Indicativo** — recent past, life experiences\n• **Voz Pasiva** — passive constructions (SER + past participle)\n• **Presente Continuo** — actions happening right now\n• **Acabo de + Infinitivo** — just did something\n• **Voy a + Infinitivo** — going to do something\n• **Tengo que + Infinitivo** — have to do something",
+        "nl": "Deze les biedt oefening in alle belangrijke Spaanse werkwoordstijden:\n\n• **Presente de Indicativo** — gewoontehandelingen, huidige toestanden\n• **Imperfecto** — gewoontes uit het verleden, beschrijvingen, doorlopende handelingen in het verleden\n• **Pretérito (Indefinido)** — voltooide handelingen in het verleden\n• **Futuro** — toekomstige handelingen en plannen\n• **Potencial Simple (Condicional)** — hypothetische situaties\n• **Perfecto de Indicativo** — recent verleden, levenservaringen\n• **Voz Pasiva** — lijdende vorm (SER + voltooid deelwoord)\n• **Presente Continuo** — acties die nu gebeuren\n• **Acabo de + Infinitivo** — net iets gedaan\n• **Voy a + Infinitivo** — iets gaan doen\n• **Tengo que + Infinitivo** — iets moeten doen"
       }
     }
   ],
@@ -87,6 +87,18 @@
         { "id": "mt-28", "before": "Nosotros", "after": "(terminar) el proyecto antes del plazo establecido.", "correctAnswers": ["hemos terminado"], "translation": { "en": "We have finished the project before the established deadline.", "nl": "Wij hebben het project afgerond vóór de vastgestelde deadline." } },
         { "id": "mt-29", "before": "Tú ya", "after": "(ver) esa película tres veces este mes.", "correctAnswers": ["has visto"], "translation": { "en": "You have already seen that movie three times this month.", "nl": "Jij hebt die film deze maand al drie keer gezien." } },
         { "id": "mt-30", "before": "Ella", "after": "(escribir) una carta para su mejor amiga.", "correctAnswers": ["ha escrito"], "translation": { "en": "She has written a letter for her best friend.", "nl": "Zij heeft een brief geschreven voor haar beste vriendin." } }
+      ]
+    },
+    {
+      "id": "mt-pasiva",
+      "type": "fill_in_blank",
+      "instruction": { "en": "Voz Pasiva — Fill in the correct passive form (SER + past participle).", "nl": "Voz Pasiva — Vul de juiste lijdende vorm in (SER + voltooid deelwoord)." },
+      "items": [
+        { "id": "mt-31", "before": "La carta", "after": "(escribir) por mi padre la semana pasada.", "correctAnswers": ["fue escrita"], "translation": { "en": "The letter was written by my father last week.", "nl": "De brief werd vorige week door mijn vader geschreven." }, "hint": "indefinido vrouwelijk → fue escrita" },
+        { "id": "mt-32", "before": "Los criminales", "after": "(detener) por la policía anoche.", "correctAnswers": ["fueron detenidos"], "translation": { "en": "The criminals were arrested by the police last night.", "nl": "De criminelen werden gisteravond door de politie aangehouden." }, "hint": "indefinido meervoud" },
+        { "id": "mt-33", "before": "El nuevo edificio", "after": "(inaugurar) el mes que viene.", "correctAnswers": ["será inaugurado", "va a ser inaugurado"], "translation": { "en": "The new building will be inaugurated next month.", "nl": "Het nieuwe gebouw wordt volgende maand geopend." }, "hint": "futuro → será inaugurado" },
+        { "id": "mt-34", "before": "Esos libros", "after": "(publicar) en China este año.", "correctAnswers": ["han sido publicados"], "translation": { "en": "Those books have been published in China this year.", "nl": "Die boeken zijn dit jaar in China gepubliceerd." }, "hint": "perfecto → han sido publicados" },
+        { "id": "mt-35", "before": "La casa", "after": "(pintar) en este momento.", "correctAnswers": ["está siendo pintada"], "translation": { "en": "The house is being painted right now.", "nl": "Het huis wordt op dit moment geschilderd." }, "hint": "doorlopend → está siendo pintada" }
       ]
     }
   ]
