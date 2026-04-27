@@ -1,0 +1,75 @@
+{
+  "slug": "expresiones-coloquiales-ii",
+  "year": "cours",
+  "title": {
+    "en": "Colloquial Expressions II",
+    "nl": "Spreekwoorden & Uitdrukkingen II",
+    "es": "Expresiones Coloquiales II"
+  },
+  "grammarSections": [
+    {
+      "type": "explanation",
+      "title": { "en": "More Spanish Idioms", "nl": "Nog Meer Spaanse Uitdrukkingen" },
+      "content": {
+        "en": "The second set of essential Spanish colloquial expressions. These idioms are used in everyday conversation and will help you understand native speakers better.",
+        "nl": "De tweede set essentiële Spaanse spreekwoorden. Deze uitdrukkingen worden gebruikt in alledaagse gesprekken en helpen je om moedertaalsprekers beter te begrijpen."
+      }
+    },
+    {
+      "type": "word_list",
+      "title": { "en": "15 More Essential Expressions", "nl": "15 Extra Belangrijke Uitdrukkingen" },
+      "items": [
+        { "term": "Tener malas pulgas", "translation": { "en": "To be short-tempered / get angry easily", "nl": "Kort lontje hebben / snel boos worden" } },
+        { "term": "Tomarle el pelo (a alguien)", "translation": { "en": "To pull someone's leg / tease", "nl": "Iemand voor de gek houden / plagen" } },
+        { "term": "Es coña / Es broma / Es un chiste", "translation": { "en": "It's a joke / I'm joking", "nl": "Het is een grap / ik maak een grapje" } },
+        { "term": "Aguar la fiesta", "translation": { "en": "To spoil the party / be a wet blanket", "nl": "Het feest verpesten / spelbreker zijn" } },
+        { "term": "Ser un viejo verde", "translation": { "en": "To be a dirty old man", "nl": "Een vieze ouwe man zijn" } },
+        { "term": "Película verde", "translation": { "en": "Adult / porn film", "nl": "Pornofilm" } },
+        { "term": "Echar chispas", "translation": { "en": "To be furious / fuming", "nl": "Briesen van woede / razend zijn" } },
+        { "term": "Llover a cántaros", "translation": { "en": "To rain cats and dogs", "nl": "Pijpenstelen regenen / met bakken regenen" } },
+        { "term": "Estar en las nubes", "translation": { "en": "To have your head in the clouds / daydreaming", "nl": "Met je hoofd in de wolken zijn / dagdromen" } },
+        { "term": "Estar sin blanca", "translation": { "en": "To be broke / penniless", "nl": "Geen rooie cent hebben / blut zijn" } },
+        { "term": "Estar hasta la coronilla (de)", "translation": { "en": "To be fed up (with)", "nl": "Er schoon genoeg van hebben" } },
+        { "term": "Faltarle un tornillo (a alguien)", "translation": { "en": "To have a screw loose", "nl": "Een steekje los hebben" } },
+        { "term": "Hablar por los codos", "translation": { "en": "To talk a lot / chatter / be a chatterbox", "nl": "Honderduit praten / een kletskous zijn" } },
+        { "term": "Hacer buenas migas", "translation": { "en": "To get on well with someone", "nl": "Goed met iemand kunnen opschieten" } },
+        { "term": "Echar un vistazo", "translation": { "en": "To have a quick look / glance", "nl": "Een blik werpen op / vluchtig bekijken" } }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exc2-match-01",
+      "type": "multiple_choice",
+      "instruction": { "en": "Match the expression to its meaning", "nl": "Koppel de uitdrukking aan de betekenis" },
+      "items": [
+        { "id": "exc2-001", "sentence": "Tener malas pulgas", "correctAnswers": ["Snel boos worden"], "hint": "Snel boos worden|Vlooien hebben|Slecht slapen" },
+        { "id": "exc2-002", "sentence": "Llover a cántaros", "correctAnswers": ["Heel hard regenen"], "hint": "Lichte regen|Heel hard regenen|Sneeuwen" },
+        { "id": "exc2-003", "sentence": "Estar en las nubes", "correctAnswers": ["Dagdromen"], "hint": "Vliegen|Dagdromen|Op vakantie zijn" },
+        { "id": "exc2-004", "sentence": "Estar sin blanca", "correctAnswers": ["Geen geld hebben"], "hint": "Geen geld hebben|Wit zijn|Ziek zijn" },
+        { "id": "exc2-005", "sentence": "Hablar por los codos", "correctAnswers": ["Heel veel praten"], "hint": "Met handen praten|Heel veel praten|Stil zijn" },
+        { "id": "exc2-006", "sentence": "Faltarle un tornillo", "correctAnswers": ["Een steekje los hebben"], "hint": "Een schroef missen|Een steekje los hebben|Boos zijn" },
+        { "id": "exc2-007", "sentence": "Echar un vistazo", "correctAnswers": ["Een blik werpen"], "hint": "Wegrennen|Een blik werpen|Iets weggooien" },
+        { "id": "exc2-008", "sentence": "Aguar la fiesta", "correctAnswers": ["Het feest verpesten"], "hint": "Water drinken|Het feest verpesten|Een feest geven" },
+        { "id": "exc2-009", "sentence": "Hacer buenas migas", "correctAnswers": ["Goed kunnen opschieten"], "hint": "Brood bakken|Goed kunnen opschieten|Kruimels maken" },
+        { "id": "exc2-010", "sentence": "Estar hasta la coronilla", "correctAnswers": ["Genoeg ervan hebben"], "hint": "Een kroon dragen|Genoeg ervan hebben|Koning zijn" }
+      ]
+    },
+    {
+      "id": "exc2-translate-01",
+      "type": "translation",
+      "instruction": { "en": "Translate the expression to Spanish", "nl": "Vertaal de uitdrukking naar het Spaans" },
+      "items": [
+        { "id": "exc2-t01", "source": { "en": "It's raining cats and dogs", "nl": "Het regent pijpenstelen" }, "correctAnswers": ["Llover a cántaros", "Llueve a cántaros"] },
+        { "id": "exc2-t02", "source": { "en": "I'm fed up", "nl": "Ik ben er klaar mee" }, "correctAnswers": ["Estoy hasta la coronilla"] },
+        { "id": "exc2-t03", "source": { "en": "I'm broke", "nl": "Ik ben blut" }, "correctAnswers": ["Estoy sin blanca"] },
+        { "id": "exc2-t04", "source": { "en": "It's a joke", "nl": "Het is een grap" }, "correctAnswers": ["Es broma", "Es coña", "Es un chiste"] },
+        { "id": "exc2-t05", "source": { "en": "He has a screw loose", "nl": "Hij heeft een steekje los" }, "correctAnswers": ["Le falta un tornillo"] }
+      ]
+    }
+  ],
+  "videoPlaceholder": {
+    "title": { "en": "Teacher Explanation Video", "nl": "Uitleg Video Docent" },
+    "description": { "en": "More Spanish idioms explained!", "nl": "Nog meer Spaanse uitdrukkingen uitgelegd!" }
+  }
+}

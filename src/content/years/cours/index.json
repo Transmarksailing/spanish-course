@@ -180,9 +180,14 @@
       "order": 21
     },
     {
+      "slug": "expresiones-coloquiales-ii",
+      "title": { "en": "Colloquial Expressions II", "nl": "Spreekwoorden & Uitdrukkingen II", "es": "Expresiones Coloquiales II" },
+      "order": 22
+    },
+    {
       "slug": "multi-tense-practice",
       "title": { "en": "Multi-Tense Practice", "nl": "Oefening Alle Tijden", "es": "Práctica de Todos los Tiempos" },
-      "order": 22
+      "order": 23
     }
   ],
   "vocabulary": [
