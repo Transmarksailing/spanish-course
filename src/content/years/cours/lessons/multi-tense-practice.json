@@ -22,11 +22,11 @@
       "type": "fill_in_blank",
       "instruction": { "en": "Presente de Indicativo — Fill in the correct present tense form.", "nl": "Presente de Indicativo — Vul de juiste tegenwoordige tijd in." },
       "items": [
-        { "id": "mt-01", "before": "Yo", "after": "(leer) un libro interesante.", "correctAnswers": ["leo"] },
-        { "id": "mt-02", "before": "Ella", "after": "(correr) todas las mañanas.", "correctAnswers": ["corre"] },
-        { "id": "mt-03", "before": "Nosotros", "after": "(aprender) español en la escuela.", "correctAnswers": ["aprendemos"] },
-        { "id": "mt-04", "before": "Ellos", "after": "(trabajar) en una empresa internacional.", "correctAnswers": ["trabajan"] },
-        { "id": "mt-05", "before": "Tú", "after": "(escribir) cartas a tus amigos con frecuencia.", "correctAnswers": ["escribes"] }
+        { "id": "mt-01", "before": "Yo", "after": "(leer) un libro interesante.", "correctAnswers": ["leo"], "translation": { "en": "I am reading an interesting book.", "nl": "Ik lees een interessant boek." } },
+        { "id": "mt-02", "before": "Ella", "after": "(correr) todas las mañanas.", "correctAnswers": ["corre"], "translation": { "en": "She runs every morning.", "nl": "Zij rent elke ochtend." } },
+        { "id": "mt-03", "before": "Nosotros", "after": "(aprender) español en la escuela.", "correctAnswers": ["aprendemos"], "translation": { "en": "We learn Spanish at school.", "nl": "Wij leren Spaans op school." } },
+        { "id": "mt-04", "before": "Ellos", "after": "(trabajar) en una empresa internacional.", "correctAnswers": ["trabajan"], "translation": { "en": "They work in an international company.", "nl": "Zij werken bij een internationaal bedrijf." } },
+        { "id": "mt-05", "before": "Tú", "after": "(escribir) cartas a tus amigos con frecuencia.", "correctAnswers": ["escribes"], "translation": { "en": "You frequently write letters to your friends.", "nl": "Jij schrijft vaak brieven aan je vrienden." } }
       ]
     },
     {
@@ -34,11 +34,11 @@
       "type": "fill_in_blank",
       "instruction": { "en": "Imperfecto de Indicativo — Fill in the correct imperfect tense form.", "nl": "Imperfecto de Indicativo — Vul de juiste onvoltooid verleden tijd in." },
       "items": [
-        { "id": "mt-06", "before": "Cuando era niño, yo", "after": "(dibujar) en mi cuaderno todos los días.", "correctAnswers": ["dibujaba"] },
-        { "id": "mt-07", "before": "Mis padres siempre", "after": "(cocinar) juntos los fines de semana.", "correctAnswers": ["cocinaban"] },
-        { "id": "mt-08", "before": "Nosotros", "after": "(ir) a la playa cada verano.", "correctAnswers": ["íbamos"] },
-        { "id": "mt-09", "before": "Tú", "after": "(ver) caricaturas todas las tardes después de la escuela.", "correctAnswers": ["veías"] },
-        { "id": "mt-10", "before": "Ellos", "after": "(vivir) en un pueblo pequeño antes de mudarse a la ciudad.", "correctAnswers": ["vivían"] }
+        { "id": "mt-06", "before": "Cuando era niño, yo", "after": "(dibujar) en mi cuaderno todos los días.", "correctAnswers": ["dibujaba"], "translation": { "en": "When I was a child, I used to draw in my notebook every day.", "nl": "Toen ik een kind was, tekende ik elke dag in mijn schrift." } },
+        { "id": "mt-07", "before": "Mis padres siempre", "after": "(cocinar) juntos los fines de semana.", "correctAnswers": ["cocinaban"], "translation": { "en": "My parents always used to cook together on the weekends.", "nl": "Mijn ouders kookten altijd samen in het weekend." } },
+        { "id": "mt-08", "before": "Nosotros", "after": "(ir) a la playa cada verano.", "correctAnswers": ["íbamos"], "translation": { "en": "We used to go to the beach every summer.", "nl": "Wij gingen elke zomer naar het strand." } },
+        { "id": "mt-09", "before": "Tú", "after": "(ver) caricaturas todas las tardes después de la escuela.", "correctAnswers": ["veías"], "translation": { "en": "You used to watch cartoons every afternoon after school.", "nl": "Jij keek elke middag na school tekenfilms." } },
+        { "id": "mt-10", "before": "Ellos", "after": "(vivir) en un pueblo pequeño antes de mudarse a la ciudad.", "correctAnswers": ["vivían"], "translation": { "en": "They used to live in a small town before moving to the city.", "nl": "Zij woonden in een klein dorp voordat ze naar de stad verhuisden." } }
       ]
     },
     {
@@ -46,11 +46,11 @@
       "type": "fill_in_blank",
       "instruction": { "en": "Pretérito — Fill in the correct preterite tense form.", "nl": "Pretérito — Vul de juiste verleden tijd in." },
       "items": [
-        { "id": "mt-11", "before": "Ayer, yo", "after": "(comer) en un restaurante italiano.", "correctAnswers": ["comí"] },
-        { "id": "mt-12", "before": "Ellos", "after": "(salir) temprano para evitar el tráfico.", "correctAnswers": ["salieron"] },
-        { "id": "mt-13", "before": "Nosotros", "after": "(ganar) el partido de fútbol el sábado pasado.", "correctAnswers": ["ganamos"] },
-        { "id": "mt-14", "before": "Tú", "after": "(decidir) estudiar medicina después del colegio.", "correctAnswers": ["decidiste"] },
-        { "id": "mt-15", "before": "Ella", "after": "(comprar) un regalo para su hermana.", "correctAnswers": ["compró"] }
+        { "id": "mt-11", "before": "Ayer, yo", "after": "(comer) en un restaurante italiano.", "correctAnswers": ["comí"], "translation": { "en": "Yesterday, I ate at an Italian restaurant.", "nl": "Gisteren at ik in een Italiaans restaurant." } },
+        { "id": "mt-12", "before": "Ellos", "after": "(salir) temprano para evitar el tráfico.", "correctAnswers": ["salieron"], "translation": { "en": "They left early to avoid traffic.", "nl": "Zij vertrokken vroeg om het verkeer te vermijden." } },
+        { "id": "mt-13", "before": "Nosotros", "after": "(ganar) el partido de fútbol el sábado pasado.", "correctAnswers": ["ganamos"], "translation": { "en": "We won the soccer match last Saturday.", "nl": "Wij wonnen de voetbalwedstrijd afgelopen zaterdag." } },
+        { "id": "mt-14", "before": "Tú", "after": "(decidir) estudiar medicina después del colegio.", "correctAnswers": ["decidiste"], "translation": { "en": "You decided to study medicine after high school.", "nl": "Jij besloot om medicijnen te studeren na de middelbare school." } },
+        { "id": "mt-15", "before": "Ella", "after": "(comprar) un regalo para su hermana.", "correctAnswers": ["compró"], "translation": { "en": "She bought a gift for her sister.", "nl": "Zij kocht een cadeau voor haar zus." } }
       ]
     },
     {
@@ -58,11 +58,11 @@
       "type": "fill_in_blank",
       "instruction": { "en": "Futuro — Fill in the correct future tense form.", "nl": "Futuro — Vul de juiste toekomende tijd in." },
       "items": [
-        { "id": "mt-16", "before": "Mañana, yo", "after": "(visitar) a mis abuelos en el campo.", "correctAnswers": ["visitaré"] },
-        { "id": "mt-17", "before": "Ellos", "after": "(terminar) el proyecto antes de la fecha límite.", "correctAnswers": ["terminarán"] },
-        { "id": "mt-18", "before": "Nosotros", "after": "(viajar) a México el próximo verano.", "correctAnswers": ["viajaremos"] },
-        { "id": "mt-19", "before": "Tú", "after": "(estudiar) para tu examen final esta noche.", "correctAnswers": ["estudiarás"] },
-        { "id": "mt-20", "before": "Ella", "after": "(escribir) un libro sobre sus experiencias.", "correctAnswers": ["escribirá"] }
+        { "id": "mt-16", "before": "Mañana, yo", "after": "(visitar) a mis abuelos en el campo.", "correctAnswers": ["visitaré"], "translation": { "en": "Tomorrow, I will visit my grandparents in the countryside.", "nl": "Morgen zal ik mijn grootouders op het platteland bezoeken." } },
+        { "id": "mt-17", "before": "Ellos", "after": "(terminar) el proyecto antes de la fecha límite.", "correctAnswers": ["terminarán"], "translation": { "en": "They will finish the project before the deadline.", "nl": "Zij zullen het project afmaken voor de deadline." } },
+        { "id": "mt-18", "before": "Nosotros", "after": "(viajar) a México el próximo verano.", "correctAnswers": ["viajaremos"], "translation": { "en": "We will travel to Mexico next summer.", "nl": "Wij zullen volgende zomer naar Mexico reizen." } },
+        { "id": "mt-19", "before": "Tú", "after": "(estudiar) para tu examen final esta noche.", "correctAnswers": ["estudiarás"], "translation": { "en": "You will study for your final exam tonight.", "nl": "Jij zult vanavond studeren voor je eindexamen." } },
+        { "id": "mt-20", "before": "Ella", "after": "(escribir) un libro sobre sus experiencias.", "correctAnswers": ["escribirá"], "translation": { "en": "She will write a book about her experiences.", "nl": "Zij zal een boek schrijven over haar ervaringen." } }
       ]
     },
     {
@@ -70,11 +70,11 @@
       "type": "fill_in_blank",
       "instruction": { "en": "Potencial Simple (Condicional) — Fill in the correct conditional form.", "nl": "Potencial Simple (Condicional) — Vul de juiste voorwaardelijke vorm in." },
       "items": [
-        { "id": "mt-21", "before": "Yo", "after": "(vivir) en otro país si tuviera la oportunidad.", "correctAnswers": ["viviría"] },
-        { "id": "mt-22", "before": "Tú", "after": "(ayudar) a tu amigo si te lo pidiera.", "correctAnswers": ["ayudarías"] },
-        { "id": "mt-23", "before": "Ellos", "after": "(comprar) una casa más grande si ganaran la lotería.", "correctAnswers": ["comprarían"] },
-        { "id": "mt-24", "before": "Nosotros", "after": "(viajar) por todo el mundo si no tuviéramos que trabajar tanto tiempo.", "correctAnswers": ["viajaríamos"] },
-        { "id": "mt-25", "before": "Ella", "after": "(cantar) en público si no tuviera miedo escénico.", "correctAnswers": ["cantaría"] }
+        { "id": "mt-21", "before": "Yo", "after": "(vivir) en otro país si tuviera la oportunidad.", "correctAnswers": ["viviría"], "translation": { "en": "I would live in another country if I had the opportunity.", "nl": "Ik zou in een ander land wonen als ik de kans had." } },
+        { "id": "mt-22", "before": "Tú", "after": "(ayudar) a tu amigo si te lo pidiera.", "correctAnswers": ["ayudarías"], "translation": { "en": "You would help your friend if he asked you to.", "nl": "Jij zou je vriend helpen als hij het je zou vragen." } },
+        { "id": "mt-23", "before": "Ellos", "after": "(comprar) una casa más grande si ganaran la lotería.", "correctAnswers": ["comprarían"], "translation": { "en": "They would buy a bigger house if they won the lottery.", "nl": "Zij zouden een groter huis kopen als ze de loterij wonnen." } },
+        { "id": "mt-24", "before": "Nosotros", "after": "(viajar) por todo el mundo si no tuviéramos que trabajar tanto tiempo.", "correctAnswers": ["viajaríamos"], "translation": { "en": "We would travel all over the world if we did not have to work so much.", "nl": "Wij zouden de hele wereld rondreizen als we niet zo lang zouden hoeven werken." } },
+        { "id": "mt-25", "before": "Ella", "after": "(cantar) en público si no tuviera miedo escénico.", "correctAnswers": ["cantaría"], "translation": { "en": "She would sing in public if she did not have stage fright.", "nl": "Zij zou in het openbaar zingen als ze geen plankenkoorts had." } }
       ]
     },
     {
@@ -82,11 +82,11 @@
       "type": "fill_in_blank",
       "instruction": { "en": "Perfecto de Indicativo — Fill in the correct present perfect form.", "nl": "Perfecto de Indicativo — Vul de juiste voltooid tegenwoordige tijd in." },
       "items": [
-        { "id": "mt-26", "before": "Yo ya", "after": "(hacer) mi tarea para mañana por la noche.", "correctAnswers": ["he hecho"] },
-        { "id": "mt-27", "before": "Ellos nunca", "after": "(visitar) ese museo antes de hoy.", "correctAnswers": ["han visitado"] },
-        { "id": "mt-28", "before": "Nosotros", "after": "(terminar) el proyecto antes del plazo establecido.", "correctAnswers": ["hemos terminado"] },
-        { "id": "mt-29", "before": "Tú ya", "after": "(ver) esa película tres veces este mes.", "correctAnswers": ["has visto"] },
-        { "id": "mt-30", "before": "Ella", "after": "(escribir) una carta para su mejor amiga.", "correctAnswers": ["ha escrito"] }
+        { "id": "mt-26", "before": "Yo ya", "after": "(hacer) mi tarea para mañana por la noche.", "correctAnswers": ["he hecho"], "translation": { "en": "I have already done my homework for tomorrow night.", "nl": "Ik heb mijn huiswerk voor morgenavond al gedaan." } },
+        { "id": "mt-27", "before": "Ellos nunca", "after": "(visitar) ese museo antes de hoy.", "correctAnswers": ["han visitado"], "translation": { "en": "They have never visited that museum before today.", "nl": "Zij hebben dat museum nog nooit bezocht voor vandaag." } },
+        { "id": "mt-28", "before": "Nosotros", "after": "(terminar) el proyecto antes del plazo establecido.", "correctAnswers": ["hemos terminado"], "translation": { "en": "We have finished the project before the established deadline.", "nl": "Wij hebben het project afgerond vóór de vastgestelde deadline." } },
+        { "id": "mt-29", "before": "Tú ya", "after": "(ver) esa película tres veces este mes.", "correctAnswers": ["has visto"], "translation": { "en": "You have already seen that movie three times this month.", "nl": "Jij hebt die film deze maand al drie keer gezien." } },
+        { "id": "mt-30", "before": "Ella", "after": "(escribir) una carta para su mejor amiga.", "correctAnswers": ["ha escrito"], "translation": { "en": "She has written a letter for her best friend.", "nl": "Zij heeft een brief geschreven voor haar beste vriendin." } }
       ]
     }
   ]

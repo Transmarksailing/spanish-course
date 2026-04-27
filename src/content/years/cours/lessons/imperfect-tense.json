@@ -51,16 +51,16 @@
       "type": "fill_in_blank",
       "instruction": { "en": "Complete with the Imperfect — Regular -AR Verbs", "nl": "Vul aan met het Imperfecto — Regelmatige -AR Werkwoorden" },
       "items": [
-        { "id": "imp-001", "sentence": "Nuestros padres ___ mucho. (trabajar)", "correctAnswers": ["trabajaban"], "hint": "-ar: ellos → -aban" },
-        { "id": "imp-002", "sentence": "Nosotros ___ por el parque. (andar)", "correctAnswers": ["andábamos"], "hint": "-ar: nosotros → -ábamos" },
-        { "id": "imp-003", "sentence": "Yo ___ mucho al fútbol. (jugar)", "correctAnswers": ["jugaba"], "hint": "-ar: yo → -aba" },
-        { "id": "imp-004", "sentence": "Yo ___ cada verano en el mar. (nadar)", "correctAnswers": ["nadaba"], "hint": "-ar: yo → -aba" },
-        { "id": "imp-005", "sentence": "Carlos y María ___ con frecuencia. (bailar)", "correctAnswers": ["bailaban"], "hint": "-ar: ellos → -aban" },
-        { "id": "imp-006", "sentence": "Carmen siempre ___ muy bien el italiano. (hablar)", "correctAnswers": ["hablaba"], "hint": "-ar: ella → -aba" },
-        { "id": "imp-007", "sentence": "Elvis Costello ___ cada noche. (cantar)", "correctAnswers": ["cantaba"], "hint": "-ar: él → -aba" },
-        { "id": "imp-008", "sentence": "Cada mañana nosotros ___ mucho café. (tomar)", "correctAnswers": ["tomábamos"], "hint": "-ar: nosotros → -ábamos" },
-        { "id": "imp-009", "sentence": "Ella ___ en ese restaurante cada viernes. (cenar)", "correctAnswers": ["cenaba"], "hint": "-ar: ella → -aba" },
-        { "id": "imp-010", "sentence": "Yo ___ cada mañana a las ocho. (despertarse)", "correctAnswers": ["me despertaba"], "hint": "-ar: yo → me -aba" }
+        { "id": "imp-001", "sentence": "Nuestros padres ___ mucho. (trabajar)", "correctAnswers": ["trabajaban"], "translation": { "en": "Our parents worked a lot.", "nl": "Onze ouders werkten veel." }, "hint": "-ar: ellos → -aban" },
+        { "id": "imp-002", "sentence": "Nosotros ___ por el parque. (andar)", "correctAnswers": ["andábamos"], "translation": { "en": "We used to walk through the park.", "nl": "We liepen door het park." }, "hint": "-ar: nosotros → -ábamos" },
+        { "id": "imp-003", "sentence": "Yo ___ mucho al fútbol. (jugar)", "correctAnswers": ["jugaba"], "translation": { "en": "I played soccer a lot.", "nl": "Ik voetbalde veel." }, "hint": "-ar: yo → -aba" },
+        { "id": "imp-004", "sentence": "Yo ___ cada verano en el mar. (nadar)", "correctAnswers": ["nadaba"], "translation": { "en": "I swam in the sea every summer.", "nl": "Ik zwom elke zomer in de zee." }, "hint": "-ar: yo → -aba" },
+        { "id": "imp-005", "sentence": "Carlos y María ___ con frecuencia. (bailar)", "correctAnswers": ["bailaban"], "translation": { "en": "Carlos and María danced frequently.", "nl": "Carlos en María dansten vaak." }, "hint": "-ar: ellos → -aban" },
+        { "id": "imp-006", "sentence": "Carmen siempre ___ muy bien el italiano. (hablar)", "correctAnswers": ["hablaba"], "translation": { "en": "Carmen always spoke Italian very well.", "nl": "Carmen sprak altijd heel goed Italiaans." }, "hint": "-ar: ella → -aba" },
+        { "id": "imp-007", "sentence": "Elvis Costello ___ cada noche. (cantar)", "correctAnswers": ["cantaba"], "translation": { "en": "Elvis Costello sang every night.", "nl": "Elvis Costello zong elke avond." }, "hint": "-ar: él → -aba" },
+        { "id": "imp-008", "sentence": "Cada mañana nosotros ___ mucho café. (tomar)", "correctAnswers": ["tomábamos"], "translation": { "en": "Every morning we drank a lot of coffee.", "nl": "Elke ochtend dronken we veel koffie." }, "hint": "-ar: nosotros → -ábamos" },
+        { "id": "imp-009", "sentence": "Ella ___ en ese restaurante cada viernes. (cenar)", "correctAnswers": ["cenaba"], "translation": { "en": "She had dinner at that restaurant every Friday.", "nl": "Ze at elke vrijdag in dat restaurant." }, "hint": "-ar: ella → -aba" },
+        { "id": "imp-010", "sentence": "Yo ___ cada mañana a las ocho. (despertarse)", "correctAnswers": ["me despertaba"], "translation": { "en": "I woke up every morning at eight.", "nl": "Ik werd elke ochtend om acht uur wakker." }, "hint": "-ar: yo → me -aba" }
       ]
     },
     {
@@ -68,16 +68,16 @@
       "type": "fill_in_blank",
       "instruction": { "en": "Complete with the Imperfect — -ER/-IR Verbs", "nl": "Vul aan met het Imperfecto — -ER/-IR Werkwoorden" },
       "items": [
-        { "id": "imp-011", "sentence": "Carlos siempre ___ novelas. (leer)", "correctAnswers": ["leía"], "hint": "-er: él → -ía" },
-        { "id": "imp-012", "sentence": "Los señores ___ aquí muy a menudo. (venir)", "correctAnswers": ["venían"], "hint": "-ir: ellos → -ían" },
-        { "id": "imp-013", "sentence": "Nosotros ___ una carta cada día. (recibir)", "correctAnswers": ["recibíamos"], "hint": "-ir: nosotros → -íamos" },
-        { "id": "imp-014", "sentence": "Ellos ___ todos los viernes. (salir)", "correctAnswers": ["salían"], "hint": "-ir: ellos → -ían" },
-        { "id": "imp-015", "sentence": "Yo ___ mucho en la universidad. (aprender)", "correctAnswers": ["aprendía"], "hint": "-er: yo → -ía" },
-        { "id": "imp-016", "sentence": "Nosotros no ___ salir. (querer)", "correctAnswers": ["queríamos"], "hint": "-er: nosotros → -íamos" },
-        { "id": "imp-017", "sentence": "Juan ___ la verdad. (saber)", "correctAnswers": ["sabía"], "hint": "-er: él → -ía" },
-        { "id": "imp-018", "sentence": "Ellos siempre ___ un viaje a Ibiza cada verano. (hacer)", "correctAnswers": ["hacían"], "hint": "-er: ellos → -ían" },
-        { "id": "imp-019", "sentence": "Los niños ___ regalos cada Navidad. (recibir)", "correctAnswers": ["recibían"], "hint": "-ir: ellos → -ían" },
-        { "id": "imp-020", "sentence": "¿Dónde ___ vosotros? (vivir)", "correctAnswers": ["vivíais"], "hint": "-ir: vosotros → -íais" }
+        { "id": "imp-011", "sentence": "Carlos siempre ___ novelas. (leer)", "correctAnswers": ["leía"], "translation": { "en": "Carlos always read novels.", "nl": "Carlos las altijd romans." }, "hint": "-er: él → -ía" },
+        { "id": "imp-012", "sentence": "Los señores ___ aquí muy a menudo. (venir)", "correctAnswers": ["venían"], "translation": { "en": "The gentlemen came here very often.", "nl": "De heren kwamen hier heel vaak." }, "hint": "-ir: ellos → -ían" },
+        { "id": "imp-013", "sentence": "Nosotros ___ una carta cada día. (recibir)", "correctAnswers": ["recibíamos"], "translation": { "en": "We received a letter every day.", "nl": "We kregen elke dag een brief." }, "hint": "-ir: nosotros → -íamos" },
+        { "id": "imp-014", "sentence": "Ellos ___ todos los viernes. (salir)", "correctAnswers": ["salían"], "translation": { "en": "They went out every Friday.", "nl": "Ze gingen elke vrijdag uit." }, "hint": "-ir: ellos → -ían" },
+        { "id": "imp-015", "sentence": "Yo ___ mucho en la universidad. (aprender)", "correctAnswers": ["aprendía"], "translation": { "en": "I learned a lot at university.", "nl": "Ik leerde veel op de universiteit." }, "hint": "-er: yo → -ía" },
+        { "id": "imp-016", "sentence": "Nosotros no ___ salir. (querer)", "correctAnswers": ["queríamos"], "translation": { "en": "We didn't want to go out.", "nl": "We wilden niet uitgaan." }, "hint": "-er: nosotros → -íamos" },
+        { "id": "imp-017", "sentence": "Juan ___ la verdad. (saber)", "correctAnswers": ["sabía"], "translation": { "en": "Juan knew the truth.", "nl": "Juan wist de waarheid." }, "hint": "-er: él → -ía" },
+        { "id": "imp-018", "sentence": "Ellos siempre ___ un viaje a Ibiza cada verano. (hacer)", "correctAnswers": ["hacían"], "translation": { "en": "They always took a trip to Ibiza every summer.", "nl": "Ze maakten altijd elke zomer een reis naar Ibiza." }, "hint": "-er: ellos → -ían" },
+        { "id": "imp-019", "sentence": "Los niños ___ regalos cada Navidad. (recibir)", "correctAnswers": ["recibían"], "translation": { "en": "The children received gifts every Christmas.", "nl": "De kinderen kregen elke kerst cadeautjes." }, "hint": "-ir: ellos → -ían" },
+        { "id": "imp-020", "sentence": "¿Dónde ___ vosotros? (vivir)", "correctAnswers": ["vivíais"], "translation": { "en": "Where did you (all) live?", "nl": "Waar woonden jullie?" }, "hint": "-ir: vosotros → -íais" }
       ]
     },
     {
@@ -85,15 +85,15 @@
       "type": "fill_in_blank",
       "instruction": { "en": "Complete with the Imperfect — Irregular Verbs (ir, ser, ver)", "nl": "Vul aan met het Imperfecto — Onregelmatige Werkwoorden (ir, ser, ver)" },
       "items": [
-        { "id": "imp-021", "sentence": "Ellos ___ a las montañas cada invierno. (ir)", "correctAnswers": ["iban"], "hint": "ir: ellos → iban" },
-        { "id": "imp-022", "sentence": "Nosotros siempre ___ a Juan. (ver)", "correctAnswers": ["veíamos"], "hint": "ver: nosotros → veíamos" },
-        { "id": "imp-023", "sentence": "Yo ___ feliz. (ser)", "correctAnswers": ["era"], "hint": "ser: yo → era" },
-        { "id": "imp-024", "sentence": "Juan ___ ingeniero. (ser)", "correctAnswers": ["era"], "hint": "ser: él → era" },
-        { "id": "imp-025", "sentence": "El niño siempre ___ a sus abuelos. (ver)", "correctAnswers": ["veía"], "hint": "ver: él → veía" },
-        { "id": "imp-026", "sentence": "Nosotros siempre ___ en tren. (ir)", "correctAnswers": ["íbamos"], "hint": "ir: nosotros → íbamos" },
-        { "id": "imp-027", "sentence": "Yo ___ el programa todos los viernes. (ver)", "correctAnswers": ["veía"], "hint": "ver: yo → veía" },
-        { "id": "imp-028", "sentence": "Nosotros ___ listos. (ser)", "correctAnswers": ["éramos"], "hint": "ser: nosotros → éramos" },
-        { "id": "imp-029", "sentence": "Aquellos señores ___ de España. (ser)", "correctAnswers": ["eran"], "hint": "ser: ellos → eran" }
+        { "id": "imp-021", "sentence": "Ellos ___ a las montañas cada invierno. (ir)", "correctAnswers": ["iban"], "translation": { "en": "They went to the mountains every winter.", "nl": "Ze gingen elke winter naar de bergen." }, "hint": "ir: ellos → iban" },
+        { "id": "imp-022", "sentence": "Nosotros siempre ___ a Juan. (ver)", "correctAnswers": ["veíamos"], "translation": { "en": "We always saw Juan.", "nl": "We zagen Juan altijd." }, "hint": "ver: nosotros → veíamos" },
+        { "id": "imp-023", "sentence": "Yo ___ feliz. (ser)", "correctAnswers": ["era"], "translation": { "en": "I was happy.", "nl": "Ik was gelukkig." }, "hint": "ser: yo → era" },
+        { "id": "imp-024", "sentence": "Juan ___ ingeniero. (ser)", "correctAnswers": ["era"], "translation": { "en": "Juan was an engineer.", "nl": "Juan was ingenieur." }, "hint": "ser: él → era" },
+        { "id": "imp-025", "sentence": "El niño siempre ___ a sus abuelos. (ver)", "correctAnswers": ["veía"], "translation": { "en": "The boy always saw his grandparents.", "nl": "Het kind zag zijn grootouders altijd." }, "hint": "ver: él → veía" },
+        { "id": "imp-026", "sentence": "Nosotros siempre ___ en tren. (ir)", "correctAnswers": ["íbamos"], "translation": { "en": "We always went by train.", "nl": "We gingen altijd met de trein." }, "hint": "ir: nosotros → íbamos" },
+        { "id": "imp-027", "sentence": "Yo ___ el programa todos los viernes. (ver)", "correctAnswers": ["veía"], "translation": { "en": "I watched the program every Friday.", "nl": "Ik keek elke vrijdag naar het programma." }, "hint": "ver: yo → veía" },
+        { "id": "imp-028", "sentence": "Nosotros ___ listos. (ser)", "correctAnswers": ["éramos"], "translation": { "en": "We were clever.", "nl": "We waren slim." }, "hint": "ser: nosotros → éramos" },
+        { "id": "imp-029", "sentence": "Aquellos señores ___ de España. (ser)", "correctAnswers": ["eran"], "translation": { "en": "Those gentlemen were from Spain.", "nl": "Die heren waren uit Spanje." }, "hint": "ser: ellos → eran" }
       ]
     }
   ],

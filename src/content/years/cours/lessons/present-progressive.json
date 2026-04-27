@@ -22,22 +22,22 @@
       "type": "fill_in_blank",
       "instruction": { "en": "Write the gerundio (present participle) of the verb", "nl": "Schrijf het gerundio (tegenwoordig deelwoord) van het werkwoord" },
       "items": [
-        { "id": "prog-001", "sentence": "Luis está ___ zapatos nuevos. (comprar)", "correctAnswers": ["comprando"], "hint": "-ar → -ando" },
-        { "id": "prog-002", "sentence": "Los estudiantes están ___ para el examen. (estudiar)", "correctAnswers": ["estudiando"], "hint": "-ar → -ando" },
-        { "id": "prog-003", "sentence": "María y Carmen están ___ con Carlos. (hablar)", "correctAnswers": ["hablando"], "hint": "-ar → -ando" },
-        { "id": "prog-004", "sentence": "El señor Ramírez está ___ una carta. (leer)", "correctAnswers": ["leyendo"], "hint": "leer → leyendo (irregular)" },
-        { "id": "prog-005", "sentence": "Los niños están ___ a su madre. (mentir)", "correctAnswers": ["mintiendo"], "hint": "mentir → mintiendo (e→i)" },
-        { "id": "prog-006", "sentence": "La camarera está ___ el desayuno. (servir)", "correctAnswers": ["sirviendo"], "hint": "servir → sirviendo (e→i)" },
-        { "id": "prog-007", "sentence": "El bebé está ___ en su habitación. (dormir)", "correctAnswers": ["durmiendo"], "hint": "dormir → durmiendo (o→u)" },
-        { "id": "prog-008", "sentence": "Los arquitectos están ___ una casa. (construir)", "correctAnswers": ["construyendo"], "hint": "construir → construyendo" },
-        { "id": "prog-009", "sentence": "Vosotras estáis ___ música. (oír)", "correctAnswers": ["oyendo"], "hint": "oír → oyendo" },
-        { "id": "prog-010", "sentence": "Yo estoy ___ los ejercicios. (escribir)", "correctAnswers": ["escribiendo"], "hint": "-ir → -iendo" },
-        { "id": "prog-011", "sentence": "El ladrón está ___ la evidencia del robo. (esconder)", "correctAnswers": ["escondiendo"], "hint": "-er → -iendo" },
-        { "id": "prog-012", "sentence": "¿Quiénes están ___ en el pasillo? (gritar)", "correctAnswers": ["gritando"], "hint": "-ar → -ando" },
-        { "id": "prog-013", "sentence": "Los hermanos Díaz están ___ el autobús. (esperar)", "correctAnswers": ["esperando"], "hint": "-ar → -ando" },
-        { "id": "prog-014", "sentence": "¿Marlo está ___ la siesta? (dormir)", "correctAnswers": ["durmiendo"], "hint": "dormir → durmiendo (o→u)" },
-        { "id": "prog-015", "sentence": "Andy está ___ una pesadilla. (vivir)", "correctAnswers": ["viviendo"], "hint": "-ir → -iendo" },
-        { "id": "prog-016", "sentence": "El reloj está ___ las ocho. (dar)", "correctAnswers": ["dando"], "hint": "-ar → -ando" }
+        { "id": "prog-001", "sentence": "Luis está ___ zapatos nuevos. (comprar)", "correctAnswers": ["comprando"], "translation": { "en": "Luis is buying new shoes.", "nl": "Luis is nieuwe schoenen aan het kopen." }, "hint": "-ar → -ando" },
+        { "id": "prog-002", "sentence": "Los estudiantes están ___ para el examen. (estudiar)", "correctAnswers": ["estudiando"], "translation": { "en": "The students are studying for the exam.", "nl": "De studenten zijn aan het studeren voor het examen." }, "hint": "-ar → -ando" },
+        { "id": "prog-003", "sentence": "María y Carmen están ___ con Carlos. (hablar)", "correctAnswers": ["hablando"], "translation": { "en": "María and Carmen are talking with Carlos.", "nl": "María en Carmen zijn aan het praten met Carlos." }, "hint": "-ar → -ando" },
+        { "id": "prog-004", "sentence": "El señor Ramírez está ___ una carta. (leer)", "correctAnswers": ["leyendo"], "translation": { "en": "Mr. Ramírez is reading a letter.", "nl": "Meneer Ramírez is een brief aan het lezen." }, "hint": "leer → leyendo (irregular)" },
+        { "id": "prog-005", "sentence": "Los niños están ___ a su madre. (mentir)", "correctAnswers": ["mintiendo"], "translation": { "en": "The children are lying to their mother.", "nl": "De kinderen zijn aan het liegen tegen hun moeder." }, "hint": "mentir → mintiendo (e→i)" },
+        { "id": "prog-006", "sentence": "La camarera está ___ el desayuno. (servir)", "correctAnswers": ["sirviendo"], "translation": { "en": "The waitress is serving breakfast.", "nl": "De serveerster is het ontbijt aan het serveren." }, "hint": "servir → sirviendo (e→i)" },
+        { "id": "prog-007", "sentence": "El bebé está ___ en su habitación. (dormir)", "correctAnswers": ["durmiendo"], "translation": { "en": "The baby is sleeping in his room.", "nl": "De baby is aan het slapen in zijn kamer." }, "hint": "dormir → durmiendo (o→u)" },
+        { "id": "prog-008", "sentence": "Los arquitectos están ___ una casa. (construir)", "correctAnswers": ["construyendo"], "translation": { "en": "The architects are building a house.", "nl": "De architecten zijn een huis aan het bouwen." }, "hint": "construir → construyendo" },
+        { "id": "prog-009", "sentence": "Vosotras estáis ___ música. (oír)", "correctAnswers": ["oyendo"], "translation": { "en": "You all are listening to music.", "nl": "Jullie zijn muziek aan het luisteren." }, "hint": "oír → oyendo" },
+        { "id": "prog-010", "sentence": "Yo estoy ___ los ejercicios. (escribir)", "correctAnswers": ["escribiendo"], "translation": { "en": "I am writing the exercises.", "nl": "Ik ben de oefeningen aan het schrijven." }, "hint": "-ir → -iendo" },
+        { "id": "prog-011", "sentence": "El ladrón está ___ la evidencia del robo. (esconder)", "correctAnswers": ["escondiendo"], "translation": { "en": "The thief is hiding the evidence of the robbery.", "nl": "De dief is het bewijs van de diefstal aan het verbergen." }, "hint": "-er → -iendo" },
+        { "id": "prog-012", "sentence": "¿Quiénes están ___ en el pasillo? (gritar)", "correctAnswers": ["gritando"], "translation": { "en": "Who is shouting in the hallway?", "nl": "Wie zijn er aan het schreeuwen in de gang?" }, "hint": "-ar → -ando" },
+        { "id": "prog-013", "sentence": "Los hermanos Díaz están ___ el autobús. (esperar)", "correctAnswers": ["esperando"], "translation": { "en": "The Díaz brothers are waiting for the bus.", "nl": "De gebroeders Díaz zijn op de bus aan het wachten." }, "hint": "-ar → -ando" },
+        { "id": "prog-014", "sentence": "¿Marlo está ___ la siesta? (dormir)", "correctAnswers": ["durmiendo"], "translation": { "en": "Is Marlo taking a nap?", "nl": "Is Marlo een dutje aan het doen?" }, "hint": "dormir → durmiendo (o→u)" },
+        { "id": "prog-015", "sentence": "Andy está ___ una pesadilla. (vivir)", "correctAnswers": ["viviendo"], "translation": { "en": "Andy is living a nightmare.", "nl": "Andy is een nachtmerrie aan het beleven." }, "hint": "-ir → -iendo" },
+        { "id": "prog-016", "sentence": "El reloj está ___ las ocho. (dar)", "correctAnswers": ["dando"], "translation": { "en": "The clock is striking eight.", "nl": "De klok is acht uur aan het slaan." }, "hint": "-ar → -ando" }
       ]
     },
     {
@@ -45,15 +45,15 @@
       "type": "fill_in_blank",
       "instruction": { "en": "Past Progressive — Complete with estaba/estaban + gerundio", "nl": "Verleden Doorlopende Tijd — Vul aan met estaba/estaban + gerundio" },
       "items": [
-        { "id": "prog-017", "sentence": "Carlos ___ una silla para sentarse. (buscar)", "correctAnswers": ["estaba buscando"], "hint": "estaba + -ando" },
-        { "id": "prog-018", "sentence": "Marta y Raúl ___ una planilla. (rellenar)", "correctAnswers": ["estaban rellenando"], "hint": "estaban + -ando" },
-        { "id": "prog-019", "sentence": "La secretaria ___ una nota. (escribir)", "correctAnswers": ["estaba escribiendo"], "hint": "estaba + -iendo" },
-        { "id": "prog-020", "sentence": "Las telefonistas ___ a los clientes por teléfono. (responder)", "correctAnswers": ["estaban respondiendo"], "hint": "estaban + -iendo" },
-        { "id": "prog-021", "sentence": "El cajero ___ los depósitos de los clientes. (recibir)", "correctAnswers": ["estaba recibiendo"], "hint": "estaba + -iendo" },
-        { "id": "prog-022", "sentence": "Dos señoras ___ unas preguntas en el pasillo. (hacer)", "correctAnswers": ["estaban haciendo"], "hint": "estaban + haciendo" },
-        { "id": "prog-023", "sentence": "Yo ___ euros por libras. (cambiar)", "correctAnswers": ["estaba cambiando"], "hint": "estaba + -ando" },
-        { "id": "prog-024", "sentence": "El director de finanzas ___ un café. (tomar)", "correctAnswers": ["estaba tomando"], "hint": "estaba + -ando" },
-        { "id": "prog-025", "sentence": "Marta ___ un libro en la cola. (leer)", "correctAnswers": ["estaba leyendo"], "hint": "estaba + leyendo" }
+        { "id": "prog-017", "sentence": "Carlos ___ una silla para sentarse. (buscar)", "correctAnswers": ["estaba buscando"], "translation": { "en": "Carlos was looking for a chair to sit down.", "nl": "Carlos was een stoel aan het zoeken om te gaan zitten." }, "hint": "estaba + -ando" },
+        { "id": "prog-018", "sentence": "Marta y Raúl ___ una planilla. (rellenar)", "correctAnswers": ["estaban rellenando"], "translation": { "en": "Marta and Raúl were filling out a form.", "nl": "Marta en Raúl waren een formulier aan het invullen." }, "hint": "estaban + -ando" },
+        { "id": "prog-019", "sentence": "La secretaria ___ una nota. (escribir)", "correctAnswers": ["estaba escribiendo"], "translation": { "en": "The secretary was writing a note.", "nl": "De secretaresse was een notitie aan het schrijven." }, "hint": "estaba + -iendo" },
+        { "id": "prog-020", "sentence": "Las telefonistas ___ a los clientes por teléfono. (responder)", "correctAnswers": ["estaban respondiendo"], "translation": { "en": "The telephone operators were answering the customers by phone.", "nl": "De telefonistes waren de klanten telefonisch aan het beantwoorden." }, "hint": "estaban + -iendo" },
+        { "id": "prog-021", "sentence": "El cajero ___ los depósitos de los clientes. (recibir)", "correctAnswers": ["estaba recibiendo"], "translation": { "en": "The cashier was receiving the customers' deposits.", "nl": "De kassier was de stortingen van de klanten aan het ontvangen." }, "hint": "estaba + -iendo" },
+        { "id": "prog-022", "sentence": "Dos señoras ___ unas preguntas en el pasillo. (hacer)", "correctAnswers": ["estaban haciendo"], "translation": { "en": "Two ladies were asking some questions in the hallway.", "nl": "Twee dames waren wat vragen aan het stellen in de gang." }, "hint": "estaban + haciendo" },
+        { "id": "prog-023", "sentence": "Yo ___ euros por libras. (cambiar)", "correctAnswers": ["estaba cambiando"], "translation": { "en": "I was exchanging euros for pounds.", "nl": "Ik was euro's aan het wisselen voor ponden." }, "hint": "estaba + -ando" },
+        { "id": "prog-024", "sentence": "El director de finanzas ___ un café. (tomar)", "correctAnswers": ["estaba tomando"], "translation": { "en": "The finance director was having a coffee.", "nl": "De financieel directeur was een koffie aan het drinken." }, "hint": "estaba + -ando" },
+        { "id": "prog-025", "sentence": "Marta ___ un libro en la cola. (leer)", "correctAnswers": ["estaba leyendo"], "translation": { "en": "Marta was reading a book in the queue.", "nl": "Marta was een boek aan het lezen in de rij." }, "hint": "estaba + leyendo" }
       ]
     },
     {
@@ -61,12 +61,12 @@
       "type": "fill_in_blank",
       "instruction": { "en": "Choose the correct gerundio from the list: competir, hervir, seguir, decir, reñir, servir", "nl": "Kies het juiste gerundio uit de lijst: competir, hervir, seguir, decir, reñir, servir" },
       "items": [
-        { "id": "prog-026", "sentence": "El camarero está ___ la cena. (servir)", "correctAnswers": ["sirviendo"], "hint": "servir → sirviendo" },
-        { "id": "prog-027", "sentence": "El agua está ___. (hervir)", "correctAnswers": ["hirviendo"], "hint": "hervir → hirviendo" },
-        { "id": "prog-028", "sentence": "Las autoridades están ___ al criminal. (seguir)", "correctAnswers": ["siguiendo"], "hint": "seguir → siguiendo" },
-        { "id": "prog-029", "sentence": "¿Por qué siempre estás ___ con tus vecinos? (reñir)", "correctAnswers": ["riñendo"], "hint": "reñir → riñendo" },
-        { "id": "prog-030", "sentence": "Todos los atletas están ___ en los juegos preliminares. (competir)", "correctAnswers": ["compitiendo"], "hint": "competir → compitiendo" },
-        { "id": "prog-031", "sentence": "Ahora, el profesor está ___ que vamos a tomar un examen. (decir)", "correctAnswers": ["diciendo"], "hint": "decir → diciendo" }
+        { "id": "prog-026", "sentence": "El camarero está ___ la cena. (servir)", "correctAnswers": ["sirviendo"], "translation": { "en": "The waiter is serving the dinner.", "nl": "De ober is het diner aan het serveren." }, "hint": "servir → sirviendo" },
+        { "id": "prog-027", "sentence": "El agua está ___. (hervir)", "correctAnswers": ["hirviendo"], "translation": { "en": "The water is boiling.", "nl": "Het water is aan het koken." }, "hint": "hervir → hirviendo" },
+        { "id": "prog-028", "sentence": "Las autoridades están ___ al criminal. (seguir)", "correctAnswers": ["siguiendo"], "translation": { "en": "The authorities are following the criminal.", "nl": "De autoriteiten zijn de crimineel aan het volgen." }, "hint": "seguir → siguiendo" },
+        { "id": "prog-029", "sentence": "¿Por qué siempre estás ___ con tus vecinos? (reñir)", "correctAnswers": ["riñendo"], "translation": { "en": "Why are you always quarreling with your neighbours?", "nl": "Waarom ben je altijd ruzie aan het maken met je buren?" }, "hint": "reñir → riñendo" },
+        { "id": "prog-030", "sentence": "Todos los atletas están ___ en los juegos preliminares. (competir)", "correctAnswers": ["compitiendo"], "translation": { "en": "All the athletes are competing in the preliminary games.", "nl": "Alle atleten zijn aan het meedoen in de voorrondes." }, "hint": "competir → compitiendo" },
+        { "id": "prog-031", "sentence": "Ahora, el profesor está ___ que vamos a tomar un examen. (decir)", "correctAnswers": ["diciendo"], "translation": { "en": "Now, the teacher is saying that we are going to take an exam.", "nl": "Nu is de leraar aan het zeggen dat we een examen gaan maken." }, "hint": "decir → diciendo" }
       ]
     }
   ],

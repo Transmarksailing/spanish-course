@@ -75,21 +75,21 @@
         "nl": "Vul aan met de Verleden Subjunctivo van het werkwoord"
       },
       "items": [
-        { "id": "pasts-001", "sentence": "Yo quería que Lola ___ a la fiesta. (venir)", "correctAnswers": ["viniera"], "hint": "venir → vinieron → vinier-" },
-        { "id": "pasts-002", "sentence": "Preferíamos que tú ___ la guitarra. (tocar)", "correctAnswers": ["tocaras"], "hint": "tocar → tocaron → tocar-" },
-        { "id": "pasts-003", "sentence": "Insistieron en que yo ___ la cuenta. (pagar)", "correctAnswers": ["pagara"], "hint": "pagar → pagaron → pagar-" },
-        { "id": "pasts-004", "sentence": "Era importante que los profesores ___ castellano. (enseñar)", "correctAnswers": ["enseñaran"], "hint": "enseñar → enseñaron → enseñar-" },
-        { "id": "pasts-005", "sentence": "Era necesario que los jefes ___ a los empleados. (hablar)", "correctAnswers": ["hablaran"], "hint": "hablar → hablaron → hablar-" },
-        { "id": "pasts-006", "sentence": "Yo recomendaba que tú ___ el libro. (leer)", "correctAnswers": ["leyeras"], "hint": "leer → leyeron → leyer-" },
-        { "id": "pasts-007", "sentence": "No creía que Álvaro ___ aquí. (trabajar)", "correctAnswers": ["trabajara"], "hint": "trabajar → trabajaron → trabajar-" },
-        { "id": "pasts-008", "sentence": "Él quería que yo ___ una carta. (escribir)", "correctAnswers": ["escribiera"], "hint": "escribir → escribieron → escribier-" },
-        { "id": "pasts-009", "sentence": "Queríamos que ellos nos ___. (visitar)", "correctAnswers": ["visitaran"], "hint": "visitar → visitaron → visitar-" },
-        { "id": "pasts-010", "sentence": "Él no estaba seguro de que ella le ___. (amar)", "correctAnswers": ["amara"], "hint": "amar → amaron → amar-" },
-        { "id": "pasts-011", "sentence": "El doctor insistía en que yo ___ la medicina. (tomar)", "correctAnswers": ["tomara"], "hint": "tomar → tomaron → tomar-" },
-        { "id": "pasts-012", "sentence": "Yo dudaba que tú ___ bien. (nadar)", "correctAnswers": ["nadaras"], "hint": "nadar → nadaron → nadar-" },
-        { "id": "pasts-013", "sentence": "No creía que Juan ___ a María. (amar)", "correctAnswers": ["amara"], "hint": "amar → amaron → amar-" },
-        { "id": "pasts-014", "sentence": "Fue increíble que ellos ___ tanto dinero en la lotería. (ganar)", "correctAnswers": ["ganaran"], "hint": "ganar → ganaron → ganar-" },
-        { "id": "pasts-015", "sentence": "Mi profesor quería que yo ___ las frases en voz alta. (decir)", "correctAnswers": ["dijera"], "hint": "decir → dijeron → dijer-" }
+        { "id": "pasts-001", "sentence": "Yo quería que Lola ___ a la fiesta. (venir)", "correctAnswers": ["viniera"], "translation": { "en": "I wanted Lola to come to the party.", "nl": "Ik wilde dat Lola naar het feest kwam." }, "hint": "venir → vinieron → vinier-" },
+        { "id": "pasts-002", "sentence": "Preferíamos que tú ___ la guitarra. (tocar)", "correctAnswers": ["tocaras"], "translation": { "en": "We preferred that you played the guitar.", "nl": "We wilden liever dat jij gitaar speelde." }, "hint": "tocar → tocaron → tocar-" },
+        { "id": "pasts-003", "sentence": "Insistieron en que yo ___ la cuenta. (pagar)", "correctAnswers": ["pagara"], "translation": { "en": "They insisted that I pay the bill.", "nl": "Ze stonden erop dat ik de rekening betaalde." }, "hint": "pagar → pagaron → pagar-" },
+        { "id": "pasts-004", "sentence": "Era importante que los profesores ___ castellano. (enseñar)", "correctAnswers": ["enseñaran"], "translation": { "en": "It was important that the teachers taught Castilian Spanish.", "nl": "Het was belangrijk dat de leraren Castiliaans Spaans onderwezen." }, "hint": "enseñar → enseñaron → enseñar-" },
+        { "id": "pasts-005", "sentence": "Era necesario que los jefes ___ a los empleados. (hablar)", "correctAnswers": ["hablaran"], "translation": { "en": "It was necessary that the bosses spoke to the employees.", "nl": "Het was noodzakelijk dat de bazen met de werknemers spraken." }, "hint": "hablar → hablaron → hablar-" },
+        { "id": "pasts-006", "sentence": "Yo recomendaba que tú ___ el libro. (leer)", "correctAnswers": ["leyeras"], "translation": { "en": "I recommended that you read the book.", "nl": "Ik raadde aan dat je het boek las." }, "hint": "leer → leyeron → leyer-" },
+        { "id": "pasts-007", "sentence": "No creía que Álvaro ___ aquí. (trabajar)", "correctAnswers": ["trabajara"], "translation": { "en": "I didn't believe that Álvaro worked here.", "nl": "Ik geloofde niet dat Álvaro hier werkte." }, "hint": "trabajar → trabajaron → trabajar-" },
+        { "id": "pasts-008", "sentence": "Él quería que yo ___ una carta. (escribir)", "correctAnswers": ["escribiera"], "translation": { "en": "He wanted me to write a letter.", "nl": "Hij wilde dat ik een brief schreef." }, "hint": "escribir → escribieron → escribier-" },
+        { "id": "pasts-009", "sentence": "Queríamos que ellos nos ___. (visitar)", "correctAnswers": ["visitaran"], "translation": { "en": "We wanted them to visit us.", "nl": "We wilden dat ze ons bezochten." }, "hint": "visitar → visitaron → visitar-" },
+        { "id": "pasts-010", "sentence": "Él no estaba seguro de que ella le ___. (amar)", "correctAnswers": ["amara"], "translation": { "en": "He wasn't sure that she loved him.", "nl": "Hij was er niet zeker van dat zij van hem hield." }, "hint": "amar → amaron → amar-" },
+        { "id": "pasts-011", "sentence": "El doctor insistía en que yo ___ la medicina. (tomar)", "correctAnswers": ["tomara"], "translation": { "en": "The doctor insisted that I take the medicine.", "nl": "De dokter stond erop dat ik de medicijnen innam." }, "hint": "tomar → tomaron → tomar-" },
+        { "id": "pasts-012", "sentence": "Yo dudaba que tú ___ bien. (nadar)", "correctAnswers": ["nadaras"], "translation": { "en": "I doubted that you swam well.", "nl": "Ik betwijfelde dat je goed zwom." }, "hint": "nadar → nadaron → nadar-" },
+        { "id": "pasts-013", "sentence": "No creía que Juan ___ a María. (amar)", "correctAnswers": ["amara"], "translation": { "en": "I didn't believe that Juan loved María.", "nl": "Ik geloofde niet dat Juan van María hield." }, "hint": "amar → amaron → amar-" },
+        { "id": "pasts-014", "sentence": "Fue increíble que ellos ___ tanto dinero en la lotería. (ganar)", "correctAnswers": ["ganaran"], "translation": { "en": "It was incredible that they won so much money in the lottery.", "nl": "Het was ongelooflijk dat ze zoveel geld in de loterij wonnen." }, "hint": "ganar → ganaron → ganar-" },
+        { "id": "pasts-015", "sentence": "Mi profesor quería que yo ___ las frases en voz alta. (decir)", "correctAnswers": ["dijera"], "translation": { "en": "My teacher wanted me to say the sentences out loud.", "nl": "Mijn leraar wilde dat ik de zinnen hardop zei." }, "hint": "decir → dijeron → dijer-" }
       ]
     },
     {
@@ -100,12 +100,12 @@
         "nl": "Vul de SI-zin aan met de Verleden Subjunctivo"
       },
       "items": [
-        { "id": "pasts-si001", "sentence": "Iríamos a México si ___ el dinero. (tener)", "correctAnswers": ["tuviéramos", "tuvieramos"], "hint": "tener → tuvieron → tuvier-" },
-        { "id": "pasts-si002", "sentence": "Luisa iría de compras si ___ de nevar. (dejar)", "correctAnswers": ["dejara"], "hint": "dejar → dejaron → dejar-" },
-        { "id": "pasts-si003", "sentence": "Carlota se casaría con Lucas si él ___ rico. (ser)", "correctAnswers": ["fuera"], "hint": "ser → fueron → fuer-" },
-        { "id": "pasts-si004", "sentence": "Los jóvenes no comprarían billetes tan caros si el cantante no ___ famoso. (ser)", "correctAnswers": ["fuera"], "hint": "ser → fueron → fuer-" },
-        { "id": "pasts-si005", "sentence": "Los alumnos no irían a clase mañana si no ___ un examen. (tener)", "correctAnswers": ["tuvieran"], "hint": "tener → tuvieron → tuvier-" },
-        { "id": "pasts-si006", "sentence": "Yo iría hoy al cine si la película ___ buena. (ser)", "correctAnswers": ["fuera"], "hint": "ser → fueron → fuer-" }
+        { "id": "pasts-si001", "sentence": "Iríamos a México si ___ el dinero. (tener)", "correctAnswers": ["tuviéramos", "tuvieramos"], "translation": { "en": "We would go to Mexico if we had the money.", "nl": "We zouden naar Mexico gaan als we het geld hadden." }, "hint": "tener → tuvieron → tuvier-" },
+        { "id": "pasts-si002", "sentence": "Luisa iría de compras si ___ de nevar. (dejar)", "correctAnswers": ["dejara"], "translation": { "en": "Luisa would go shopping if it stopped snowing.", "nl": "Luisa zou gaan winkelen als het ophield met sneeuwen." }, "hint": "dejar → dejaron → dejar-" },
+        { "id": "pasts-si003", "sentence": "Carlota se casaría con Lucas si él ___ rico. (ser)", "correctAnswers": ["fuera"], "translation": { "en": "Carlota would marry Lucas if he were rich.", "nl": "Carlota zou met Lucas trouwen als hij rijk was." }, "hint": "ser → fueron → fuer-" },
+        { "id": "pasts-si004", "sentence": "Los jóvenes no comprarían billetes tan caros si el cantante no ___ famoso. (ser)", "correctAnswers": ["fuera"], "translation": { "en": "Young people wouldn't buy such expensive tickets if the singer weren't famous.", "nl": "Jongeren zouden niet zulke dure kaartjes kopen als de zanger niet beroemd was." }, "hint": "ser → fueron → fuer-" },
+        { "id": "pasts-si005", "sentence": "Los alumnos no irían a clase mañana si no ___ un examen. (tener)", "correctAnswers": ["tuvieran"], "translation": { "en": "The students wouldn't go to class tomorrow if they didn't have an exam.", "nl": "De leerlingen zouden morgen niet naar de les gaan als ze geen examen hadden." }, "hint": "tener → tuvieron → tuvier-" },
+        { "id": "pasts-si006", "sentence": "Yo iría hoy al cine si la película ___ buena. (ser)", "correctAnswers": ["fuera"], "translation": { "en": "I would go to the cinema today if the movie were good.", "nl": "Ik zou vandaag naar de bioscoop gaan als de film goed was." }, "hint": "ser → fueron → fuer-" }
       ]
     }
   ],

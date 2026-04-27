@@ -96,6 +96,7 @@ export interface ExerciseItem {
   before?: string;
   after?: string;
   source?: LocalizedText;
+  translation?: LocalizedText;
   correctAnswers: string[];
   hint?: string;
   acceptAlternatives?: boolean;

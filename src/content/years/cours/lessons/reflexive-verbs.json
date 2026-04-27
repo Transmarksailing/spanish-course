@@ -66,13 +66,13 @@
       "type": "fill_in_blank",
       "instruction": { "en": "Complete the daily routine with the correct reflexive verb (yo form)", "nl": "Vul de dagelijkse routine aan met het juiste wederkerende werkwoord (yo-vorm)" },
       "items": [
-        { "id": "refl-001", "sentence": "Generalmente no ___ hasta las ocho. (levantarse)", "correctAnswers": ["me levanto"], "hint": "levantarse: yo → me levanto" },
-        { "id": "refl-002", "sentence": "Voy al baño y ___ en el espejo. (mirarse)", "correctAnswers": ["me miro"], "hint": "mirarse: yo → me miro" },
-        { "id": "refl-003", "sentence": "Entonces, ___ la barba con cuidado. (afeitarse)", "correctAnswers": ["me afeito"], "hint": "afeitarse: yo → me afeito" },
-        { "id": "refl-004", "sentence": "___ el pijama y entro en la ducha. (quitarse)", "correctAnswers": ["Me quito"], "hint": "quitarse: yo → me quito" },
-        { "id": "refl-005", "sentence": "Con agua caliente, ___ y canto bajo el agua. (ducharse)", "correctAnswers": ["me ducho"], "hint": "ducharse: yo → me ducho" },
-        { "id": "refl-006", "sentence": "Cuando termino, ___ con la toalla. (secarse)", "correctAnswers": ["me seco"], "hint": "secarse: yo → me seco" },
-        { "id": "refl-007", "sentence": "Después ___ los dientes. (cepillarse)", "correctAnswers": ["me cepillo"], "hint": "cepillarse: yo → me cepillo" }
+        { "id": "refl-001", "sentence": "Generalmente no ___ hasta las ocho. (levantarse)", "correctAnswers": ["me levanto"], "translation": { "en": "Generally I don't get up until eight.", "nl": "Meestal sta ik pas om acht uur op." }, "hint": "levantarse: yo → me levanto" },
+        { "id": "refl-002", "sentence": "Voy al baño y ___ en el espejo. (mirarse)", "correctAnswers": ["me miro"], "translation": { "en": "I go to the bathroom and look at myself in the mirror.", "nl": "Ik ga naar de badkamer en kijk naar mezelf in de spiegel." }, "hint": "mirarse: yo → me miro" },
+        { "id": "refl-003", "sentence": "Entonces, ___ la barba con cuidado. (afeitarse)", "correctAnswers": ["me afeito"], "translation": { "en": "Then, I shave my beard carefully.", "nl": "Dan scheer ik mijn baard zorgvuldig." }, "hint": "afeitarse: yo → me afeito" },
+        { "id": "refl-004", "sentence": "___ el pijama y entro en la ducha. (quitarse)", "correctAnswers": ["Me quito"], "translation": { "en": "I take off my pajamas and get into the shower.", "nl": "Ik trek mijn pyjama uit en stap in de douche." }, "hint": "quitarse: yo → me quito" },
+        { "id": "refl-005", "sentence": "Con agua caliente, ___ y canto bajo el agua. (ducharse)", "correctAnswers": ["me ducho"], "translation": { "en": "With hot water, I shower and sing under the water.", "nl": "Met warm water douche ik en zing ik onder het water." }, "hint": "ducharse: yo → me ducho" },
+        { "id": "refl-006", "sentence": "Cuando termino, ___ con la toalla. (secarse)", "correctAnswers": ["me seco"], "translation": { "en": "When I finish, I dry myself with the towel.", "nl": "Als ik klaar ben, droog ik me af met de handdoek." }, "hint": "secarse: yo → me seco" },
+        { "id": "refl-007", "sentence": "Después ___ los dientes. (cepillarse)", "correctAnswers": ["me cepillo"], "translation": { "en": "Afterwards I brush my teeth.", "nl": "Daarna poets ik mijn tanden." }, "hint": "cepillarse: yo → me cepillo" }
       ]
     },
     {
@@ -80,12 +80,12 @@
       "type": "fill_in_blank",
       "instruction": { "en": "Complete with the correct reflexive verb form", "nl": "Vul aan met de juiste wederkerende werkwoordsvorm" },
       "items": [
-        { "id": "refl-008", "sentence": "Hace calor y Marcela ___ con ropa ligera. (vestirse)", "correctAnswers": ["se viste"], "hint": "vestirse: ella → se viste (e→i)" },
-        { "id": "refl-009", "sentence": "En la tienda, las señoras ___ unos sombreros muy elegantes. (probarse)", "correctAnswers": ["se prueban"], "hint": "probarse: ellas → se prueban (o→ue)" },
-        { "id": "refl-010", "sentence": "Antes de darse un baño, Ana ___. (desvestirse)", "correctAnswers": ["se desviste"], "hint": "desvestirse: ella → se desviste (e→i)" },
-        { "id": "refl-011", "sentence": "Todos los días, los chicos ___ de sus amigos antes de volver a casa. (despedirse)", "correctAnswers": ["se despiden"], "hint": "despedirse: ellos → se despiden (e→i)" },
-        { "id": "refl-012", "sentence": "Casi todas las noches yo ___ a las 11 de la noche. (acostarse)", "correctAnswers": ["me acuesto"], "hint": "acostarse: yo → me acuesto (o→ue)" },
-        { "id": "refl-013", "sentence": "Tom nunca ___ antes de la medianoche. (dormirse)", "correctAnswers": ["se duerme"], "hint": "dormirse: él → se duerme (o→ue)" }
+        { "id": "refl-008", "sentence": "Hace calor y Marcela ___ con ropa ligera. (vestirse)", "correctAnswers": ["se viste"], "translation": { "en": "It is hot and Marcela dresses in light clothing.", "nl": "Het is warm en Marcela kleedt zich in lichte kleding." }, "hint": "vestirse: ella → se viste (e→i)" },
+        { "id": "refl-009", "sentence": "En la tienda, las señoras ___ unos sombreros muy elegantes. (probarse)", "correctAnswers": ["se prueban"], "translation": { "en": "In the store, the ladies try on some very elegant hats.", "nl": "In de winkel passen de dames een aantal zeer elegante hoeden." }, "hint": "probarse: ellas → se prueban (o→ue)" },
+        { "id": "refl-010", "sentence": "Antes de darse un baño, Ana ___. (desvestirse)", "correctAnswers": ["se desviste"], "translation": { "en": "Before taking a bath, Ana gets undressed.", "nl": "Voordat ze een bad neemt, kleedt Ana zich uit." }, "hint": "desvestirse: ella → se desviste (e→i)" },
+        { "id": "refl-011", "sentence": "Todos los días, los chicos ___ de sus amigos antes de volver a casa. (despedirse)", "correctAnswers": ["se despiden"], "translation": { "en": "Every day, the boys say goodbye to their friends before going home.", "nl": "Elke dag nemen de jongens afscheid van hun vrienden voordat zij naar huis gaan." }, "hint": "despedirse: ellos → se despiden (e→i)" },
+        { "id": "refl-012", "sentence": "Casi todas las noches yo ___ a las 11 de la noche. (acostarse)", "correctAnswers": ["me acuesto"], "translation": { "en": "Almost every night I go to bed at 11 at night.", "nl": "Bijna elke avond ga ik om 11 uur 's avonds naar bed." }, "hint": "acostarse: yo → me acuesto (o→ue)" },
+        { "id": "refl-013", "sentence": "Tom nunca ___ antes de la medianoche. (dormirse)", "correctAnswers": ["se duerme"], "translation": { "en": "Tom never falls asleep before midnight.", "nl": "Tom valt nooit voor middernacht in slaap." }, "hint": "dormirse: él → se duerme (o→ue)" }
       ]
     },
     {
@@ -93,17 +93,17 @@
       "type": "fill_in_blank",
       "instruction": { "en": "Choose the correct form — Reflexive or Non-Reflexive?", "nl": "Kies de juiste vorm — Wederkerend of Niet-Wederkerend?" },
       "items": [
-        { "id": "refl-014", "sentence": "Ahora, Ted ___ la sopa para nosotros. (preparar)", "correctAnswers": ["prepara"], "hint": "He prepares the soup (for others) → non-reflexive" },
-        { "id": "refl-015", "sentence": "Ted también ___ para una fiesta. (prepararse)", "correctAnswers": ["se prepara"], "hint": "He gets himself ready → reflexive" },
-        { "id": "refl-016", "sentence": "Si tú tomas la sopa de Ted, tú ___. (enfermarse)", "correctAnswers": ["te enfermas"], "hint": "You get sick (yourself) → reflexive" },
-        { "id": "refl-017", "sentence": "Elisa ___ la sopa. (probar)", "correctAnswers": ["prueba"], "hint": "She tastes the soup → non-reflexive (o→ue)" },
-        { "id": "refl-018", "sentence": "Ahora ella ___ un vestido nuevo. (probarse)", "correctAnswers": ["se prueba"], "hint": "She tries on a dress → reflexive (o→ue)" },
-        { "id": "refl-019", "sentence": "Luisa ___ los zapatos. (quitarse)", "correctAnswers": ["se quita"], "hint": "She takes off her own shoes → reflexive" },
-        { "id": "refl-020", "sentence": "Nancy ___ los platos de la mesa. (quitar)", "correctAnswers": ["quita"], "hint": "She removes plates (not from herself) → non-reflexive" },
-        { "id": "refl-021", "sentence": "Yo ___ bien con todos mis parientes. (llevarse)", "correctAnswers": ["me llevo"], "hint": "I get along with → reflexive" },
-        { "id": "refl-022", "sentence": "Nosotros ___ unos regalitos para todos. (llevar)", "correctAnswers": ["llevamos"], "hint": "We carry gifts → non-reflexive" },
-        { "id": "refl-023", "sentence": "Luís ___ a los niños a las ocho. (acostar)", "correctAnswers": ["acuesta"], "hint": "He puts the kids to bed → non-reflexive (o→ue)" },
-        { "id": "refl-024", "sentence": "Berta ___ en el sofá. (acostarse)", "correctAnswers": ["se acuesta"], "hint": "She lies down → reflexive (o→ue)" }
+        { "id": "refl-014", "sentence": "Ahora, Ted ___ la sopa para nosotros. (preparar)", "correctAnswers": ["prepara"], "translation": { "en": "Now, Ted prepares the soup for us.", "nl": "Nu maakt Ted de soep voor ons klaar." }, "hint": "He prepares the soup (for others) → non-reflexive" },
+        { "id": "refl-015", "sentence": "Ted también ___ para una fiesta. (prepararse)", "correctAnswers": ["se prepara"], "translation": { "en": "Ted also gets ready for a party.", "nl": "Ted maakt zich ook klaar voor een feest." }, "hint": "He gets himself ready → reflexive" },
+        { "id": "refl-016", "sentence": "Si tú tomas la sopa de Ted, tú ___. (enfermarse)", "correctAnswers": ["te enfermas"], "translation": { "en": "If you eat Ted's soup, you get sick.", "nl": "Als jij Teds soep eet, word jij ziek." }, "hint": "You get sick (yourself) → reflexive" },
+        { "id": "refl-017", "sentence": "Elisa ___ la sopa. (probar)", "correctAnswers": ["prueba"], "translation": { "en": "Elisa tastes the soup.", "nl": "Elisa proeft de soep." }, "hint": "She tastes the soup → non-reflexive (o→ue)" },
+        { "id": "refl-018", "sentence": "Ahora ella ___ un vestido nuevo. (probarse)", "correctAnswers": ["se prueba"], "translation": { "en": "Now she tries on a new dress.", "nl": "Nu past zij een nieuwe jurk." }, "hint": "She tries on a dress → reflexive (o→ue)" },
+        { "id": "refl-019", "sentence": "Luisa ___ los zapatos. (quitarse)", "correctAnswers": ["se quita"], "translation": { "en": "Luisa takes off her shoes.", "nl": "Luisa trekt haar schoenen uit." }, "hint": "She takes off her own shoes → reflexive" },
+        { "id": "refl-020", "sentence": "Nancy ___ los platos de la mesa. (quitar)", "correctAnswers": ["quita"], "translation": { "en": "Nancy clears the plates from the table.", "nl": "Nancy ruimt de borden van de tafel." }, "hint": "She removes plates (not from herself) → non-reflexive" },
+        { "id": "refl-021", "sentence": "Yo ___ bien con todos mis parientes. (llevarse)", "correctAnswers": ["me llevo"], "translation": { "en": "I get along well with all my relatives.", "nl": "Ik kan goed opschieten met al mijn familieleden." }, "hint": "I get along with → reflexive" },
+        { "id": "refl-022", "sentence": "Nosotros ___ unos regalitos para todos. (llevar)", "correctAnswers": ["llevamos"], "translation": { "en": "We bring some little gifts for everyone.", "nl": "Wij nemen wat kleine cadeautjes mee voor iedereen." }, "hint": "We carry gifts → non-reflexive" },
+        { "id": "refl-023", "sentence": "Luís ___ a los niños a las ocho. (acostar)", "correctAnswers": ["acuesta"], "translation": { "en": "Luís puts the children to bed at eight.", "nl": "Luís brengt de kinderen om acht uur naar bed." }, "hint": "He puts the kids to bed → non-reflexive (o→ue)" },
+        { "id": "refl-024", "sentence": "Berta ___ en el sofá. (acostarse)", "correctAnswers": ["se acuesta"], "translation": { "en": "Berta lies down on the sofa.", "nl": "Berta gaat op de bank liggen." }, "hint": "She lies down → reflexive (o→ue)" }
       ]
     },
     {
@@ -111,14 +111,14 @@
       "type": "fill_in_blank",
       "instruction": { "en": "Choose the correct 'become' — hacerse, ponerse, or volverse?", "nl": "Kies het juiste 'worden' — hacerse, ponerse of volverse?" },
       "items": [
-        { "id": "refl-025", "sentence": "Miranda ___ arquitecto. (hacerse)", "correctAnswers": ["se hizo"], "hint": "Career achievement → hacerse (preterite)" },
-        { "id": "refl-026", "sentence": "Marla ___ muda cuando le hablo de su novio. (ponerse)", "correctAnswers": ["se pone"], "hint": "Emotional reaction → ponerse" },
-        { "id": "refl-027", "sentence": "Yo ___ nervioso cuando veo a Julia. (ponerse)", "correctAnswers": ["me pongo"], "hint": "Emotional reaction → ponerse" },
-        { "id": "refl-028", "sentence": "Cuando Sandra llama a su novio, él ___ contento. (ponerse)", "correctAnswers": ["se pone"], "hint": "Emotional reaction → ponerse" },
-        { "id": "refl-029", "sentence": "Si ___ loco, pierdes tu trabajo. (volverse)", "correctAnswers": ["te vuelves"], "hint": "Sudden involuntary change → volverse" },
-        { "id": "refl-030", "sentence": "Si ellos ___ impacientes no los ayudaremos. (ponerse)", "correctAnswers": ["se ponen"], "hint": "Emotional state → ponerse" },
-        { "id": "refl-031", "sentence": "Nadie ___ millonario sin trabajar mucho. (hacerse)", "correctAnswers": ["se hace"], "hint": "Achieved status → hacerse" },
-        { "id": "refl-032", "sentence": "Nadia y yo ___ mudos cuando tenemos miedo. (ponerse)", "correctAnswers": ["nos ponemos"], "hint": "Physical reaction → ponerse" }
+        { "id": "refl-025", "sentence": "Miranda ___ arquitecto. (hacerse)", "correctAnswers": ["se hizo"], "translation": { "en": "Miranda became an architect.", "nl": "Miranda werd architect." }, "hint": "Career achievement → hacerse (preterite)" },
+        { "id": "refl-026", "sentence": "Marla ___ muda cuando le hablo de su novio. (ponerse)", "correctAnswers": ["se pone"], "translation": { "en": "Marla becomes silent when I talk to her about her boyfriend.", "nl": "Marla wordt stil wanneer ik haar over haar vriend praat." }, "hint": "Emotional reaction → ponerse" },
+        { "id": "refl-027", "sentence": "Yo ___ nervioso cuando veo a Julia. (ponerse)", "correctAnswers": ["me pongo"], "translation": { "en": "I get nervous when I see Julia.", "nl": "Ik word nerveus wanneer ik Julia zie." }, "hint": "Emotional reaction → ponerse" },
+        { "id": "refl-028", "sentence": "Cuando Sandra llama a su novio, él ___ contento. (ponerse)", "correctAnswers": ["se pone"], "translation": { "en": "When Sandra calls her boyfriend, he becomes happy.", "nl": "Wanneer Sandra haar vriend belt, wordt hij blij." }, "hint": "Emotional reaction → ponerse" },
+        { "id": "refl-029", "sentence": "Si ___ loco, pierdes tu trabajo. (volverse)", "correctAnswers": ["te vuelves"], "translation": { "en": "If you go crazy, you lose your job.", "nl": "Als jij gek wordt, verlies je je baan." }, "hint": "Sudden involuntary change → volverse" },
+        { "id": "refl-030", "sentence": "Si ellos ___ impacientes no los ayudaremos. (ponerse)", "correctAnswers": ["se ponen"], "translation": { "en": "If they get impatient we won't help them.", "nl": "Als zij ongeduldig worden zullen wij hen niet helpen." }, "hint": "Emotional state → ponerse" },
+        { "id": "refl-031", "sentence": "Nadie ___ millonario sin trabajar mucho. (hacerse)", "correctAnswers": ["se hace"], "translation": { "en": "No one becomes a millionaire without working a lot.", "nl": "Niemand wordt miljonair zonder hard te werken." }, "hint": "Achieved status → hacerse" },
+        { "id": "refl-032", "sentence": "Nadia y yo ___ mudos cuando tenemos miedo. (ponerse)", "correctAnswers": ["nos ponemos"], "translation": { "en": "Nadia and I become silent when we are afraid.", "nl": "Nadia en ik worden stil wanneer wij bang zijn." }, "hint": "Physical reaction → ponerse" }
       ]
     }
   ],

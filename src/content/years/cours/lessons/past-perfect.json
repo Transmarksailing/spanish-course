@@ -51,14 +51,14 @@
       "type": "fill_in_blank",
       "instruction": { "en": "Complete with the Past Perfect — Regular Verbs", "nl": "Vul aan met het Pluscuamperfecto — Regelmatige Werkwoorden" },
       "items": [
-        { "id": "pp-001", "sentence": "Cuando llegamos, ellos ya ___. (hablar)", "correctAnswers": ["habían hablado"], "hint": "habían + -ado" },
-        { "id": "pp-002", "sentence": "Yo nunca ___ paella antes de ir a España. (comer)", "correctAnswers": ["había comido"], "hint": "había + -ido" },
-        { "id": "pp-003", "sentence": "Nosotros ya ___ en Madrid por dos años. (vivir)", "correctAnswers": ["habíamos vivido"], "hint": "habíamos + -ido" },
-        { "id": "pp-004", "sentence": "¿Tú ya ___ al médico? (ir)", "correctAnswers": ["habías ido"], "hint": "habías + ido" },
-        { "id": "pp-005", "sentence": "Ella ___ la mesa antes de que llegaran los invitados. (preparar)", "correctAnswers": ["había preparado"], "hint": "había + -ado" },
-        { "id": "pp-006", "sentence": "Nosotros ___ la película antes. (ver)", "correctAnswers": ["habíamos visto"], "hint": "habíamos + visto (irregular)" },
-        { "id": "pp-007", "sentence": "Ellos nunca ___ a Europa antes de 2020. (viajar)", "correctAnswers": ["habían viajado"], "hint": "habían + -ado" },
-        { "id": "pp-008", "sentence": "Yo ya ___ el libro cuando salió la película. (leer)", "correctAnswers": ["había leído"], "hint": "había + -ido" }
+        { "id": "pp-001", "sentence": "Cuando llegamos, ellos ya ___. (hablar)", "correctAnswers": ["habían hablado"], "translation": { "en": "When we arrived, they had already spoken.", "nl": "Toen we aankwamen, hadden zij al gesproken." }, "hint": "habían + -ado" },
+        { "id": "pp-002", "sentence": "Yo nunca ___ paella antes de ir a España. (comer)", "correctAnswers": ["había comido"], "translation": { "en": "I had never eaten paella before going to Spain.", "nl": "Ik had nog nooit paella gegeten voordat ik naar Spanje ging." }, "hint": "había + -ido" },
+        { "id": "pp-003", "sentence": "Nosotros ya ___ en Madrid por dos años. (vivir)", "correctAnswers": ["habíamos vivido"], "translation": { "en": "We had already lived in Madrid for two years.", "nl": "Wij hadden al twee jaar in Madrid gewoond." }, "hint": "habíamos + -ido" },
+        { "id": "pp-004", "sentence": "¿Tú ya ___ al médico? (ir)", "correctAnswers": ["habías ido"], "translation": { "en": "Had you already gone to the doctor?", "nl": "Was jij al naar de dokter geweest?" }, "hint": "habías + ido" },
+        { "id": "pp-005", "sentence": "Ella ___ la mesa antes de que llegaran los invitados. (preparar)", "correctAnswers": ["había preparado"], "translation": { "en": "She had set the table before the guests arrived.", "nl": "Zij had de tafel gedekt voordat de gasten aankwamen." }, "hint": "había + -ado" },
+        { "id": "pp-006", "sentence": "Nosotros ___ la película antes. (ver)", "correctAnswers": ["habíamos visto"], "translation": { "en": "We had seen the movie before.", "nl": "Wij hadden de film al eerder gezien." }, "hint": "habíamos + visto (irregular)" },
+        { "id": "pp-007", "sentence": "Ellos nunca ___ a Europa antes de 2020. (viajar)", "correctAnswers": ["habían viajado"], "translation": { "en": "They had never traveled to Europe before 2020.", "nl": "Zij hadden nooit naar Europa gereisd vóór 2020." }, "hint": "habían + -ado" },
+        { "id": "pp-008", "sentence": "Yo ya ___ el libro cuando salió la película. (leer)", "correctAnswers": ["había leído"], "translation": { "en": "I had already read the book when the movie came out.", "nl": "Ik had het boek al gelezen toen de film uitkwam." }, "hint": "había + -ido" }
       ]
     },
     {
@@ -66,14 +66,14 @@
       "type": "fill_in_blank",
       "instruction": { "en": "Complete with the Past Perfect — Irregular Past Participles", "nl": "Vul aan met het Pluscuamperfecto — Onregelmatige Voltooide Deelwoorden" },
       "items": [
-        { "id": "pp-009", "sentence": "Yo ya ___ la tarea. (hacer)", "correctAnswers": ["había hecho"], "hint": "hacer → hecho" },
-        { "id": "pp-010", "sentence": "Ella ___ la puerta con llave. (abrir)", "correctAnswers": ["había abierto"], "hint": "abrir → abierto" },
-        { "id": "pp-011", "sentence": "Nosotros ___ la carta en español. (escribir)", "correctAnswers": ["habíamos escrito"], "hint": "escribir → escrito" },
-        { "id": "pp-012", "sentence": "Ellos ___ la mesa en el comedor. (poner)", "correctAnswers": ["habían puesto"], "hint": "poner → puesto" },
-        { "id": "pp-013", "sentence": "¿Quién ___ el jarrón? (romper)", "correctAnswers": ["había roto"], "hint": "romper → roto" },
-        { "id": "pp-014", "sentence": "El explorador ya ___ la isla. (descubrir)", "correctAnswers": ["había descubierto"], "hint": "descubrir → descubierto" },
-        { "id": "pp-015", "sentence": "Tú no ___ la verdad. (decir)", "correctAnswers": ["habías dicho"], "hint": "decir → dicho" },
-        { "id": "pp-016", "sentence": "Ellos ya ___ a casa. (volver)", "correctAnswers": ["habían vuelto"], "hint": "volver → vuelto" }
+        { "id": "pp-009", "sentence": "Yo ya ___ la tarea. (hacer)", "correctAnswers": ["había hecho"], "translation": { "en": "I had already done the homework.", "nl": "Ik had het huiswerk al gedaan." }, "hint": "hacer → hecho" },
+        { "id": "pp-010", "sentence": "Ella ___ la puerta con llave. (abrir)", "correctAnswers": ["había abierto"], "translation": { "en": "She had opened the door with the key.", "nl": "Zij had de deur met de sleutel geopend." }, "hint": "abrir → abierto" },
+        { "id": "pp-011", "sentence": "Nosotros ___ la carta en español. (escribir)", "correctAnswers": ["habíamos escrito"], "translation": { "en": "We had written the letter in Spanish.", "nl": "Wij hadden de brief in het Spaans geschreven." }, "hint": "escribir → escrito" },
+        { "id": "pp-012", "sentence": "Ellos ___ la mesa en el comedor. (poner)", "correctAnswers": ["habían puesto"], "translation": { "en": "They had set the table in the dining room.", "nl": "Zij hadden de tafel gedekt in de eetkamer." }, "hint": "poner → puesto" },
+        { "id": "pp-013", "sentence": "¿Quién ___ el jarrón? (romper)", "correctAnswers": ["había roto"], "translation": { "en": "Who had broken the vase?", "nl": "Wie had de vaas gebroken?" }, "hint": "romper → roto" },
+        { "id": "pp-014", "sentence": "El explorador ya ___ la isla. (descubrir)", "correctAnswers": ["había descubierto"], "translation": { "en": "The explorer had already discovered the island.", "nl": "De ontdekkingsreiziger had het eiland al ontdekt." }, "hint": "descubrir → descubierto" },
+        { "id": "pp-015", "sentence": "Tú no ___ la verdad. (decir)", "correctAnswers": ["habías dicho"], "translation": { "en": "You had not told the truth.", "nl": "Jij had de waarheid niet verteld." }, "hint": "decir → dicho" },
+        { "id": "pp-016", "sentence": "Ellos ya ___ a casa. (volver)", "correctAnswers": ["habían vuelto"], "translation": { "en": "They had already returned home.", "nl": "Zij waren al naar huis teruggekeerd." }, "hint": "volver → vuelto" }
       ]
     }
   ],

@@ -51,16 +51,16 @@
       "type": "fill_in_blank",
       "instruction": { "en": "Complete with the Conditional — Regular Verbs", "nl": "Vul aan met de Condicional — Regelmatige Werkwoorden" },
       "items": [
-        { "id": "cond-001", "sentence": "Yo ___ la carta, pero no tengo papel. (escribir)", "correctAnswers": ["escribiría"], "hint": "escribir + -ía" },
-        { "id": "cond-002", "sentence": "Ellos ___ aquí, pero tienen otras obligaciones. (estar)", "correctAnswers": ["estarían"], "hint": "estar + -ían" },
-        { "id": "cond-003", "sentence": "Él me ___, pero no tiene el dinero. (pagar)", "correctAnswers": ["pagaría"], "hint": "pagar + -ía" },
-        { "id": "cond-004", "sentence": "Ellos ___ en el mar, pero el agua está fría. (nadar)", "correctAnswers": ["nadarían"], "hint": "nadar + -ían" },
-        { "id": "cond-005", "sentence": "Yo ___ un soneto, pero no soy poeta. (escribir)", "correctAnswers": ["escribiría"], "hint": "escribir + -ía" },
-        { "id": "cond-006", "sentence": "Nosotros ___ el coche, pero nadie lo quiere. (vender)", "correctAnswers": ["venderíamos"], "hint": "vender + -íamos" },
-        { "id": "cond-007", "sentence": "Ellos ___ en la capital, pero cuesta demasiado. (vivir)", "correctAnswers": ["vivirían"], "hint": "vivir + -ían" },
-        { "id": "cond-008", "sentence": "Él ___ en seguida, pero no hay vuelo hasta el martes. (volver)", "correctAnswers": ["volvería"], "hint": "volver + -ía" },
-        { "id": "cond-009", "sentence": "Nosotros ___ el pollo, pero no hay aceite. (freír)", "correctAnswers": ["freiríamos"], "hint": "freír + -íamos" },
-        { "id": "cond-010", "sentence": "¿Por qué no ___ tú en tren? (ir)", "correctAnswers": ["irías"], "hint": "ir + -ías" }
+        { "id": "cond-001", "sentence": "Yo ___ la carta, pero no tengo papel. (escribir)", "correctAnswers": ["escribiría"], "translation": { "en": "I would write the letter, but I don't have paper.", "nl": "Ik zou de brief schrijven, maar ik heb geen papier." }, "hint": "escribir + -ía" },
+        { "id": "cond-002", "sentence": "Ellos ___ aquí, pero tienen otras obligaciones. (estar)", "correctAnswers": ["estarían"], "translation": { "en": "They would be here, but they have other obligations.", "nl": "Zij zouden hier zijn, maar zij hebben andere verplichtingen." }, "hint": "estar + -ían" },
+        { "id": "cond-003", "sentence": "Él me ___, pero no tiene el dinero. (pagar)", "correctAnswers": ["pagaría"], "translation": { "en": "He would pay me, but he doesn't have the money.", "nl": "Hij zou mij betalen, maar hij heeft het geld niet." }, "hint": "pagar + -ía" },
+        { "id": "cond-004", "sentence": "Ellos ___ en el mar, pero el agua está fría. (nadar)", "correctAnswers": ["nadarían"], "translation": { "en": "They would swim in the sea, but the water is cold.", "nl": "Zij zouden in de zee zwemmen, maar het water is koud." }, "hint": "nadar + -ían" },
+        { "id": "cond-005", "sentence": "Yo ___ un soneto, pero no soy poeta. (escribir)", "correctAnswers": ["escribiría"], "translation": { "en": "I would write a sonnet, but I am not a poet.", "nl": "Ik zou een sonnet schrijven, maar ik ben geen dichter." }, "hint": "escribir + -ía" },
+        { "id": "cond-006", "sentence": "Nosotros ___ el coche, pero nadie lo quiere. (vender)", "correctAnswers": ["venderíamos"], "translation": { "en": "We would sell the car, but no one wants it.", "nl": "Wij zouden de auto verkopen, maar niemand wil hem." }, "hint": "vender + -íamos" },
+        { "id": "cond-007", "sentence": "Ellos ___ en la capital, pero cuesta demasiado. (vivir)", "correctAnswers": ["vivirían"], "translation": { "en": "They would live in the capital, but it costs too much.", "nl": "Zij zouden in de hoofdstad wonen, maar het kost te veel." }, "hint": "vivir + -ían" },
+        { "id": "cond-008", "sentence": "Él ___ en seguida, pero no hay vuelo hasta el martes. (volver)", "correctAnswers": ["volvería"], "translation": { "en": "He would return immediately, but there is no flight until Tuesday.", "nl": "Hij zou meteen terugkomen, maar er is geen vlucht tot dinsdag." }, "hint": "volver + -ía" },
+        { "id": "cond-009", "sentence": "Nosotros ___ el pollo, pero no hay aceite. (freír)", "correctAnswers": ["freiríamos"], "translation": { "en": "We would fry the chicken, but there is no oil.", "nl": "Wij zouden de kip bakken, maar er is geen olie." }, "hint": "freír + -íamos" },
+        { "id": "cond-010", "sentence": "¿Por qué no ___ tú en tren? (ir)", "correctAnswers": ["irías"], "translation": { "en": "Why wouldn't you go by train?", "nl": "Waarom zou jij niet met de trein gaan?" }, "hint": "ir + -ías" }
       ]
     },
     {
@@ -68,12 +68,12 @@
       "type": "fill_in_blank",
       "instruction": { "en": "Complete with the Conditional — Irregular Verbs", "nl": "Vul aan met de Condicional — Onregelmatige Werkwoorden" },
       "items": [
-        { "id": "cond-011", "sentence": "Yo ___ el viaje, pero la verdad es que no tengo el tiempo. (hacer)", "correctAnswers": ["haría"], "hint": "hacer → har-" },
-        { "id": "cond-012", "sentence": "Él ___ bastante dinero para hacer el viaje, pero tiene hipoteca. (tener)", "correctAnswers": ["tendría"], "hint": "tener → tendr-" },
-        { "id": "cond-013", "sentence": "Yo ___ la mesa, pero está sucia. (poner)", "correctAnswers": ["pondría"], "hint": "poner → pondr-" },
-        { "id": "cond-014", "sentence": "Paco ___ los deberes, pero no tiene el libro de texto. (hacer)", "correctAnswers": ["haría"], "hint": "hacer → har-" },
-        { "id": "cond-015", "sentence": "Nosotros ___ prestarle el dinero, pero él no lo devolverá. (poder)", "correctAnswers": ["podríamos"], "hint": "poder → podr-" },
-        { "id": "cond-016", "sentence": "Él no ___ tomar el dinero porque es muy orgulloso. (querer)", "correctAnswers": ["querría"], "hint": "querer → querr-" }
+        { "id": "cond-011", "sentence": "Yo ___ el viaje, pero la verdad es que no tengo el tiempo. (hacer)", "correctAnswers": ["haría"], "translation": { "en": "I would take the trip, but the truth is I don't have the time.", "nl": "Ik zou de reis maken, maar de waarheid is dat ik geen tijd heb." }, "hint": "hacer → har-" },
+        { "id": "cond-012", "sentence": "Él ___ bastante dinero para hacer el viaje, pero tiene hipoteca. (tener)", "correctAnswers": ["tendría"], "translation": { "en": "He would have enough money to take the trip, but he has a mortgage.", "nl": "Hij zou genoeg geld hebben om de reis te maken, maar hij heeft een hypotheek." }, "hint": "tener → tendr-" },
+        { "id": "cond-013", "sentence": "Yo ___ la mesa, pero está sucia. (poner)", "correctAnswers": ["pondría"], "translation": { "en": "I would set the table, but it is dirty.", "nl": "Ik zou de tafel dekken, maar hij is vies." }, "hint": "poner → pondr-" },
+        { "id": "cond-014", "sentence": "Paco ___ los deberes, pero no tiene el libro de texto. (hacer)", "correctAnswers": ["haría"], "translation": { "en": "Paco would do the homework, but he doesn't have the textbook.", "nl": "Paco zou het huiswerk maken, maar hij heeft het tekstboek niet." }, "hint": "hacer → har-" },
+        { "id": "cond-015", "sentence": "Nosotros ___ prestarle el dinero, pero él no lo devolverá. (poder)", "correctAnswers": ["podríamos"], "translation": { "en": "We could lend him the money, but he won't return it.", "nl": "Wij zouden hem het geld kunnen lenen, maar hij zal het niet teruggeven." }, "hint": "poder → podr-" },
+        { "id": "cond-016", "sentence": "Él no ___ tomar el dinero porque es muy orgulloso. (querer)", "correctAnswers": ["querría"], "translation": { "en": "He wouldn't want to take the money because he is very proud.", "nl": "Hij zou het geld niet willen aannemen omdat hij erg trots is." }, "hint": "querer → querr-" }
       ]
     }
   ],

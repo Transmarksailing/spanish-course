@@ -106,9 +106,16 @@ export default function MultipleChoice({ exercise, lessonSlug }: Props) {
               <span className="text-xs text-muted font-mono w-5 sm:w-6 text-right shrink-0">
                 {index + 1}.
               </span>
-              <span className="text-sm font-semibold text-foreground min-w-0">
-                {item.sentence}
-              </span>
+              <div className="flex flex-col min-w-0">
+                <span className="text-sm font-semibold text-foreground">
+                  {item.sentence}
+                </span>
+                {item.translation && (
+                  <span className="text-xs text-muted italic">
+                    {t(item.translation)}
+                  </span>
+                )}
+              </div>
               <SpeakButton text={item.sentence || ""} />
               <div className="flex gap-2 flex-wrap ml-auto shrink-0">
                 {options.map((option) => (

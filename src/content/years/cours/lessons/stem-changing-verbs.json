@@ -25,21 +25,21 @@
         "nl": "Vul aan met de juiste tegenwoordige tijd van het stamveranderende werkwoord tussen haakjes."
       },
       "items": [
-        { "id": "scv-01", "before": "En invierno, yo", "after": "esquiar. (preferir)", "correctAnswers": ["prefiero"] },
-        { "id": "scv-02", "before": "El camarero no", "after": "el pescado. (recomendar)", "correctAnswers": ["recomienda"] },
-        { "id": "scv-03", "before": "¿Quién", "after": "el fuego en la hoguera? (encender)", "correctAnswers": ["enciende"] },
-        { "id": "scv-04", "before": "Ellos no", "after": "las instrucciones del profesor. (entender)", "correctAnswers": ["entienden"] },
-        { "id": "scv-05", "before": "El presidente de Brasil", "after": "con la aprobación del congreso. (gobernar)", "correctAnswers": ["gobierna"] },
-        { "id": "scv-06", "before": "Carlota siempre", "after": "antes de responder. (pensar)", "correctAnswers": ["piensa"] },
-        { "id": "scv-07", "before": "El guardia", "after": "las puertas del palacio. (cerrar)", "correctAnswers": ["cierra"] },
-        { "id": "scv-08", "before": "Ese hombre siempre", "after": ". Es mentiroso. (mentir)", "correctAnswers": ["miente"] },
-        { "id": "scv-09", "before": "La nota en el libro", "after": "a la página 225. (referir)", "correctAnswers": ["refiere"] },
-        { "id": "scv-10", "before": "El presidente", "after": "desde la Casa Blanca. (gobernar)", "correctAnswers": ["gobierna"] },
-        { "id": "scv-11", "before": "El abogado", "after": "al acusado ante el jurado. (defender)", "correctAnswers": ["defiende"] },
-        { "id": "scv-12", "before": "¿A qué hora", "after": "el partido de béisbol? (comenzar)", "correctAnswers": ["comienza"] },
-        { "id": "scv-13", "before": "Cuando", "after": "las temperaturas descienden. (helar)", "correctAnswers": ["hiela"] },
-        { "id": "scv-14", "before": "¿Quién no", "after": "la pregunta? (entender)", "correctAnswers": ["entiende"] },
-        { "id": "scv-15", "before": "Nosotros", "after": "en el salón para ver la televisión. (sentarse)", "correctAnswers": ["nos sentamos"] }
+        { "id": "scv-01", "before": "En invierno, yo", "after": "esquiar. (preferir)", "correctAnswers": ["prefiero"], "translation": { "en": "In winter, I prefer to ski.", "nl": "In de winter geef ik er de voorkeur aan om te skiën." } },
+        { "id": "scv-02", "before": "El camarero no", "after": "el pescado. (recomendar)", "correctAnswers": ["recomienda"], "translation": { "en": "The waiter does not recommend the fish.", "nl": "De ober beveelt de vis niet aan." } },
+        { "id": "scv-03", "before": "¿Quién", "after": "el fuego en la hoguera? (encender)", "correctAnswers": ["enciende"], "translation": { "en": "Who lights the fire in the bonfire?", "nl": "Wie steekt het vuur in het kampvuur aan?" } },
+        { "id": "scv-04", "before": "Ellos no", "after": "las instrucciones del profesor. (entender)", "correctAnswers": ["entienden"], "translation": { "en": "They do not understand the teacher's instructions.", "nl": "Zij begrijpen de instructies van de leraar niet." } },
+        { "id": "scv-05", "before": "El presidente de Brasil", "after": "con la aprobación del congreso. (gobernar)", "correctAnswers": ["gobierna"], "translation": { "en": "The president of Brazil governs with the approval of congress.", "nl": "De president van Brazilië regeert met goedkeuring van het congres." } },
+        { "id": "scv-06", "before": "Carlota siempre", "after": "antes de responder. (pensar)", "correctAnswers": ["piensa"], "translation": { "en": "Carlota always thinks before answering.", "nl": "Carlota denkt altijd na voordat ze antwoordt." } },
+        { "id": "scv-07", "before": "El guardia", "after": "las puertas del palacio. (cerrar)", "correctAnswers": ["cierra"], "translation": { "en": "The guard closes the palace doors.", "nl": "De wacht sluit de deuren van het paleis." } },
+        { "id": "scv-08", "before": "Ese hombre siempre", "after": ". Es mentiroso. (mentir)", "correctAnswers": ["miente"], "translation": { "en": "That man always lies. He is a liar.", "nl": "Die man liegt altijd. Hij is een leugenaar." } },
+        { "id": "scv-09", "before": "La nota en el libro", "after": "a la página 225. (referir)", "correctAnswers": ["refiere"], "translation": { "en": "The note in the book refers to page 225.", "nl": "De notitie in het boek verwijst naar pagina 225." } },
+        { "id": "scv-10", "before": "El presidente", "after": "desde la Casa Blanca. (gobernar)", "correctAnswers": ["gobierna"], "translation": { "en": "The president governs from the White House.", "nl": "De president regeert vanuit het Witte Huis." } },
+        { "id": "scv-11", "before": "El abogado", "after": "al acusado ante el jurado. (defender)", "correctAnswers": ["defiende"], "translation": { "en": "The lawyer defends the accused before the jury.", "nl": "De advocaat verdedigt de beschuldigde voor de jury." } },
+        { "id": "scv-12", "before": "¿A qué hora", "after": "el partido de béisbol? (comenzar)", "correctAnswers": ["comienza"], "translation": { "en": "At what time does the baseball game begin?", "nl": "Hoe laat begint de honkbalwedstrijd?" } },
+        { "id": "scv-13", "before": "Cuando", "after": "las temperaturas descienden. (helar)", "correctAnswers": ["hiela"], "translation": { "en": "When it freezes, the temperatures drop.", "nl": "Wanneer het vriest, dalen de temperaturen." } },
+        { "id": "scv-14", "before": "¿Quién no", "after": "la pregunta? (entender)", "correctAnswers": ["entiende"], "translation": { "en": "Who does not understand the question?", "nl": "Wie begrijpt de vraag niet?" } },
+        { "id": "scv-15", "before": "Nosotros", "after": "en el salón para ver la televisión. (sentarse)", "correctAnswers": ["nos sentamos"], "translation": { "en": "We sit down in the living room to watch television.", "nl": "Wij gaan zitten in de woonkamer om televisie te kijken." } }
       ]
     }
   ]

@@ -89,13 +89,13 @@
         "nl": "Vul de zinnen aan met de juiste vorm van IR A + infinitief"
       },
       "items": [
-        { "id": "fut-001", "sentence": "Yo ___ mañana. (salir)", "correctAnswers": ["voy a salir"], "hint": "yo → voy a" },
-        { "id": "fut-002", "sentence": "Carlos ___ en Valdelinares. (esquiar)", "correctAnswers": ["va a esquiar"], "hint": "él → va a" },
-        { "id": "fut-003", "sentence": "Nosotros ___ los resultados la semana que viene. (saber)", "correctAnswers": ["vamos a saber"], "hint": "nosotros → vamos a" },
-        { "id": "fut-004", "sentence": "Ellos ___ tiempo en Marruecos. (pasar)", "correctAnswers": ["van a pasar"], "hint": "ellos → van a" },
-        { "id": "fut-005", "sentence": "¿___ tú en avión? (viajar)", "correctAnswers": ["Vas a viajar", "vas a viajar"], "hint": "tú → vas a" },
-        { "id": "fut-006", "sentence": "¿Quién ___ la mesa? (poner)", "correctAnswers": ["va a poner"], "hint": "quién → va a" },
-        { "id": "fut-007", "sentence": "Nosotros ___ en el Caribe. (nadar)", "correctAnswers": ["vamos a nadar"], "hint": "nosotros → vamos a" }
+        { "id": "fut-001", "sentence": "Yo ___ mañana. (salir)", "correctAnswers": ["voy a salir"], "translation": { "en": "I am going to leave tomorrow.", "nl": "Ik ga morgen weg." }, "hint": "yo → voy a" },
+        { "id": "fut-002", "sentence": "Carlos ___ en Valdelinares. (esquiar)", "correctAnswers": ["va a esquiar"], "translation": { "en": "Carlos is going to ski in Valdelinares.", "nl": "Carlos gaat skiën in Valdelinares." }, "hint": "él → va a" },
+        { "id": "fut-003", "sentence": "Nosotros ___ los resultados la semana que viene. (saber)", "correctAnswers": ["vamos a saber"], "translation": { "en": "We are going to know the results next week.", "nl": "Wij gaan de resultaten volgende week weten." }, "hint": "nosotros → vamos a" },
+        { "id": "fut-004", "sentence": "Ellos ___ tiempo en Marruecos. (pasar)", "correctAnswers": ["van a pasar"], "translation": { "en": "They are going to spend time in Morocco.", "nl": "Zij gaan tijd doorbrengen in Marokko." }, "hint": "ellos → van a" },
+        { "id": "fut-005", "sentence": "¿___ tú en avión? (viajar)", "correctAnswers": ["Vas a viajar", "vas a viajar"], "translation": { "en": "Are you going to travel by plane?", "nl": "Ga jij met het vliegtuig reizen?" }, "hint": "tú → vas a" },
+        { "id": "fut-006", "sentence": "¿Quién ___ la mesa? (poner)", "correctAnswers": ["va a poner"], "translation": { "en": "Who is going to set the table?", "nl": "Wie gaat de tafel dekken?" }, "hint": "quién → va a" },
+        { "id": "fut-007", "sentence": "Nosotros ___ en el Caribe. (nadar)", "correctAnswers": ["vamos a nadar"], "translation": { "en": "We are going to swim in the Caribbean.", "nl": "Wij gaan zwemmen in het Caribisch gebied." }, "hint": "nosotros → vamos a" }
       ]
     },
     {
@@ -106,16 +106,16 @@
         "nl": "Vul aan met de onvoltooid toekomende tijd van het werkwoord"
       },
       "items": [
-        { "id": "futs-001", "sentence": "Carlos ___ el problema con nosotros. (discutir)", "correctAnswers": ["discutirá"], "hint": "-ir → -irá" },
-        { "id": "futs-002", "sentence": "Yo ___ del asunto más tarde. (hablar)", "correctAnswers": ["hablaré"], "hint": "-ar → -aré" },
-        { "id": "futs-003", "sentence": "¿Cuándo ___ aquí? (estar)", "correctAnswers": ["estarás", "estará"], "hint": "-ar → -ará" },
-        { "id": "futs-004", "sentence": "Nosotros ___ en casa esta noche. (comer)", "correctAnswers": ["comeremos"], "hint": "-er → -eremos" },
-        { "id": "futs-005", "sentence": "Ellos ___ el paquete por correo. (recibir)", "correctAnswers": ["recibirán"], "hint": "-ir → -irán" },
-        { "id": "futs-006", "sentence": "Nosotros ___ pasado mañana. (volver)", "correctAnswers": ["volveremos"], "hint": "-er → -eremos" },
-        { "id": "futs-007", "sentence": "Yo ___ en español. (cantar)", "correctAnswers": ["cantaré"], "hint": "-ar → -aré" },
-        { "id": "futs-008", "sentence": "La familia ___ una casa en el campo. (comprar)", "correctAnswers": ["comprará"], "hint": "-ar → -ará" },
-        { "id": "futs-009", "sentence": "Nosotros no ___ todos los libros. (vender)", "correctAnswers": ["venderemos"], "hint": "-er → -eremos" },
-        { "id": "futs-010", "sentence": "El tren ___ a las ocho y cuarto. (llegar)", "correctAnswers": ["llegará"], "hint": "-ar → -ará" }
+        { "id": "futs-001", "sentence": "Carlos ___ el problema con nosotros. (discutir)", "correctAnswers": ["discutirá"], "translation": { "en": "Carlos will discuss the problem with us.", "nl": "Carlos zal het probleem met ons bespreken." }, "hint": "-ir → -irá" },
+        { "id": "futs-002", "sentence": "Yo ___ del asunto más tarde. (hablar)", "correctAnswers": ["hablaré"], "translation": { "en": "I will talk about the matter later.", "nl": "Ik zal later over de kwestie praten." }, "hint": "-ar → -aré" },
+        { "id": "futs-003", "sentence": "¿Cuándo ___ aquí? (estar)", "correctAnswers": ["estarás", "estará"], "translation": { "en": "When will you be here?", "nl": "Wanneer zul jij hier zijn?" }, "hint": "-ar → -ará" },
+        { "id": "futs-004", "sentence": "Nosotros ___ en casa esta noche. (comer)", "correctAnswers": ["comeremos"], "translation": { "en": "We will eat at home tonight.", "nl": "Wij zullen vanavond thuis eten." }, "hint": "-er → -eremos" },
+        { "id": "futs-005", "sentence": "Ellos ___ el paquete por correo. (recibir)", "correctAnswers": ["recibirán"], "translation": { "en": "They will receive the package by mail.", "nl": "Zij zullen het pakket per post ontvangen." }, "hint": "-ir → -irán" },
+        { "id": "futs-006", "sentence": "Nosotros ___ pasado mañana. (volver)", "correctAnswers": ["volveremos"], "translation": { "en": "We will return the day after tomorrow.", "nl": "Wij zullen overmorgen terugkomen." }, "hint": "-er → -eremos" },
+        { "id": "futs-007", "sentence": "Yo ___ en español. (cantar)", "correctAnswers": ["cantaré"], "translation": { "en": "I will sing in Spanish.", "nl": "Ik zal in het Spaans zingen." }, "hint": "-ar → -aré" },
+        { "id": "futs-008", "sentence": "La familia ___ una casa en el campo. (comprar)", "correctAnswers": ["comprará"], "translation": { "en": "The family will buy a house in the countryside.", "nl": "De familie zal een huis op het platteland kopen." }, "hint": "-ar → -ará" },
+        { "id": "futs-009", "sentence": "Nosotros no ___ todos los libros. (vender)", "correctAnswers": ["venderemos"], "translation": { "en": "We will not sell all the books.", "nl": "Wij zullen niet alle boeken verkopen." }, "hint": "-er → -eremos" },
+        { "id": "futs-010", "sentence": "El tren ___ a las ocho y cuarto. (llegar)", "correctAnswers": ["llegará"], "translation": { "en": "The train will arrive at a quarter past eight.", "nl": "De trein zal om kwart over acht aankomen." }, "hint": "-ar → -ará" }
       ]
     }
   ],

@@ -91,18 +91,18 @@
         "nl": "Vul aan met de juiste vorm van SER of ESTAR"
       },
       "items": [
-        { "id": "se-001", "sentence": "Yo ___ profesor. (ser)", "correctAnswers": ["soy"], "hint": "beroep → SER" },
-        { "id": "se-002", "sentence": "Madrid ___ en el centro de España. (estar)", "correctAnswers": ["está"], "hint": "locatie → ESTAR" },
-        { "id": "se-003", "sentence": "Nosotros ___ de Bélgica. (ser)", "correctAnswers": ["somos"], "hint": "herkomst → SER" },
-        { "id": "se-004", "sentence": "Ella ___ muy cansada hoy. (estar)", "correctAnswers": ["está"], "hint": "tijdelijke toestand → ESTAR" },
-        { "id": "se-005", "sentence": "¿Dónde ___ la fiesta? (ser)", "correctAnswers": ["es"], "hint": "evenement → SER" },
-        { "id": "se-006", "sentence": "Ellos ___ en la escuela. (estar)", "correctAnswers": ["están"], "hint": "locatie → ESTAR" },
-        { "id": "se-007", "sentence": "Juan ___ mi padre. (ser)", "correctAnswers": ["es"], "hint": "relatie → SER" },
-        { "id": "se-008", "sentence": "Yo ___ enfermo. (estar)", "correctAnswers": ["estoy"], "hint": "tijdelijk → ESTAR" },
-        { "id": "se-009", "sentence": "Mis zapatos ___ de Deichmann. (ser)", "correctAnswers": ["son"], "hint": "herkomst → SER" },
-        { "id": "se-010", "sentence": "El plátano ___ verde. (estar)", "correctAnswers": ["está"], "hint": "specifieke toestand → ESTAR" },
-        { "id": "se-011", "sentence": "Hoy ___ el 21 de octubre. (ser)", "correctAnswers": ["es"], "hint": "datum → SER" },
-        { "id": "se-012", "sentence": "Yo ___ alto. (ser)", "correctAnswers": ["soy"], "hint": "permanente beschrijving → SER" }
+        { "id": "se-001", "sentence": "Yo ___ profesor. (ser)", "correctAnswers": ["soy"], "translation": { "en": "I am a teacher.", "nl": "Ik ben leraar." }, "hint": "beroep → SER" },
+        { "id": "se-002", "sentence": "Madrid ___ en el centro de España. (estar)", "correctAnswers": ["está"], "translation": { "en": "Madrid is in the center of Spain.", "nl": "Madrid ligt in het centrum van Spanje." }, "hint": "locatie → ESTAR" },
+        { "id": "se-003", "sentence": "Nosotros ___ de Bélgica. (ser)", "correctAnswers": ["somos"], "translation": { "en": "We are from Belgium.", "nl": "Wij komen uit België." }, "hint": "herkomst → SER" },
+        { "id": "se-004", "sentence": "Ella ___ muy cansada hoy. (estar)", "correctAnswers": ["está"], "translation": { "en": "She is very tired today.", "nl": "Zij is vandaag erg moe." }, "hint": "tijdelijke toestand → ESTAR" },
+        { "id": "se-005", "sentence": "¿Dónde ___ la fiesta? (ser)", "correctAnswers": ["es"], "translation": { "en": "Where is the party?", "nl": "Waar is het feest?" }, "hint": "evenement → SER" },
+        { "id": "se-006", "sentence": "Ellos ___ en la escuela. (estar)", "correctAnswers": ["están"], "translation": { "en": "They are at school.", "nl": "Zij zijn op school." }, "hint": "locatie → ESTAR" },
+        { "id": "se-007", "sentence": "Juan ___ mi padre. (ser)", "correctAnswers": ["es"], "translation": { "en": "Juan is my father.", "nl": "Juan is mijn vader." }, "hint": "relatie → SER" },
+        { "id": "se-008", "sentence": "Yo ___ enfermo. (estar)", "correctAnswers": ["estoy"], "translation": { "en": "I am sick.", "nl": "Ik ben ziek." }, "hint": "tijdelijk → ESTAR" },
+        { "id": "se-009", "sentence": "Mis zapatos ___ de Deichmann. (ser)", "correctAnswers": ["son"], "translation": { "en": "My shoes are from Deichmann.", "nl": "Mijn schoenen zijn van Deichmann." }, "hint": "herkomst → SER" },
+        { "id": "se-010", "sentence": "El plátano ___ verde. (estar)", "correctAnswers": ["está"], "translation": { "en": "The banana is green (unripe).", "nl": "De banaan is groen (onrijp)." }, "hint": "specifieke toestand → ESTAR" },
+        { "id": "se-011", "sentence": "Hoy ___ el 21 de octubre. (ser)", "correctAnswers": ["es"], "translation": { "en": "Today is October 21st.", "nl": "Vandaag is het 21 oktober." }, "hint": "datum → SER" },
+        { "id": "se-012", "sentence": "Yo ___ alto. (ser)", "correctAnswers": ["soy"], "translation": { "en": "I am tall.", "nl": "Ik ben lang." }, "hint": "permanente beschrijving → SER" }
       ]
     },
     {
@@ -113,21 +113,21 @@
         "nl": "Vul de juiste vorm van SER, ESTAR, TENER of HAY in."
       },
       "items": [
-        { "id": "seth-01", "before": "María", "after": "entre amigos.", "correctAnswers": ["está"] },
-        { "id": "seth-02", "before": "En esta clase", "after": "20 sillas y 4 mesas.", "correctAnswers": ["hay"] },
-        { "id": "seth-03", "before": "Él", "after": "un coche deportivo.", "correctAnswers": ["tiene"] },
-        { "id": "seth-04", "before": "Paraguay", "after": "en América del Sur.", "correctAnswers": ["está"] },
-        { "id": "seth-05", "before": "En esta universidad", "after": "muchos estudiantes extranjeros.", "correctAnswers": ["hay"] },
-        { "id": "seth-06", "before": "Vosotras", "after": "inteligentes.", "correctAnswers": ["sois"] },
-        { "id": "seth-07", "before": "Julia", "after": "enferma.", "correctAnswers": ["está"] },
-        { "id": "seth-08", "before": "La actriz", "after": "muy guapa.", "correctAnswers": ["es"] },
-        { "id": "seth-09", "before": "Ellas", "after": "muy guapas.", "correctAnswers": ["son"] },
-        { "id": "seth-10", "before": "Mi abuelo", "after": "79 años.", "correctAnswers": ["tiene"] },
-        { "id": "seth-11", "before": "En este jardín", "after": "muchas flores bonitas.", "correctAnswers": ["hay"] },
-        { "id": "seth-12", "before": "Yo", "after": "de Costa Rica.", "correctAnswers": ["soy"] },
-        { "id": "seth-13", "before": "Mi casa", "after": "pequeña, pero", "correctAnswers": ["es"] },
-        { "id": "seth-14", "before": "En esa esquina", "after": "un restaurante bueno.", "correctAnswers": ["hay"] },
-        { "id": "seth-15", "before": "Esta semana (yo)", "after": "que trabajar más.", "correctAnswers": ["tengo"] }
+        { "id": "seth-01", "before": "María", "after": "entre amigos.", "correctAnswers": ["está"], "translation": { "en": "María is among friends.", "nl": "María is onder vrienden." } },
+        { "id": "seth-02", "before": "En esta clase", "after": "20 sillas y 4 mesas.", "correctAnswers": ["hay"], "translation": { "en": "In this class there are 20 chairs and 4 tables.", "nl": "In deze klas zijn er 20 stoelen en 4 tafels." } },
+        { "id": "seth-03", "before": "Él", "after": "un coche deportivo.", "correctAnswers": ["tiene"], "translation": { "en": "He has a sports car.", "nl": "Hij heeft een sportauto." } },
+        { "id": "seth-04", "before": "Paraguay", "after": "en América del Sur.", "correctAnswers": ["está"], "translation": { "en": "Paraguay is in South America.", "nl": "Paraguay ligt in Zuid-Amerika." } },
+        { "id": "seth-05", "before": "En esta universidad", "after": "muchos estudiantes extranjeros.", "correctAnswers": ["hay"], "translation": { "en": "At this university there are many foreign students.", "nl": "Op deze universiteit zijn er veel buitenlandse studenten." } },
+        { "id": "seth-06", "before": "Vosotras", "after": "inteligentes.", "correctAnswers": ["sois"], "translation": { "en": "You (all, fem.) are intelligent.", "nl": "Jullie zijn intelligent." } },
+        { "id": "seth-07", "before": "Julia", "after": "enferma.", "correctAnswers": ["está"], "translation": { "en": "Julia is sick.", "nl": "Julia is ziek." } },
+        { "id": "seth-08", "before": "La actriz", "after": "muy guapa.", "correctAnswers": ["es"], "translation": { "en": "The actress is very beautiful.", "nl": "De actrice is erg mooi." } },
+        { "id": "seth-09", "before": "Ellas", "after": "muy guapas.", "correctAnswers": ["son"], "translation": { "en": "They (fem.) are very beautiful.", "nl": "Zij zijn erg mooi." } },
+        { "id": "seth-10", "before": "Mi abuelo", "after": "79 años.", "correctAnswers": ["tiene"], "translation": { "en": "My grandfather is 79 years old.", "nl": "Mijn opa is 79 jaar oud." } },
+        { "id": "seth-11", "before": "En este jardín", "after": "muchas flores bonitas.", "correctAnswers": ["hay"], "translation": { "en": "In this garden there are many pretty flowers.", "nl": "In deze tuin zijn er veel mooie bloemen." } },
+        { "id": "seth-12", "before": "Yo", "after": "de Costa Rica.", "correctAnswers": ["soy"], "translation": { "en": "I am from Costa Rica.", "nl": "Ik kom uit Costa Rica." } },
+        { "id": "seth-13", "before": "Mi casa", "after": "pequeña, pero", "correctAnswers": ["es"], "translation": { "en": "My house is small, but...", "nl": "Mijn huis is klein, maar..." } },
+        { "id": "seth-14", "before": "En esa esquina", "after": "un restaurante bueno.", "correctAnswers": ["hay"], "translation": { "en": "On that corner there is a good restaurant.", "nl": "Op die hoek is er een goed restaurant." } },
+        { "id": "seth-15", "before": "Esta semana (yo)", "after": "que trabajar más.", "correctAnswers": ["tengo"], "translation": { "en": "This week I have to work more.", "nl": "Deze week moet ik meer werken." } }
       ]
     }
   ],

@@ -220,6 +220,11 @@ export default function FillInTheBlank({ exercise, lessonSlug }: Props) {
             </span>
             <div className="flex-1 min-w-0">
               {renderSentence(item)}
+              {item.translation && (
+                <p className="text-xs text-muted italic mt-1">
+                  {t(item.translation)}
+                </p>
+              )}
             </div>
             {states[item.id].status !== "correct" && (
               <Button

@@ -83,16 +83,16 @@
         "nl": "Vul aan met de Tegenwoordige Subjunctivo — WENSEN"
       },
       "items": [
-        { "id": "ps-d001", "sentence": "Yo quiero que ellos ___ con el fontanero. (hablar)", "correctAnswers": ["hablen"], "hint": "hablar → habl + en" },
-        { "id": "ps-d002", "sentence": "Ella prefiere que nosotros ___ mañana. (terminar)", "correctAnswers": ["terminemos"], "hint": "terminar → termin + emos" },
-        { "id": "ps-d003", "sentence": "Mi jefe pide que yo ___ los fines de semana. (trabajar)", "correctAnswers": ["trabaje"], "hint": "trabajar → trabaj + e" },
-        { "id": "ps-d004", "sentence": "Él espera que tú ___ pronto. (volver)", "correctAnswers": ["vuelvas"], "hint": "volver → vuelv + as" },
-        { "id": "ps-d005", "sentence": "Yo quiero que ellos ___ un buen fin de semana. (tener)", "correctAnswers": ["tengan"], "hint": "tener → teng + an" },
-        { "id": "ps-d006", "sentence": "Prefiero que tú ___ aquí. (venir)", "correctAnswers": ["vengas"], "hint": "venir → veng + as" },
-        { "id": "ps-d007", "sentence": "Insisten en que tú ___ mañana. (terminar)", "correctAnswers": ["termines"], "hint": "terminar → termin + es" },
-        { "id": "ps-d008", "sentence": "Insisten en que nosotros ___ allí. (comer)", "correctAnswers": ["comamos"], "hint": "comer → com + amos" },
-        { "id": "ps-d009", "sentence": "Carlos prefiere que tú ___ el coche. (conducir)", "correctAnswers": ["conduzcas"], "hint": "conducir → conduzc + as" },
-        { "id": "ps-d010", "sentence": "Ella quiere que nosotros ___ en tren. (viajar)", "correctAnswers": ["viajemos"], "hint": "viajar → viaj + emos" }
+        { "id": "ps-d001", "sentence": "Yo quiero que ellos ___ con el fontanero. (hablar)", "correctAnswers": ["hablen"], "translation": { "en": "I want them to talk to the plumber.", "nl": "Ik wil dat zij met de loodgieter praten." }, "hint": "hablar → habl + en" },
+        { "id": "ps-d002", "sentence": "Ella prefiere que nosotros ___ mañana. (terminar)", "correctAnswers": ["terminemos"], "translation": { "en": "She prefers that we finish tomorrow.", "nl": "Zij verkiest dat wij morgen afmaken." }, "hint": "terminar → termin + emos" },
+        { "id": "ps-d003", "sentence": "Mi jefe pide que yo ___ los fines de semana. (trabajar)", "correctAnswers": ["trabaje"], "translation": { "en": "My boss asks that I work on the weekends.", "nl": "Mijn baas vraagt dat ik in de weekenden werk." }, "hint": "trabajar → trabaj + e" },
+        { "id": "ps-d004", "sentence": "Él espera que tú ___ pronto. (volver)", "correctAnswers": ["vuelvas"], "translation": { "en": "He hopes that you return soon.", "nl": "Hij hoopt dat jij snel terugkomt." }, "hint": "volver → vuelv + as" },
+        { "id": "ps-d005", "sentence": "Yo quiero que ellos ___ un buen fin de semana. (tener)", "correctAnswers": ["tengan"], "translation": { "en": "I want them to have a good weekend.", "nl": "Ik wil dat zij een goed weekend hebben." }, "hint": "tener → teng + an" },
+        { "id": "ps-d006", "sentence": "Prefiero que tú ___ aquí. (venir)", "correctAnswers": ["vengas"], "translation": { "en": "I prefer that you come here.", "nl": "Ik verkies dat jij hierheen komt." }, "hint": "venir → veng + as" },
+        { "id": "ps-d007", "sentence": "Insisten en que tú ___ mañana. (terminar)", "correctAnswers": ["termines"], "translation": { "en": "They insist that you finish tomorrow.", "nl": "Zij staan erop dat jij morgen afmaakt." }, "hint": "terminar → termin + es" },
+        { "id": "ps-d008", "sentence": "Insisten en que nosotros ___ allí. (comer)", "correctAnswers": ["comamos"], "translation": { "en": "They insist that we eat there.", "nl": "Zij staan erop dat wij daar eten." }, "hint": "comer → com + amos" },
+        { "id": "ps-d009", "sentence": "Carlos prefiere que tú ___ el coche. (conducir)", "correctAnswers": ["conduzcas"], "translation": { "en": "Carlos prefers that you drive the car.", "nl": "Carlos verkiest dat jij de auto bestuurt." }, "hint": "conducir → conduzc + as" },
+        { "id": "ps-d010", "sentence": "Ella quiere que nosotros ___ en tren. (viajar)", "correctAnswers": ["viajemos"], "translation": { "en": "She wants us to travel by train.", "nl": "Zij wil dat wij met de trein reizen." }, "hint": "viajar → viaj + emos" }
       ]
     },
     {
@@ -103,16 +103,16 @@
         "nl": "Vul aan met de Tegenwoordige Subjunctivo — TWIJFELS"
       },
       "items": [
-        { "id": "ps-b001", "sentence": "No creo que ellos ___ aquí. (estar)", "correctAnswers": ["estén"], "hint": "estar → est + én" },
-        { "id": "ps-b002", "sentence": "No pienso que ellos ___ mañana. (llegar)", "correctAnswers": ["lleguen"], "hint": "llegar → llegu + en" },
-        { "id": "ps-b003", "sentence": "No estoy seguro de que Juan ___ (venir)", "correctAnswers": ["venga"], "hint": "venir → veng + a" },
-        { "id": "ps-b004", "sentence": "No estoy convencido de que Pepe ___ los detalles. (tener)", "correctAnswers": ["tenga"], "hint": "tener → teng + a" },
-        { "id": "ps-b005", "sentence": "Dudo que tú ___ terminarlo. (poder)", "correctAnswers": ["puedas"], "hint": "poder → pued + as" },
-        { "id": "ps-b006", "sentence": "No creo que ellos lo ___. (tener)", "correctAnswers": ["tengan"], "hint": "tener → teng + an" },
-        { "id": "ps-b007", "sentence": "Dudamos que ellos ___ tal viaje. (hacer)", "correctAnswers": ["hagan"], "hint": "hacer → hag + an" },
-        { "id": "ps-b008", "sentence": "No estoy seguro de que él ___. (contestar)", "correctAnswers": ["conteste"], "hint": "contestar → contest + e" },
-        { "id": "ps-b009", "sentence": "Dudo que ellos ___ el número. (saber)", "correctAnswers": ["sepan"], "hint": "saber → sep + an" },
-        { "id": "ps-b010", "sentence": "No creo que Juan lo ___. (saber)", "correctAnswers": ["sepa"], "hint": "saber → sep + a" }
+        { "id": "ps-b001", "sentence": "No creo que ellos ___ aquí. (estar)", "correctAnswers": ["estén"], "translation": { "en": "I don't think they are here.", "nl": "Ik geloof niet dat zij hier zijn." }, "hint": "estar → est + én" },
+        { "id": "ps-b002", "sentence": "No pienso que ellos ___ mañana. (llegar)", "correctAnswers": ["lleguen"], "translation": { "en": "I don't think they will arrive tomorrow.", "nl": "Ik denk niet dat zij morgen aankomen." }, "hint": "llegar → llegu + en" },
+        { "id": "ps-b003", "sentence": "No estoy seguro de que Juan ___ (venir)", "correctAnswers": ["venga"], "translation": { "en": "I'm not sure that Juan will come.", "nl": "Ik ben er niet zeker van dat Juan komt." }, "hint": "venir → veng + a" },
+        { "id": "ps-b004", "sentence": "No estoy convencido de que Pepe ___ los detalles. (tener)", "correctAnswers": ["tenga"], "translation": { "en": "I'm not convinced that Pepe has the details.", "nl": "Ik ben er niet van overtuigd dat Pepe de details heeft." }, "hint": "tener → teng + a" },
+        { "id": "ps-b005", "sentence": "Dudo que tú ___ terminarlo. (poder)", "correctAnswers": ["puedas"], "translation": { "en": "I doubt that you can finish it.", "nl": "Ik betwijfel of jij het kunt afmaken." }, "hint": "poder → pued + as" },
+        { "id": "ps-b006", "sentence": "No creo que ellos lo ___. (tener)", "correctAnswers": ["tengan"], "translation": { "en": "I don't think they have it.", "nl": "Ik geloof niet dat zij het hebben." }, "hint": "tener → teng + an" },
+        { "id": "ps-b007", "sentence": "Dudamos que ellos ___ tal viaje. (hacer)", "correctAnswers": ["hagan"], "translation": { "en": "We doubt that they will take such a trip.", "nl": "Wij betwijfelen of zij zo'n reis maken." }, "hint": "hacer → hag + an" },
+        { "id": "ps-b008", "sentence": "No estoy seguro de que él ___. (contestar)", "correctAnswers": ["conteste"], "translation": { "en": "I'm not sure that he will answer.", "nl": "Ik ben er niet zeker van dat hij antwoordt." }, "hint": "contestar → contest + e" },
+        { "id": "ps-b009", "sentence": "Dudo que ellos ___ el número. (saber)", "correctAnswers": ["sepan"], "translation": { "en": "I doubt that they know the number.", "nl": "Ik betwijfel of zij het nummer weten." }, "hint": "saber → sep + an" },
+        { "id": "ps-b010", "sentence": "No creo que Juan lo ___. (saber)", "correctAnswers": ["sepa"], "translation": { "en": "I don't think Juan knows it.", "nl": "Ik geloof niet dat Juan het weet." }, "hint": "saber → sep + a" }
       ]
     },
     {
@@ -123,19 +123,19 @@
         "nl": "Vul aan met de Tegenwoordige Subjunctivo — ONPERSOONLIJKE UITDRUKKINGEN"
       },
       "items": [
-        { "id": "ps-i001", "sentence": "Es posible que él lo ___. (leer)", "correctAnswers": ["lea"], "hint": "leer → le + a" },
-        { "id": "ps-i002", "sentence": "Es difícil que nosotros lo ___. (encontrar)", "correctAnswers": ["encontremos"], "hint": "encontrar → encontr + emos" },
-        { "id": "ps-i003", "sentence": "Es necesario que tú lo ___. (escribir)", "correctAnswers": ["escribas"], "hint": "escribir → escrib + as" },
-        { "id": "ps-i004", "sentence": "Es probable que yo ___ pronto. (salir)", "correctAnswers": ["salga"], "hint": "salir → salg + a" },
-        { "id": "ps-i005", "sentence": "Es importante que ella lo ___. (traer)", "correctAnswers": ["traiga"], "hint": "traer → traig + a" },
-        { "id": "ps-i006", "sentence": "Es importante que nosotros ___ los resultados mañana. (recibir)", "correctAnswers": ["recibamos"], "hint": "recibir → recib + amos" },
-        { "id": "ps-i007", "sentence": "Es necesario que ellos ___ pronto. (volver)", "correctAnswers": ["vuelvan"], "hint": "volver → vuelv + an" },
-        { "id": "ps-i008", "sentence": "Es mejor que todos ___ presentes. (estar)", "correctAnswers": ["estén"], "hint": "estar → est + én" },
-        { "id": "ps-i009", "sentence": "Es probable que ellos ___ el vino. (traer)", "correctAnswers": ["traigan"], "hint": "traer → traig + an" },
-        { "id": "ps-i010", "sentence": "Es fácil que él ___ el español. (aprender)", "correctAnswers": ["aprenda"], "hint": "aprender → aprend + a" },
-        { "id": "ps-i011", "sentence": "Es lastima que tú ___ enfermo. (estar)", "correctAnswers": ["estés"], "hint": "estar → est + és" },
-        { "id": "ps-i012", "sentence": "Es aconsejable que tú ___ con el médico. (hablar)", "correctAnswers": ["hables"], "hint": "hablar → habl + es" },
-        { "id": "ps-i013", "sentence": "Es bueno que ellos ___ la carta. (escribir)", "correctAnswers": ["escriban"], "hint": "escribir → escrib + an" }
+        { "id": "ps-i001", "sentence": "Es posible que él lo ___. (leer)", "correctAnswers": ["lea"], "translation": { "en": "It is possible that he reads it.", "nl": "Het is mogelijk dat hij het leest." }, "hint": "leer → le + a" },
+        { "id": "ps-i002", "sentence": "Es difícil que nosotros lo ___. (encontrar)", "correctAnswers": ["encontremos"], "translation": { "en": "It is unlikely that we find it.", "nl": "Het is onwaarschijnlijk dat wij het vinden." }, "hint": "encontrar → encontr + emos" },
+        { "id": "ps-i003", "sentence": "Es necesario que tú lo ___. (escribir)", "correctAnswers": ["escribas"], "translation": { "en": "It is necessary that you write it.", "nl": "Het is noodzakelijk dat jij het schrijft." }, "hint": "escribir → escrib + as" },
+        { "id": "ps-i004", "sentence": "Es probable que yo ___ pronto. (salir)", "correctAnswers": ["salga"], "translation": { "en": "It is likely that I will leave soon.", "nl": "Het is waarschijnlijk dat ik binnenkort vertrek." }, "hint": "salir → salg + a" },
+        { "id": "ps-i005", "sentence": "Es importante que ella lo ___. (traer)", "correctAnswers": ["traiga"], "translation": { "en": "It is important that she brings it.", "nl": "Het is belangrijk dat zij het meebrengt." }, "hint": "traer → traig + a" },
+        { "id": "ps-i006", "sentence": "Es importante que nosotros ___ los resultados mañana. (recibir)", "correctAnswers": ["recibamos"], "translation": { "en": "It is important that we receive the results tomorrow.", "nl": "Het is belangrijk dat wij morgen de resultaten ontvangen." }, "hint": "recibir → recib + amos" },
+        { "id": "ps-i007", "sentence": "Es necesario que ellos ___ pronto. (volver)", "correctAnswers": ["vuelvan"], "translation": { "en": "It is necessary that they return soon.", "nl": "Het is noodzakelijk dat zij snel terugkomen." }, "hint": "volver → vuelv + an" },
+        { "id": "ps-i008", "sentence": "Es mejor que todos ___ presentes. (estar)", "correctAnswers": ["estén"], "translation": { "en": "It is better that everyone be present.", "nl": "Het is beter dat iedereen aanwezig is." }, "hint": "estar → est + én" },
+        { "id": "ps-i009", "sentence": "Es probable que ellos ___ el vino. (traer)", "correctAnswers": ["traigan"], "translation": { "en": "It is likely that they will bring the wine.", "nl": "Het is waarschijnlijk dat zij de wijn meebrengen." }, "hint": "traer → traig + an" },
+        { "id": "ps-i010", "sentence": "Es fácil que él ___ el español. (aprender)", "correctAnswers": ["aprenda"], "translation": { "en": "It is likely that he will learn Spanish.", "nl": "Het is aannemelijk dat hij Spaans leert." }, "hint": "aprender → aprend + a" },
+        { "id": "ps-i011", "sentence": "Es lastima que tú ___ enfermo. (estar)", "correctAnswers": ["estés"], "translation": { "en": "It's a pity that you are sick.", "nl": "Het is jammer dat jij ziek bent." }, "hint": "estar → est + és" },
+        { "id": "ps-i012", "sentence": "Es aconsejable que tú ___ con el médico. (hablar)", "correctAnswers": ["hables"], "translation": { "en": "It is advisable that you speak with the doctor.", "nl": "Het is raadzaam dat jij met de dokter praat." }, "hint": "hablar → habl + es" },
+        { "id": "ps-i013", "sentence": "Es bueno que ellos ___ la carta. (escribir)", "correctAnswers": ["escriban"], "translation": { "en": "It is good that they write the letter.", "nl": "Het is goed dat zij de brief schrijven." }, "hint": "escribir → escrib + an" }
       ]
     }
   ],

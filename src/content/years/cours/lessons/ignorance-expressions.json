@@ -73,18 +73,18 @@
         "nl": "Vul elke zin aan met de juiste subjunctivo-vorm. Uitdrukkingen van verlangen."
       },
       "items": [
-        { "id": "se-1-01", "before": "Quiero que tú", "after": "más. (estudiar)", "correctAnswers": ["estudies"] },
-        { "id": "se-1-02", "before": "Deseo que ella", "after": "feliz. (ser)", "correctAnswers": ["sea"] },
-        { "id": "se-1-03", "before": "Prefiero que ustedes", "after": "temprano. (llegar)", "correctAnswers": ["lleguen"] },
-        { "id": "se-1-04", "before": "Te pido que", "after": "la verdad. (decir)", "correctAnswers": ["digas"] },
-        { "id": "se-1-05", "before": "Insisto en que nosotros", "after": "juntos. (comer)", "correctAnswers": ["comamos"] },
-        { "id": "se-1-06", "before": "Sugiero que tú", "after": "más agua. (beber)", "correctAnswers": ["bebas"] },
-        { "id": "se-1-07", "before": "Recomiendo que él", "after": "al médico. (ir)", "correctAnswers": ["vaya"] },
-        { "id": "se-1-08", "before": "Necesito que ustedes me", "after": ". (ayudar)", "correctAnswers": ["ayuden"] },
-        { "id": "se-1-09", "before": "Esperamos que tú", "after": "pronto. (venir)", "correctAnswers": ["vengas"] },
-        { "id": "se-1-10", "before": "Mando que los niños", "after": "la tarea. (hacer)", "correctAnswers": ["hagan"] },
-        { "id": "se-1-11", "before": "Aconsejo que ella", "after": "más. (dormir)", "correctAnswers": ["duerma"] },
-        { "id": "se-1-12", "before": "Ruego que tú no", "after": ". (salir)", "correctAnswers": ["salgas"] }
+        { "id": "se-1-01", "before": "Quiero que tú", "after": "más. (estudiar)", "correctAnswers": ["estudies"], "translation": { "en": "I want you to study more.", "nl": "Ik wil dat je meer studeert." } },
+        { "id": "se-1-02", "before": "Deseo que ella", "after": "feliz. (ser)", "correctAnswers": ["sea"], "translation": { "en": "I wish that she be happy.", "nl": "Ik wens dat ze gelukkig is." } },
+        { "id": "se-1-03", "before": "Prefiero que ustedes", "after": "temprano. (llegar)", "correctAnswers": ["lleguen"], "translation": { "en": "I prefer that you (all) arrive early.", "nl": "Ik wil liever dat jullie vroeg aankomen." } },
+        { "id": "se-1-04", "before": "Te pido que", "after": "la verdad. (decir)", "correctAnswers": ["digas"], "translation": { "en": "I ask you to tell the truth.", "nl": "Ik vraag je de waarheid te vertellen." } },
+        { "id": "se-1-05", "before": "Insisto en que nosotros", "after": "juntos. (comer)", "correctAnswers": ["comamos"], "translation": { "en": "I insist that we eat together.", "nl": "Ik sta erop dat we samen eten." } },
+        { "id": "se-1-06", "before": "Sugiero que tú", "after": "más agua. (beber)", "correctAnswers": ["bebas"], "translation": { "en": "I suggest that you drink more water.", "nl": "Ik stel voor dat je meer water drinkt." } },
+        { "id": "se-1-07", "before": "Recomiendo que él", "after": "al médico. (ir)", "correctAnswers": ["vaya"], "translation": { "en": "I recommend that he go to the doctor.", "nl": "Ik raad aan dat hij naar de dokter gaat." } },
+        { "id": "se-1-08", "before": "Necesito que ustedes me", "after": ". (ayudar)", "correctAnswers": ["ayuden"], "translation": { "en": "I need you (all) to help me.", "nl": "Ik heb nodig dat jullie me helpen." } },
+        { "id": "se-1-09", "before": "Esperamos que tú", "after": "pronto. (venir)", "correctAnswers": ["vengas"], "translation": { "en": "We hope that you come soon.", "nl": "We hopen dat je snel komt." } },
+        { "id": "se-1-10", "before": "Mando que los niños", "after": "la tarea. (hacer)", "correctAnswers": ["hagan"], "translation": { "en": "I order that the children do the homework.", "nl": "Ik beveel dat de kinderen het huiswerk maken." } },
+        { "id": "se-1-11", "before": "Aconsejo que ella", "after": "más. (dormir)", "correctAnswers": ["duerma"], "translation": { "en": "I advise that she sleep more.", "nl": "Ik adviseer dat ze meer slaapt." } },
+        { "id": "se-1-12", "before": "Ruego que tú no", "after": ". (salir)", "correctAnswers": ["salgas"], "translation": { "en": "I beg that you don't go out.", "nl": "Ik smeek dat je niet uitgaat." } }
       ]
     },
     {
@@ -95,16 +95,16 @@
         "nl": "Vul aan met de juiste subjunctivo-vorm. Uitdrukkingen van twijfel/onwetendheid."
       },
       "items": [
-        { "id": "ign-001", "sentence": "No estoy seguro de que ___ el dinero. (hablar, present subj.)", "correctAnswers": ["hablen"], "hint": "hablar → habl + en" },
-        { "id": "ign-002", "sentence": "No estoy seguro de que ___ el dinero. (tener, present subj.)", "correctAnswers": ["tenga", "tengan"], "hint": "tener → teng + a/an" },
-        { "id": "ign-003", "sentence": "No pienso que ___ (venir, present subj.)", "correctAnswers": ["vengan", "venga"], "hint": "venir → veng + a/an" },
-        { "id": "ign-004", "sentence": "No creo que ___ puedan venir. (poder, present subj.)", "correctAnswers": ["puedan"], "hint": "poder → pued + an" },
-        { "id": "ign-005", "sentence": "No pienso de que ___ el precio. (saber, present subj.)", "correctAnswers": ["sepa", "sepan"], "hint": "saber → sep + a" },
-        { "id": "ign-006", "sentence": "David esperaba que ___ la lección. (estudiar, past subj.)", "correctAnswers": ["estudiaran"], "hint": "estudiar → estudiar + an" },
-        { "id": "ign-007", "sentence": "David esperaba de que ___ el vino. (traer, past subj.)", "correctAnswers": ["trajeran"], "hint": "traer → trajeron → trajer + an" },
-        { "id": "ign-008", "sentence": "David quería que ___ (irse, past subj.)", "correctAnswers": ["se fueran", "se fuera"], "hint": "irse → se fueron → se fuer + an" },
-        { "id": "ign-009", "sentence": "Es una pena que ___ estado enfermo. (haber, present subj.)", "correctAnswers": ["haya"], "hint": "haber → hay + a" },
-        { "id": "ign-010", "sentence": "Espero que ___ pagado. (haber, present subj.)", "correctAnswers": ["hayan"], "hint": "haber → hay + an" }
+        { "id": "ign-001", "sentence": "No estoy seguro de que ___ el dinero. (hablar, present subj.)", "correctAnswers": ["hablen"], "translation": { "en": "I'm not sure that they speak about the money.", "nl": "Ik ben er niet zeker van dat ze over het geld praten." }, "hint": "hablar → habl + en" },
+        { "id": "ign-002", "sentence": "No estoy seguro de que ___ el dinero. (tener, present subj.)", "correctAnswers": ["tenga", "tengan"], "translation": { "en": "I'm not sure that he/they have the money.", "nl": "Ik ben er niet zeker van dat hij/zij het geld heeft/hebben." }, "hint": "tener → teng + a/an" },
+        { "id": "ign-003", "sentence": "No pienso que ___ (venir, present subj.)", "correctAnswers": ["vengan", "venga"], "translation": { "en": "I don't think that he/they are coming.", "nl": "Ik denk niet dat hij/zij komt/komen." }, "hint": "venir → veng + a/an" },
+        { "id": "ign-004", "sentence": "No creo que ___ puedan venir. (poder, present subj.)", "correctAnswers": ["puedan"], "translation": { "en": "I don't believe that they can come.", "nl": "Ik geloof niet dat ze kunnen komen." }, "hint": "poder → pued + an" },
+        { "id": "ign-005", "sentence": "No pienso de que ___ el precio. (saber, present subj.)", "correctAnswers": ["sepa", "sepan"], "translation": { "en": "I don't think that he/they know the price.", "nl": "Ik denk niet dat hij/zij de prijs weet/weten." }, "hint": "saber → sep + a" },
+        { "id": "ign-006", "sentence": "David esperaba que ___ la lección. (estudiar, past subj.)", "correctAnswers": ["estudiaran"], "translation": { "en": "David hoped that they studied the lesson.", "nl": "David hoopte dat ze de les bestudeerden." }, "hint": "estudiar → estudiar + an" },
+        { "id": "ign-007", "sentence": "David esperaba de que ___ el vino. (traer, past subj.)", "correctAnswers": ["trajeran"], "translation": { "en": "David hoped that they brought the wine.", "nl": "David hoopte dat ze de wijn meebrachten." }, "hint": "traer → trajeron → trajer + an" },
+        { "id": "ign-008", "sentence": "David quería que ___ (irse, past subj.)", "correctAnswers": ["se fueran", "se fuera"], "translation": { "en": "David wanted them/him to leave.", "nl": "David wilde dat ze/hij weggingen/wegging." }, "hint": "irse → se fueron → se fuer + an" },
+        { "id": "ign-009", "sentence": "Es una pena que ___ estado enfermo. (haber, present subj.)", "correctAnswers": ["haya"], "translation": { "en": "It's a pity that he has been sick.", "nl": "Het is jammer dat hij ziek is geweest." }, "hint": "haber → hay + a" },
+        { "id": "ign-010", "sentence": "Espero que ___ pagado. (haber, present subj.)", "correctAnswers": ["hayan"], "translation": { "en": "I hope that they have paid.", "nl": "Ik hoop dat ze betaald hebben." }, "hint": "haber → hay + an" }
       ]
     },
     {
@@ -115,14 +115,14 @@
         "nl": "Vul aan met de juiste subjunctivo-vorm. Meer uitdrukkingen van twijfel."
       },
       "items": [
-        { "id": "se-2-01", "before": "Dudo que ellos", "after": "a tiempo. (llegar)", "correctAnswers": ["lleguen"] },
-        { "id": "se-2-02", "before": "No creo que ella", "after": "la respuesta. (saber)", "correctAnswers": ["sepa"] },
-        { "id": "se-2-03", "before": "No pienso que tú", "after": "razón. (tener)", "correctAnswers": ["tengas"] },
-        { "id": "se-2-04", "before": "No es cierto que nosotros", "after": "ricos. (ser)", "correctAnswers": ["seamos"] },
-        { "id": "se-2-05", "before": "No es verdad que él", "after": "español. (hablar)", "correctAnswers": ["hable"] },
-        { "id": "se-2-06", "before": "No estoy seguro de que ella", "after": "aquí. (estar)", "correctAnswers": ["esté"] },
-        { "id": "se-2-07", "before": "Dudo que tú", "after": "cocinar. (poder)", "correctAnswers": ["puedas"] },
-        { "id": "se-2-08", "before": "No creo que nosotros", "after": "bastante tiempo. (tener)", "correctAnswers": ["tengamos"] }
+        { "id": "se-2-01", "before": "Dudo que ellos", "after": "a tiempo. (llegar)", "correctAnswers": ["lleguen"], "translation": { "en": "I doubt that they arrive on time.", "nl": "Ik betwijfel dat ze op tijd aankomen." } },
+        { "id": "se-2-02", "before": "No creo que ella", "after": "la respuesta. (saber)", "correctAnswers": ["sepa"], "translation": { "en": "I don't believe that she knows the answer.", "nl": "Ik geloof niet dat ze het antwoord weet." } },
+        { "id": "se-2-03", "before": "No pienso que tú", "after": "razón. (tener)", "correctAnswers": ["tengas"], "translation": { "en": "I don't think that you are right.", "nl": "Ik denk niet dat je gelijk hebt." } },
+        { "id": "se-2-04", "before": "No es cierto que nosotros", "after": "ricos. (ser)", "correctAnswers": ["seamos"], "translation": { "en": "It's not true that we are rich.", "nl": "Het is niet waar dat wij rijk zijn." } },
+        { "id": "se-2-05", "before": "No es verdad que él", "after": "español. (hablar)", "correctAnswers": ["hable"], "translation": { "en": "It's not true that he speaks Spanish.", "nl": "Het is niet waar dat hij Spaans spreekt." } },
+        { "id": "se-2-06", "before": "No estoy seguro de que ella", "after": "aquí. (estar)", "correctAnswers": ["esté"], "translation": { "en": "I'm not sure that she is here.", "nl": "Ik ben er niet zeker van dat ze hier is." } },
+        { "id": "se-2-07", "before": "Dudo que tú", "after": "cocinar. (poder)", "correctAnswers": ["puedas"], "translation": { "en": "I doubt that you can cook.", "nl": "Ik betwijfel dat je kunt koken." } },
+        { "id": "se-2-08", "before": "No creo que nosotros", "after": "bastante tiempo. (tener)", "correctAnswers": ["tengamos"], "translation": { "en": "I don't believe that we have enough time.", "nl": "Ik geloof niet dat we genoeg tijd hebben." } }
       ]
     },
     {
@@ -133,16 +133,16 @@
         "nl": "Vul aan met de juiste subjunctivo-vorm. Onpersoonlijke uitdrukkingen."
       },
       "items": [
-        { "id": "se-3-01", "before": "Es importante que tú", "after": "español. (hablar)", "correctAnswers": ["hables"] },
-        { "id": "se-3-02", "before": "Es necesario que nosotros", "after": "más. (practicar)", "correctAnswers": ["practiquemos"] },
-        { "id": "se-3-03", "before": "Es posible que ellos", "after": "mañana. (venir)", "correctAnswers": ["vengan"] },
-        { "id": "se-3-04", "before": "Es mejor que tú", "after": "ahora. (salir)", "correctAnswers": ["salgas"] },
-        { "id": "se-3-05", "before": "Es malo que ella no", "after": "bien. (comer)", "correctAnswers": ["coma"] },
-        { "id": "se-3-06", "before": "Es una lástima que tú no", "after": "ir. (poder)", "correctAnswers": ["puedas"] },
-        { "id": "se-3-07", "before": "Es ridículo que él", "after": "eso. (creer)", "correctAnswers": ["crea"] },
-        { "id": "se-3-08", "before": "Ojalá que nosotros", "after": "el examen. (pasar)", "correctAnswers": ["pasemos"] },
-        { "id": "se-3-09", "before": "Es extraño que ella no", "after": "aquí. (estar)", "correctAnswers": ["esté"] },
-        { "id": "se-3-10", "before": "Es probable que ustedes", "after": "razón. (tener)", "correctAnswers": ["tengan"] }
+        { "id": "se-3-01", "before": "Es importante que tú", "after": "español. (hablar)", "correctAnswers": ["hables"], "translation": { "en": "It's important that you speak Spanish.", "nl": "Het is belangrijk dat je Spaans spreekt." } },
+        { "id": "se-3-02", "before": "Es necesario que nosotros", "after": "más. (practicar)", "correctAnswers": ["practiquemos"], "translation": { "en": "It's necessary that we practice more.", "nl": "Het is noodzakelijk dat we meer oefenen." } },
+        { "id": "se-3-03", "before": "Es posible que ellos", "after": "mañana. (venir)", "correctAnswers": ["vengan"], "translation": { "en": "It's possible that they come tomorrow.", "nl": "Het is mogelijk dat ze morgen komen." } },
+        { "id": "se-3-04", "before": "Es mejor que tú", "after": "ahora. (salir)", "correctAnswers": ["salgas"], "translation": { "en": "It's better that you leave now.", "nl": "Het is beter dat je nu vertrekt." } },
+        { "id": "se-3-05", "before": "Es malo que ella no", "after": "bien. (comer)", "correctAnswers": ["coma"], "translation": { "en": "It's bad that she doesn't eat well.", "nl": "Het is slecht dat ze niet goed eet." } },
+        { "id": "se-3-06", "before": "Es una lástima que tú no", "after": "ir. (poder)", "correctAnswers": ["puedas"], "translation": { "en": "It's a pity that you can't go.", "nl": "Het is jammer dat je niet kunt gaan." } },
+        { "id": "se-3-07", "before": "Es ridículo que él", "after": "eso. (creer)", "correctAnswers": ["crea"], "translation": { "en": "It's ridiculous that he believes that.", "nl": "Het is belachelijk dat hij dat gelooft." } },
+        { "id": "se-3-08", "before": "Ojalá que nosotros", "after": "el examen. (pasar)", "correctAnswers": ["pasemos"], "translation": { "en": "Hopefully we pass the exam.", "nl": "Hopelijk halen we het examen." } },
+        { "id": "se-3-09", "before": "Es extraño que ella no", "after": "aquí. (estar)", "correctAnswers": ["esté"], "translation": { "en": "It's strange that she isn't here.", "nl": "Het is vreemd dat ze hier niet is." } },
+        { "id": "se-3-10", "before": "Es probable que ustedes", "after": "razón. (tener)", "correctAnswers": ["tengan"], "translation": { "en": "It's probable that you (all) are right.", "nl": "Het is waarschijnlijk dat jullie gelijk hebben." } }
       ]
     },
     {
