@@ -17,6 +17,14 @@
     },
     {
       "type": "rule_box",
+      "title": { "en": "Passive with SE (Pasiva refleja)", "nl": "Lijdende Vorm met SE (Pasiva refleja)" },
+      "content": {
+        "en": "Spanish often uses **SE + verb (3rd person)** as an alternative passive — common when the agent is unknown or unimportant. The verb agrees in number with the subject.\n\n**Examples**:\n- Lo siento. **Se ha rechazado** tu propuesta. — *Sorry. Your proposal has been rejected.*\n- Este verano **se llevan** las faldas largas. — *This summer long skirts are worn (in fashion).*\n- **Se fabrican** estos televisores en Japón. — *These TVs are made in Japan.*\n- **Se alquilan** bicicletas aquí. — *Bicycles are rented here.*\n\nUse **SE + 3rd person singular** for singular subjects, **SE + 3rd person plural** for plural subjects.",
+        "nl": "Het Spaans gebruikt vaak **SE + werkwoord (3e persoon)** als alternatieve lijdende vorm — gebruikelijk wanneer de handelende persoon onbekend of onbelangrijk is. Het werkwoord komt overeen in getal met het onderwerp.\n\n**Voorbeelden**:\n- Lo siento. **Se ha rechazado** tu propuesta. — *Sorry. Je voorstel is afgewezen.*\n- Este verano **se llevan** las faldas largas. — *Deze zomer worden lange rokken gedragen (zijn in de mode).*\n- **Se fabrican** estos televisores en Japón. — *Deze tv's worden in Japan gemaakt.*\n- **Se alquilan** bicicletas aquí. — *Hier worden fietsen verhuurd.*\n\nGebruik **SE + 3e persoon enkelvoud** voor enkelvoudig onderwerp, **SE + 3e persoon meervoud** voor meervoudig onderwerp."
+      }
+    },
+    {
+      "type": "rule_box",
       "title": { "en": "Passive in Different Tenses (David PINTÓ el apartamento)", "nl": "Lijdende Vorm in Verschillende Tijden (David PINTÓ el apartamento)" },
       "content": {
         "en": "**Active**: David **pintó** el apartamento la semana pasada.\n**Passive**: El apartamento **fue pintado** la semana pasada.\n\nGender/number agreement:\n- El apartamento **fue pintado** (m.sing)\n- La casa **fue pintada** (f.sing)\n- Los apartamentos **fueron pintados** (m.pl)\n- Las casas **fueron pintadas** (f.pl)\n\n**The same passive in all tenses:**\n- Preterite: El apartamento **fue pintado** la semana pasada.\n- Imperfect: El apartamento **era pintado** cada verano.\n- Present: El apartamento **es pintado** cada año.\n- Future: El apartamento **será pintado** mañana.\n- Going to: El apartamento **va a ser pintado** la próxima semana.\n- Have to: El apartamento **tiene que ser pintado** pronto.\n- Perfect: El apartamento **ha sido pintado** esta semana.\n- Just: El apartamento **acaba de ser pintado**.\n- Continuous: El apartamento **está siendo pintado** en este momento.",
@@ -68,6 +76,37 @@
         { "id": "vp-22", "before": "El apartamento ", "after": " mañana. (pintar — futuro)", "correctAnswers": ["será pintado"], "translation": { "en": "The apartment will be painted tomorrow.", "nl": "Het appartement zal morgen geschilderd worden." }, "hint": "futuro → será pintado" },
         { "id": "vp-23", "before": "El apartamento ", "after": " esta semana. (pintar — perfecto)", "correctAnswers": ["ha sido pintado"], "translation": { "en": "The apartment has been painted this week.", "nl": "Het appartement is deze week geschilderd." }, "hint": "perfecto → ha sido pintado" },
         { "id": "vp-24", "before": "El apartamento ", "after": " en este momento. (pintar — presente continuo)", "correctAnswers": ["está siendo pintado"], "translation": { "en": "The apartment is being painted right now.", "nl": "Het appartement wordt op dit moment geschilderd." }, "hint": "doorlopend → está siendo pintado" }
+      ]
+    },
+    {
+      "id": "voz-pasiva-se",
+      "type": "fill_in_blank",
+      "instruction": { "en": "Complete with SE + the correct form of the verb in parentheses (passive with SE)", "nl": "Vul aan met SE + de juiste vorm van het werkwoord tussen haakjes (passief met SE)" },
+      "items": [
+        { "id": "vp-25", "sentence": "En esta empresa no ___ mucho. (investigar)", "correctAnswers": ["se investiga"], "translation": { "en": "In this company not much research is done.", "nl": "In dit bedrijf wordt niet veel onderzoek gedaan." }, "hint": "SE + 3e persoon enkelvoud" },
+        { "id": "vp-26", "sentence": "Esta sopa ___ en un minuto. (preparar)", "correctAnswers": ["se prepara"], "translation": { "en": "This soup is prepared in one minute.", "nl": "Deze soep wordt in een minuut bereid." }, "hint": "SE + presente enkelvoud" },
+        { "id": "vp-27", "sentence": "El invierno pasado ___ los vaqueros skinny. (llevar)", "correctAnswers": ["se llevaron"], "translation": { "en": "Last winter skinny jeans were worn (in fashion).", "nl": "Afgelopen winter werden skinny jeans gedragen (waren in de mode)." }, "hint": "SE + indefinido meervoud" },
+        { "id": "vp-28", "sentence": "___ el azul con el rojo para conseguir el morado. (mezclar)", "correctAnswers": ["Se mezcla"], "translation": { "en": "Blue is mixed with red to get purple.", "nl": "Blauw wordt gemengd met rood om paars te krijgen." }, "hint": "SE + presente enkelvoud" },
+        { "id": "vp-29", "sentence": "Actualmente, muchos ordenadores ___ en China. (fabricar)", "correctAnswers": ["se fabrican"], "translation": { "en": "Currently, many computers are made in China.", "nl": "Tegenwoordig worden veel computers in China gemaakt." }, "hint": "SE + presente meervoud" },
+        { "id": "vp-30", "sentence": "La mayoría del petróleo venezolano ___ a Estados Unidos. (exportar)", "correctAnswers": ["se exporta"], "translation": { "en": "Most Venezuelan oil is exported to the United States.", "nl": "Het grootste deel van de Venezolaanse olie wordt geëxporteerd naar de VS." }, "hint": "SE + presente enkelvoud" },
+        { "id": "vp-31", "sentence": "En España, muchos productos ___ a plazos. (vender)", "correctAnswers": ["se venden"], "translation": { "en": "In Spain, many products are sold in instalments.", "nl": "In Spanje worden veel producten in termijnen verkocht." }, "hint": "SE + presente meervoud" },
+        { "id": "vp-32", "sentence": "La merluza ___ en alta mar. (pescar)", "correctAnswers": ["se pesca"], "translation": { "en": "Hake is caught on the high seas.", "nl": "Heek wordt op volle zee gevangen." }, "hint": "SE + presente enkelvoud" },
+        { "id": "vp-33", "sentence": "La merluza ___ en los barcos. (congelar)", "correctAnswers": ["se congela"], "translation": { "en": "Hake is frozen on the boats.", "nl": "Heek wordt op de boten ingevroren." }, "hint": "SE + presente enkelvoud" }
+      ]
+    },
+    {
+      "id": "voz-pasiva-comparison",
+      "type": "fill_in_blank",
+      "instruction": { "en": "Active or passive? Choose the correct form (use: construir, descubrir, diseñar, inventar, publicar, traicionar, trasladar)", "nl": "Actief of passief? Kies de juiste vorm (gebruik: construir, descubrir, diseñar, inventar, publicar, traicionar, trasladar)" },
+      "items": [
+        { "id": "vp-34", "sentence": "Marconi ___ la radio. (inventar)", "correctAnswers": ["inventó"], "translation": { "en": "Marconi invented the radio.", "nl": "Marconi vond de radio uit." }, "hint": "actief — Marconi is het onderwerp dat de actie uitvoert" },
+        { "id": "vp-35", "sentence": "Los Krays ___ a otra cárcel en 1985. (trasladar)", "correctAnswers": ["fueron trasladados"], "translation": { "en": "The Krays were transferred to another prison in 1985.", "nl": "De Krays werden in 1985 overgeplaatst naar een andere gevangenis." }, "hint": "passief — zij ondergingen de actie" },
+        { "id": "vp-36", "sentence": "Julio César ___ por sus amigos. (traicionar)", "correctAnswers": ["fue traicionado"], "translation": { "en": "Julius Caesar was betrayed by his friends.", "nl": "Julius Caesar werd verraden door zijn vrienden." }, "hint": "passief enkelvoud — fue traicionado" },
+        { "id": "vp-37", "sentence": "Marie Curie ___ el radio. (descubrir)", "correctAnswers": ["descubrió"], "translation": { "en": "Marie Curie discovered radium.", "nl": "Marie Curie ontdekte radium." }, "hint": "actief — Marie Curie deed de ontdekking" },
+        { "id": "vp-38", "sentence": "El Coliseo ___ por los romanos. (construir)", "correctAnswers": ["fue construido"], "translation": { "en": "The Colosseum was built by the Romans.", "nl": "Het Colosseum werd gebouwd door de Romeinen." }, "hint": "passief — el Coliseo onderging de bouw" },
+        { "id": "vp-39", "sentence": "La primera edición de EL QUIJOTE ___ en 1605. (publicar)", "correctAnswers": ["fue publicada"], "translation": { "en": "The first edition of DON QUIXOTE was published in 1605.", "nl": "De eerste editie van DON QUICHOT werd in 1605 gepubliceerd." }, "hint": "passief vrouwelijk — fue publicada" },
+        { "id": "vp-40", "sentence": "Gaudí ___ muchos edificios en Barcelona. (diseñar)", "correctAnswers": ["diseñó"], "translation": { "en": "Gaudí designed many buildings in Barcelona.", "nl": "Gaudí ontwierp veel gebouwen in Barcelona." }, "hint": "actief — Gaudí is het onderwerp" },
+        { "id": "vp-41", "sentence": "Los romanos ___ el acueducto de Segovia. (construir)", "correctAnswers": ["construyeron"], "translation": { "en": "The Romans built the Segovia aqueduct.", "nl": "De Romeinen bouwden het aquaduct van Segovia." }, "hint": "actief meervoud — los romanos = onderwerp" }
       ]
     }
   ],

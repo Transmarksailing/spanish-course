@@ -52,6 +52,7 @@ import roomsAndFurniture from "@/content/years/cours/vocabulary/rooms-and-furnit
 import houseObjects from "@/content/years/cours/vocabulary/house-objects.json";
 import expresionesColoquiales from "@/content/years/cours/vocabulary/expresiones-coloquiales.json";
 import expresionesColoquialesII from "@/content/years/cours/vocabulary/expresiones-coloquiales-ii.json";
+import laJerga from "@/content/years/cours/vocabulary/la-jerga.json";
 
 const yearsMap: Record<string, YearIndex> = {
   cours: coursIndex as unknown as YearIndex,
@@ -110,6 +111,7 @@ const vocabularyMap: Record<string, Record<string, VocabularyList>> = {
     "house-objects": houseObjects as unknown as VocabularyList,
     "expresiones-coloquiales": expresionesColoquiales as unknown as VocabularyList,
     "expresiones-coloquiales-ii": expresionesColoquialesII as unknown as VocabularyList,
+    "la-jerga": laJerga as unknown as VocabularyList,
   },
 };
 

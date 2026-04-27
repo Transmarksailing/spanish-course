@@ -254,6 +254,7 @@
     { "slug": "rooms-and-furniture", "title": { "en": "Rooms & Furniture", "nl": "Kamers & Meubels" } },
     { "slug": "house-objects", "title": { "en": "House Objects", "nl": "Huisvoorwerpen" } },
     { "slug": "expresiones-coloquiales", "title": { "en": "Colloquial Expressions I", "nl": "Spreekwoorden & Uitdrukkingen I" } },
-    { "slug": "expresiones-coloquiales-ii", "title": { "en": "Colloquial Expressions II", "nl": "Spreekwoorden & Uitdrukkingen II" } }
+    { "slug": "expresiones-coloquiales-ii", "title": { "en": "Colloquial Expressions II", "nl": "Spreekwoorden & Uitdrukkingen II" } },
+    { "slug": "la-jerga", "title": { "en": "La Jerga — Slang & Swear Words", "nl": "La Jerga — Straattaal & Scheldwoorden" } }
   ]
 }

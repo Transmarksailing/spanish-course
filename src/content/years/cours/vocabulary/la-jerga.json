@@ -1,0 +1,66 @@
+{
+  "slug": "la-jerga",
+  "year": "cours",
+  "title": {
+    "en": "La Jerga — Slang & Swear Words",
+    "nl": "La Jerga — Straattaal & Scheldwoorden"
+  },
+  "layout": "single",
+  "categories": [
+    {
+      "name": { "en": "Slang Expressions", "nl": "Straattaal Uitdrukkingen" },
+      "words": [
+        { "es": "Ponerse las pilas", "en": "to get going / hurry up", "nl": "ervoor gaan / opschieten" },
+        { "es": "Estar como una cabra", "en": "to be crazy / mad as a hatter", "nl": "knettergek zijn" },
+        { "es": "Cabreado", "en": "pissed off / angry", "nl": "pissig / boos" },
+        { "es": "Tener mucha cara", "en": "to have a lot of nerve / to be cheeky", "nl": "veel lef hebben / brutaal zijn" },
+        { "es": "Es pan comido", "en": "it's a piece of cake / very easy", "nl": "een eitje / heel makkelijk" },
+        { "es": "Es la leche", "en": "it's awesome / really cool", "nl": "het is super / geweldig" },
+        { "es": "¡Guay!", "en": "cool!", "nl": "gaaf!" },
+        { "es": "Chulo / chula", "en": "cool / cocky", "nl": "stoer / cool" },
+        { "es": "Mono / mona", "en": "cute", "nl": "schattig" },
+        { "es": "Majo / maja", "en": "nice / friendly", "nl": "aardig / leuk" },
+        { "es": "Tío / tía", "en": "guy / mate / dude", "nl": "gozer / meid" },
+        { "es": "Chaval / chavala", "en": "kid / young guy", "nl": "knul / meid" },
+        { "es": "Cutre", "en": "cheap / tacky / shabby", "nl": "goedkoop / sjofel" },
+        { "es": "Soso / sosa", "en": "boring / dull / bland", "nl": "saai / flauw" },
+        { "es": "Friki", "en": "freak / nerd / weirdo", "nl": "freak / nerd" },
+        { "es": "Flipar", "en": "to freak out / be amazed", "nl": "flippen / verbaasd zijn" },
+        { "es": "Ligar", "en": "to flirt / hook up", "nl": "flirten / aanleggen" },
+        { "es": "Mucha mierda", "en": "good luck (theatre saying)", "nl": "veel succes (theaterspreuk)" },
+        { "es": "Miércoles", "en": "oh shoot! (euphemism)", "nl": "verdorie! (eufemisme)" },
+        { "es": "¡Ánimo!", "en": "come on! / cheer up!", "nl": "kom op! / hou vol!" },
+        { "es": "Estar enfadado / enojado", "en": "to be angry", "nl": "boos zijn" },
+        { "es": "De puta madre", "en": "awesome / fantastic (vulgar)", "nl": "geweldig / vet (vulgair)" },
+        { "es": "Chuli", "en": "cool / pimp-style", "nl": "cool / hip" },
+        { "es": "Forastero", "en": "outsider / stranger from another place", "nl": "buitenstaander / vreemde" },
+        { "es": "Extranjero", "en": "foreigner", "nl": "buitenlander" },
+        { "es": "Gringo", "en": "North American (informal)", "nl": "Noord-Amerikaan (informeel)" },
+        { "es": "Gitano", "en": "gypsy / Romani", "nl": "zigeuner / Roma" },
+        { "es": "Guiri", "en": "northern European tourist", "nl": "Noord-Europese toerist" },
+        { "es": "¡Qué asco!", "en": "how disgusting!", "nl": "wat smerig! / bah!" },
+        { "es": "Guarro / guarra", "en": "dirty person / pig", "nl": "smeerlap / vies persoon" }
+      ]
+    },
+    {
+      "name": { "en": "Swear Words (⚠️ vulgar)", "nl": "Scheldwoorden (⚠️ vulgair)" },
+      "words": [
+        { "es": "Mierda", "en": "shit / damn", "nl": "shit / verdomme" },
+        { "es": "(H)ostia", "en": "damn / wow (lit. host)", "nl": "verdorie / ongelofelijk" },
+        { "es": "Joder", "en": "fuck / damn", "nl": "verdomme / klote" },
+        { "es": "Cabrón / cabrona", "en": "bastard / asshole", "nl": "klootzak / hufter" },
+        { "es": "Capullo", "en": "idiot / dickhead", "nl": "eikel / hufter" },
+        { "es": "Gilipollas", "en": "asshole / jerk", "nl": "lul / sukkel" },
+        { "es": "Hijo de puta", "en": "son of a bitch", "nl": "klootzak / hoerenzoon" },
+        { "es": "La puta madre", "en": "fucking hell (very vulgar)", "nl": "krijg de tering (zeer vulgair)" },
+        { "es": "Cagar", "en": "to crap / shit", "nl": "schijten / poepen" },
+        { "es": "Estoy cagándome", "en": "I'm crapping myself / I'm scared", "nl": "ik schijt het uit / ik ben bang" },
+        { "es": "Una mierda", "en": "a piece of shit / nothing", "nl": "geen drol / niks" },
+        { "es": "En la puta madre", "en": "damn it all (vulgar)", "nl": "godverdomme (vulgair)" },
+        { "es": "Coño", "en": "damn / cunt (very vulgar)", "nl": "verdomme / kut (zeer vulgair)" },
+        { "es": "¿Qué coño haces?", "en": "what the hell are you doing?", "nl": "wat doe je in godsnaam?" },
+        { "es": "Me cago en Dios", "en": "goddammit (very vulgar)", "nl": "godverdomme (zeer vulgair)" }
+      ]
+    }
+  ]
+}
