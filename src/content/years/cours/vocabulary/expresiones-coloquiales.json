@@ -1,0 +1,31 @@
+{
+  "slug": "expresiones-coloquiales",
+  "year": "cours",
+  "title": {
+    "en": "Colloquial Expressions I",
+    "nl": "Spreekwoorden & Uitdrukkingen I"
+  },
+  "categories": [
+    {
+      "name": { "en": "16 Essential Spanish Idioms", "nl": "16 Belangrijke Spaanse Uitdrukkingen" },
+      "words": [
+        { "es": "Cortar el bacalao", "en": "To be the boss / call the shots", "nl": "De baas zijn / de lakens uitdelen" },
+        { "es": "Estar como boca de lobo", "en": "To be pitch dark", "nl": "Pikkedonker zijn" },
+        { "es": "No oír ni el vuelo de una mosca", "en": "So quiet you could hear a pin drop", "nl": "Je kon een speld horen vallen" },
+        { "es": "Cuando las ranas críen pelo", "en": "When pigs fly", "nl": "Met Sint-Juttemis / als de kalveren op het ijs dansen" },
+        { "es": "Poner toda la carne en el asador", "en": "To go all in / give it everything", "nl": "Alles op alles zetten" },
+        { "es": "Echar agua al mar", "en": "To carry coals to Newcastle (pointless effort)", "nl": "Water naar de zee dragen" },
+        { "es": "El mundo es un pañuelo", "en": "It's a small world", "nl": "De wereld is klein" },
+        { "es": "Andar de Herodes a Pilato", "en": "To go from pillar to post", "nl": "Van het kastje naar de muur gestuurd worden" },
+        { "es": "Costar un ojo de la cara", "en": "To cost an arm and a leg", "nl": "Een rib uit je lijf kosten" },
+        { "es": "Estirar la pata", "en": "To kick the bucket (to die)", "nl": "Het hoekje omgaan / de pijp uitgaan" },
+        { "es": "Hacerse el sueco", "en": "To play dumb / pretend not to hear", "nl": "Zich van de domme houden" },
+        { "es": "Meter las narices en todo", "en": "To stick your nose in everything", "nl": "Overal je neus in steken" },
+        { "es": "No entender ni papa", "en": "To not understand a thing", "nl": "Er helemaal niets van begrijpen" },
+        { "es": "Importarle un bledo", "en": "To not care at all", "nl": "Het kan me niets schelen" },
+        { "es": "Pedir peras al olmo", "en": "To ask the impossible", "nl": "Het onmogelijke vragen" },
+        { "es": "Dormir a pierna suelta", "en": "To sleep like a log", "nl": "Slapen als een roos" }
+      ]
+    }
+  ]
+}

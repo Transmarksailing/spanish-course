@@ -175,19 +175,9 @@
       "order": 20
     },
     {
-      "slug": "expresiones-coloquiales",
-      "title": { "en": "Colloquial Expressions I", "nl": "Spreekwoorden & Uitdrukkingen I", "es": "Expresiones Coloquiales I" },
-      "order": 21
-    },
-    {
-      "slug": "expresiones-coloquiales-ii",
-      "title": { "en": "Colloquial Expressions II", "nl": "Spreekwoorden & Uitdrukkingen II", "es": "Expresiones Coloquiales II" },
-      "order": 22
-    },
-    {
       "slug": "multi-tense-practice",
       "title": { "en": "Multi-Tense Practice", "nl": "Oefening Alle Tijden", "es": "Práctica de Todos los Tiempos" },
-      "order": 23
+      "order": 21
     }
   ],
   "vocabulary": [
@@ -257,6 +247,8 @@
     { "slug": "kitchen", "title": { "en": "The Kitchen", "nl": "De Keuken" } },
     { "slug": "gardening", "title": { "en": "Gardening & DIY", "nl": "Tuinieren & Klussen" } },
     { "slug": "rooms-and-furniture", "title": { "en": "Rooms & Furniture", "nl": "Kamers & Meubels" } },
-    { "slug": "house-objects", "title": { "en": "House Objects", "nl": "Huisvoorwerpen" } }
+    { "slug": "house-objects", "title": { "en": "House Objects", "nl": "Huisvoorwerpen" } },
+    { "slug": "expresiones-coloquiales", "title": { "en": "Colloquial Expressions I", "nl": "Spreekwoorden & Uitdrukkingen I" } },
+    { "slug": "expresiones-coloquiales-ii", "title": { "en": "Colloquial Expressions II", "nl": "Spreekwoorden & Uitdrukkingen II" } }
   ]
 }

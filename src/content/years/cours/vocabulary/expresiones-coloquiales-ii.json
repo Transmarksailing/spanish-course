@@ -1,0 +1,30 @@
+{
+  "slug": "expresiones-coloquiales-ii",
+  "year": "cours",
+  "title": {
+    "en": "Colloquial Expressions II",
+    "nl": "Spreekwoorden & Uitdrukkingen II"
+  },
+  "categories": [
+    {
+      "name": { "en": "15 More Essential Spanish Idioms", "nl": "15 Extra Belangrijke Spaanse Uitdrukkingen" },
+      "words": [
+        { "es": "Tener malas pulgas", "en": "To be short-tempered / get angry easily", "nl": "Kort lontje hebben / snel boos worden" },
+        { "es": "Tomarle el pelo (a alguien)", "en": "To pull someone's leg / tease", "nl": "Iemand voor de gek houden / plagen" },
+        { "es": "Es coña / Es broma / Es un chiste", "en": "It's a joke / I'm joking", "nl": "Het is een grap / ik maak een grapje" },
+        { "es": "Aguar la fiesta", "en": "To spoil the party / be a wet blanket", "nl": "Het feest verpesten / spelbreker zijn" },
+        { "es": "Ser un viejo verde", "en": "To be a dirty old man", "nl": "Een vieze ouwe man zijn" },
+        { "es": "Película verde", "en": "Adult / porn film", "nl": "Pornofilm" },
+        { "es": "Echar chispas", "en": "To be furious / fuming", "nl": "Briesen van woede / razend zijn" },
+        { "es": "Llover a cántaros", "en": "To rain cats and dogs", "nl": "Pijpenstelen regenen / met bakken regenen" },
+        { "es": "Estar en las nubes", "en": "To have your head in the clouds / daydreaming", "nl": "Met je hoofd in de wolken zijn / dagdromen" },
+        { "es": "Estar sin blanca", "en": "To be broke / penniless", "nl": "Geen rooie cent hebben / blut zijn" },
+        { "es": "Estar hasta la coronilla (de)", "en": "To be fed up (with)", "nl": "Er schoon genoeg van hebben" },
+        { "es": "Faltarle un tornillo (a alguien)", "en": "To have a screw loose", "nl": "Een steekje los hebben" },
+        { "es": "Hablar por los codos", "en": "To talk a lot / chatter / be a chatterbox", "nl": "Honderduit praten / een kletskous zijn" },
+        { "es": "Hacer buenas migas", "en": "To get on well with someone", "nl": "Goed met iemand kunnen opschieten" },
+        { "es": "Echar un vistazo", "en": "To have a quick look / glance", "nl": "Een blik werpen op / vluchtig bekijken" }
+      ]
+    }
+  ]
+}
