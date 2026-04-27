@@ -44,7 +44,7 @@ export default function VocabularyContent({
     <div className="flex">
       <CourseSidebar year={yearId} lessons={lessons} vocabulary={vocabularyRefs} />
 
-      <div className="flex-1 max-w-4xl px-4 sm:px-8 py-8">
+      <div className={`flex-1 ${vocabulary.layout === "single" ? "max-w-5xl" : "max-w-4xl"} px-4 sm:px-8 py-8`}>
         <h1 className="text-2xl font-bold mb-2">
           {t(vocabulary.title)}
         </h1>
@@ -73,7 +73,7 @@ export default function VocabularyContent({
           </Button>
         </div>
 
-        {mode === "list" && <WordList categories={categories} />}
+        {mode === "list" && <WordList categories={categories} layout={vocabulary.layout} />}
         {mode === "practice-to-es" && (
           <VocabularyPractice words={allWords} direction="to-spanish" />
         )}

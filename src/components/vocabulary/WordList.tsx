@@ -6,6 +6,7 @@ import { useLanguage } from "@/lib/language-context";
 
 interface Props {
   categories: VocabularyCategory[];
+  layout?: "grid" | "single";
 }
 
 type PracticeMode = "view" | "hide-spanish" | "hide-translation";
@@ -20,7 +21,7 @@ function getWordFields(word: Record<string, string>) {
   return { id, spanish, english, dutch };
 }
 
-export default function WordList({ categories }: Props) {
+export default function WordList({ categories, layout = "grid" }: Props) {
   const { language, t } = useLanguage();
   const [mode, setMode] = useState<PracticeMode>("view");
   const [revealed, setRevealed] = useState<Set<string>>(new Set());
@@ -66,7 +67,7 @@ export default function WordList({ categories }: Props) {
           <h4 className="text-xs font-semibold text-primary uppercase tracking-wider mb-2">
             {t(category.name)}
           </h4>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1.5">
+          <div className={layout === "single" ? "flex flex-col gap-1.5" : "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1.5"}>
             {category.words.map((rawWord) => {
               const word = getWordFields(rawWord as unknown as Record<string, string>);
               const isRevealed = revealed.has(word.id);

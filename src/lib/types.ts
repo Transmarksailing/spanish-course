@@ -107,6 +107,7 @@ export interface VocabularyList {
   slug: string;
   year: string;
   title: LocalizedText;
+  layout?: "grid" | "single";
   categories: VocabularyCategory[];
 }
 
