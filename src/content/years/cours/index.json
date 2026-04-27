@@ -175,9 +175,14 @@
       "order": 20
     },
     {
+      "slug": "voz-pasiva",
+      "title": { "en": "Passive Voice", "nl": "Lijdende Vorm", "es": "Voz Pasiva" },
+      "order": 21
+    },
+    {
       "slug": "multi-tense-practice",
       "title": { "en": "Multi-Tense Practice", "nl": "Oefening Alle Tijden", "es": "Práctica de Todos los Tiempos" },
-      "order": 21
+      "order": 22
     }
   ],
   "vocabulary": [

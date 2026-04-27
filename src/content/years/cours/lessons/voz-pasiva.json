@@ -1,0 +1,78 @@
+{
+  "slug": "voz-pasiva",
+  "year": "cours",
+  "title": {
+    "en": "Passive Voice",
+    "nl": "Lijdende Vorm",
+    "es": "Voz Pasiva"
+  },
+  "grammarSections": [
+    {
+      "type": "explanation",
+      "title": { "en": "What is the Passive Voice?", "nl": "Wat is de Lijdende Vorm?" },
+      "content": {
+        "en": "The passive voice is used when the subject **receives** the action rather than performing it.\n\n**Formula**: SER + past participle (which agrees in gender and number with the subject)\n\n**Examples**:\n- Esta estatua **fue construida** en el siglo XII. — *This statue was built in the 12th century.*\n- Dos terroristas **han sido arrestados** por la policía. — *Two terrorists have been arrested by the police.*\n- Pablo Escobar **fue liberado** esta noche. — *Pablo Escobar was freed tonight.*\n- El partido **fue televisado** para toda Europa. — *The match was televised for all of Europe.*\n- La Capilla Sixtina **fue realizada** por Miguel Ángel en el siglo XVI. — *The Sistine Chapel was made by Michelangelo in the 16th century.*\n\nThe agent (who performs the action) is introduced with **por** (by).",
+        "nl": "De lijdende vorm wordt gebruikt wanneer het onderwerp de handeling **ondergaat** in plaats van uitvoert.\n\n**Formule**: SER + voltooid deelwoord (komt overeen in geslacht en getal met het onderwerp)\n\n**Voorbeelden**:\n- Esta estatua **fue construida** en el siglo XII. — *Dit standbeeld werd gebouwd in de 12e eeuw.*\n- Dos terroristas **han sido arrestados** por la policía. — *Twee terroristen zijn gearresteerd door de politie.*\n- Pablo Escobar **fue liberado** esta noche. — *Pablo Escobar werd vannacht vrijgelaten.*\n- El partido **fue televisado** para toda Europa. — *De wedstrijd werd uitgezonden voor heel Europa.*\n- La Capilla Sixtina **fue realizada** por Miguel Ángel en el siglo XVI. — *De Sixtijnse Kapel werd gemaakt door Michelangelo in de 16e eeuw.*\n\nDe handelende persoon (door wie) wordt aangegeven met **por** (door)."
+      }
+    },
+    {
+      "type": "rule_box",
+      "title": { "en": "Passive in Different Tenses (David PINTÓ el apartamento)", "nl": "Lijdende Vorm in Verschillende Tijden (David PINTÓ el apartamento)" },
+      "content": {
+        "en": "**Active**: David **pintó** el apartamento la semana pasada.\n**Passive**: El apartamento **fue pintado** la semana pasada.\n\nGender/number agreement:\n- El apartamento **fue pintado** (m.sing)\n- La casa **fue pintada** (f.sing)\n- Los apartamentos **fueron pintados** (m.pl)\n- Las casas **fueron pintadas** (f.pl)\n\n**The same passive in all tenses:**\n- Preterite: El apartamento **fue pintado** la semana pasada.\n- Imperfect: El apartamento **era pintado** cada verano.\n- Present: El apartamento **es pintado** cada año.\n- Future: El apartamento **será pintado** mañana.\n- Going to: El apartamento **va a ser pintado** la próxima semana.\n- Have to: El apartamento **tiene que ser pintado** pronto.\n- Perfect: El apartamento **ha sido pintado** esta semana.\n- Just: El apartamento **acaba de ser pintado**.\n- Continuous: El apartamento **está siendo pintado** en este momento.",
+        "nl": "**Actief**: David **pintó** el apartamento la semana pasada. (David schilderde het appartement vorige week.)\n**Passief**: El apartamento **fue pintado** la semana pasada. (Het appartement werd vorige week geschilderd.)\n\nGeslacht/getal overeenkomst:\n- El apartamento **fue pintado** (m.enkv)\n- La casa **fue pintada** (v.enkv)\n- Los apartamentos **fueron pintados** (m.mv)\n- Las casas **fueron pintadas** (v.mv)\n\n**Dezelfde passieve vorm in alle tijden:**\n- Indefinido: El apartamento **fue pintado** la semana pasada.\n- Imperfecto: El apartamento **era pintado** cada verano.\n- Presente: El apartamento **es pintado** cada año.\n- Futuro: El apartamento **será pintado** mañana.\n- Toekomst: El apartamento **va a ser pintado** la próxima semana.\n- Verplicht: El apartamento **tiene que ser pintado** pronto.\n- Perfecto: El apartamento **ha sido pintado** esta semana.\n- Net: El apartamento **acaba de ser pintado**.\n- Nu bezig: El apartamento **está siendo pintado** en este momento."
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "voz-pasiva-01",
+      "type": "fill_in_blank",
+      "instruction": { "en": "Complete with the past participle in the correct form", "nl": "Vul aan met het voltooid deelwoord in de juiste vorm" },
+      "items": [
+        { "id": "vp-01", "sentence": "La primera edición de Harry Potter ___ en 1996. (publicar)", "correctAnswers": ["fue publicada"], "translation": { "en": "The first edition of Harry Potter was published in 1996.", "nl": "De eerste editie van Harry Potter werd in 1996 uitgegeven." }, "hint": "fue + voltooid deelwoord (vrouwelijk)" },
+        { "id": "vp-02", "sentence": "El nuevo hospital ___ el mes que viene. (inaugurar)", "correctAnswers": ["va a ser inaugurado", "será inaugurado"], "translation": { "en": "The new hospital will be inaugurated next month.", "nl": "Het nieuwe ziekenhuis wordt volgende maand geopend." }, "hint": "toekomst → va a ser / será" },
+        { "id": "vp-03", "sentence": "Este texto ___ hace mucho tiempo. (escribir)", "correctAnswers": ["fue escrito"], "translation": { "en": "This text was written a long time ago.", "nl": "Deze tekst werd lang geleden geschreven." }, "hint": "fue + onregelmatig voltooid deelwoord" },
+        { "id": "vp-04", "sentence": "Esos zapatos ___ de piel. (hacer)", "correctAnswers": ["fueron hechos", "están hechos"], "translation": { "en": "Those shoes were made of leather.", "nl": "Die schoenen zijn van leer gemaakt." }, "hint": "meervoud + onregelmatig: hechos" },
+        { "id": "vp-05", "sentence": "Todos los rehenes ___ por la policía anoche. (liberar)", "correctAnswers": ["fueron liberados"], "translation": { "en": "All the hostages were freed by the police last night.", "nl": "Alle gijzelaars werden gisteravond vrijgelaten door de politie." }, "hint": "meervoud mannelijk → fueron liberados" },
+        { "id": "vp-06", "sentence": "Esos coches ___ el lunes que viene. (recoger)", "correctAnswers": ["van a ser recogidos", "serán recogidos"], "translation": { "en": "Those cars are going to be collected next Monday.", "nl": "Die auto's worden volgende maandag opgehaald." }, "hint": "toekomst meervoud" },
+        { "id": "vp-07", "sentence": "Esta estatua ___ en el siglo XIV. (construir)", "correctAnswers": ["fue construida"], "translation": { "en": "This statue was built in the 14th century.", "nl": "Dit standbeeld werd gebouwd in de 14e eeuw." }, "hint": "vrouwelijk enkelvoud → fue construida" },
+        { "id": "vp-08", "sentence": "Dos huelguistas ___ por la policía hoy. (detener)", "correctAnswers": ["han sido detenidos"], "translation": { "en": "Two strikers have been arrested by the police today.", "nl": "Twee stakers zijn vandaag aangehouden door de politie." }, "hint": "voltooid tegenwoordig → han sido" },
+        { "id": "vp-09", "sentence": "La joyería ___ en pleno día el miércoles pasado. (asaltar)", "correctAnswers": ["fue asaltada"], "translation": { "en": "The jewellery store was robbed in broad daylight last Wednesday.", "nl": "De juwelier werd vorige woensdag op klaarlichte dag overvallen." }, "hint": "vrouwelijk enkelvoud → fue asaltada" },
+        { "id": "vp-10", "sentence": "La penicilina ___ en 1928. (descubrir)", "correctAnswers": ["fue descubierta"], "translation": { "en": "Penicillin was discovered in 1928.", "nl": "Penicilline werd ontdekt in 1928." }, "hint": "vrouwelijk + onregelmatig: descubierta" }
+      ]
+    },
+    {
+      "id": "voz-pasiva-02",
+      "type": "fill_in_blank",
+      "instruction": { "en": "Complete with the appropriate tense of SER + past participle", "nl": "Vul aan met de juiste tijd van SER + voltooid deelwoord" },
+      "items": [
+        { "id": "vp-11", "sentence": "Todos los libros ___ por mi padre. (escribir)", "correctAnswers": ["han sido escritos"], "translation": { "en": "All the books have been written by my father.", "nl": "Alle boeken zijn door mijn vader geschreven." }, "hint": "voltooid → han sido + escritos" },
+        { "id": "vp-12", "sentence": "Anoche, tres delincuentes ___ por la policía. (detener)", "correctAnswers": ["fueron detenidos"], "translation": { "en": "Last night, three criminals were arrested by the police.", "nl": "Gisteravond werden drie criminelen aangehouden door de politie." }, "hint": "indefinido meervoud → fueron detenidos" },
+        { "id": "vp-13", "sentence": "A partir del año que viene, el director ___ por la junta de accionistas. (elegir)", "correctAnswers": ["será elegido", "va a ser elegido"], "translation": { "en": "From next year, the director will be elected by the shareholders' board.", "nl": "Vanaf volgend jaar wordt de directeur gekozen door de aandeelhoudersvergadering." }, "hint": "toekomst enkelvoud → será elegido" },
+        { "id": "vp-14", "sentence": "Cristóbal Colón ___ en Valladolid en 1506. (enterrar)", "correctAnswers": ["fue enterrado"], "translation": { "en": "Christopher Columbus was buried in Valladolid in 1506.", "nl": "Christoffel Columbus werd in 1506 begraven in Valladolid." }, "hint": "indefinido → fue enterrado" },
+        { "id": "vp-15", "sentence": "Mis abuelos ___ en su pueblo. (enterrar)", "correctAnswers": ["fueron enterrados", "están enterrados"], "translation": { "en": "My grandparents were buried in their village.", "nl": "Mijn grootouders werden begraven in hun dorp." }, "hint": "meervoud → fueron enterrados" },
+        { "id": "vp-16", "sentence": "El Presidente Kennedy ___ en Dallas en 1963. (asesinar)", "correctAnswers": ["fue asesinado"], "translation": { "en": "President Kennedy was assassinated in Dallas in 1963.", "nl": "President Kennedy werd in 1963 vermoord in Dallas." }, "hint": "indefinido → fue asesinado" },
+        { "id": "vp-17", "sentence": "Trump ___ pronto, si no tiene cuidado. (asesinar)", "correctAnswers": ["será asesinado", "va a ser asesinado"], "translation": { "en": "Trump will be assassinated soon if he isn't careful.", "nl": "Trump wordt binnenkort vermoord als hij niet oppast." }, "hint": "toekomst → será asesinado" },
+        { "id": "vp-18", "sentence": "Estos libros no ___ en China. (publicar)", "correctAnswers": ["han sido publicados", "son publicados"], "translation": { "en": "These books have not been published in China.", "nl": "Deze boeken zijn niet in China gepubliceerd." }, "hint": "voltooid meervoud → han sido publicados" },
+        { "id": "vp-19", "sentence": "Fue un concierto maravilloso. La orquesta ___ durante casi diez minutos. (ovacionar)", "correctAnswers": ["fue ovacionada"], "translation": { "en": "It was a wonderful concert. The orchestra was given a standing ovation for almost ten minutes.", "nl": "Het was een prachtig concert. Het orkest kreeg bijna tien minuten lang een staande ovatie." }, "hint": "indefinido vrouwelijk → fue ovacionada" }
+      ]
+    },
+    {
+      "id": "voz-pasiva-03",
+      "type": "fill_in_blank",
+      "instruction": { "en": "Convert to passive — Use the same tense as the verb in parentheses", "nl": "Zet om naar lijdende vorm — Gebruik dezelfde tijd als het werkwoord tussen haakjes" },
+      "items": [
+        { "id": "vp-20", "before": "El apartamento ", "after": " la semana pasada. (pintar — indefinido)", "correctAnswers": ["fue pintado"], "translation": { "en": "The apartment was painted last week.", "nl": "Het appartement werd vorige week geschilderd." }, "hint": "indefinido → fue pintado" },
+        { "id": "vp-21", "before": "El apartamento ", "after": " cada verano. (pintar — imperfecto)", "correctAnswers": ["era pintado"], "translation": { "en": "The apartment used to be painted every summer.", "nl": "Het appartement werd elke zomer geschilderd." }, "hint": "imperfecto → era pintado" },
+        { "id": "vp-22", "before": "El apartamento ", "after": " mañana. (pintar — futuro)", "correctAnswers": ["será pintado"], "translation": { "en": "The apartment will be painted tomorrow.", "nl": "Het appartement zal morgen geschilderd worden." }, "hint": "futuro → será pintado" },
+        { "id": "vp-23", "before": "El apartamento ", "after": " esta semana. (pintar — perfecto)", "correctAnswers": ["ha sido pintado"], "translation": { "en": "The apartment has been painted this week.", "nl": "Het appartement is deze week geschilderd." }, "hint": "perfecto → ha sido pintado" },
+        { "id": "vp-24", "before": "El apartamento ", "after": " en este momento. (pintar — presente continuo)", "correctAnswers": ["está siendo pintado"], "translation": { "en": "The apartment is being painted right now.", "nl": "Het appartement wordt op dit moment geschilderd." }, "hint": "doorlopend → está siendo pintado" }
+      ]
+    }
+  ],
+  "videoPlaceholder": {
+    "title": { "en": "Teacher Explanation Video", "nl": "Uitleg Video Docent" },
+    "description": { "en": "Passive voice (Voz Pasiva) explained!", "nl": "Lijdende vorm (Voz Pasiva) uitgelegd!" }
+  }
+}
