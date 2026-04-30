@@ -22,15 +22,22 @@ export default function HomePage() {
 
       <section className="bg-sidebar text-white py-24">
         <div className="max-w-3xl mx-auto px-4 text-center">
-          <h1 className="text-4xl sm:text-5xl font-bold mb-4 leading-tight tracking-tight">
+          <h1 className="text-4xl sm:text-5xl font-bold mb-2 leading-tight tracking-tight">
             Leer Spaans<br />
             <span className="text-primary-light">op jouw manier</span>
           </h1>
-          <p className="text-lg text-white/70 mb-8 max-w-xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl font-semibold mb-6 leading-tight tracking-tight text-white/80">
+            Learn Spanish<br />
+            <span className="text-primary-light/80">your way</span>
+          </h2>
+          <p className="text-base text-white/70 mb-2 max-w-xl mx-auto">
             Interactieve oefeningen, directe feedback, woordenschat training. Oefen altijd en overal op elk apparaat.
           </p>
+          <p className="text-sm text-white/60 mb-8 max-w-xl mx-auto">
+            Interactive exercises, instant feedback, vocabulary training. Practice anytime, anywhere on any device.
+          </p>
           <Link href="/login" className="inline-block bg-primary hover:bg-primary-hover text-white px-8 py-3 rounded-xl text-base font-semibold transition-colors">
-            Begin met leren
+            Begin met leren / Start learning
           </Link>
         </div>
       </section>
