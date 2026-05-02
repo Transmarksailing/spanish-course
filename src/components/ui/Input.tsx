@@ -7,7 +7,7 @@ interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
 }
 
 const statusStyles = {
-  default: "border-border focus:border-primary focus:ring-primary/30",
+  default: "border-border bg-sand/40 hover:bg-sand/60 focus:bg-white focus:border-primary focus:ring-primary/30",
   correct: "border-success bg-success-light focus:border-success focus:ring-success/30",
   incorrect: "border-danger bg-danger-light focus:border-danger focus:ring-danger/30",
 };
@@ -17,7 +17,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
     return (
       <input
         ref={ref}
-        className={`w-full rounded-lg border px-3 py-2 text-sm transition-colors focus:outline-none focus:ring-2 ${statusStyles[status]} ${status === "incorrect" ? "animate-shake" : ""} ${className}`}
+        className={`w-full rounded-lg border-2 px-3 py-2 text-sm transition-colors focus:outline-none focus:ring-2 ${statusStyles[status]} ${status === "incorrect" ? "animate-shake" : ""} ${className}`}
         {...props}
       />
     );

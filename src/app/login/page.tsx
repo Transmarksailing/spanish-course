@@ -18,7 +18,7 @@ export default function LoginPage() {
     if (login(year, password)) {
       router.push(`/curso/${year}`);
     } else {
-      setError("Onjuist wachtwoord. Probeer het opnieuw.");
+      setError("Onjuist wachtwoord. Probeer het opnieuw. / Wrong password. Please try again.");
     }
   };
 
@@ -35,6 +35,9 @@ export default function LoginPage() {
           <p className="text-sm text-sidebar-text/60 mt-1">
             Transmark Language Tool — Javea
           </p>
+          <p className="text-xs text-sidebar-text/50 mt-2">
+            Welkom! / Welcome!
+          </p>
         </div>
 
         <form
@@ -43,12 +46,12 @@ export default function LoginPage() {
         >
           <div>
             <label className="block text-sm font-medium text-foreground mb-1.5">
-              Cursus
+              Cursus / Course
             </label>
             <select
               value={year}
               onChange={(e) => setYear(e.target.value)}
-              className="w-full rounded-lg border border-border px-3 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all"
+              className="w-full rounded-lg border-2 border-border px-3 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all"
             >
               <option value="cours">Spanish Course</option>
             </select>
@@ -56,14 +59,15 @@ export default function LoginPage() {
 
           <div>
             <label className="block text-sm font-medium text-foreground mb-1.5">
-              Wachtwoord
+              Wachtwoord / Password
             </label>
             <input
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              placeholder="Vul je cursus wachtwoord in"
-              className="w-full rounded-lg border border-border px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all"
+              placeholder="Vul je wachtwoord in / Enter password"
+              className="w-full rounded-lg border-2 border-border px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all"
+              autoFocus
               required
             />
           </div>
@@ -75,11 +79,13 @@ export default function LoginPage() {
           )}
 
           <Button type="submit" size="lg" className="w-full">
-            Naar cursus
+            Naar cursus / Enter course
           </Button>
 
-          <p className="text-xs text-center text-muted">
+          <p className="text-xs text-center text-muted leading-relaxed">
             Vraag je docent om het cursus wachtwoord
+            <br />
+            <span className="text-muted/80">Ask your teacher for the course password</span>
           </p>
         </form>
       </div>

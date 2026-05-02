@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useRef } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import type { VocabularyWord } from "@/lib/types";
 import { useLanguage } from "@/lib/language-context";
 import Input from "@/components/ui/Input";
@@ -8,7 +8,7 @@ import Button from "@/components/ui/Button";
 import SpecialChars from "@/components/ui/SpecialChars";
 import ExerciseFeedback from "@/components/exercises/ExerciseFeedback";
 import ProgressBar from "@/components/ui/ProgressBar";
-import { checkAnswer } from "@/lib/validation";
+import { checkVocabAnswer } from "@/lib/validation";
 
 interface Props {
   words: VocabularyWord[];
@@ -42,6 +42,12 @@ export default function VocabularyPractice({ words, direction }: Props) {
     showFeedback: false,
   });
   const [correctCount, setCorrectCount] = useState(0);
+  const [attemptCount, setAttemptCount] = useState(0);
+
+  // Auto-focus input on mount and when changing words
+  useEffect(() => {
+    inputRef.current?.focus();
+  }, [currentIndex]);
 
   const rawWord = words[currentIndex];
   if (!rawWord) return null;
@@ -64,7 +70,7 @@ export default function VocabularyPractice({ words, direction }: Props) {
 
   const handleCheck = useCallback(() => {
     if (state.status === "correct") return;
-    const isCorrect = checkAnswer(state.value, correctAnswers);
+    const isCorrect = checkVocabAnswer(state.value, correctAnswers);
 
     setState({
       value: state.value,
@@ -72,9 +78,10 @@ export default function VocabularyPractice({ words, direction }: Props) {
       showFeedback: true,
     });
 
-    if (isCorrect) setCorrectCount((c) => c + 1);
-
-    if (!isCorrect) {
+    if (isCorrect) {
+      setCorrectCount((c) => c + 1);
+      setAttemptCount((a) => a + 1);
+    } else {
       setTimeout(() => {
         setState((prev) => ({ ...prev, status: "default" }));
       }, 2000);
@@ -169,9 +176,21 @@ export default function VocabularyPractice({ words, direction }: Props) {
         </div>
       </div>
 
-      <p className="text-center text-sm text-muted mt-4">
-        {t({ en: `${correctCount} correct out of ${currentIndex + (state.status === "correct" ? 1 : 0)}`, nl: `${correctCount} goed van de ${currentIndex + (state.status === "correct" ? 1 : 0)}` })}
-      </p>
+      <div className="mt-5 flex items-center justify-center gap-3">
+        <div className="bg-success-light border-2 border-success/30 rounded-lg px-4 py-2 flex items-center gap-2">
+          <span className="text-success font-bold text-lg">{correctCount}</span>
+          <span className="text-xs text-muted">/ {attemptCount} {t({ en: "answered", nl: "beantwoord" })}</span>
+        </div>
+        <div className="bg-card border-2 border-border rounded-lg px-4 py-2 flex items-center gap-2">
+          <span className="text-foreground font-bold text-lg">{words.length - attemptCount}</span>
+          <span className="text-xs text-muted">{t({ en: "remaining", nl: "te gaan" })}</span>
+        </div>
+      </div>
+      {attemptCount > 0 && (
+        <p className="text-center text-xs text-muted mt-2">
+          {Math.round((correctCount / attemptCount) * 100)}% {t({ en: "correct this session", nl: "correct deze sessie" })}
+        </p>
+      )}
     </div>
   );
 }
