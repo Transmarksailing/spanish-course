@@ -21,8 +21,8 @@
   --color-muted: var(--mut);
   --color-success-light: var(--suc-lt);
   --color-danger-light: var(--dan-lt);
-  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
-  --font-serif: "Inter", system-ui, -apple-system, sans-serif;
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 /* Light mode (default) */
@@ -56,6 +56,15 @@ body {
   color: var(--fg);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  /* Firefox scrollbar (Windows/Linux) */
+  scrollbar-width: thin;
+  scrollbar-color: #D1D5DB transparent;
+}
+
+[data-theme="dark"] body {
+  scrollbar-color: #4A4A5E transparent;
 }
 
 @keyframes shake {

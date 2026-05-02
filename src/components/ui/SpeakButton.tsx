@@ -8,35 +8,46 @@ interface SpeakButtonProps {
   className?: string;
 }
 
-// Preferred female Spanish voices by platform (ranked by quality)
+// Preferred female Spanish voices, ranked by quality across platforms
 const PREFERRED_VOICES = [
+  // Top-tier neural / online voices (Edge, Chrome, mobile)
+  "Microsoft Elvira Online",   // Windows 10/11 neural ES
+  "Microsoft Ximena Online",   // Windows neural ES (Mexico)
+  "Google español de España",  // Chrome high-quality
+  "Google español",            // Chrome standard
+
   // macOS / iOS premium voices
   "Mónica",    // Castilian Spanish (macOS)
   "Paulina",   // Mexican Spanish (macOS)
   "Jimena",    // Mexican Spanish (iOS)
   "Marisol",   // Spanish
-  // Google Chrome voices
-  "Google español",
-  // Microsoft Edge voices
-  "Microsoft Elvira",
-  "Microsoft Helena",
+
+  // Microsoft Edge default voices (Windows)
+  "Microsoft Elvira",   // Spanish ES
+  "Microsoft Helena",   // Spanish ES
+  "Microsoft Laura",    // Spanish ES
+  "Microsoft Sabina",   // Spanish MX
+  "Microsoft Esperanza", // Spanish MX
 ];
 
 function findFemaleSpanishVoice(voices: SpeechSynthesisVoice[], lang: string): SpeechSynthesisVoice | null {
   const spanishVoices = voices.filter((v) => v.lang.startsWith("es"));
+  if (spanishVoices.length === 0) return null;
 
-  // Try preferred voices first
+  // Try preferred voices first (in order of quality)
   for (const name of PREFERRED_VOICES) {
     const match = spanishVoices.find((v) => v.name.includes(name));
     if (match) return match;
   }
 
-  // Fallback: any Spanish voice matching the requested locale
+  // Prefer voices that match the exact locale (es-ES)
   const localeMatch = spanishVoices.find((v) => v.lang === lang);
   if (localeMatch) return localeMatch;
 
-  // Fallback: any Spanish voice
-  return spanishVoices[0] || null;
+  // Avoid male names if we can detect them (heuristic)
+  const maleNames = /^(Microsoft (Pablo|Jorge|Diego|Alvaro)|Carlos|Diego|Jorge|Juan)/i;
+  const female = spanishVoices.find((v) => !maleNames.test(v.name));
+  return female || spanishVoices[0];
 }
 
 export default function SpeakButton({ text, lang = "es-ES", className = "" }: SpeakButtonProps) {
