@@ -30,6 +30,90 @@
       "forms": { "yo": "comí", "tú": "comiste", "él/ella/usted": "comió", "nosotros": "comimos", "vosotros": "comisteis", "ellos/ustedes": "comieron" }
     },
     {
+      "type": "conjugation_table",
+      "title": { "en": "VIVIR — Preterite", "nl": "VIVIR — Indefinido" },
+      "verb": "vivir",
+      "tense": "preterite",
+      "forms": { "yo": "viví", "tú": "viviste", "él/ella/usted": "vivió", "nosotros": "vivimos", "vosotros": "vivisteis", "ellos/ustedes": "vivieron" }
+    },
+    {
+      "type": "conjugation_table",
+      "title": { "en": "DAR — Preterite (irregular)", "nl": "DAR — Indefinido (onregelmatig)" },
+      "verb": "dar",
+      "tense": "preterite",
+      "forms": { "yo": "di", "tú": "diste", "él/ella/usted": "dio", "nosotros": "dimos", "vosotros": "disteis", "ellos/ustedes": "dieron" }
+    },
+    {
+      "type": "conjugation_table",
+      "title": { "en": "VER — Preterite (irregular)", "nl": "VER — Indefinido (onregelmatig)" },
+      "verb": "ver",
+      "tense": "preterite",
+      "forms": { "yo": "vi", "tú": "viste", "él/ella/usted": "vio", "nosotros": "vimos", "vosotros": "visteis", "ellos/ustedes": "vieron" }
+    },
+    {
+      "type": "conjugation_table",
+      "title": { "en": "LEER — Preterite (y-change)", "nl": "LEER — Indefinido (y-verandering)" },
+      "verb": "leer",
+      "tense": "preterite",
+      "forms": { "yo": "leí", "tú": "leíste", "él/ella/usted": "leyó", "nosotros": "leímos", "vosotros": "leísteis", "ellos/ustedes": "leyeron" }
+    },
+    {
+      "type": "conjugation_table",
+      "title": { "en": "PONER — Preterite (irregular)", "nl": "PONER — Indefinido (onregelmatig)" },
+      "verb": "poner",
+      "tense": "preterite",
+      "forms": { "yo": "puse", "tú": "pusiste", "él/ella/usted": "puso", "nosotros": "pusimos", "vosotros": "pusisteis", "ellos/ustedes": "pusieron" }
+    },
+    {
+      "type": "conjugation_table",
+      "title": { "en": "ESTAR — Preterite (irregular)", "nl": "ESTAR — Indefinido (onregelmatig)" },
+      "verb": "estar",
+      "tense": "preterite",
+      "forms": { "yo": "estuve", "tú": "estuviste", "él/ella/usted": "estuvo", "nosotros": "estuvimos", "vosotros": "estuvisteis", "ellos/ustedes": "estuvieron" }
+    },
+    {
+      "type": "conjugation_table",
+      "title": { "en": "SER / IR — Preterite (identical!)", "nl": "SER / IR — Indefinido (identiek!)" },
+      "verb": "ser/ir",
+      "tense": "preterite",
+      "forms": { "yo": "fui", "tú": "fuiste", "él/ella/usted": "fue", "nosotros": "fuimos", "vosotros": "fuisteis", "ellos/ustedes": "fueron" }
+    },
+    {
+      "type": "conjugation_table",
+      "title": { "en": "TENER — Preterite (irregular)", "nl": "TENER — Indefinido (onregelmatig)" },
+      "verb": "tener",
+      "tense": "preterite",
+      "forms": { "yo": "tuve", "tú": "tuviste", "él/ella/usted": "tuvo", "nosotros": "tuvimos", "vosotros": "tuvisteis", "ellos/ustedes": "tuvieron" }
+    },
+    {
+      "type": "conjugation_table",
+      "title": { "en": "DECIR — Preterite (irregular)", "nl": "DECIR — Indefinido (onregelmatig)" },
+      "verb": "decir",
+      "tense": "preterite",
+      "forms": { "yo": "dije", "tú": "dijiste", "él/ella/usted": "dijo", "nosotros": "dijimos", "vosotros": "dijisteis", "ellos/ustedes": "dijeron" }
+    },
+    {
+      "type": "conjugation_table",
+      "title": { "en": "HACER — Preterite (irregular)", "nl": "HACER — Indefinido (onregelmatig)" },
+      "verb": "hacer",
+      "tense": "preterite",
+      "forms": { "yo": "hice", "tú": "hiciste", "él/ella/usted": "hizo", "nosotros": "hicimos", "vosotros": "hicisteis", "ellos/ustedes": "hicieron" }
+    },
+    {
+      "type": "conjugation_table",
+      "title": { "en": "VENIR — Preterite (irregular)", "nl": "VENIR — Indefinido (onregelmatig)" },
+      "verb": "venir",
+      "tense": "preterite",
+      "forms": { "yo": "vine", "tú": "viniste", "él/ella/usted": "vino", "nosotros": "vinimos", "vosotros": "vinisteis", "ellos/ustedes": "vinieron" }
+    },
+    {
+      "type": "conjugation_table",
+      "title": { "en": "PODER — Preterite (irregular)", "nl": "PODER — Indefinido (onregelmatig)" },
+      "verb": "poder",
+      "tense": "preterite",
+      "forms": { "yo": "pude", "tú": "pudiste", "él/ella/usted": "pudo", "nosotros": "pudimos", "vosotros": "pudisteis", "ellos/ustedes": "pudieron" }
+    },
+    {
       "type": "rule_box",
       "title": { "en": "Common Irregular Preterites", "nl": "Veelvoorkomende Onregelmatige Indefinido's" },
       "content": {
