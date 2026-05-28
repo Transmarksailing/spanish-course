@@ -1,0 +1,35 @@
+{
+  "slug": "spanish-regions",
+  "year": "cours",
+  "title": {
+    "en": "Spanish Autonomous Regions",
+    "nl": "Spaanse Autonome Regio's"
+  },
+  "layout": "single",
+  "categories": [
+    {
+      "name": { "en": "17 Autonomous Communities + Ceuta & Melilla", "nl": "17 Autonome Gemeenschappen + Ceuta & Melilla" },
+      "words": [
+        { "es": "Andalucía — Sevilla", "en": "Andalusia — Seville", "nl": "Andalusië — Sevilla" },
+        { "es": "Principado de Asturias — Oviedo", "en": "Asturias — Oviedo", "nl": "Asturië — Oviedo" },
+        { "es": "Aragón — Zaragoza", "en": "Aragon — Zaragoza", "nl": "Aragón — Zaragoza" },
+        { "es": "Cantabria — Santander", "en": "Cantabria — Santander", "nl": "Cantabrië — Santander" },
+        { "es": "Castilla-La Mancha — Toledo", "en": "Castile-La Mancha — Toledo", "nl": "Castilië-La Mancha — Toledo" },
+        { "es": "Castilla y León — Valladolid", "en": "Castile and León — Valladolid", "nl": "Castilië en León — Valladolid" },
+        { "es": "Cataluña — Barcelona", "en": "Catalonia — Barcelona", "nl": "Catalonië — Barcelona" },
+        { "es": "Extremadura — Mérida", "en": "Extremadura — Mérida", "nl": "Extremadura — Mérida" },
+        { "es": "Galicia — Santiago de Compostela", "en": "Galicia — Santiago de Compostela", "nl": "Galicië — Santiago de Compostela" },
+        { "es": "La Rioja — Logroño", "en": "La Rioja — Logroño", "nl": "La Rioja — Logroño" },
+        { "es": "Comunidad de Madrid — Madrid", "en": "Madrid — Madrid", "nl": "Madrid — Madrid" },
+        { "es": "Región de Murcia — Murcia", "en": "Murcia — Murcia", "nl": "Murcia — Murcia" },
+        { "es": "Comunidad Foral de Navarra — Pamplona", "en": "Navarre — Pamplona", "nl": "Navarra — Pamplona" },
+        { "es": "Comunidad Valenciana — Valencia", "en": "Valencian Community — Valencia", "nl": "Valenciaanse Gemeenschap — Valencia" },
+        { "es": "País Vasco (Euskadi) — Vitoria (Gasteiz)", "en": "Basque Country — Vitoria (Gasteiz)", "nl": "Baskenland — Vitoria (Gasteiz)" },
+        { "es": "Islas Baleares — Palma de Mallorca", "en": "Balearic Islands — Palma de Mallorca", "nl": "Balearen — Palma de Mallorca" },
+        { "es": "Islas Canarias — Santa Cruz de Tenerife", "en": "Canary Islands — Santa Cruz de Tenerife", "nl": "Canarische Eilanden — Santa Cruz de Tenerife" },
+        { "es": "Ceuta", "en": "Ceuta (autonomous city)", "nl": "Ceuta (autonome stad)" },
+        { "es": "Melilla", "en": "Melilla (autonomous city)", "nl": "Melilla (autonome stad)" }
+      ]
+    }
+  ]
+}

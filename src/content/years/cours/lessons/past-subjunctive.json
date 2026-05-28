@@ -107,6 +107,60 @@
         { "id": "pasts-si005", "sentence": "Los alumnos no irían a clase mañana si no ___ un examen. (tener)", "correctAnswers": ["tuvieran"], "translation": { "en": "The students wouldn't go to class tomorrow if they didn't have an exam.", "nl": "De leerlingen zouden morgen niet naar de les gaan als ze geen examen hadden." }, "hint": "tener → tuvieron → tuvier-" },
         { "id": "pasts-si006", "sentence": "Yo iría hoy al cine si la película ___ buena. (ser)", "correctAnswers": ["fuera"], "translation": { "en": "I would go to the cinema today if the movie were good.", "nl": "Ik zou vandaag naar de bioscoop gaan als de film goed was." }, "hint": "ser → fueron → fuer-" }
       ]
+    },
+    {
+      "id": "subj-mix-01",
+      "type": "translation",
+      "instruction": { "en": "All-Tense Subjunctive Mix — Translate to Spanish", "nl": "Subjunctivo Alle Tijden Mix — Vertaal naar Spaans" },
+      "items": [
+        { "id": "sm-01", "source": { "en": "I am not sure that they speak Chinese.", "nl": "Ik weet niet zeker of zij Chinees spreken." }, "correctAnswers": ["No estoy seguro de que hablen chino", "No estoy seguro que hablen chino"] },
+        { "id": "sm-02", "source": { "en": "I am not sure that they have paid.", "nl": "Ik weet niet zeker of zij hebben betaald." }, "correctAnswers": ["No estoy seguro de que hayan pagado", "No estoy seguro que hayan pagado"] },
+        { "id": "sm-03", "source": { "en": "I didn't think that they paid.", "nl": "Ik dacht niet dat zij betaalden." }, "correctAnswers": ["No creía que pagaran"] },
+        { "id": "sm-04", "source": { "en": "I didn't think that they had arrived.", "nl": "Ik dacht niet dat zij waren aangekomen." }, "correctAnswers": ["No creía que hubieran llegado"] },
+        { "id": "sm-05", "source": { "en": "John hopes that they read the letter.", "nl": "John hoopt dat zij de brief lezen." }, "correctAnswers": ["Juan espera que lean la carta", "John espera que lean la carta"] },
+        { "id": "sm-06", "source": { "en": "John hopes that they have read the letter.", "nl": "John hoopt dat zij de brief hebben gelezen." }, "correctAnswers": ["Juan espera que hayan leído la carta", "John espera que hayan leído la carta"] },
+        { "id": "sm-07", "source": { "en": "John hoped that they read the letter.", "nl": "John hoopte dat zij de brief lazen." }, "correctAnswers": ["Juan esperaba que leyeran la carta", "John esperaba que leyeran la carta"] },
+        { "id": "sm-08", "source": { "en": "John hoped that they had read the letter.", "nl": "John hoopte dat zij de brief hadden gelezen." }, "correctAnswers": ["Juan esperaba que hubieran leído la carta", "John esperaba que hubieran leído la carta"] },
+        { "id": "sm-09", "source": { "en": "It's a pity that the mechanic hasn't repaired the car.", "nl": "Het is jammer dat de monteur de auto niet heeft gerepareerd." }, "correctAnswers": ["Es una pena que el mecánico no haya reparado el coche", "Es una lástima que el mecánico no haya reparado el coche"] },
+        { "id": "sm-10", "source": { "en": "It was a pity that the mechanic hadn't repaired the car.", "nl": "Het was jammer dat de monteur de auto niet had gerepareerd." }, "correctAnswers": ["Era una pena que el mecánico no hubiera reparado el coche", "Era una lástima que el mecánico no hubiera reparado el coche"] },
+        { "id": "sm-11", "source": { "en": "I hope Maria has spoken with the plumber.", "nl": "Ik hoop dat Maria met de loodgieter heeft gesproken." }, "correctAnswers": ["Espero que María haya hablado con el fontanero", "Espero que María haya hablado con el plomero"] },
+        { "id": "sm-12", "source": { "en": "I hoped that Maria had spoken with the plumber.", "nl": "Ik hoopte dat Maria met de loodgieter had gesproken." }, "correctAnswers": ["Esperaba que María hubiera hablado con el fontanero", "Esperaba que María hubiera hablado con el plomero"] },
+        { "id": "sm-13", "source": { "en": "I don't believe that you have seen the news.", "nl": "Ik geloof niet dat je het nieuws hebt gezien." }, "correctAnswers": ["No creo que hayas visto las noticias"] },
+        { "id": "sm-14", "source": { "en": "I didn't believe that you had seen the news.", "nl": "Ik geloofde niet dat je het nieuws had gezien." }, "correctAnswers": ["No creía que hubieras visto las noticias"] },
+        { "id": "sm-15", "source": { "en": "It's incredible that no one has the money.", "nl": "Het is ongelooflijk dat niemand het geld heeft." }, "correctAnswers": ["Es increíble que nadie tenga el dinero"] },
+        { "id": "sm-16", "source": { "en": "It was incredible that no one had the money.", "nl": "Het was ongelooflijk dat niemand het geld had." }, "correctAnswers": ["Era increíble que nadie tuviera el dinero"] },
+        { "id": "sm-17", "source": { "en": "I don't think he pays a lot.", "nl": "Ik denk niet dat hij veel betaalt." }, "correctAnswers": ["No creo que pague mucho"] },
+        { "id": "sm-18", "source": { "en": "I don't think he has paid a lot.", "nl": "Ik denk niet dat hij veel heeft betaald." }, "correctAnswers": ["No creo que haya pagado mucho"] },
+        { "id": "sm-19", "source": { "en": "I didn't think he paid a lot.", "nl": "Ik dacht niet dat hij veel betaalde." }, "correctAnswers": ["No creía que pagara mucho"] },
+        { "id": "sm-20", "source": { "en": "I didn't think he had paid a lot.", "nl": "Ik dacht niet dat hij veel had betaald." }, "correctAnswers": ["No creía que hubiera pagado mucho"] }
+      ]
+    },
+    {
+      "id": "subj-mix-02",
+      "type": "translation",
+      "instruction": { "en": "Subjunctive Mix — Extras (varied verbs)", "nl": "Subjunctivo Mix — Extra (gevarieerde werkwoorden)" },
+      "items": [
+        { "id": "sm2-01", "source": { "en": "I am not sure that they have heard me.", "nl": "Ik weet niet zeker of zij mij hebben gehoord." }, "correctAnswers": ["No estoy seguro de que me hayan oído", "No estoy seguro que me hayan oído", "No estoy seguro de que me hayan escuchado"] },
+        { "id": "sm2-02", "source": { "en": "I am not sure they will come.", "nl": "Ik weet niet zeker of zij zullen komen." }, "correctAnswers": ["No estoy seguro de que vengan", "No estoy seguro que vengan"] },
+        { "id": "sm2-03", "source": { "en": "I didn't think that they heard me.", "nl": "Ik dacht niet dat zij mij hoorden." }, "correctAnswers": ["No creía que me oyeran", "No creía que me escucharan"] },
+        { "id": "sm2-04", "source": { "en": "I didn't think that they had heard me.", "nl": "Ik dacht niet dat zij mij hadden gehoord." }, "correctAnswers": ["No creía que me hubieran oído", "No creía que me hubieran escuchado"] },
+        { "id": "sm2-05", "source": { "en": "David hopes that they will study the lesson.", "nl": "David hoopt dat zij de les zullen studeren." }, "correctAnswers": ["David espera que estudien la lección"] },
+        { "id": "sm2-06", "source": { "en": "David hopes that they have studied the lesson.", "nl": "David hoopt dat zij de les hebben gestudeerd." }, "correctAnswers": ["David espera que hayan estudiado la lección"] },
+        { "id": "sm2-07", "source": { "en": "David hoped that they studied the lesson.", "nl": "David hoopte dat zij de les studeerden." }, "correctAnswers": ["David esperaba que estudiaran la lección"] },
+        { "id": "sm2-08", "source": { "en": "David hoped that they had studied the lesson.", "nl": "David hoopte dat zij de les hadden gestudeerd." }, "correctAnswers": ["David esperaba que hubieran estudiado la lección"] },
+        { "id": "sm2-09", "source": { "en": "It's a pity that the plumber hasn't repaired the leak.", "nl": "Het is jammer dat de loodgieter het lek niet heeft gerepareerd." }, "correctAnswers": ["Es una pena que el fontanero no haya reparado la fuga", "Es una lástima que el fontanero no haya reparado la fuga"] },
+        { "id": "sm2-10", "source": { "en": "It was a pity that the plumber hadn't repaired the leak.", "nl": "Het was jammer dat de loodgieter het lek niet had gerepareerd." }, "correctAnswers": ["Era una pena que el fontanero no hubiera reparado la fuga", "Era una lástima que el fontanero no hubiera reparado la fuga"] },
+        { "id": "sm2-11", "source": { "en": "I wanted Maria to speak with the plumber.", "nl": "Ik wilde dat Maria met de loodgieter sprak." }, "correctAnswers": ["Quería que María hablara con el fontanero", "Quería que María hablara con el plomero"] },
+        { "id": "sm2-12", "source": { "en": "I hope Maria has spoken with the electrician.", "nl": "Ik hoop dat Maria met de elektricien heeft gesproken." }, "correctAnswers": ["Espero que María haya hablado con el electricista"] },
+        { "id": "sm2-13", "source": { "en": "I don't believe that they have read that book.", "nl": "Ik geloof niet dat zij dat boek hebben gelezen." }, "correctAnswers": ["No creo que hayan leído ese libro"] },
+        { "id": "sm2-14", "source": { "en": "I didn't believe that they had read that book.", "nl": "Ik geloofde niet dat zij dat boek hadden gelezen." }, "correctAnswers": ["No creía que hubieran leído ese libro"] },
+        { "id": "sm2-15", "source": { "en": "It's incredible that nobody has spoken with him.", "nl": "Het is ongelooflijk dat niemand met hem heeft gesproken." }, "correctAnswers": ["Es increíble que nadie haya hablado con él"] },
+        { "id": "sm2-16", "source": { "en": "It was incredible that nobody had spoken with you.", "nl": "Het was ongelooflijk dat niemand met jou had gesproken." }, "correctAnswers": ["Era increíble que nadie hubiera hablado contigo"] },
+        { "id": "sm2-17", "source": { "en": "I don't think he knows the answer.", "nl": "Ik denk niet dat hij het antwoord weet." }, "correctAnswers": ["No creo que sepa la respuesta"] },
+        { "id": "sm2-18", "source": { "en": "I don't think he has seen them.", "nl": "Ik denk niet dat hij hen heeft gezien." }, "correctAnswers": ["No creo que los haya visto", "No creo que las haya visto"] },
+        { "id": "sm2-19", "source": { "en": "I didn't think he knew the answer.", "nl": "Ik dacht niet dat hij het antwoord wist." }, "correctAnswers": ["No creía que supiera la respuesta"] },
+        { "id": "sm2-20", "source": { "en": "I didn't think he had seen them.", "nl": "Ik dacht niet dat hij hen had gezien." }, "correctAnswers": ["No creía que los hubiera visto", "No creía que las hubiera visto"] }
+      ]
     }
   ],
   "videoPlaceholder": {

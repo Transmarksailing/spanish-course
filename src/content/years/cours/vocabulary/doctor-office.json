@@ -1,0 +1,83 @@
+{
+  "slug": "doctor-office",
+  "year": "cours",
+  "title": {
+    "en": "At the Doctor's Office",
+    "nl": "Bij de Dokter"
+  },
+  "categories": [
+    {
+      "name": { "en": "Medical Staff", "nl": "Medisch personeel" },
+      "words": [
+        { "es": "el médico / la médica", "en": "doctor", "nl": "arts / dokter" },
+        { "es": "la enfermera", "en": "nurse", "nl": "verpleegkundige" },
+        { "es": "la comadrona, la matrona", "en": "midwife", "nl": "vroedvrouw" },
+        { "es": "el/la terapeuta", "en": "therapist", "nl": "therapeut" },
+        { "es": "el/la fisioterapeuta", "en": "physiotherapist", "nl": "fysiotherapeut" },
+        { "es": "el farmacéutico", "en": "pharmacist", "nl": "apotheker" },
+        { "es": "el/la paciente, el enfermo", "en": "patient", "nl": "patiënt, zieke" }
+      ]
+    },
+    {
+      "name": { "en": "Symptoms and Conditions", "nl": "Symptomen en aandoeningen" },
+      "words": [
+        { "es": "la tos", "en": "cough", "nl": "hoest" },
+        { "es": "el resfriado", "en": "cold", "nl": "verkoudheid" },
+        { "es": "la gripe, la influenza", "en": "flu, influenza", "nl": "griep" },
+        { "es": "la fiebre del heno", "en": "hay fever", "nl": "hooikoorts" },
+        { "es": "la diarrea", "en": "diarrhoea", "nl": "diarree" },
+        { "es": "el estreñimiento", "en": "constipation", "nl": "verstopping" },
+        { "es": "el asma", "en": "asthma", "nl": "astma" },
+        { "es": "la artritis", "en": "arthritis", "nl": "artritis" },
+        { "es": "el reuma, el reumatismo", "en": "rheumatism", "nl": "reuma" },
+        { "es": "la depresión", "en": "depression", "nl": "depressie" },
+        { "es": "la amigdalitis", "en": "tonsillitis", "nl": "amandelontsteking" },
+        { "es": "el síntoma", "en": "symptom", "nl": "symptoom" },
+        { "es": "la herida", "en": "wound", "nl": "wond" },
+        { "es": "la mordedura (de perro)", "en": "(dog) bite", "nl": "(honden)beet" },
+        { "es": "la picadura (de insecto)", "en": "(insect) sting", "nl": "(insecten)steek" },
+        { "es": "el ciego", "en": "blind person", "nl": "blinde" }
+      ]
+    },
+    {
+      "name": { "en": "Diagnosis and Treatment", "nl": "Diagnose en behandeling" },
+      "words": [
+        { "es": "la cita", "en": "appointment", "nl": "afspraak" },
+        { "es": "las horas de consulta", "en": "consultation hours", "nl": "spreekuur" },
+        { "es": "la diagnosis", "en": "diagnosis", "nl": "diagnose" },
+        { "es": "el tratamiento", "en": "treatment", "nl": "behandeling" },
+        { "es": "la terapia", "en": "therapy", "nl": "therapie" },
+        { "es": "la fisioterapia", "en": "physiotherapy", "nl": "fysiotherapie" },
+        { "es": "la quimioterapia", "en": "chemotherapy", "nl": "chemotherapie" },
+        { "es": "la cirugía", "en": "surgery", "nl": "chirurgie" },
+        { "es": "la amputación", "en": "amputation", "nl": "amputatie" },
+        { "es": "el anestésico", "en": "anaesthetic", "nl": "verdoving" },
+        { "es": "el análisis de sangre", "en": "blood test", "nl": "bloedtest" },
+        { "es": "la sangre", "en": "blood", "nl": "bloed" },
+        { "es": "la amígdala", "en": "tonsil", "nl": "amandel" },
+        { "es": "la glándula", "en": "gland", "nl": "klier" },
+        { "es": "el rayo X", "en": "X-ray", "nl": "röntgenfoto" },
+        { "es": "el bienestar", "en": "wellbeing", "nl": "welzijn" }
+      ]
+    },
+    {
+      "name": { "en": "Medication and Equipment", "nl": "Medicatie en hulpmiddelen" },
+      "words": [
+        { "es": "la receta", "en": "prescription", "nl": "recept" },
+        { "es": "la farmacia", "en": "pharmacy", "nl": "apotheek" },
+        { "es": "la medicina", "en": "medicine", "nl": "geneesmiddel" },
+        { "es": "la cápsula", "en": "capsule", "nl": "capsule" },
+        { "es": "la pastilla, el comprimido", "en": "tablet", "nl": "tablet" },
+        { "es": "la píldora", "en": "pill", "nl": "pil" },
+        { "es": "la dosis", "en": "dose", "nl": "dosis" },
+        { "es": "la gota", "en": "drop", "nl": "druppel" },
+        { "es": "la inyección", "en": "injection", "nl": "injectie" },
+        { "es": "la jeringa", "en": "syringe", "nl": "spuit" },
+        { "es": "la venda, el vendaje", "en": "bandage", "nl": "verband" },
+        { "es": "el yeso, la escayola", "en": "plaster cast", "nl": "gips" },
+        { "es": "el punto, la sutura", "en": "stitch, suture", "nl": "hechting" },
+        { "es": "el termómetro", "en": "thermometer", "nl": "thermometer" }
+      ]
+    }
+  ]
+}

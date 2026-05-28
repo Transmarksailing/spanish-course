@@ -1,0 +1,45 @@
+{
+  "slug": "spanish-speaking-countries",
+  "year": "cours",
+  "title": {
+    "en": "Spanish-Speaking Countries",
+    "nl": "Spaanstalige Landen"
+  },
+  "layout": "single",
+  "categories": [
+    {
+      "name": { "en": "Countries and their Capitals", "nl": "Landen en hun hoofdsteden" },
+      "words": [
+        { "es": "España — Madrid", "en": "Spain — Madrid", "nl": "Spanje — Madrid" },
+        { "es": "Chile — Santiago", "en": "Chile — Santiago", "nl": "Chili — Santiago" },
+        { "es": "Argentina — Buenos Aires", "en": "Argentina — Buenos Aires", "nl": "Argentinië — Buenos Aires" },
+        { "es": "Venezuela — Caracas", "en": "Venezuela — Caracas", "nl": "Venezuela — Caracas" },
+        { "es": "Paraguay — Asunción", "en": "Paraguay — Asunción", "nl": "Paraguay — Asunción" },
+        { "es": "Uruguay — Montevideo", "en": "Uruguay — Montevideo", "nl": "Uruguay — Montevideo" },
+        { "es": "México — Ciudad de México", "en": "Mexico — Mexico City", "nl": "Mexico — Mexico-Stad" },
+        { "es": "Panamá — Ciudad de Panamá", "en": "Panama — Panama City", "nl": "Panama — Panama-Stad" },
+        { "es": "Guatemala — La Nueva Guatemala de la Asunción", "en": "Guatemala — Guatemala City", "nl": "Guatemala — Guatemala-Stad" },
+        { "es": "Cuba — La Habana", "en": "Cuba — Havana", "nl": "Cuba — Havana" },
+        { "es": "Nicaragua — Managua", "en": "Nicaragua — Managua", "nl": "Nicaragua — Managua" },
+        { "es": "Perú — Lima", "en": "Peru — Lima", "nl": "Peru — Lima" },
+        { "es": "Colombia — Bogotá", "en": "Colombia — Bogotá", "nl": "Colombia — Bogotá" },
+        { "es": "Ecuador — Quito", "en": "Ecuador — Quito", "nl": "Ecuador — Quito" },
+        { "es": "Bolivia — La Paz / Sucre", "en": "Bolivia — La Paz / Sucre", "nl": "Bolivia — La Paz / Sucre" },
+        { "es": "Honduras — Tegucigalpa", "en": "Honduras — Tegucigalpa", "nl": "Honduras — Tegucigalpa" },
+        { "es": "La República Dominicana — Santo Domingo", "en": "Dominican Republic — Santo Domingo", "nl": "Dominicaanse Republiek — Santo Domingo" },
+        { "es": "El Salvador — San Salvador", "en": "El Salvador — San Salvador", "nl": "El Salvador — San Salvador" },
+        { "es": "Costa Rica — San José", "en": "Costa Rica — San José", "nl": "Costa Rica — San José" },
+        { "es": "Guinea Ecuatorial — Malabo", "en": "Equatorial Guinea — Malabo", "nl": "Equatoriaal-Guinea — Malabo" },
+        { "es": "Puerto Rico — San Juan", "en": "Puerto Rico — San Juan", "nl": "Puerto Rico — San Juan" }
+      ]
+    },
+    {
+      "name": { "en": "Languages by Speakers (worldwide)", "nl": "Talen op aantal sprekers (wereldwijd)" },
+      "words": [
+        { "es": "Mandarín — 1.100 millones de hablantes", "en": "Mandarin — 1.1 billion speakers", "nl": "Mandarijn — 1,1 miljard sprekers" },
+        { "es": "Inglés — 1.500 millones de hablantes", "en": "English — 1.5 billion speakers", "nl": "Engels — 1,5 miljard sprekers" },
+        { "es": "Castellano — 600 millones de hablantes", "en": "Spanish — 600 million speakers", "nl": "Spaans — 600 miljoen sprekers" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "famous-spaniards",
+  "year": "cours",
+  "title": {
+    "en": "Famous Spaniards",
+    "nl": "Beroemde Spanjaarden"
+  },
+  "layout": "single",
+  "categories": [
+    {
+      "name": { "en": "Actors & Actresses", "nl": "Acteurs & Actrices" },
+      "words": [
+        { "es": "Antonio Banderas", "en": "actor (Málaga)", "nl": "acteur (Málaga)" },
+        { "es": "Javier Bardem", "en": "Oscar-winning actor", "nl": "Oscar-winnaar acteur" },
+        { "es": "Penélope Cruz", "en": "Oscar-winning actress", "nl": "Oscar-winnares actrice" },
+        { "es": "Elena Anaya", "en": "actress", "nl": "actrice" }
+      ]
+    },
+    {
+      "name": { "en": "Film Directors", "nl": "Filmregisseurs" },
+      "words": [
+        { "es": "Pedro Almodóvar", "en": "iconic Spanish director", "nl": "iconisch Spaans regisseur" },
+        { "es": "J.A. Bayona", "en": "director (The Impossible)", "nl": "regisseur (The Impossible)" }
+      ]
+    },
+    {
+      "name": { "en": "Singers & Presenters", "nl": "Zangers & Presentatoren" },
+      "words": [
+        { "es": "Julio Iglesias", "en": "world-famous singer", "nl": "wereldberoemde zanger" },
+        { "es": "Alejandro Sanz", "en": "singer-songwriter", "nl": "zanger-tekstdichter" },
+        { "es": "Pablo Motos", "en": "TV presenter (El Hormiguero)", "nl": "tv-presentator (El Hormiguero)" }
+      ]
+    },
+    {
+      "name": { "en": "The Royal Family", "nl": "Het Koninklijk Huis" },
+      "words": [
+        { "es": "Rey Felipe VI de Borbón", "en": "King Felipe VI of Bourbon", "nl": "Koning Felipe VI van Bourbon" },
+        { "es": "Reina consorte Letizia Ortiz", "en": "Queen consort Letizia Ortiz", "nl": "Koningin-gemalin Letizia Ortiz" },
+        { "es": "Princesa Leonor de Asturias", "en": "Princess Leonor of Asturias (heir)", "nl": "Prinses Leonor van Asturië (troonopvolger)" },
+        { "es": "Rey Juan Carlos I", "en": "former King Juan Carlos I", "nl": "voormalig koning Juan Carlos I" },
+        { "es": "Reina Sofía de España", "en": "Queen Sofía of Spain", "nl": "Koningin Sofía van Spanje" }
+      ]
+    },
+    {
+      "name": { "en": "Politicians", "nl": "Politici" },
+      "words": [
+        { "es": "Pedro Sánchez Pérez-Castejón (PSOE)", "en": "current Prime Minister", "nl": "huidige premier" },
+        { "es": "Mariano Rajoy Brey (PP)", "en": "former PM", "nl": "voormalig premier" },
+        { "es": "José Luis Rodríguez Zapatero (PSOE)", "en": "former PM", "nl": "voormalig premier" },
+        { "es": "José María Aznar (PP)", "en": "former PM", "nl": "voormalig premier" }
+      ]
+    },
+    {
+      "name": { "en": "Tennis Players", "nl": "Tennissers" },
+      "words": [
+        { "es": "Rafa Nadal", "en": "22-time Grand Slam champion", "nl": "22-voudig Grand Slam-winnaar" },
+        { "es": "Carlos Alcaraz", "en": "world #1 (born 2003)", "nl": "wereld nr. 1 (geboren 2003)" },
+        { "es": "David Ferrer", "en": "former top-5 player", "nl": "voormalig top-5 speler" }
+      ]
+    },
+    {
+      "name": { "en": "Footballers", "nl": "Voetballers" },
+      "words": [
+        { "es": "Xavi Hernández", "en": "midfielder & coach", "nl": "middenvelder & coach" },
+        { "es": "Gavi (Pablo Páez Gavira)", "en": "Barça midfielder", "nl": "Barça middenvelder" },
+        { "es": "Pedri (Pedro González López)", "en": "Barça midfielder", "nl": "Barça middenvelder" },
+        { "es": "Gerard Piqué", "en": "former defender", "nl": "voormalig verdediger" },
+        { "es": "Lamine Yamal", "en": "Barça forward (teen prodigy)", "nl": "Barça aanvaller (jonge ster)" }
+      ]
+    },
+    {
+      "name": { "en": "Motorsport & Basketball", "nl": "Autosport & Basketbal" },
+      "words": [
+        { "es": "Fernando Alonso", "en": "2× F1 World Champion", "nl": "2× F1 wereldkampioen" },
+        { "es": "Carlos Sainz", "en": "F1 driver (Ferrari)", "nl": "F1-coureur (Ferrari)" },
+        { "es": "Marc Márquez", "en": "MotoGP World Champion", "nl": "MotoGP wereldkampioen" },
+        { "es": "Pau Gasol", "en": "NBA Hall of Fame basketball player", "nl": "NBA Hall of Fame basketballer" }
+      ]
+    },
+    {
+      "name": { "en": "Artists & Architects", "nl": "Kunstenaars & Architecten" },
+      "words": [
+        { "es": "Pablo Picasso", "en": "co-founder of Cubism", "nl": "medegrondlegger van kubisme" },
+        { "es": "Salvador Dalí", "en": "surrealist painter", "nl": "surrealistisch schilder" },
+        { "es": "Joan Miró", "en": "surrealist painter", "nl": "surrealistisch schilder" },
+        { "es": "Francisco Goya", "en": "Romantic painter", "nl": "romantisch schilder" },
+        { "es": "Diego Velázquez", "en": "Baroque master", "nl": "barokmeester" },
+        { "es": "Joaquín Sorolla", "en": "luminist painter", "nl": "luminist schilder" },
+        { "es": "Antonio Gaudí", "en": "modernist architect (Sagrada Família)", "nl": "modernistisch architect (Sagrada Família)" }
+      ]
+    },
+    {
+      "name": { "en": "Writers", "nl": "Schrijvers" },
+      "words": [
+        { "es": "Miguel de Cervantes", "en": "author of Don Quixote", "nl": "auteur van Don Quichot" }
+      ]
+    }
+  ]
+}

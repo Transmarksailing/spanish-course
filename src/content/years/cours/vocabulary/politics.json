@@ -1,0 +1,88 @@
+{
+  "slug": "politics",
+  "year": "cours",
+  "title": {
+    "en": "Politics & Government",
+    "nl": "Politiek & Overheid"
+  },
+  "categories": [
+    {
+      "name": { "en": "Laws and Rights", "nl": "Wetten en rechten" },
+      "words": [
+        { "es": "la ley", "en": "law", "nl": "wet" },
+        { "es": "el derecho", "en": "right", "nl": "recht" },
+        { "es": "la regla", "en": "rule", "nl": "regel" },
+        { "es": "la constitución", "en": "constitution", "nl": "grondwet" },
+        { "es": "la enmienda", "en": "amendment", "nl": "amendement" },
+        { "es": "la legislación", "en": "legislation", "nl": "wetgeving" },
+        { "es": "el decreto", "en": "decree", "nl": "decreet" },
+        { "es": "la proposición", "en": "proposal", "nl": "voorstel" },
+        { "es": "la reforma", "en": "reform", "nl": "hervorming" }
+      ]
+    },
+    {
+      "name": { "en": "People and Roles", "nl": "Mensen en rollen" },
+      "words": [
+        { "es": "el ciudadano", "en": "citizen", "nl": "burger" },
+        { "es": "el funcionario público", "en": "public official", "nl": "ambtenaar" },
+        { "es": "el político", "en": "politician", "nl": "politicus" },
+        { "es": "el delegado, el diputado", "en": "delegate, member of parliament", "nl": "afgevaardigde, parlementslid" },
+        { "es": "el/la constituyente", "en": "constituent member", "nl": "lid van grondwetgevende vergadering" },
+        { "es": "el/la solicitante de asilo", "en": "asylum seeker", "nl": "asielzoeker" }
+      ]
+    },
+    {
+      "name": { "en": "Government and Administration", "nl": "Overheid en bestuur" },
+      "words": [
+        { "es": "el gobierno", "en": "government", "nl": "regering" },
+        { "es": "la administración", "en": "administration", "nl": "bestuur" },
+        { "es": "el ministerio", "en": "ministry", "nl": "ministerie" },
+        { "es": "el Ministerio de Hacienda", "en": "Ministry of Finance", "nl": "Ministerie van Financiën" },
+        { "es": "la región", "en": "region", "nl": "regio" },
+        { "es": "los asuntos locales", "en": "local affairs", "nl": "lokale zaken" },
+        { "es": "la política exterior", "en": "foreign policy", "nl": "buitenlands beleid" }
+      ]
+    },
+    {
+      "name": { "en": "Political Concepts", "nl": "Politieke begrippen" },
+      "words": [
+        { "es": "la mayoría", "en": "majority", "nl": "meerderheid" },
+        { "es": "la minoría", "en": "minority", "nl": "minderheid" },
+        { "es": "la coalición", "en": "coalition", "nl": "coalitie" },
+        { "es": "la igualdad de oportunidades", "en": "equal opportunities", "nl": "gelijke kansen" },
+        { "es": "la libertad", "en": "freedom", "nl": "vrijheid" },
+        { "es": "la libertad de expresión", "en": "freedom of speech", "nl": "vrijheid van meningsuiting" },
+        { "es": "la cooperación", "en": "cooperation", "nl": "samenwerking" },
+        { "es": "la solidaridad", "en": "solidarity", "nl": "solidariteit" },
+        { "es": "el apoyo", "en": "support", "nl": "steun" },
+        { "es": "el poder", "en": "power", "nl": "macht" },
+        { "es": "la opinión pública", "en": "public opinion", "nl": "publieke opinie" },
+        { "es": "el veto", "en": "veto", "nl": "veto" },
+        { "es": "el bienestar", "en": "welfare", "nl": "welzijn" },
+        { "es": "el impuesto", "en": "tax", "nl": "belasting" },
+        { "es": "la bandera", "en": "flag", "nl": "vlag" }
+      ]
+    },
+    {
+      "name": { "en": "Social Classes", "nl": "Sociale klassen" },
+      "words": [
+        { "es": "la clase media", "en": "middle class", "nl": "middenklasse" },
+        { "es": "la clase obrera", "en": "working class", "nl": "arbeidersklasse" }
+      ]
+    },
+    {
+      "name": { "en": "Crises and Conflicts", "nl": "Crises en conflicten" },
+      "words": [
+        { "es": "la guerra civil", "en": "civil war", "nl": "burgeroorlog" },
+        { "es": "el golpe de estado", "en": "coup d'état", "nl": "staatsgreep" },
+        { "es": "la corrupción", "en": "corruption", "nl": "corruptie" },
+        { "es": "el crimen", "en": "crime", "nl": "misdaad" },
+        { "es": "la crisis", "en": "crisis", "nl": "crisis" },
+        { "es": "el debate", "en": "debate", "nl": "debat" },
+        { "es": "el discurso", "en": "speech", "nl": "toespraak" },
+        { "es": "la manifestación", "en": "demonstration", "nl": "demonstratie" },
+        { "es": "la reunión", "en": "meeting", "nl": "vergadering" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "animals",
+  "year": "cours",
+  "title": {
+    "en": "The Animal Kingdom",
+    "nl": "Het Dierenrijk"
+  },
+  "categories": [
+    {
+      "name": { "en": "On the Farm and at Home", "nl": "Op de boerderij en thuis" },
+      "words": [
+        { "es": "el pájaro", "en": "bird", "nl": "vogel" },
+        { "es": "el toro", "en": "bull", "nl": "stier" },
+        { "es": "el gato", "en": "cat", "nl": "kat" },
+        { "es": "el pollo", "en": "chicken", "nl": "kip (vlees)" },
+        { "es": "el ciervo", "en": "deer", "nl": "hert" },
+        { "es": "el perro", "en": "dog", "nl": "hond" },
+        { "es": "la vaca", "en": "cow", "nl": "koe" },
+        { "es": "el pato", "en": "duck", "nl": "eend" },
+        { "es": "el jerbo", "en": "gerbil", "nl": "woestijnrat" },
+        { "es": "la cabra", "en": "goat", "nl": "geit" },
+        { "es": "el pez de colores", "en": "goldfish", "nl": "goudvis" },
+        { "es": "el ganso", "en": "goose", "nl": "gans" },
+        { "es": "el hámster", "en": "hamster", "nl": "hamster" },
+        { "es": "el erizo", "en": "hedgehog", "nl": "egel" },
+        { "es": "la gallina", "en": "hen", "nl": "kip" },
+        { "es": "el caballo", "en": "horse", "nl": "paard" },
+        { "es": "la yegua", "en": "mare", "nl": "merrie" },
+        { "es": "el cordero", "en": "lamb", "nl": "lam" },
+        { "es": "el búho", "en": "owl", "nl": "uil" },
+        { "es": "el buey", "en": "ox", "nl": "os" },
+        { "es": "el cerdo", "en": "pig", "nl": "varken" },
+        { "es": "el conejo", "en": "rabbit", "nl": "konijn" },
+        { "es": "la rata", "en": "rat", "nl": "rat" },
+        { "es": "el gallo", "en": "rooster", "nl": "haan" },
+        { "es": "la oveja", "en": "sheep", "nl": "schaap" },
+        { "es": "el pavo", "en": "turkey", "nl": "kalkoen" }
+      ]
+    },
+    {
+      "name": { "en": "In the Sea", "nl": "In de zee" },
+      "words": [
+        { "es": "el caimán", "en": "alligator", "nl": "alligator" },
+        { "es": "el cangrejo", "en": "crab", "nl": "krab" },
+        { "es": "el cocodrilo", "en": "crocodile", "nl": "krokodil" },
+        { "es": "el delfín", "en": "dolphin", "nl": "dolfijn" },
+        { "es": "el pez", "en": "fish", "nl": "vis" },
+        { "es": "el pulpo", "en": "octopus", "nl": "octopus" },
+        { "es": "el pingüino", "en": "penguin", "nl": "pinguïn" },
+        { "es": "la foca", "en": "seal", "nl": "zeehond" },
+        { "es": "el tiburón", "en": "shark", "nl": "haai" },
+        { "es": "el caracol", "en": "snail", "nl": "slak" },
+        { "es": "la estrella de mar", "en": "starfish", "nl": "zeester" },
+        { "es": "la tortuga", "en": "turtle", "nl": "schildpad" },
+        { "es": "la ballena", "en": "whale", "nl": "walvis" }
+      ]
+    },
+    {
+      "name": { "en": "At the Zoo", "nl": "In de dierentuin" },
+      "words": [
+        { "es": "el oso", "en": "bear", "nl": "beer" },
+        { "es": "el chimpancé", "en": "chimpanzee", "nl": "chimpansee" },
+        { "es": "el elefante", "en": "elephant", "nl": "olifant" },
+        { "es": "la jirafa", "en": "giraffe", "nl": "giraffe" },
+        { "es": "el gorila", "en": "gorilla", "nl": "gorilla" },
+        { "es": "el canguro", "en": "kangaroo", "nl": "kangoeroe" },
+        { "es": "el león", "en": "lion", "nl": "leeuw" },
+        { "es": "el mono", "en": "monkey", "nl": "aap" },
+        { "es": "la serpiente", "en": "snake", "nl": "slang" },
+        { "es": "el tigre", "en": "tiger", "nl": "tijger" },
+        { "es": "el lobo", "en": "wolf", "nl": "wolf" },
+        { "es": "la cebra", "en": "zebra", "nl": "zebra" }
+      ]
+    },
+    {
+      "name": { "en": "Bugs and Insects", "nl": "Insecten en kruipdieren" },
+      "words": [
+        { "es": "la hormiga", "en": "ant", "nl": "mier" },
+        { "es": "el bicho", "en": "bug", "nl": "ongedierte" },
+        { "es": "la abeja", "en": "bee", "nl": "bij" },
+        { "es": "el escarabajo", "en": "beetle", "nl": "kever" },
+        { "es": "el saltamontes", "en": "grasshopper", "nl": "sprinkhaan" },
+        { "es": "la mariquita", "en": "ladybug", "nl": "lieveheersbeestje" },
+        { "es": "el mosquito", "en": "mosquito", "nl": "mug" },
+        { "es": "la langosta", "en": "locust", "nl": "sprinkhaan (zwerm)" },
+        { "es": "la polilla", "en": "moth", "nl": "mot" },
+        { "es": "el escorpión", "en": "scorpion", "nl": "schorpioen" },
+        { "es": "la mariposa", "en": "butterfly", "nl": "vlinder" },
+        { "es": "la oruga", "en": "caterpillar", "nl": "rups" },
+        { "es": "la cucaracha", "en": "cockroach", "nl": "kakkerlak" },
+        { "es": "el grillo", "en": "cricket", "nl": "krekel" },
+        { "es": "la pulga", "en": "flea", "nl": "vlo" },
+        { "es": "la libélula", "en": "dragonfly", "nl": "libelle" },
+        { "es": "la mosca", "en": "fly", "nl": "vlieg" },
+        { "es": "la araña", "en": "spider", "nl": "spin" },
+        { "es": "la termita", "en": "termite", "nl": "termiet" },
+        { "es": "la garrapata", "en": "tick", "nl": "teek" },
+        { "es": "el gusano", "en": "worm", "nl": "worm" },
+        { "es": "la cigarra", "en": "cicada", "nl": "cicade" }
+      ]
+    }
+  ]
+}

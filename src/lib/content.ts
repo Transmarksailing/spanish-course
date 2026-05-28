@@ -26,6 +26,7 @@ import multiTensePractice from "@/content/years/cours/lessons/multi-tense-practi
 import reportedSpeech from "@/content/years/cours/lessons/reported-speech.json";
 import stemChangingVerbs from "@/content/years/cours/lessons/stem-changing-verbs.json";
 import vozPasiva from "@/content/years/cours/lessons/voz-pasiva.json";
+import objectPronouns from "@/content/years/cours/lessons/object-pronouns.json";
 
 // Vocabulary
 import verbs from "@/content/years/cours/vocabulary/verbs.json";
@@ -53,6 +54,13 @@ import houseObjects from "@/content/years/cours/vocabulary/house-objects.json";
 import expresionesColoquiales from "@/content/years/cours/vocabulary/expresiones-coloquiales.json";
 import expresionesColoquialesII from "@/content/years/cours/vocabulary/expresiones-coloquiales-ii.json";
 import laJerga from "@/content/years/cours/vocabulary/la-jerga.json";
+import animals from "@/content/years/cours/vocabulary/animals.json";
+import spanishSpeakingCountries from "@/content/years/cours/vocabulary/spanish-speaking-countries.json";
+import spanishRegions from "@/content/years/cours/vocabulary/spanish-regions.json";
+import famousSpaniards from "@/content/years/cours/vocabulary/famous-spaniards.json";
+import religion from "@/content/years/cours/vocabulary/religion.json";
+import politics from "@/content/years/cours/vocabulary/politics.json";
+import doctorOffice from "@/content/years/cours/vocabulary/doctor-office.json";
 
 const yearsMap: Record<string, YearIndex> = {
   cours: coursIndex as unknown as YearIndex,
@@ -82,6 +90,7 @@ const lessonsMap: Record<string, Record<string, Lesson>> = {
     "reported-speech": reportedSpeech as unknown as Lesson,
     "stem-changing-verbs": stemChangingVerbs as unknown as Lesson,
     "voz-pasiva": vozPasiva as unknown as Lesson,
+    "object-pronouns": objectPronouns as unknown as Lesson,
   },
 };
 
@@ -112,6 +121,13 @@ const vocabularyMap: Record<string, Record<string, VocabularyList>> = {
     "expresiones-coloquiales": expresionesColoquiales as unknown as VocabularyList,
     "expresiones-coloquiales-ii": expresionesColoquialesII as unknown as VocabularyList,
     "la-jerga": laJerga as unknown as VocabularyList,
+    "animals": animals as unknown as VocabularyList,
+    "spanish-speaking-countries": spanishSpeakingCountries as unknown as VocabularyList,
+    "spanish-regions": spanishRegions as unknown as VocabularyList,
+    "famous-spaniards": famousSpaniards as unknown as VocabularyList,
+    "religion": religion as unknown as VocabularyList,
+    "politics": politics as unknown as VocabularyList,
+    "doctor-office": doctorOffice as unknown as VocabularyList,
   },
 };
 

@@ -1,0 +1,108 @@
+{
+  "slug": "religion",
+  "year": "cours",
+  "title": {
+    "en": "Religion",
+    "nl": "Religie"
+  },
+  "categories": [
+    {
+      "name": { "en": "Beliefs and Believers", "nl": "Geloof en gelovigen" },
+      "words": [
+        { "es": "la creencia", "en": "belief", "nl": "geloof" },
+        { "es": "el/la creyente", "en": "believer", "nl": "gelovige" },
+        { "es": "el seguidor", "en": "follower", "nl": "volgeling" },
+        { "es": "el agnóstico", "en": "agnostic", "nl": "agnost" },
+        { "es": "el anglicano", "en": "Anglican", "nl": "anglicaan" },
+        { "es": "el/la protestante", "en": "Protestant", "nl": "protestant" },
+        { "es": "el ateísmo", "en": "atheism", "nl": "atheïsme" },
+        { "es": "el ateo", "en": "atheist", "nl": "atheïst" },
+        { "es": "el/la hindú", "en": "Hindu", "nl": "hindoe" },
+        { "es": "el hinduismo", "en": "Hinduism", "nl": "hindoeïsme" },
+        { "es": "el judío", "en": "Jew", "nl": "jood" },
+        { "es": "el judaísmo", "en": "Judaism", "nl": "jodendom" },
+        { "es": "el hebreo", "en": "Hebrew", "nl": "Hebreeuws" },
+        { "es": "el/la budista", "en": "Buddhist", "nl": "boeddhist" },
+        { "es": "el budismo", "en": "Buddhism", "nl": "boeddhisme" },
+        { "es": "el católico", "en": "Catholic", "nl": "katholiek" },
+        { "es": "el cristiano", "en": "Christian", "nl": "christen" },
+        { "es": "el musulmán", "en": "Muslim", "nl": "moslim" },
+        { "es": "el Islam", "en": "Islam", "nl": "islam" },
+        { "es": "el pagano", "en": "pagan", "nl": "heiden" }
+      ]
+    },
+    {
+      "name": { "en": "Divine Figures", "nl": "Goddelijke figuren" },
+      "words": [
+        { "es": "Dios", "en": "God", "nl": "God" },
+        { "es": "el dios", "en": "a god", "nl": "een god" },
+        { "es": "la diosa", "en": "goddess", "nl": "godin" },
+        { "es": "Jesús / Cristo", "en": "Jesus / Christ", "nl": "Jezus / Christus" },
+        { "es": "el Mesías", "en": "the Messiah", "nl": "de Messias" },
+        { "es": "el Salvador", "en": "the Saviour", "nl": "de Verlosser" },
+        { "es": "el Señor", "en": "the Lord", "nl": "de Heer" },
+        { "es": "Jehová", "en": "Jehovah", "nl": "Jehova" },
+        { "es": "el/la testigo de Jehová", "en": "Jehovah's Witness", "nl": "Jehova's Getuige" },
+        { "es": "Buda", "en": "Buddha", "nl": "Boeddha" },
+        { "es": "Mahoma", "en": "Mohammed", "nl": "Mohammed" },
+        { "es": "Satanás", "en": "Satan", "nl": "Satan" },
+        { "es": "el espíritu santo", "en": "Holy Spirit", "nl": "Heilige Geest" },
+        { "es": "la Trinidad", "en": "the Trinity", "nl": "de Drie-eenheid" }
+      ]
+    },
+    {
+      "name": { "en": "Religious Concepts", "nl": "Religieuze begrippen" },
+      "words": [
+        { "es": "la cruz", "en": "cross", "nl": "kruis" },
+        { "es": "el/la profeta", "en": "prophet", "nl": "profeet" },
+        { "es": "la conciencia", "en": "conscience", "nl": "geweten" },
+        { "es": "la conversión", "en": "conversion", "nl": "bekering" },
+        { "es": "el discípulo", "en": "disciple", "nl": "discipel" },
+        { "es": "la doctrina", "en": "doctrine", "nl": "leer" },
+        { "es": "el deber, la obligación", "en": "duty, obligation", "nl": "plicht" },
+        { "es": "el mal, la maldad", "en": "evil", "nl": "kwaad" },
+        { "es": "la fe", "en": "faith", "nl": "geloof" },
+        { "es": "el ayuno", "en": "fasting", "nl": "vasten" },
+        { "es": "el perdón", "en": "forgiveness", "nl": "vergeving" },
+        { "es": "la libre voluntad", "en": "free will", "nl": "vrije wil" },
+        { "es": "el cielo, el paraíso", "en": "heaven, paradise", "nl": "hemel, paradijs" },
+        { "es": "el infierno", "en": "hell", "nl": "hel" },
+        { "es": "la esperanza", "en": "hope", "nl": "hoop" },
+        { "es": "el (ser) humano", "en": "human (being)", "nl": "mens" },
+        { "es": "la infalibilidad", "en": "infallibility", "nl": "onfeilbaarheid" },
+        { "es": "la misericordia", "en": "mercy", "nl": "barmhartigheid" },
+        { "es": "el mensaje", "en": "message", "nl": "boodschap" },
+        { "es": "el mensajero", "en": "messenger", "nl": "boodschapper" },
+        { "es": "la moralidad", "en": "morality", "nl": "moraal" },
+        { "es": "el mito", "en": "myth", "nl": "mythe" },
+        { "es": "el alma", "en": "soul", "nl": "ziel" },
+        { "es": "la teología", "en": "theology", "nl": "theologie" },
+        { "es": "la verdad", "en": "truth", "nl": "waarheid" },
+        { "es": "la vergüenza", "en": "shame", "nl": "schaamte" },
+        { "es": "la visión", "en": "vision", "nl": "visioen" },
+        { "es": "la vocación", "en": "vocation, calling", "nl": "roeping" }
+      ]
+    },
+    {
+      "name": { "en": "Sacred Texts", "nl": "Heilige geschriften" },
+      "words": [
+        { "es": "el Viejo Testamento", "en": "Old Testament", "nl": "Oude Testament" },
+        { "es": "el Nuevo Testamento", "en": "New Testament", "nl": "Nieuwe Testament" },
+        { "es": "el Corán", "en": "Quran", "nl": "Koran" },
+        { "es": "el salmo", "en": "psalm", "nl": "psalm" },
+        { "es": "la escritura", "en": "scripture", "nl": "schrift" }
+      ]
+    },
+    {
+      "name": { "en": "Religious Verbs", "nl": "Religieuze werkwoorden" },
+      "words": [
+        { "es": "creer (en)", "en": "to believe (in)", "nl": "geloven (in)" },
+        { "es": "ayunar", "en": "to fast", "nl": "vasten" },
+        { "es": "perdonar", "en": "to forgive", "nl": "vergeven" },
+        { "es": "arrodillarse", "en": "to kneel", "nl": "knielen" },
+        { "es": "santificar", "en": "to sanctify", "nl": "heiligen" },
+        { "es": "salvar", "en": "to save", "nl": "redden" }
+      ]
+    }
+  ]
+}

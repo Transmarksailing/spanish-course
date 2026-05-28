@@ -180,9 +180,14 @@
       "order": 21
     },
     {
+      "slug": "object-pronouns",
+      "title": { "en": "Object Pronouns", "nl": "Voornaamwoordobjecten", "es": "Pronombres Objeto" },
+      "order": 22
+    },
+    {
       "slug": "multi-tense-practice",
       "title": { "en": "Multi-Tense Practice", "nl": "Oefening Alle Tijden", "es": "Práctica de Todos los Tiempos" },
-      "order": 22
+      "order": 23
     }
   ],
   "vocabulary": [
@@ -255,6 +260,13 @@
     { "slug": "house-objects", "title": { "en": "House Objects", "nl": "Huisvoorwerpen" } },
     { "slug": "expresiones-coloquiales", "title": { "en": "Colloquial Expressions I", "nl": "Spreekwoorden & Uitdrukkingen I" } },
     { "slug": "expresiones-coloquiales-ii", "title": { "en": "Colloquial Expressions II", "nl": "Spreekwoorden & Uitdrukkingen II" } },
-    { "slug": "la-jerga", "title": { "en": "La Jerga — Slang & Swear Words", "nl": "La Jerga — Straattaal & Scheldwoorden" } }
+    { "slug": "la-jerga", "title": { "en": "La Jerga — Slang & Swear Words", "nl": "La Jerga — Straattaal & Scheldwoorden" } },
+    { "slug": "animals", "title": { "en": "The Animal Kingdom", "nl": "Het Dierenrijk" } },
+    { "slug": "doctor-office", "title": { "en": "At the Doctor's Office", "nl": "Bij de Dokter" } },
+    { "slug": "religion", "title": { "en": "Religion", "nl": "Religie" } },
+    { "slug": "politics", "title": { "en": "Politics & Government", "nl": "Politiek & Overheid" } },
+    { "slug": "spanish-speaking-countries", "title": { "en": "Spanish-Speaking Countries", "nl": "Spaanstalige Landen" } },
+    { "slug": "spanish-regions", "title": { "en": "Spanish Autonomous Regions", "nl": "Spaanse Autonome Regio's" } },
+    { "slug": "famous-spaniards", "title": { "en": "Famous Spaniards", "nl": "Beroemde Spanjaarden" } }
   ]
 }
