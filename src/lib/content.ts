@@ -27,6 +27,7 @@ import reportedSpeech from "@/content/years/cours/lessons/reported-speech.json";
 import stemChangingVerbs from "@/content/years/cours/lessons/stem-changing-verbs.json";
 import vozPasiva from "@/content/years/cours/lessons/voz-pasiva.json";
 import objectPronouns from "@/content/years/cours/lessons/object-pronouns.json";
+import top20Verbs from "@/content/years/cours/lessons/top-20-verbs.json";
 
 // Vocabulary
 import verbs from "@/content/years/cours/vocabulary/verbs.json";
@@ -92,6 +93,7 @@ const lessonsMap: Record<string, Record<string, Lesson>> = {
     "stem-changing-verbs": stemChangingVerbs as unknown as Lesson,
     "voz-pasiva": vozPasiva as unknown as Lesson,
     "object-pronouns": objectPronouns as unknown as Lesson,
+    "top-20-verbs": top20Verbs as unknown as Lesson,
   },
 };
 

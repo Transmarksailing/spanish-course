@@ -185,9 +185,14 @@
       "order": 22
     },
     {
+      "slug": "top-20-verbs",
+      "title": { "en": "Top 20 Verbs — All Tenses", "nl": "Top 20 Werkwoorden — Alle Tijden", "es": "Top 20 Verbos — Todos los Tiempos" },
+      "order": 23
+    },
+    {
       "slug": "multi-tense-practice",
       "title": { "en": "Multi-Tense Practice", "nl": "Oefening Alle Tijden", "es": "Práctica de Todos los Tiempos" },
-      "order": 23
+      "order": 24
     }
   ],
   "vocabulary": [
