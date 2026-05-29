@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useCallback, useEffect, useRef } from "react";
+import { prepareSpanishText } from "@/lib/speech-prep";
 
 interface SpeakButtonProps {
   text: string;
@@ -8,46 +9,67 @@ interface SpeakButtonProps {
   className?: string;
 }
 
-// Preferred female Spanish voices, ranked by quality across platforms
-const PREFERRED_VOICES = [
-  // Top-tier neural / online voices (Edge, Chrome, mobile)
-  "Microsoft Elvira Online",   // Windows 10/11 neural ES
-  "Microsoft Ximena Online",   // Windows neural ES (Mexico)
-  "Google español de España",  // Chrome high-quality
-  "Google español",            // Chrome standard
-
-  // macOS / iOS premium voices
-  "Mónica",    // Castilian Spanish (macOS)
-  "Paulina",   // Mexican Spanish (macOS)
-  "Jimena",    // Mexican Spanish (iOS)
-  "Marisol",   // Spanish
-
-  // Microsoft Edge default voices (Windows)
-  "Microsoft Elvira",   // Spanish ES
-  "Microsoft Helena",   // Spanish ES
-  "Microsoft Laura",    // Spanish ES
-  "Microsoft Sabina",   // Spanish MX
-  "Microsoft Esperanza", // Spanish MX
+// Voorkeurstemmen voor Castiliaans Spaans (zoals gesproken in Valencia).
+// Eerst hoogkwaliteit neurale stemmen die "es-ES" exact aanhouden, dan macOS
+// premium Mónica, dan Microsoft default ES-stemmen. Latijns-Amerikaanse
+// stemmen (Paulina, Jimena, Sabina, Esperanza, Ximena) staan bewust onderaan
+// of zijn weggelaten — die hebben een herkenbaar accent dat afwijkt van wat
+// in Valencia gesproken wordt.
+const CASTILIAN_VOICES = [
+  // Hoogkwaliteit neuraal (Edge, Chrome)
+  "Microsoft Elvira Online (Natural)",
+  "Microsoft Elvira Online",
+  "Microsoft Alvaro Online",            // mannelijk maar uitstekende es-ES kwaliteit
+  "Google español de España",
+  "Microsoft Abril Online",
+  "Microsoft Vera Online",
+  // macOS / iOS premium
+  "Mónica",                              // Castiliaans (macOS standaard)
+  "Marisol",
+  // Microsoft default ES-ES
+  "Microsoft Elvira",
+  "Microsoft Helena",
+  "Microsoft Laura",
 ];
 
-function findFemaleSpanishVoice(voices: SpeechSynthesisVoice[], lang: string): SpeechSynthesisVoice | null {
-  const spanishVoices = voices.filter((v) => v.lang.startsWith("es"));
-  if (spanishVoices.length === 0) return null;
+const LATAM_FALLBACK = [
+  // Alleen als er geen es-ES stem is — accent klinkt anders
+  "Microsoft Sabina",
+  "Microsoft Esperanza",
+  "Microsoft Ximena Online",
+  "Google español",
+  "Paulina",
+  "Jimena",
+];
 
-  // Try preferred voices first (in order of quality)
-  for (const name of PREFERRED_VOICES) {
-    const match = spanishVoices.find((v) => v.name.includes(name));
+function findCastilianVoice(voices: SpeechSynthesisVoice[]): SpeechSynthesisVoice | null {
+  if (voices.length === 0) return null;
+
+  // Stap 1: alleen es-ES voices (Castiliaans)
+  const esES = voices.filter((v) => v.lang.toLowerCase() === "es-es");
+
+  for (const name of CASTILIAN_VOICES) {
+    const match = esES.find((v) => v.name.includes(name));
     if (match) return match;
   }
 
-  // Prefer voices that match the exact locale (es-ES)
-  const localeMatch = spanishVoices.find((v) => v.lang === lang);
-  if (localeMatch) return localeMatch;
+  // Stap 2: andere es-ES stemmen, mannelijke namen vermijden
+  if (esES.length > 0) {
+    const maleNames = /(Pablo|Jorge|Diego|Alvaro|Carlos|Juan|Fernando|Lorenzo|Miguel)/i;
+    const female = esES.find((v) => !maleNames.test(v.name));
+    if (female) return female;
+    return esES[0];
+  }
 
-  // Avoid male names if we can detect them (heuristic)
-  const maleNames = /^(Microsoft (Pablo|Jorge|Diego|Alvaro)|Carlos|Diego|Jorge|Juan)/i;
-  const female = spanishVoices.find((v) => !maleNames.test(v.name));
-  return female || spanishVoices[0];
+  // Stap 3: fallback naar alle Spaanse stemmen
+  const anyEs = voices.filter((v) => v.lang.toLowerCase().startsWith("es"));
+  if (anyEs.length === 0) return null;
+
+  for (const name of LATAM_FALLBACK) {
+    const match = anyEs.find((v) => v.name.includes(name));
+    if (match) return match;
+  }
+  return anyEs[0];
 }
 
 export default function SpeakButton({ text, lang = "es-ES", className = "" }: SpeakButtonProps) {
@@ -60,7 +82,7 @@ export default function SpeakButton({ text, lang = "es-ES", className = "" }: Sp
 
     const loadVoices = () => {
       const voices = synth.getVoices();
-      voiceRef.current = findFemaleSpanishVoice(voices, lang);
+      voiceRef.current = findCastilianVoice(voices);
     };
 
     loadVoices();
@@ -82,10 +104,13 @@ export default function SpeakButton({ text, lang = "es-ES", className = "" }: Sp
       return;
     }
 
-    const utterance = new SpeechSynthesisUtterance(text);
+    const prepared = prepareSpanishText(text);
+    if (!prepared) return;
+
+    const utterance = new SpeechSynthesisUtterance(prepared);
     utterance.lang = lang;
-    utterance.rate = 0.88;
-    utterance.pitch = 1.05;
+    utterance.rate = 0.85;       // iets langzamer — duidelijker voor leerlingen
+    utterance.pitch = 1.0;       // natuurlijke toon
 
     if (voiceRef.current) {
       utterance.voice = voiceRef.current;

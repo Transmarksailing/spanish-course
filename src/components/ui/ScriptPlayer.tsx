@@ -2,6 +2,19 @@
 
 import { useState, useCallback, useEffect, useRef } from "react";
 import { useLanguage } from "@/lib/language-context";
+// Basis voorbewerking voor EN/NL — markdown weg, slashes vervangen
+function prepareNonSpanishText(text: string): string {
+  let out = text;
+  out = out.replace(/\*\*(.+?)\*\*/g, "$1");
+  out = out.replace(/\*(.+?)\*/g, "$1");
+  out = out.replace(/`(.+?)`/g, "$1");
+  out = out.replace(/[*_~]/g, "");
+  out = out.replace(/\|/g, ",");
+  out = out.replace(/—/g, ", ");
+  out = out.replace(/–/g, ", ");
+  out = out.replace(/\s+/g, " ").trim();
+  return out;
+}
 
 interface ScriptPlayerProps {
   title: string;
@@ -96,8 +109,11 @@ export default function ScriptPlayer({ title, description, scriptEn, scriptNl }:
 
     synth.cancel();
 
+    // Voorbewerking: markdown weg, afkortingen expanderen
+    const cleanedScript = prepareNonSpanishText(script);
+
     // Split into sentences to avoid Chrome's ~200 char per utterance limit
-    const sentences = script.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [script];
+    const sentences = cleanedScript.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [cleanedScript];
     const chunks: string[] = [];
     let current = "";
     for (const s of sentences) {
@@ -119,8 +135,8 @@ export default function ScriptPlayer({ title, description, scriptEn, scriptNl }:
       }
       const utt = new SpeechSynthesisUtterance(chunks[chunkIndex]);
       utt.lang = speechLang;
-      utt.rate = 0.95;
-      utt.pitch = 1.05;
+      utt.rate = 0.92;
+      utt.pitch = 1.0;
       if (voiceRef.current) utt.voice = voiceRef.current;
       utt.onend = () => {
         chunkIndex++;
