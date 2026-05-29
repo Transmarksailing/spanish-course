@@ -61,6 +61,7 @@ import famousSpaniards from "@/content/years/cours/vocabulary/famous-spaniards.j
 import religion from "@/content/years/cours/vocabulary/religion.json";
 import politics from "@/content/years/cours/vocabulary/politics.json";
 import doctorOffice from "@/content/years/cours/vocabulary/doctor-office.json";
+import emergencyRoom from "@/content/years/cours/vocabulary/emergency-room.json";
 
 const yearsMap: Record<string, YearIndex> = {
   cours: coursIndex as unknown as YearIndex,
@@ -128,6 +129,7 @@ const vocabularyMap: Record<string, Record<string, VocabularyList>> = {
     "religion": religion as unknown as VocabularyList,
     "politics": politics as unknown as VocabularyList,
     "doctor-office": doctorOffice as unknown as VocabularyList,
+    "emergency-room": emergencyRoom as unknown as VocabularyList,
   },
 };
 

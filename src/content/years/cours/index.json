@@ -263,6 +263,7 @@
     { "slug": "la-jerga", "title": { "en": "La Jerga — Slang & Swear Words", "nl": "La Jerga — Straattaal & Scheldwoorden" } },
     { "slug": "animals", "title": { "en": "The Animal Kingdom", "nl": "Het Dierenrijk" } },
     { "slug": "doctor-office", "title": { "en": "At the Doctor's Office", "nl": "Bij de Dokter" } },
+    { "slug": "emergency-room", "title": { "en": "The Emergency Room", "nl": "De Spoedeisende Hulp" } },
     { "slug": "religion", "title": { "en": "Religion", "nl": "Religie" } },
     { "slug": "politics", "title": { "en": "Politics & Government", "nl": "Politiek & Overheid" } },
     { "slug": "spanish-speaking-countries", "title": { "en": "Spanish-Speaking Countries", "nl": "Spaanstalige Landen" } },
