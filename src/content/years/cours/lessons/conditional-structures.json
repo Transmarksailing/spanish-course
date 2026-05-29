@@ -9,7 +9,10 @@
   "grammarSections": [
     {
       "type": "explanation",
-      "title": { "en": "1st Conditional (Real/Possible)", "nl": "1e Conditionalis (Reëel/Mogelijk)" },
+      "title": {
+        "en": "1st Conditional (Real/Possible)",
+        "nl": "1e Conditionalis (Reëel/Mogelijk)"
+      },
       "content": {
         "en": "**1st Conditional** — Real / possible situations\n\n| Conditional Clause | Main Clause |\n|---|---|\n| **Si** + **Present** | **Future** |\n\n*Ejemplo:*\nSi tengo el dinero, compraré el coche.\n(If I have the money, I will buy the car.)\n\n📖 **501 Spanish Verbs** #5 · **Practice Makes Perfect** p.171",
         "nl": "**1e Conditionalis** — Reële / mogelijke situaties\n\n| Voorwaardelijke bijzin | Hoofdzin |\n|---|---|\n| **Si** + **Presente** | **Futuro** |\n\n*Voorbeeld:*\nSi tengo el dinero, compraré el coche.\n(Als ik het geld heb, zal ik de auto kopen.)\n\n📖 **501 Spanish Verbs** #5 · **Practice Makes Perfect** p.171"
@@ -17,7 +20,10 @@
     },
     {
       "type": "explanation",
-      "title": { "en": "2nd Conditional (Hypothetical)", "nl": "2e Conditionalis (Hypothetisch)" },
+      "title": {
+        "en": "2nd Conditional (Hypothetical)",
+        "nl": "2e Conditionalis (Hypothetisch)"
+      },
       "content": {
         "en": "**2nd Conditional** — Hypothetical / unlikely situations\n\n| Conditional Clause | Main Clause |\n|---|---|\n| **Si** + **Past Subjunctive** | **Conditional** |\n\n*Ejemplo:*\nSi yo tuviera el dinero, yo compraría el coche.\n(If I had the money, I would buy the car.)",
         "nl": "**2e Conditionalis** — Hypothetische / onwaarschijnlijke situaties\n\n| Voorwaardelijke bijzin | Hoofdzin |\n|---|---|\n| **Si** + **Imperfecto de Subjuntivo** | **Condicional** |\n\n*Voorbeeld:*\nSi yo tuviera el dinero, yo compraría el coche.\n(Als ik het geld had, zou ik de auto kopen.)"
@@ -25,12 +31,29 @@
     },
     {
       "type": "explanation",
-      "title": { "en": "3rd Conditional (Impossible/Past)", "nl": "3e Conditionalis (Onmogelijk/Verleden)" },
+      "title": {
+        "en": "3rd Conditional (Impossible/Past)",
+        "nl": "3e Conditionalis (Onmogelijk/Verleden)"
+      },
       "content": {
         "en": "**3rd Conditional** — Impossible situations (past events that didn't happen)\n\n| Conditional Clause | Main Clause |\n|---|---|\n| **Si** + **Past Perfect Subjunctive** | **Conditional Perfect** |\n\n*Ejemplo:*\nSi yo hubiera tenido el dinero, yo habría comprado el coche.\n(If I had had the money, I would have bought the car.)",
         "nl": "**3e Conditionalis** — Onmogelijke situaties (gebeurtenissen in het verleden die niet plaatsvonden)\n\n| Voorwaardelijke bijzin | Hoofdzin |\n|---|---|\n| **Si** + **Pluscuamperfecto de Subjuntivo** | **Condicional Perfecto** |\n\n*Voorbeeld:*\nSi yo hubiera tenido el dinero, yo habría comprado el coche.\n(Als ik het geld had gehad, zou ik de auto gekocht hebben.)"
       }
     }
   ],
-  "exercises": []
+  "exercises": [],
+  "videoPlaceholder": {
+    "title": {
+      "en": "Teacher Explanation Video",
+      "nl": "Uitleg Video Docent"
+    },
+    "description": {
+      "en": "Audio narration of the lesson script.",
+      "nl": "Audiouitleg van het lesscript."
+    },
+    "script": {
+      "en": "Hello! Today we learn conditional structures — IF-clauses.\n\nThere are three types:\n\nFirst conditional — real, possible situations. IF plus present, future.\nSi llueve, no iré — If it rains, I won't go.\n\nSecond conditional — hypothetical situations. IF plus past subjunctive, conditional.\nSi tuviera dinero, viajaría — If I had money, I would travel.\n\nThird conditional — impossible past situations. IF plus past perfect subjunctive, conditional perfect.\nSi hubiera estudiado, habría aprobado — If I had studied, I would have passed.\n\nRemember: first is real, second is hypothetical, third is impossible.",
+      "nl": "Hallo! Vandaag leren we voorwaardelijke structuren — ALS-zinnen.\n\nEr zijn drie types:\n\nEerste conditioneel — echte, mogelijke situaties. ALS plus tegenwoordige tijd, toekomst.\nSi llueve, no iré — Als het regent, ga ik niet.\n\nTweede conditioneel — hypothetische situaties. ALS plus imperfecto de subjuntivo, condicional.\nSi tuviera dinero, viajaría — Als ik geld had, zou ik reizen.\n\nDerde conditioneel — onmogelijke situaties uit het verleden. ALS plus pluscuamperfecto de subjuntivo, condicional compuesto.\nSi hubiera estudiado, habría aprobado — Als ik had gestudeerd, zou ik geslaagd zijn.\n\nOnthoud: eerste is echt, tweede is hypothetisch, derde is onmogelijk."
+    }
+  }
 }

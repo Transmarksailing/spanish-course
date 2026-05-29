@@ -38,6 +38,7 @@ export interface Lesson {
     title: LocalizedText;
     description: LocalizedText;
     videoUrl?: string | LocalizedText;
+    script?: LocalizedText;
   };
 }
 

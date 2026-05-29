@@ -7,6 +7,7 @@ import GrammarSection from "@/components/grammar/GrammarSection";
 import FillInTheBlank from "@/components/exercises/FillInTheBlank";
 import TranslationExercise from "@/components/exercises/TranslationExercise";
 import MultipleChoice from "@/components/exercises/MultipleChoice";
+import ScriptPlayer from "@/components/ui/ScriptPlayer";
 
 interface Props {
   lesson: Lesson;
@@ -59,6 +60,18 @@ export default function LessonContent({ lesson, yearId, lessons, vocabulary }: P
               <div className="bg-sand/50 border border-border rounded-xl p-6 mb-8 text-center">
                 <video controls className="w-full rounded-lg" src={url} />
               </div>
+            );
+          }
+
+          const script = lesson.videoPlaceholder.script;
+          if (script && (script.en || script.nl)) {
+            return (
+              <ScriptPlayer
+                title={t(lesson.videoPlaceholder.title)}
+                description={t(lesson.videoPlaceholder.description)}
+                scriptEn={script.en || ""}
+                scriptNl={script.nl || script.en || ""}
+              />
             );
           }
 

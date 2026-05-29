@@ -9,7 +9,10 @@
   "grammarSections": [
     {
       "type": "explanation",
-      "title": { "en": "IR A + Infinitive", "nl": "IR A + Infinitief" },
+      "title": {
+        "en": "IR A + Infinitive",
+        "nl": "IR A + Infinitief"
+      },
       "content": {
         "en": "The future can be expressed by using the verb **ir a** with an infinitive. This is the equivalent of the English 'to be going to'.\n\n**Voy a trabajar allí.** — I'm going to work there.\n**Vamos a comer en casa.** — We are going to eat at home.\n**Ellos van a vivir con nosotros.** — They are going to live with us.\n\n📖 **501 Spanish Verbs** #4 · **Practice Makes Perfect** p.159",
         "nl": "De toekomst kan uitgedrukt worden met het werkwoord **ir a** gevolgd door een infinitief. Dit is vergelijkbaar met het Nederlandse 'gaan + infinitief'.\n\n**Voy a trabajar allí.** — Ik ga daar werken.\n**Vamos a comer en casa.** — We gaan thuis eten.\n**Ellos van a vivir con nosotros.** — Zij gaan bij ons wonen.\n\n📖 **501 Spanish Verbs** #4 · **Practice Makes Perfect** p.159"
@@ -17,7 +20,10 @@
     },
     {
       "type": "conjugation_table",
-      "title": { "en": "IR — Present Tense", "nl": "IR — Tegenwoordige Tijd" },
+      "title": {
+        "en": "IR — Present Tense",
+        "nl": "IR — Tegenwoordige Tijd"
+      },
       "verb": "ir",
       "tense": "present",
       "forms": {
@@ -31,7 +37,10 @@
     },
     {
       "type": "explanation",
-      "title": { "en": "Simple Future Tense", "nl": "Onvoltooid Toekomende Tijd" },
+      "title": {
+        "en": "Simple Future Tense",
+        "nl": "Onvoltooid Toekomende Tijd"
+      },
       "content": {
         "en": "The future tense of regular verbs is formed by adding the following personal endings to the infinitive:\n**-é, -ás, -á, -emos, -éis, -án**\n\nThis is equivalent to 'will' in English.",
         "nl": "De onvoltooid toekomende tijd van regelmatige werkwoorden wordt gevormd door de volgende persoonlijke uitgangen aan het hele werkwoord toe te voegen:\n**-é, -ás, -á, -emos, -éis, -án**\n\nDit is vergelijkbaar met 'zullen' in het Nederlands."
@@ -39,7 +48,10 @@
     },
     {
       "type": "conjugation_table",
-      "title": { "en": "HABLAR — Future", "nl": "HABLAR — Toekomende Tijd" },
+      "title": {
+        "en": "HABLAR — Future",
+        "nl": "HABLAR — Toekomende Tijd"
+      },
       "verb": "hablar",
       "tense": "future",
       "forms": {
@@ -53,7 +65,10 @@
     },
     {
       "type": "conjugation_table",
-      "title": { "en": "COMER — Future", "nl": "COMER — Toekomende Tijd" },
+      "title": {
+        "en": "COMER — Future",
+        "nl": "COMER — Toekomende Tijd"
+      },
       "verb": "comer",
       "tense": "future",
       "forms": {
@@ -67,7 +82,10 @@
     },
     {
       "type": "conjugation_table",
-      "title": { "en": "VIVIR — Future", "nl": "VIVIR — Toekomende Tijd" },
+      "title": {
+        "en": "VIVIR — Future",
+        "nl": "VIVIR — Toekomende Tijd"
+      },
       "verb": "vivir",
       "tense": "future",
       "forms": {
@@ -89,13 +107,91 @@
         "nl": "Vul de zinnen aan met de juiste vorm van IR A + infinitief"
       },
       "items": [
-        { "id": "fut-001", "sentence": "Yo ___ mañana. (salir)", "correctAnswers": ["voy a salir"], "translation": { "en": "I am going to leave tomorrow.", "nl": "Ik ga morgen weg." }, "hint": "yo → voy a" },
-        { "id": "fut-002", "sentence": "Carlos ___ en Valdelinares. (esquiar)", "correctAnswers": ["va a esquiar"], "translation": { "en": "Carlos is going to ski in Valdelinares.", "nl": "Carlos gaat skiën in Valdelinares." }, "hint": "él → va a" },
-        { "id": "fut-003", "sentence": "Nosotros ___ los resultados la semana que viene. (saber)", "correctAnswers": ["vamos a saber"], "translation": { "en": "We are going to know the results next week.", "nl": "Wij gaan de resultaten volgende week weten." }, "hint": "nosotros → vamos a" },
-        { "id": "fut-004", "sentence": "Ellos ___ tiempo en Marruecos. (pasar)", "correctAnswers": ["van a pasar"], "translation": { "en": "They are going to spend time in Morocco.", "nl": "Zij gaan tijd doorbrengen in Marokko." }, "hint": "ellos → van a" },
-        { "id": "fut-005", "sentence": "¿___ tú en avión? (viajar)", "correctAnswers": ["Vas a viajar", "vas a viajar"], "translation": { "en": "Are you going to travel by plane?", "nl": "Ga jij met het vliegtuig reizen?" }, "hint": "tú → vas a" },
-        { "id": "fut-006", "sentence": "¿Quién ___ la mesa? (poner)", "correctAnswers": ["va a poner"], "translation": { "en": "Who is going to set the table?", "nl": "Wie gaat de tafel dekken?" }, "hint": "quién → va a" },
-        { "id": "fut-007", "sentence": "Nosotros ___ en el Caribe. (nadar)", "correctAnswers": ["vamos a nadar"], "translation": { "en": "We are going to swim in the Caribbean.", "nl": "Wij gaan zwemmen in het Caribisch gebied." }, "hint": "nosotros → vamos a" }
+        {
+          "id": "fut-001",
+          "sentence": "Yo ___ mañana. (salir)",
+          "correctAnswers": [
+            "voy a salir"
+          ],
+          "translation": {
+            "en": "I am going to leave tomorrow.",
+            "nl": "Ik ga morgen weg."
+          },
+          "hint": "yo → voy a"
+        },
+        {
+          "id": "fut-002",
+          "sentence": "Carlos ___ en Valdelinares. (esquiar)",
+          "correctAnswers": [
+            "va a esquiar"
+          ],
+          "translation": {
+            "en": "Carlos is going to ski in Valdelinares.",
+            "nl": "Carlos gaat skiën in Valdelinares."
+          },
+          "hint": "él → va a"
+        },
+        {
+          "id": "fut-003",
+          "sentence": "Nosotros ___ los resultados la semana que viene. (saber)",
+          "correctAnswers": [
+            "vamos a saber"
+          ],
+          "translation": {
+            "en": "We are going to know the results next week.",
+            "nl": "Wij gaan de resultaten volgende week weten."
+          },
+          "hint": "nosotros → vamos a"
+        },
+        {
+          "id": "fut-004",
+          "sentence": "Ellos ___ tiempo en Marruecos. (pasar)",
+          "correctAnswers": [
+            "van a pasar"
+          ],
+          "translation": {
+            "en": "They are going to spend time in Morocco.",
+            "nl": "Zij gaan tijd doorbrengen in Marokko."
+          },
+          "hint": "ellos → van a"
+        },
+        {
+          "id": "fut-005",
+          "sentence": "¿___ tú en avión? (viajar)",
+          "correctAnswers": [
+            "Vas a viajar",
+            "vas a viajar"
+          ],
+          "translation": {
+            "en": "Are you going to travel by plane?",
+            "nl": "Ga jij met het vliegtuig reizen?"
+          },
+          "hint": "tú → vas a"
+        },
+        {
+          "id": "fut-006",
+          "sentence": "¿Quién ___ la mesa? (poner)",
+          "correctAnswers": [
+            "va a poner"
+          ],
+          "translation": {
+            "en": "Who is going to set the table?",
+            "nl": "Wie gaat de tafel dekken?"
+          },
+          "hint": "quién → va a"
+        },
+        {
+          "id": "fut-007",
+          "sentence": "Nosotros ___ en el Caribe. (nadar)",
+          "correctAnswers": [
+            "vamos a nadar"
+          ],
+          "translation": {
+            "en": "We are going to swim in the Caribbean.",
+            "nl": "Wij gaan zwemmen in het Caribisch gebied."
+          },
+          "hint": "nosotros → vamos a"
+        }
       ]
     },
     {
@@ -106,21 +202,142 @@
         "nl": "Vul aan met de onvoltooid toekomende tijd van het werkwoord"
       },
       "items": [
-        { "id": "futs-001", "sentence": "Carlos ___ el problema con nosotros. (discutir)", "correctAnswers": ["discutirá"], "translation": { "en": "Carlos will discuss the problem with us.", "nl": "Carlos zal het probleem met ons bespreken." }, "hint": "-ir → -irá" },
-        { "id": "futs-002", "sentence": "Yo ___ del asunto más tarde. (hablar)", "correctAnswers": ["hablaré"], "translation": { "en": "I will talk about the matter later.", "nl": "Ik zal later over de kwestie praten." }, "hint": "-ar → -aré" },
-        { "id": "futs-003", "sentence": "¿Cuándo ___ aquí? (estar)", "correctAnswers": ["estarás", "estará"], "translation": { "en": "When will you be here?", "nl": "Wanneer zul jij hier zijn?" }, "hint": "-ar → -ará" },
-        { "id": "futs-004", "sentence": "Nosotros ___ en casa esta noche. (comer)", "correctAnswers": ["comeremos"], "translation": { "en": "We will eat at home tonight.", "nl": "Wij zullen vanavond thuis eten." }, "hint": "-er → -eremos" },
-        { "id": "futs-005", "sentence": "Ellos ___ el paquete por correo. (recibir)", "correctAnswers": ["recibirán"], "translation": { "en": "They will receive the package by mail.", "nl": "Zij zullen het pakket per post ontvangen." }, "hint": "-ir → -irán" },
-        { "id": "futs-006", "sentence": "Nosotros ___ pasado mañana. (volver)", "correctAnswers": ["volveremos"], "translation": { "en": "We will return the day after tomorrow.", "nl": "Wij zullen overmorgen terugkomen." }, "hint": "-er → -eremos" },
-        { "id": "futs-007", "sentence": "Yo ___ en español. (cantar)", "correctAnswers": ["cantaré"], "translation": { "en": "I will sing in Spanish.", "nl": "Ik zal in het Spaans zingen." }, "hint": "-ar → -aré" },
-        { "id": "futs-008", "sentence": "La familia ___ una casa en el campo. (comprar)", "correctAnswers": ["comprará"], "translation": { "en": "The family will buy a house in the countryside.", "nl": "De familie zal een huis op het platteland kopen." }, "hint": "-ar → -ará" },
-        { "id": "futs-009", "sentence": "Nosotros no ___ todos los libros. (vender)", "correctAnswers": ["venderemos"], "translation": { "en": "We will not sell all the books.", "nl": "Wij zullen niet alle boeken verkopen." }, "hint": "-er → -eremos" },
-        { "id": "futs-010", "sentence": "El tren ___ a las ocho y cuarto. (llegar)", "correctAnswers": ["llegará"], "translation": { "en": "The train will arrive at a quarter past eight.", "nl": "De trein zal om kwart over acht aankomen." }, "hint": "-ar → -ará" }
+        {
+          "id": "futs-001",
+          "sentence": "Carlos ___ el problema con nosotros. (discutir)",
+          "correctAnswers": [
+            "discutirá"
+          ],
+          "translation": {
+            "en": "Carlos will discuss the problem with us.",
+            "nl": "Carlos zal het probleem met ons bespreken."
+          },
+          "hint": "-ir → -irá"
+        },
+        {
+          "id": "futs-002",
+          "sentence": "Yo ___ del asunto más tarde. (hablar)",
+          "correctAnswers": [
+            "hablaré"
+          ],
+          "translation": {
+            "en": "I will talk about the matter later.",
+            "nl": "Ik zal later over de kwestie praten."
+          },
+          "hint": "-ar → -aré"
+        },
+        {
+          "id": "futs-003",
+          "sentence": "¿Cuándo ___ aquí? (estar)",
+          "correctAnswers": [
+            "estarás",
+            "estará"
+          ],
+          "translation": {
+            "en": "When will you be here?",
+            "nl": "Wanneer zul jij hier zijn?"
+          },
+          "hint": "-ar → -ará"
+        },
+        {
+          "id": "futs-004",
+          "sentence": "Nosotros ___ en casa esta noche. (comer)",
+          "correctAnswers": [
+            "comeremos"
+          ],
+          "translation": {
+            "en": "We will eat at home tonight.",
+            "nl": "Wij zullen vanavond thuis eten."
+          },
+          "hint": "-er → -eremos"
+        },
+        {
+          "id": "futs-005",
+          "sentence": "Ellos ___ el paquete por correo. (recibir)",
+          "correctAnswers": [
+            "recibirán"
+          ],
+          "translation": {
+            "en": "They will receive the package by mail.",
+            "nl": "Zij zullen het pakket per post ontvangen."
+          },
+          "hint": "-ir → -irán"
+        },
+        {
+          "id": "futs-006",
+          "sentence": "Nosotros ___ pasado mañana. (volver)",
+          "correctAnswers": [
+            "volveremos"
+          ],
+          "translation": {
+            "en": "We will return the day after tomorrow.",
+            "nl": "Wij zullen overmorgen terugkomen."
+          },
+          "hint": "-er → -eremos"
+        },
+        {
+          "id": "futs-007",
+          "sentence": "Yo ___ en español. (cantar)",
+          "correctAnswers": [
+            "cantaré"
+          ],
+          "translation": {
+            "en": "I will sing in Spanish.",
+            "nl": "Ik zal in het Spaans zingen."
+          },
+          "hint": "-ar → -aré"
+        },
+        {
+          "id": "futs-008",
+          "sentence": "La familia ___ una casa en el campo. (comprar)",
+          "correctAnswers": [
+            "comprará"
+          ],
+          "translation": {
+            "en": "The family will buy a house in the countryside.",
+            "nl": "De familie zal een huis op het platteland kopen."
+          },
+          "hint": "-ar → -ará"
+        },
+        {
+          "id": "futs-009",
+          "sentence": "Nosotros no ___ todos los libros. (vender)",
+          "correctAnswers": [
+            "venderemos"
+          ],
+          "translation": {
+            "en": "We will not sell all the books.",
+            "nl": "Wij zullen niet alle boeken verkopen."
+          },
+          "hint": "-er → -eremos"
+        },
+        {
+          "id": "futs-010",
+          "sentence": "El tren ___ a las ocho y cuarto. (llegar)",
+          "correctAnswers": [
+            "llegará"
+          ],
+          "translation": {
+            "en": "The train will arrive at a quarter past eight.",
+            "nl": "De trein zal om kwart over acht aankomen."
+          },
+          "hint": "-ar → -ará"
+        }
       ]
     }
   ],
   "videoPlaceholder": {
-    "title": { "en": "Teacher Explanation Video", "nl": "Uitleg Video Docent" },
-    "description": { "en": "Video coming soon — Future Tense explained!", "nl": "Video komt binnenkort — Toekomende Tijd uitgelegd!" }
+    "title": {
+      "en": "Teacher Explanation Video",
+      "nl": "Uitleg Video Docent"
+    },
+    "description": {
+      "en": "Video coming soon — Future Tense explained!",
+      "nl": "Video komt binnenkort — Toekomende Tijd uitgelegd!"
+    },
+    "script": {
+      "en": "Hello! Today we learn two ways to talk about the future.\n\nFirst, IR A plus infinitive. This is the most common form in daily conversation.\n\nWe conjugate IR in present: voy, vas, va, vamos, vais, van. And add A plus the infinitive.\n\nExamples: Voy a trabajar — I'm going to work. Vamos a comer — We're going to eat.\n\nSecond, the simple future. We add endings directly to the infinitive: é, ás, á, emos, éis, án.\n\nHablar: hablaré, hablarás, hablará. Comer: comeré, comerás, comerá. Same endings for all verbs!\n\nEasy! Mañana hablaré con mi jefe — Tomorrow I will speak with my boss.",
+      "nl": "Hallo! Vandaag leren we twee manieren om over de toekomst te praten.\n\nEerst, IR A plus infinitief. Dit is de meest gebruikte vorm in dagelijks gesprek.\n\nWe vervoegen IR in de tegenwoordige tijd: voy, vas, va, vamos, vais, van. En voegen A plus de infinitief toe.\n\nVoorbeelden: Voy a trabajar — Ik ga werken. Vamos a comer — We gaan eten.\n\nTen tweede, de eenvoudige toekomst. We voegen uitgangen direct toe aan de infinitief: é, ás, á, emos, éis, án.\n\nHablar: hablaré, hablarás, hablará. Comer: comeré, comerás, comerá. Dezelfde uitgangen voor alle werkwoorden!\n\nMakkelijk! Mañana hablaré con mi jefe — Morgen zal ik met mijn baas praten."
+    }
   }
 }

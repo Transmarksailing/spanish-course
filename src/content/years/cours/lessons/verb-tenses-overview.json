@@ -9,7 +9,10 @@
   "grammarSections": [
     {
       "type": "explanation",
-      "title": { "en": "Overview of Spanish Verb Tenses", "nl": "Overzicht van Spaanse Werkwoordstijden" },
+      "title": {
+        "en": "Overview of Spanish Verb Tenses",
+        "nl": "Overzicht van Spaanse Werkwoordstijden"
+      },
       "content": {
         "en": "In Spanish there are many ways to express different time frames. Here is an overview of the key tenses you will learn in this course.\n\n**501 Verbs** = 501 Spanish Verbs (tense number)\n**GB** = Practice Makes Perfect: Spanish Verb Tenses (page number)",
         "nl": "In het Spaans zijn er veel manieren om verschillende tijdframes uit te drukken. Hier is een overzicht van de belangrijkste tijden die je in deze cursus leert.\n\n**501 Verbs** = 501 Spanish Verbs (tijdnummer)\n**GB** = Practice Makes Perfect: Spanish Verb Tenses (paginanummer)"
@@ -17,7 +20,10 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "1. Present — 501 Verbs #1 · GB p.1", "nl": "1. Tegenwoordige Tijd — 501 Verbs #1 · GB p.1" },
+      "title": {
+        "en": "1. Present — 501 Verbs #1 · GB p.1",
+        "nl": "1. Tegenwoordige Tijd — 501 Verbs #1 · GB p.1"
+      },
       "link": "present-tense-irregulars",
       "content": {
         "en": "**Hablo** español — I speak Spanish.\n**Miro** el fútbol — I watch football.\n**Visito** el hospital — I visit the hospital.\nUsed for habitual actions and general truths.",
@@ -26,7 +32,10 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "2. Present Continuous (-ing) · GB p.93", "nl": "2. Tegenwoordige Tijd Doorlopend (-ing) · GB p.93" },
+      "title": {
+        "en": "2. Present Continuous (-ing) · GB p.93",
+        "nl": "2. Tegenwoordige Tijd Doorlopend (-ing) · GB p.93"
+      },
       "link": "present-progressive",
       "content": {
         "en": "**Estoy hablando** con el profesor — I am speaking with the teacher.\n**Estoy comprando** el coche — I am buying the car.\n**Estoy estudiando** español — I am studying Spanish.\nUsed for actions happening right now.",
@@ -35,7 +44,10 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "3. Future — Intention (IR A + infinitive) · GB p.159", "nl": "3. Toekomst — Intentie (IR A + infinitief) · GB p.159" },
+      "title": {
+        "en": "3. Future — Intention (IR A + infinitive) · GB p.159",
+        "nl": "3. Toekomst — Intentie (IR A + infinitief) · GB p.159"
+      },
       "link": "future-tense",
       "content": {
         "en": "**Voy a** hablar con mi hermano — I am going to talk to my brother.\n**Voy a** comer en el restaurante — I am going to eat at the restaurant.\n**Voy a** beber más agua — I am going to drink more water.\nExpresses intention, equivalent to English 'going to'.",
@@ -44,7 +56,10 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "4. Future — Obligation (TENER QUE) · GB p.159", "nl": "4. Toekomst — Verplichting (TENER QUE) · GB p.159" },
+      "title": {
+        "en": "4. Future — Obligation (TENER QUE) · GB p.159",
+        "nl": "4. Toekomst — Verplichting (TENER QUE) · GB p.159"
+      },
       "link": "future-tense",
       "content": {
         "en": "**Tengo que** hablar con mi marido — I have to talk to my husband.\n**Tengo que** vender el coche — I have to sell the car.\n**Tengo que** escribir una carta — I have to write a letter.\nExpresses obligation, equivalent to 'have to'.",
@@ -53,7 +68,10 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "5. Simple Future (will) — 501 Verbs #4 · GB p.159", "nl": "5. Onvoltooid Toekomende Tijd (zullen) — 501 Verbs #4 · GB p.159" },
+      "title": {
+        "en": "5. Simple Future (will) — 501 Verbs #4 · GB p.159",
+        "nl": "5. Onvoltooid Toekomende Tijd (zullen) — 501 Verbs #4 · GB p.159"
+      },
       "link": "future-tense",
       "content": {
         "en": "**Hablaré** con el dentista — I will speak to the dentist.\n**Llamaré** mañana — I will call tomorrow.\n**Firmaré** el contrato mañana — I will sign the contract tomorrow.\nFormed by adding endings to the infinitive: -é, -ás, -á, -emos, -éis, -án.",
@@ -62,7 +80,10 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "6. Present Perfect — 501 Verbs #8 · GB p.179", "nl": "6. Voltooid Tegenwoordige Tijd — 501 Verbs #8 · GB p.179" },
+      "title": {
+        "en": "6. Present Perfect — 501 Verbs #8 · GB p.179",
+        "nl": "6. Voltooid Tegenwoordige Tijd — 501 Verbs #8 · GB p.179"
+      },
       "link": "present-perfect",
       "content": {
         "en": "**He hablado** con el médico hoy — I have spoken to the doctor today.\n**He practicado** mucho esta semana — I have practised a lot this week.\n**He limpiado** la casa esta tarde — I have cleaned the house this afternoon.\nFormed with HABER + past participle. Refers to past actions with relevance to the present.",
@@ -71,7 +92,10 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "7. Recent Past (ACABAR DE) · GB p.179", "nl": "7. Nabij Verleden (ACABAR DE) · GB p.179" },
+      "title": {
+        "en": "7. Recent Past (ACABAR DE) · GB p.179",
+        "nl": "7. Nabij Verleden (ACABAR DE) · GB p.179"
+      },
       "link": "present-perfect",
       "content": {
         "en": "**Acabo de** hablar con mi hijo — I have just spoken to my son.\n**Acabo de** llegar — I have just arrived.\n**Acabo de** salir — I have just left.\nExpresses something that just happened, equivalent to 'have just'.",
@@ -80,7 +104,10 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "8. Preterite (Indefinido) — 501 Verbs #3 · GB p.109", "nl": "8. Indefinido (Verleden Tijd) — 501 Verbs #3 · GB p.109" },
+      "title": {
+        "en": "8. Preterite (Indefinido) — 501 Verbs #3 · GB p.109",
+        "nl": "8. Indefinido (Verleden Tijd) — 501 Verbs #3 · GB p.109"
+      },
       "link": "preterite-tense",
       "content": {
         "en": "**Compré** un coche — I bought a car.\n**Firmé** el contrato — I signed the contract.\n**Visité** Madrid el año pasado — I visited Madrid last year.\nCompleted, one-time past events with a clear beginning and end.",
@@ -89,7 +116,10 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "9. Imperfect (Imperfecto) — 501 Verbs #2 · GB p.138", "nl": "9. Imperfecto (Onvoltooid Verleden Tijd) — 501 Verbs #2 · GB p.138" },
+      "title": {
+        "en": "9. Imperfect (Imperfecto) — 501 Verbs #2 · GB p.138",
+        "nl": "9. Imperfecto (Onvoltooid Verleden Tijd) — 501 Verbs #2 · GB p.138"
+      },
       "link": "imperfect-tense",
       "content": {
         "en": "**Trabajaba** en un banco — I used to work at a bank.\n**Estudiaba** inglés — I used to study English.\n**Firmaba** el contrato cada año — I used to sign the contract every year.\nRepeated or ongoing past actions, descriptions, and habits.",
@@ -98,7 +128,10 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "10. Conditional — 501 Verbs #5 · GB p.171", "nl": "10. Voorwaardelijke Wijs — 501 Verbs #5 · GB p.171" },
+      "title": {
+        "en": "10. Conditional — 501 Verbs #5 · GB p.171",
+        "nl": "10. Voorwaardelijke Wijs — 501 Verbs #5 · GB p.171"
+      },
       "link": "conditional",
       "content": {
         "en": "**Hablaría** con el médico — I would speak to the doctor.\n**Estudiaría** español — I would study Spanish.\n**Compraría** el coche — I would buy the car.\nUsed for hypothetical situations and polite requests.",
@@ -107,7 +140,10 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "11. Subjunctive — 501 Verbs #6 · GB p.211", "nl": "11. Subjuntivo (Aanvoegende Wijs) — 501 Verbs #6 · GB p.211" },
+      "title": {
+        "en": "11. Subjunctive — 501 Verbs #6 · GB p.211",
+        "nl": "11. Subjuntivo (Aanvoegende Wijs) — 501 Verbs #6 · GB p.211"
+      },
       "link": "present-subjunctive",
       "content": {
         "en": "Es fantástico que **hables** español — It's fantastic that you speak Spanish.\nTal vez yo **visite** la playa — Maybe I'll visit the beach.\nPuede ser que **trabajen** aquí — It could be that they work here.\nUsed after expressions of doubt, emotion, desire, and impersonal expressions.",
@@ -116,7 +152,10 @@
     },
     {
       "type": "rule_box",
-      "title": { "en": "12. Passive Voice (Voz Pasiva)", "nl": "12. Lijdende Vorm (Voz Pasiva)" },
+      "title": {
+        "en": "12. Passive Voice (Voz Pasiva)",
+        "nl": "12. Lijdende Vorm (Voz Pasiva)"
+      },
       "link": "voz-pasiva",
       "content": {
         "en": "La estatua **fue construida** en el siglo XII — The statue was built in the 12th century.\nLos terroristas **han sido arrestados** — The terrorists have been arrested.\nEl apartamento **será pintado** mañana — The apartment will be painted tomorrow.\nFormed with **SER + past participle** (agrees in gender and number with the subject). Use **por** to introduce the agent.",
@@ -126,7 +165,17 @@
   ],
   "exercises": [],
   "videoPlaceholder": {
-    "title": { "en": "Teacher Explanation Video", "nl": "Uitleg Video Docent" },
-    "description": { "en": "Video coming soon — overview of all verb tenses!", "nl": "Video komt binnenkort — overzicht van alle werkwoordstijden!" }
+    "title": {
+      "en": "Teacher Explanation Video",
+      "nl": "Uitleg Video Docent"
+    },
+    "description": {
+      "en": "Video coming soon — overview of all verb tenses!",
+      "nl": "Video komt binnenkort — overzicht van alle werkwoordstijden!"
+    },
+    "script": {
+      "en": "Hello! Welcome to our Spanish class. Today we're going to do a general overview of all the verb tenses we'll learn in this course.\n\nIn Spanish we have many verb tenses. Let's start with the most important ones:\n\nThe Present tense: we use it for habitual actions. For example: \"Hablo español\" — I speak Spanish every day.\n\nThe Present Continuous: for actions happening right now. \"Estoy hablando\" — I am speaking.\n\nThe Future with IR A: for plans and intentions. \"Voy a estudiar\" — I'm going to study.\n\nThe Simple Future: for predictions and promises. \"Hablaré\" — I will speak.\n\nThe Present Perfect: for recent actions. \"He estudiado\" — I have studied.\n\nThe Preterite: for completed actions. \"Estudié\" — I studied.\n\nThe Imperfect: for habitual past actions. \"Jugaba\" — I used to play.\n\nThe Conditional: for hypothetical situations. \"Hablaría\" — I would speak.\n\nAnd the Subjunctive: for doubts, wishes and emotions. \"Espero que aprendan\" — I hope you learn.\n\nWe'll learn them all step by step!",
+      "nl": "Hallo! Welkom bij onze Spaanse les. Vandaag maken we een algemeen overzicht van alle werkwoordstijden die we in deze cursus gaan leren.\n\nIn het Spaans hebben we veel werkwoordstijden. Laten we beginnen met de belangrijkste:\n\nDe Tegenwoordige Tijd: voor gewoontehandelingen. Bijvoorbeeld: \"Hablo español\" — Ik spreek elke dag Spaans.\n\nDe Tegenwoordige Doorlopende Tijd: voor acties die nu plaatsvinden. \"Estoy hablando\" — Ik ben aan het praten.\n\nDe Toekomst met IR A: voor plannen. \"Voy a estudiar\" — Ik ga studeren.\n\nDe Eenvoudige Toekomst: voor voorspellingen. \"Hablaré\" — Ik zal spreken.\n\nDe Voltooid Tegenwoordige Tijd: voor recente acties. \"He estudiado\" — Ik heb gestudeerd.\n\nDe Verleden Tijd: voor voltooide acties. \"Estudié\" — Ik studeerde.\n\nHet Imperfectum: voor gewoontes in het verleden. \"Jugaba\" — Ik speelde altijd.\n\nDe Voorwaardelijke Wijs: voor hypothetische situaties. \"Hablaría\" — Ik zou spreken.\n\nEn de Subjunctivo: voor twijfels, wensen en emoties. \"Espero que aprendan\" — Ik hoop dat jullie leren.\n\nWe gaan ze allemaal stap voor stap leren!"
+    }
   }
 }

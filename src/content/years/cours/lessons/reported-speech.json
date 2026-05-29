@@ -9,12 +9,29 @@
   "grammarSections": [
     {
       "type": "explanation",
-      "title": { "en": "Direct vs Reported Speech", "nl": "Directe vs Indirecte Rede" },
+      "title": {
+        "en": "Direct vs Reported Speech",
+        "nl": "Directe vs Indirecte Rede"
+      },
       "content": {
         "en": "When reporting what someone said, the tense shifts back one step:\n\n**Present → Imperfect:**\n\"Hablo español muy bien.\" → Juan dijo que él **hablaba** español muy bien.\n\"Estoy estudiando en la clase.\" → Juan dijo que él **estaba estudiando** en la clase.\n\n**Past → Past Perfect:**\n\"Compré un coche.\" → Juan dijo que él **había comprado** un coche.\n\"Yo compraba un coche cada año.\" → Juan dijo que él **había comprado** un coche cada año.\n\"He comprado un coche este mes.\" → Juan dijo que él **había comprado** un coche este mes.\n\n**Future → Conditional:**\n\"Llegaré tarde.\" → Juan dijo que él **llegaría** tarde.",
         "nl": "Bij het rapporteren van wat iemand zei, verschuift de tijd één stap terug:\n\n**Presente → Imperfecto:**\n\"Hablo español.\" → Juan dijo que él **hablaba** español.\n\n**Pasado → Pluscuamperfecto:**\n\"Compré un coche.\" → Juan dijo que él **había comprado** un coche.\n\n**Futuro → Condicional:**\n\"Llegaré tarde.\" → Juan dijo que él **llegaría** tarde."
       }
     }
   ],
-  "exercises": []
+  "exercises": [],
+  "videoPlaceholder": {
+    "title": {
+      "en": "Teacher Explanation Video",
+      "nl": "Uitleg Video Docent"
+    },
+    "description": {
+      "en": "Audio narration of the lesson script.",
+      "nl": "Audiouitleg van het lesscript."
+    },
+    "script": {
+      "en": "Hello! Today we learn reported speech — how to report what someone said.\n\nWhen reporting what someone said, the tense shifts back one step.\n\nPresent becomes imperfect: Juan said \"I speak Spanish\" → Juan said he spoke Spanish.\n\nPast becomes past perfect: Juan said \"I bought a car\" → Juan said he had bought a car.\n\nFuture becomes conditional: Juan said \"I will arrive late\" → Juan said he would arrive late.\n\nThe structure is always: Subject plus said that plus the shifted verb. Remember to also change pronouns and time expressions.",
+      "nl": "Hallo! Vandaag leren we de indirecte rede — hoe je rapporteert wat iemand heeft gezegd.\n\nBij het rapporteren verschuift de werkwoordstijd één stap terug.\n\nTegenwoordige tijd wordt imperfectum: Juan zei \"Ik spreek Spaans\" → Juan zei dat hij Spaans sprak.\n\nVerleden tijd wordt voltooid verleden tijd: Juan zei \"Ik kocht een auto\" → Juan zei dat hij een auto had gekocht.\n\nToekomst wordt conditioneel: Juan zei \"Ik zal laat aankomen\" → Juan zei dat hij laat zou aankomen.\n\nDe structuur is altijd: Onderwerp plus zei dat plus het verschoven werkwoord. Vergeet niet ook de voornaamwoorden en tijdsuitdrukkingen aan te passen."
+    }
+  }
 }
