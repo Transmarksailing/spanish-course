@@ -8,6 +8,7 @@ import FillInTheBlank from "@/components/exercises/FillInTheBlank";
 import TranslationExercise from "@/components/exercises/TranslationExercise";
 import MultipleChoice from "@/components/exercises/MultipleChoice";
 import ScriptPlayer from "@/components/ui/ScriptPlayer";
+import TranslationGuard from "@/components/ui/TranslationGuard";
 
 interface Props {
   lesson: Lesson;
@@ -95,6 +96,7 @@ export default function LessonContent({ lesson, yearId, lessons, vocabulary }: P
         )}
 
         {/* Oefeningen */}
+        <TranslationGuard>
         <div className="space-y-8">
           {lesson.exercises.map((exercise) => {
             if (exercise.type === "fill_in_blank" || exercise.type === "sentence_completion") {
@@ -127,6 +129,7 @@ export default function LessonContent({ lesson, yearId, lessons, vocabulary }: P
             return null;
           })}
         </div>
+        </TranslationGuard>
       </div>
     </div>
   );

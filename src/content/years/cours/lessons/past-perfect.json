@@ -25,6 +25,7 @@
         "nl": "HABLAR — Pluscuamperfecto"
       },
       "verb": "hablar",
+      "verbTranslation": { "en": "to speak", "nl": "spreken" },
       "tense": "past_perfect",
       "forms": {
         "yo": "había hablado",
@@ -42,6 +43,7 @@
         "nl": "COMER — Pluscuamperfecto"
       },
       "verb": "comer",
+      "verbTranslation": { "en": "to eat", "nl": "eten" },
       "tense": "past_perfect",
       "forms": {
         "yo": "había comido",
@@ -59,6 +61,7 @@
         "nl": "IR — Pluscuamperfecto"
       },
       "verb": "ir",
+      "verbTranslation": { "en": "to go", "nl": "gaan" },
       "tense": "past_perfect",
       "forms": {
         "yo": "había ido",

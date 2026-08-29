@@ -36,6 +36,7 @@
         "nl": "HABER — Tegenwoordige Tijd"
       },
       "verb": "haber",
+      "verbTranslation": { "en": "to have (auxiliary)", "nl": "hebben (hulpwerkwoord)" },
       "tense": "present",
       "forms": {
         "yo": "he",

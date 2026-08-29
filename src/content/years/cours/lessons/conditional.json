@@ -25,6 +25,7 @@
         "nl": "HABLAR — Condicional"
       },
       "verb": "hablar",
+      "verbTranslation": { "en": "to speak", "nl": "spreken" },
       "tense": "conditional",
       "forms": {
         "yo": "hablaría",
@@ -42,6 +43,7 @@
         "nl": "COMER — Condicional"
       },
       "verb": "comer",
+      "verbTranslation": { "en": "to eat", "nl": "eten" },
       "tense": "conditional",
       "forms": {
         "yo": "comería",
@@ -59,6 +61,7 @@
         "nl": "VIVIR — Condicional"
       },
       "verb": "vivir",
+      "verbTranslation": { "en": "to live", "nl": "wonen, leven" },
       "tense": "conditional",
       "forms": {
         "yo": "viviría",

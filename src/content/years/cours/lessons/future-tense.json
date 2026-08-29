@@ -25,6 +25,7 @@
         "nl": "IR — Tegenwoordige Tijd"
       },
       "verb": "ir",
+      "verbTranslation": { "en": "to go", "nl": "gaan" },
       "tense": "present",
       "forms": {
         "yo": "voy",
@@ -53,6 +54,7 @@
         "nl": "HABLAR — Toekomende Tijd"
       },
       "verb": "hablar",
+      "verbTranslation": { "en": "to speak", "nl": "spreken" },
       "tense": "future",
       "forms": {
         "yo": "hablaré",
@@ -70,6 +72,7 @@
         "nl": "COMER — Toekomende Tijd"
       },
       "verb": "comer",
+      "verbTranslation": { "en": "to eat", "nl": "eten" },
       "tense": "future",
       "forms": {
         "yo": "comeré",
@@ -87,6 +90,7 @@
         "nl": "VIVIR — Toekomende Tijd"
       },
       "verb": "vivir",
+      "verbTranslation": { "en": "to live", "nl": "wonen, leven" },
       "tense": "future",
       "forms": {
         "yo": "viviré",

@@ -1,0 +1,145 @@
+{
+  "slug": "sailing-and-kitesurf",
+  "year": "cours",
+  "title": {
+    "en": "Sailing & Kitesurfing",
+    "nl": "Zeilen & Kitesurfen"
+  },
+  "categories": [
+    {
+      "name": { "en": "The Boat & Its Parts", "nl": "De Boot & Onderdelen" },
+      "words": [
+        { "es": "el barco", "en": "boat", "nl": "boot" },
+        { "es": "el velero", "en": "sailboat", "nl": "zeilboot" },
+        { "es": "el catamarán", "en": "catamaran", "nl": "catamaran" },
+        { "es": "el casco", "en": "hull", "nl": "romp" },
+        { "es": "la quilla", "en": "keel", "nl": "kiel" },
+        { "es": "la proa", "en": "bow", "nl": "boeg" },
+        { "es": "la popa", "en": "stern", "nl": "achtersteven" },
+        { "es": "la cubierta", "en": "deck", "nl": "dek" },
+        { "es": "la borda", "en": "gunwale", "nl": "reling / boord" },
+        { "es": "la bañera", "en": "cockpit", "nl": "kuip" },
+        { "es": "la cabina", "en": "cabin", "nl": "kajuit" },
+        { "es": "el mástil / el palo", "en": "mast", "nl": "mast" },
+        { "es": "la botavara", "en": "boom", "nl": "giek" },
+        { "es": "el timón", "en": "rudder / helm", "nl": "roer" },
+        { "es": "la caña del timón", "en": "tiller", "nl": "helmstok" },
+        { "es": "la rueda del timón", "en": "steering wheel", "nl": "stuurwiel" },
+        { "es": "el ancla", "en": "anchor", "nl": "anker" },
+        { "es": "el motor", "en": "engine", "nl": "motor" },
+        { "es": "la hélice", "en": "propeller", "nl": "schroef" }
+      ]
+    },
+    {
+      "name": { "en": "Sails & Rigging", "nl": "Zeilen & Tuigage" },
+      "words": [
+        { "es": "la vela", "en": "sail", "nl": "zeil" },
+        { "es": "la vela mayor", "en": "mainsail", "nl": "grootzeil" },
+        { "es": "el foque", "en": "jib", "nl": "fok" },
+        { "es": "el génova", "en": "genoa", "nl": "genua" },
+        { "es": "el spinnaker", "en": "spinnaker", "nl": "spinnaker" },
+        { "es": "la jarcia", "en": "rigging", "nl": "tuigage" },
+        { "es": "el obenque", "en": "shroud", "nl": "want" },
+        { "es": "el estay", "en": "stay", "nl": "stag" },
+        { "es": "la escota", "en": "sheet (control line)", "nl": "schoot" },
+        { "es": "la driza", "en": "halyard", "nl": "val" },
+        { "es": "el cabo", "en": "line / rope", "nl": "lijn / touw" },
+        { "es": "el nudo", "en": "knot", "nl": "knoop" },
+        { "es": "el winche", "en": "winch", "nl": "lier" },
+        { "es": "la cornamusa", "en": "cleat", "nl": "kikker" },
+        { "es": "el rizo", "en": "reef", "nl": "rif" }
+      ]
+    },
+    {
+      "name": { "en": "Manoeuvres & Verbs", "nl": "Manoeuvres & Werkwoorden" },
+      "words": [
+        { "es": "navegar", "en": "to sail", "nl": "zeilen / varen" },
+        { "es": "izar la vela", "en": "to hoist the sail", "nl": "het zeil hijsen" },
+        { "es": "arriar la vela", "en": "to lower the sail", "nl": "het zeil strijken" },
+        { "es": "orzar", "en": "to luff up (head to wind)", "nl": "oploeven" },
+        { "es": "arribar / derivar", "en": "to bear away", "nl": "afvallen" },
+        { "es": "virar por avante", "en": "to tack", "nl": "overstag gaan" },
+        { "es": "trasluchar", "en": "to gybe", "nl": "gijpen" },
+        { "es": "cazar la escota", "en": "to sheet in", "nl": "aantrekken (schoot)" },
+        { "es": "amollar / lascar", "en": "to ease the sheet", "nl": "vieren" },
+        { "es": "tomar rizos", "en": "to reef", "nl": "reven" },
+        { "es": "zarpar", "en": "to set sail / cast off", "nl": "uitvaren / afvaren" },
+        { "es": "fondear", "en": "to anchor", "nl": "ankeren" },
+        { "es": "amarrar", "en": "to moor", "nl": "afmeren" },
+        { "es": "atracar", "en": "to dock / berth", "nl": "aanleggen" },
+        { "es": "remar", "en": "to row", "nl": "roeien" }
+      ]
+    },
+    {
+      "name": { "en": "Wind, Directions & Sea", "nl": "Wind, Richtingen & Zee" },
+      "words": [
+        { "es": "el norte", "en": "north", "nl": "noord" },
+        { "es": "el sur", "en": "south", "nl": "zuid" },
+        { "es": "el este", "en": "east", "nl": "oost" },
+        { "es": "el oeste", "en": "west", "nl": "west" },
+        { "es": "el viento", "en": "wind", "nl": "wind" },
+        { "es": "la brisa marina", "en": "sea breeze", "nl": "zeewind" },
+        { "es": "el terral / la brisa de tierra", "en": "land breeze", "nl": "landwind" },
+        { "es": "barlovento", "en": "windward", "nl": "loefzijde / te loevert" },
+        { "es": "sotavento", "en": "leeward", "nl": "lijzijde / te lij" },
+        { "es": "la ráfaga", "en": "gust", "nl": "windstoot / vlaag" },
+        { "es": "la marea", "en": "tide", "nl": "getij" },
+        { "es": "la marea alta", "en": "high tide", "nl": "vloed / hoogwater" },
+        { "es": "la marea baja", "en": "low tide", "nl": "eb / laagwater" },
+        { "es": "la corriente", "en": "current", "nl": "stroming" },
+        { "es": "la ola", "en": "wave", "nl": "golf" },
+        { "es": "el oleaje", "en": "swell", "nl": "deining" },
+        { "es": "la mar en calma", "en": "calm sea", "nl": "kalme zee" }
+      ]
+    },
+    {
+      "name": { "en": "Harbour & Mooring", "nl": "Haven & Afmeren" },
+      "words": [
+        { "es": "el puerto", "en": "harbour / port", "nl": "haven" },
+        { "es": "el puerto deportivo / la marina", "en": "marina", "nl": "jachthaven" },
+        { "es": "el muelle", "en": "quay / dock", "nl": "kade" },
+        { "es": "el pantalán", "en": "pontoon", "nl": "steiger" },
+        { "es": "el amarre", "en": "berth / mooring", "nl": "ligplaats" },
+        { "es": "la boya", "en": "buoy", "nl": "boei" },
+        { "es": "el noray", "en": "bollard", "nl": "bolder" },
+        { "es": "la defensa", "en": "fender", "nl": "stootwil / fender" },
+        { "es": "el cabo de amarre", "en": "mooring line", "nl": "landvast / meertros" },
+        { "es": "babor", "en": "port (left side)", "nl": "bakboord" },
+        { "es": "estribor", "en": "starboard (right side)", "nl": "stuurboord" },
+        { "es": "el chaleco salvavidas", "en": "life jacket", "nl": "reddingsvest" },
+        { "es": "el salvavidas", "en": "life buoy", "nl": "reddingsboei" }
+      ]
+    },
+    {
+      "name": { "en": "Kitesurfing", "nl": "Kitesurfen" },
+      "words": [
+        { "es": "el kitesurf", "en": "kitesurfing", "nl": "kitesurfen" },
+        { "es": "la cometa", "en": "kite", "nl": "kite / vlieger" },
+        { "es": "la tabla", "en": "board", "nl": "board / plank" },
+        { "es": "el arnés", "en": "harness", "nl": "trapeze / harnas" },
+        { "es": "la barra", "en": "control bar", "nl": "stuurstang / bar" },
+        { "es": "las líneas", "en": "lines", "nl": "lijnen" },
+        { "es": "la ventana de viento", "en": "wind window", "nl": "windvenster" },
+        { "es": "inflar la cometa", "en": "to inflate the kite", "nl": "de kite oppompen" },
+        { "es": "despegar la cometa", "en": "to launch the kite", "nl": "de kite oplaten" },
+        { "es": "aterrizar la cometa", "en": "to land the kite", "nl": "de kite landen" },
+        { "es": "relanzar", "en": "to relaunch", "nl": "opnieuw oplaten" },
+        { "es": "el neopreno", "en": "wetsuit", "nl": "wetsuit" },
+        { "es": "la tabla de windsurf", "en": "windsurf board", "nl": "windsurfplank" }
+      ]
+    },
+    {
+      "name": { "en": "Renting a Boat — Useful Phrases", "nl": "Een Boot Huren — Nuttige Zinnen" },
+      "words": [
+        { "es": "Quería alquilar un velero.", "en": "I'd like to rent a sailboat.", "nl": "Ik wil graag een zeilboot huren." },
+        { "es": "¿Cuánto cuesta por día?", "en": "How much does it cost per day?", "nl": "Hoeveel kost het per dag?" },
+        { "es": "¿Necesito un título / una licencia?", "en": "Do I need a license?", "nl": "Heb ik een vaarbewijs nodig?" },
+        { "es": "¿Está incluido el seguro?", "en": "Is insurance included?", "nl": "Is de verzekering inbegrepen?" },
+        { "es": "¿A qué hora tengo que devolverlo?", "en": "What time do I have to return it?", "nl": "Hoe laat moet ik hem terugbrengen?" },
+        { "es": "¿Cómo está el viento hoy?", "en": "How is the wind today?", "nl": "Hoe is de wind vandaag?" },
+        { "es": "¿Dónde está el amarre?", "en": "Where is the berth?", "nl": "Waar is de ligplaats?" },
+        { "es": "¿Puede darme el parte meteorológico?", "en": "Can you give me the weather forecast?", "nl": "Kunt u mij de weersvoorspelling geven?" }
+      ]
+    }
+  ]
+}

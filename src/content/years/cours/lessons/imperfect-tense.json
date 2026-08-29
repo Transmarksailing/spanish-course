@@ -25,6 +25,7 @@
         "nl": "HABLAR — Imperfecto"
       },
       "verb": "hablar",
+      "verbTranslation": { "en": "to speak", "nl": "spreken" },
       "tense": "imperfect",
       "forms": {
         "yo": "hablaba",
@@ -42,6 +43,7 @@
         "nl": "COMER — Imperfecto"
       },
       "verb": "comer",
+      "verbTranslation": { "en": "to eat", "nl": "eten" },
       "tense": "imperfect",
       "forms": {
         "yo": "comía",
@@ -59,6 +61,7 @@
         "nl": "VIVIR — Imperfecto"
       },
       "verb": "vivir",
+      "verbTranslation": { "en": "to live", "nl": "wonen, leven" },
       "tense": "imperfect",
       "forms": {
         "yo": "vivía",

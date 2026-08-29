@@ -25,6 +25,7 @@
         "nl": "HABLAR — Subjunctivo"
       },
       "verb": "hablar",
+      "verbTranslation": { "en": "to speak", "nl": "spreken" },
       "tense": "present subjunctive",
       "forms": {
         "yo": "hable",
@@ -42,6 +43,7 @@
         "nl": "COMER — Subjunctivo"
       },
       "verb": "comer",
+      "verbTranslation": { "en": "to eat", "nl": "eten" },
       "tense": "present subjunctive",
       "forms": {
         "yo": "coma",
@@ -59,6 +61,7 @@
         "nl": "VIVIR — Subjunctivo"
       },
       "verb": "vivir",
+      "verbTranslation": { "en": "to live", "nl": "wonen, leven" },
       "tense": "present subjunctive",
       "forms": {
         "yo": "viva",

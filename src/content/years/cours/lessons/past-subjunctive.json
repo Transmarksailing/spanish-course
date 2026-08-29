@@ -25,6 +25,7 @@
         "nl": "HABLAR — Verleden Subjunctivo"
       },
       "verb": "hablar",
+      "verbTranslation": { "en": "to speak", "nl": "spreken" },
       "tense": "past subjunctive",
       "forms": {
         "yo": "hablara",
@@ -42,6 +43,7 @@
         "nl": "COMER — Verleden Subjunctivo"
       },
       "verb": "comer",
+      "verbTranslation": { "en": "to eat", "nl": "eten" },
       "tense": "past subjunctive",
       "forms": {
         "yo": "comiera",
@@ -59,6 +61,7 @@
         "nl": "VIVIR — Verleden Subjunctivo"
       },
       "verb": "vivir",
+      "verbTranslation": { "en": "to live", "nl": "wonen, leven" },
       "tense": "past subjunctive",
       "forms": {
         "yo": "viviera",

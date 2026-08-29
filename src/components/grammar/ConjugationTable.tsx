@@ -18,9 +18,16 @@ export default function ConjugationTable({ data }: Props) {
   return (
     <div className="my-4">
       {data.title && (
-        <h4 className="text-sm font-semibold mb-2 text-primary uppercase tracking-wide">
+        <h4 className="text-sm font-semibold mb-1 text-primary uppercase tracking-wide">
           {t(data.title)}
         </h4>
+      )}
+      {data.verbTranslation && (
+        <p className="text-xs text-muted mb-2 italic">
+          {[data.verbTranslation.en, data.verbTranslation.nl]
+            .filter(Boolean)
+            .join(" / ")}
+        </p>
       )}
       <div className="grid grid-cols-2 gap-1.5">
         {SINGULAR.map((singular, i) => {

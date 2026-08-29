@@ -58,6 +58,7 @@
         "nl": "SER — Tegenwoordige Tijd"
       },
       "verb": "ser",
+      "verbTranslation": { "en": "to be (identity)", "nl": "zijn (identiteit)" },
       "tense": "present",
       "forms": {
         "yo": "soy",
@@ -75,6 +76,7 @@
         "nl": "ESTAR — Tegenwoordige Tijd"
       },
       "verb": "estar",
+      "verbTranslation": { "en": "to be (state/location)", "nl": "zijn (toestand/locatie)" },
       "tense": "present",
       "forms": {
         "yo": "estoy",
@@ -92,6 +94,7 @@
         "nl": "TENER — Tegenwoordige Tijd"
       },
       "verb": "tener",
+      "verbTranslation": { "en": "to have", "nl": "hebben" },
       "tense": "present",
       "forms": {
         "yo": "tengo",

@@ -65,6 +65,8 @@ export interface GrammarConjugationTable {
   type: "conjugation_table";
   title?: LocalizedText;
   verb: string;
+  // Vertaling van het werkwoord (EN/NL), getoond naast de tabel
+  verbTranslation?: LocalizedText;
   tense?: string;
   forms: {
     yo: string;

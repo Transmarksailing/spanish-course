@@ -7,6 +7,7 @@ import CourseSidebar from "@/components/layout/CourseSidebar";
 import WordList from "@/components/vocabulary/WordList";
 import VocabularyPractice from "@/components/vocabulary/VocabularyPractice";
 import Button from "@/components/ui/Button";
+import TranslationGuard from "@/components/ui/TranslationGuard";
 
 interface Props {
   vocabulary: VocabularyList;
@@ -75,10 +76,14 @@ export default function VocabularyContent({
 
         {mode === "list" && <WordList categories={categories} layout={vocabulary.layout} />}
         {mode === "practice-to-es" && (
-          <VocabularyPractice words={allWords} direction="to-spanish" />
+          <TranslationGuard>
+            <VocabularyPractice words={allWords} direction="to-spanish" />
+          </TranslationGuard>
         )}
         {mode === "practice-from-es" && (
-          <VocabularyPractice words={allWords} direction="from-spanish" />
+          <TranslationGuard>
+            <VocabularyPractice words={allWords} direction="from-spanish" />
+          </TranslationGuard>
         )}
       </div>
     </div>

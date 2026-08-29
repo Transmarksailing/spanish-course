@@ -25,6 +25,7 @@
         "nl": "HABLAR — Indefinido"
       },
       "verb": "hablar",
+      "verbTranslation": { "en": "to speak", "nl": "spreken" },
       "tense": "preterite",
       "forms": {
         "yo": "hablé",
@@ -42,6 +43,7 @@
         "nl": "COMER — Indefinido"
       },
       "verb": "comer",
+      "verbTranslation": { "en": "to eat", "nl": "eten" },
       "tense": "preterite",
       "forms": {
         "yo": "comí",
@@ -59,6 +61,7 @@
         "nl": "VIVIR — Indefinido"
       },
       "verb": "vivir",
+      "verbTranslation": { "en": "to live", "nl": "wonen, leven" },
       "tense": "preterite",
       "forms": {
         "yo": "viví",
@@ -76,6 +79,7 @@
         "nl": "DAR — Indefinido (onregelmatig)"
       },
       "verb": "dar",
+      "verbTranslation": { "en": "to give", "nl": "geven" },
       "tense": "preterite",
       "forms": {
         "yo": "di",
@@ -93,6 +97,7 @@
         "nl": "VER — Indefinido (onregelmatig)"
       },
       "verb": "ver",
+      "verbTranslation": { "en": "to see", "nl": "zien" },
       "tense": "preterite",
       "forms": {
         "yo": "vi",
@@ -110,6 +115,7 @@
         "nl": "LEER — Indefinido (y-verandering)"
       },
       "verb": "leer",
+      "verbTranslation": { "en": "to read", "nl": "lezen" },
       "tense": "preterite",
       "forms": {
         "yo": "leí",
@@ -127,6 +133,7 @@
         "nl": "PONER — Indefinido (onregelmatig)"
       },
       "verb": "poner",
+      "verbTranslation": { "en": "to put, to place", "nl": "zetten, leggen" },
       "tense": "preterite",
       "forms": {
         "yo": "puse",
@@ -144,6 +151,7 @@
         "nl": "ESTAR — Indefinido (onregelmatig)"
       },
       "verb": "estar",
+      "verbTranslation": { "en": "to be (state/location)", "nl": "zijn (toestand/locatie)" },
       "tense": "preterite",
       "forms": {
         "yo": "estuve",
@@ -161,6 +169,7 @@
         "nl": "SER / IR — Indefinido (identiek!)"
       },
       "verb": "ser/ir",
+      "verbTranslation": { "en": "to be / to go", "nl": "zijn / gaan" },
       "tense": "preterite",
       "forms": {
         "yo": "fui",
@@ -178,6 +187,7 @@
         "nl": "TENER — Indefinido (onregelmatig)"
       },
       "verb": "tener",
+      "verbTranslation": { "en": "to have", "nl": "hebben" },
       "tense": "preterite",
       "forms": {
         "yo": "tuve",
@@ -195,6 +205,7 @@
         "nl": "DECIR — Indefinido (onregelmatig)"
       },
       "verb": "decir",
+      "verbTranslation": { "en": "to say, to tell", "nl": "zeggen, vertellen" },
       "tense": "preterite",
       "forms": {
         "yo": "dije",
@@ -212,6 +223,7 @@
         "nl": "HACER — Indefinido (onregelmatig)"
       },
       "verb": "hacer",
+      "verbTranslation": { "en": "to do, to make", "nl": "doen, maken" },
       "tense": "preterite",
       "forms": {
         "yo": "hice",
@@ -229,6 +241,7 @@
         "nl": "VENIR — Indefinido (onregelmatig)"
       },
       "verb": "venir",
+      "verbTranslation": { "en": "to come", "nl": "komen" },
       "tense": "preterite",
       "forms": {
         "yo": "vine",
@@ -246,6 +259,7 @@
         "nl": "PODER — Indefinido (onregelmatig)"
       },
       "verb": "poder",
+      "verbTranslation": { "en": "to be able to, can", "nl": "kunnen" },
       "tense": "preterite",
       "forms": {
         "yo": "pude",

@@ -273,6 +273,7 @@
     { "slug": "politics", "title": { "en": "Politics & Government", "nl": "Politiek & Overheid" } },
     { "slug": "spanish-speaking-countries", "title": { "en": "Spanish-Speaking Countries", "nl": "Spaanstalige Landen" } },
     { "slug": "spanish-regions", "title": { "en": "Spanish Autonomous Regions", "nl": "Spaanse Autonome Regio's" } },
-    { "slug": "famous-spaniards", "title": { "en": "Famous Spaniards", "nl": "Beroemde Spanjaarden" } }
+    { "slug": "famous-spaniards", "title": { "en": "Famous Spaniards", "nl": "Beroemde Spanjaarden" } },
+    { "slug": "sailing-and-kitesurf", "title": { "en": "Sailing & Kitesurfing", "nl": "Zeilen & Kitesurfen" } }
   ]
 }
